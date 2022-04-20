@@ -16,20 +16,24 @@
       <input
         type="text"
         id="login"
-        class="fadeIn second"
+        class="fadeIn second field"
         name="login"
         placeholder="login"
+        required
       /><br />
 
       <input
         type="password"
         id="password"
-        class="fadeIn third"
+        class="fadeIn third field"
         name="password"
         placeholder="password"
+        required
       /><br /> <br />
-      <input type="checkbox" name="remMe" id="remMe">
-      <label for="remMe" id="remMeLable">Remember me</label> <br />
+      <div id="remMeCont">
+        <input type="checkbox" name="remMe" id="remMe">
+        <label for="remMe" id="remMeLable">Remember me</label> <br />
+      </div>
       <input type="submit" class="fadeIn fourth submit" value="Log In" />
     </form>
     <br />
