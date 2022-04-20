@@ -1,6 +1,7 @@
 
 input {
     font-size: 1.3em;
+    border: 2px solid lightgray;
 }
 
 .logincontainer {
@@ -24,13 +25,18 @@ input {
 
 #formContent {
   background-color: white;
-  padding: 0em 5em 5em 5em;
   border: 2px solid gold;
   border-radius: 25px;
-  min-height: 480px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 420px;
+  height: 530px;
+}
+
+#inputSec {
+    padding: 6px;
+    border-radius: 20px;
 }
 
 #loginForm {
@@ -38,7 +44,17 @@ input {
 }
 
 #login {
+    border-radius: 20px 20px 0px 0px;
+    padding: 5px;
+}
+
+#login:focus {
+    outline-style: none;
+    border-color: black ;
+    margin: 0px;
 }
 
 #password {
+    border-radius: 0px 0px 20px 20px;
+    padding: 5px;
 }
