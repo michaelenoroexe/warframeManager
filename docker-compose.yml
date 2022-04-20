@@ -1,4 +1,8 @@
 version: '3'
+networks:
+  loki:
+  production:
+
 services:
   node:
     container_name: node
@@ -9,8 +13,16 @@ services:
     volumes:
       - .:/app:rw
       - "/app/node_modules"
+    networks:
+      - production
+    logging:
+      driver: loki
+      options:
+        loki-url: "http://loki:3100/api/prom/push"
+
   pgadmin:
     image: dpage/pgadmin4:4.18
+    container_name: pgadmin
     restart: always
     environment:
       PGADMIN_DEFAULT_EMAIL: admin
@@ -22,6 +34,8 @@ services:
     - pgadmin-data:/var/lib/pgadmin
     links:
       - "postgres:pgsql-server"
+    networks:
+      - production
   
   postgres:
     container_name: database
@@ -37,6 +51,41 @@ services:
       - pgdata:/var/lib/postgresql/pgdata
     ports:
       - "5432:5432"
+    networks:
+      - production
+    logging:
+      driver: loki
+      options:
+        loki-url: "http://loki:3100/api/prom/push"
+
+  loki:
+    image: grafana/loki:master
+    container_name: loki
+    ports:
+      - "3100:3100"
+    command: -config.file=/etc/loki/local-config.yaml
+    networks:
+      - loki
+      - production
+
+  promtail:
+    image: grafana/promtail:master
+    container_name: promtail
+    volumes:
+      - ./loki/loki-promtail-conf.yml:/etc/promtail/docker-config.yaml
+      - /var/lib/docker/containers/:/var/lib/docker/containers/
+    command: -config.file=/etc/promtail/docker-config.yaml
+    networks:
+      - loki
+
+  grafana:
+    image: grafana/grafana:master
+    container_name: grafana
+    ports:
+      - "3000:3000"
+    networks:
+      - loki
+
 volumes:
   pgdata:
   pgadmin-data:
