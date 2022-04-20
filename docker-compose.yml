@@ -1,22 +1,24 @@
 version: '3'
 services:
   node:
+    container_name: node
     build: .
     ports:
-      - "4200:4200"
+      - "80:80"
       - "49153:49153"
     volumes:
       - .:/app:rw
       - "/app/node_modules"
   postgres:
+    container_name: database
     image: postgres:14.2-alpine
     environment:
-      POSTGRES_DB: "fsafsaf"
-      POSTGRES_USER: "gasgas"
-      POSTGRES_PASSWORD: "APSDADW$@$!Fgeg"
+      POSTGRES_DB: "database"
+      POSTGRES_USER: "admin"
+      POSTGRES_PASSWORD: "admin"
       PGDATA: "/var/lib/postgresql/data/pgdata"
     volumes:
       - ../2. Init Database:/docker-entrypoint-initdb.d
-      - .:/var/lib/postgresql/data
+      - .pgdata:/var/lib/postgresql/data/pgdata:Z
     ports:
       - "5432:5432"
