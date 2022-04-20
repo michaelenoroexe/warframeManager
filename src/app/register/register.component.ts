@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, Validators } from '@angular/forms';
+import {RegUserService} from '../reg-user.service'
 
 @Component({
   selector: 'app-register',
@@ -29,7 +30,7 @@ export class RegisterComponent implements OnInit {
   errorHandler: boolean = false;
   errorMessage: string = '';
 
-  constructor() {
+  constructor(private regUser: RegUserService) {
   }
 
   ngOnInit(): void {}
@@ -66,8 +67,12 @@ export class RegisterComponent implements OnInit {
     }
 
     if (this.dataValid) {
+      const user = {
+        login: this.login.value,
+        password: this.password.value
+      }
+      this.regUser.postData(user);
     }
-    console.log(this.cPassword);
 
   }
 }
