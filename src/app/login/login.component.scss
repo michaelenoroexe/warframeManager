@@ -1,0 +1,44 @@
+
+input {
+    font-size: 1.3em;
+}
+
+.logincontainer {
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-image: url(../../assets/light-graybackground.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo {
+  height: 150px;
+  width: 150px;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+#formContent {
+  background-color: white;
+  padding: 0em 5em 5em 5em;
+  border: 2px solid gold;
+  border-radius: 25px;
+  min-height: 480px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#loginForm {
+    
+}
+
+#login {
+}
+
+#password {
+}

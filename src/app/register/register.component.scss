@@ -1,0 +1,17 @@
+.logincontainer {
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-image: url(../../assets/light-graybackground.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+  margin-left: 40px;
+}
