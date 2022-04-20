@@ -9,8 +9,23 @@ services:
     volumes:
       - .:/app:rw
       - "/app/node_modules"
+  pgadmin:
+    image: dpage/pgadmin4:4.18
+    restart: always
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin
+      PGADMIN_DEFAULT_PASSWORD: admin
+      PGADMIN_LISTEN_PORT: 545
+    ports:
+    - "545:545"
+    volumes:
+    - pgadmin-data:/var/lib/pgadmin
+    links:
+      - "postgres:pgsql-server"
+  
   postgres:
     container_name: database
+    restart: always
     image: postgres:14.2-alpine
     environment:
       POSTGRES_DB: "database"
@@ -19,6 +34,9 @@ services:
       PGDATA: "/var/lib/postgresql/data/pgdata"
     volumes:
       - ../2. Init Database:/docker-entrypoint-initdb.d
-      - .pgdata:/var/lib/postgresql/data/pgdata:Z
+      - pgdata:/var/lib/postgresql/pgdata
     ports:
       - "5432:5432"
+volumes:
+  pgdata:
+  pgadmin-data:
