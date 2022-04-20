@@ -13,7 +13,7 @@ services:
     environment:
       POSTGRES_DB: "fsafsaf"
       POSTGRES_USER: "gasgas"
-      POSTGRES_PASSWORD: "fNWgjk@jknkjnK@fnasfa"
+      POSTGRES_PASSWORD: "APSDADW$@$!Fgeg"
       PGDATA: "/var/lib/postgresql/data/pgdata"
     volumes:
       - ../2. Init Database:/docker-entrypoint-initdb.d
