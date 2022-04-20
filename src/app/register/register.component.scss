@@ -1,6 +1,7 @@
 input {
   font-size: 1.3em;
   border: solid lightgray;
+  margin: auto;
 }
 
 .field:focus {
@@ -36,7 +37,7 @@ input {
 .submit {
   width: 100%;
   border-radius: 20px;
-  margin-top: 40px;
+//  margin-top: 40px;
   border-color: black;
   background-color: white;
   color: black;
@@ -47,6 +48,19 @@ input {
 }
 .submit:focus {
   color: gold;
+  background-color: black;
+}
+
+.error {
+  border-color: red;
+}
+
+.active {
+visibility: visible !important;
+}
+
+#loginForm {
+  text-align: center;
 }
 
 #formContent {
@@ -54,7 +68,7 @@ input {
   border: 2px solid gold;
   border-radius: 25px;
   display: grid;
-  grid-template-rows: auto auto auto auto;
+  grid-template-rows: auto auto auto ;
   justify-content: center;
   width: 400px;
   height: 530px;
@@ -82,7 +96,19 @@ input {
   border-width: 1px 2px 2px 2px;
 }
 
+#errorHandler {
+  height: 40px;
+  margin-bottom: 10px;
+  padding: 5px;
+  visibility: hidden;
+  background-color: white;
+  color: red;
+  text-align: center;
+  font-size: 1.4em;
+}
+
 #formFooter {
   justify-content: end;
   padding-bottom: 0px;
 }
+

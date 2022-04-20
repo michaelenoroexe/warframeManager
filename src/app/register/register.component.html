@@ -1,7 +1,6 @@
 <div class="wrapper fadeInDown fixed-top logincontainer">
   <div id="formContent">
     <!-- Tabs Titles -->
-
     <!-- Icon -->
     <img
       src="assets/warframelogoblack.png"
@@ -9,12 +8,12 @@
       alt="User Icon"
       class="logo"
     />
-
     <!-- Login Form -->
-
-    <form id="loginForm">
+    <form id="loginForm" (submit)="userRegisterClick()">
       <input
         type="text"
+        [formControl]="login"
+        [ngClass]="{'error': loginInvalid}"
         id="login"
         class="fadeIn second field"
         name="login"
@@ -23,6 +22,8 @@
       /><br />
       <input
         type="password"
+        [formControl]="password"
+        [ngClass]="{'error': passwordInvalid}"
         id="password"
         class="fadeIn third field"
         name="password"
@@ -31,6 +32,8 @@
       /><br />
       <input
       type="password"
+      [formControl]="cPassword"
+      [ngClass]="{'error': cPasswordInvalid}"
       id="confPassword"
       class="fadeIn third field"
       name="ConfPassword"
@@ -38,10 +41,14 @@
       required
     /><br />
       <br />
+      <div 
+        id="errorHandler"
+        [ngClass]="{'active': errorHandler}"
+        > {{errorMessage}}
+      </div>
       <input type="submit" class="fadeIn fourth submit" value="Sign up" />
     </form>
     <br />
-
     <div id="formFooter" style="text-align: center">
       <a
         class="underlineHover"
