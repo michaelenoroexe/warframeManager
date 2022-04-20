@@ -16,9 +16,9 @@ services:
     networks:
       - production
     logging:
-      driver: loki
-      options:
-        loki-url: "http://loki:3100/api/prom/push"
+      driver: "json-file"
+      options: 
+        tag: "{{.ImageName}}|{{.Name}}|{{.ImageFullID}}|{{.FullID}}"
 
   pgadmin:
     image: dpage/pgadmin4:4.18
@@ -54,9 +54,9 @@ services:
     networks:
       - production
     logging:
-      driver: loki
-      options:
-        loki-url: "http://loki:3100/api/prom/push"
+      driver: "json-file"
+      options: 
+        tag: "{{.ImageName}}|{{.Name}}|{{.ImageFullID}}|{{.FullID}}"
 
   loki:
     image: grafana/loki:master
