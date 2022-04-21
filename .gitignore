@@ -42,3 +42,4 @@ testem.log
 Thumbs.db
 .pgdata/
 dist
+nginx_logs/*

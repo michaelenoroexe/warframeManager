@@ -17,6 +17,7 @@ services:
     volumes:
       - .:/app:rw
       - "/app/node_modules"
+      - ./nginx_logs/:/var/log/nginx/:rw
     networks:
       - production
     logging:
@@ -82,7 +83,7 @@ services:
     volumes:
       - ./monitoring/promtail-conf.yml:/etc/promtail/docker-config.yaml
       - /var/lib/docker/containers/:/var/host_system/docker/containers/
-      - /var/log/:/var/host_system/log/:ro
+      - ./nginx_logs:/var/log/nginx/:ro
     command: -config.file=/etc/promtail/docker-config.yaml
     networks:
       - loki
@@ -106,7 +107,7 @@ services:
       volumes:
         - "/var/run:/var/run:rw"
         - "/sys:/sys:ro"
-        - "/var/lib/docker/:/var/lib/docker:ro"
+        - /var/lib/docker/:/var/lib/docker:ro
       restart: unless-stopped
       networks:
         - loki
