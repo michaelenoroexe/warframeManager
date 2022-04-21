@@ -98,16 +98,18 @@ services:
     networks:
       - loki
 
-  docker_exporter:
-    image: prometheusnet/docker_exporter
-    container_name: docker_exporter
-    restart: always
-    ports:
-      - "9417:9417"
-    volumes:
-      - /var/run/docker.sock:/var/run/docker.sock
-    networks:
-      - loki
+  cadvisor-exporter:
+      container_name: "cadvisor"
+      image: google/cadvisor
+      ports:
+        - "9200:8080"
+      volumes:
+        - "/var/run:/var/run:rw"
+        - "/sys:/sys:ro"
+        - "/var/lib/docker/:/var/lib/docker:ro"
+      restart: unless-stopped
+      networks:
+        - loki
 
   prometheus:
     image: prom/prometheus:latest
