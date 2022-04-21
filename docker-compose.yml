@@ -4,11 +4,15 @@ networks:
   production:
 
 services:
+
+##### PRODUCTION SECTION #####
+
   node:
     container_name: node
     build: .
     ports:
       - "80:80"
+      # - "80:4200"    # FOR TESTING WITHOUT NGINX
       - "49153:49153"
     volumes:
       - .:/app:rw
@@ -58,6 +62,10 @@ services:
       options: 
         tag: "{{.ImageName}}|{{.Name}}|{{.ImageFullID}}|{{.FullID}}"
 
+##### END OF PRODUCTION SECTION #####
+
+
+##### MONITORING #####
   loki:
     image: grafana/loki:master
     container_name: loki
@@ -72,8 +80,9 @@ services:
     image: grafana/promtail:master
     container_name: promtail
     volumes:
-      - ./loki/loki-promtail-conf.yml:/etc/promtail/docker-config.yaml
-      - /var/lib/docker/containers/:/var/lib/docker/containers/
+      - ./monitoring/promtail-conf.yml:/etc/promtail/docker-config.yaml
+      - /var/lib/docker/containers/:/var/host_system/docker/containers/
+      - /var/log/:/var/host_system/log/:ro
     command: -config.file=/etc/promtail/docker-config.yaml
     networks:
       - loki
@@ -82,10 +91,45 @@ services:
     image: grafana/grafana:master
     container_name: grafana
     ports:
-      - "3000:3000"
+      - "550:3000"
+    # command: -config=/usr/share/grafana/conf/provisioning/datasources/datasources.yml
+    volumes:
+      - ./monitoring/grafana_provisioning:/etc/grafana/provisioning
     networks:
       - loki
+
+  docker_exporter:
+    image: prometheusnet/docker_exporter
+    container_name: docker_exporter
+    restart: always
+    ports:
+      - "9417:9417"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    networks:
+      - loki
+
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: prometheus
+    restart: unless-stopped
+    volumes:
+      - ./monitoring/prometheus-conf.yml:/etc/prometheus/prometheus.yml
+      - prometheus_data:/prometheus
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+      - '--storage.tsdb.path=/prometheus'
+      - '--web.console.libraries=/etc/prometheus/console_libraries'
+      - '--web.console.templates=/etc/prometheus/consoles'
+      - '--web.enable-lifecycle'
+    ports:
+      - 9090:9090
+    networks:
+      - loki
+
+##### END OF MONITORING #####
 
 volumes:
   pgdata:
   pgadmin-data:
+  prometheus_data:
