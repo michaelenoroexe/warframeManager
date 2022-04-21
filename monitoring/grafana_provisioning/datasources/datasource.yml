@@ -1,0 +1,19 @@
+# config file version
+apiVersion: 1
+
+datasources:
+
+  - name: Loki
+    type: loki
+    access: proxy
+    url: http://loki:3100
+    basic_auth: false
+    jsonData:
+      maxLines: 1000
+
+  - name: Prometheus
+    type: prometheus
+    access: proxy
+    url: http://prometheus:9090
+    basic_auth: false
+

@@ -12,7 +12,7 @@ scrape_configs:
       - localhost
     labels:
       job: varlogs
-      __path__: /var/log/*log
+      __path__: /var/host_system/log/*log
 
 - job_name: cointainers
   static_configs:
@@ -21,7 +21,7 @@ scrape_configs:
     labels:
       job: containerlogs
       host: localhost
-      __path__: /var/lib/docker/containers/*/*log
+      __path__: /var/host_system/docker/containers/*/*log
 
   pipeline_stages:
   - json:
@@ -31,8 +31,10 @@ scrape_configs:
         attrs:
   - json:
       expressions:
-        tag:
-      source: attrs
+        level: level
+        message: message
+        timestamp: timestamp
+        context: context
   - regex:
       expression: (?P<container_name>(?:[^|]*[^|]))
       source: tag
@@ -40,11 +42,7 @@ scrape_configs:
       format: RFC3339Nano
       source: time
   - labels:
-      tag:
       stream:
-      image_name:
       container_name:
-      image_id:
-      container_id:
   - output:
       source: output
