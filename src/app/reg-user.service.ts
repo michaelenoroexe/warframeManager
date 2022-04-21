@@ -8,8 +8,8 @@ export class RegUserService {
 
   constructor(private http: HttpClient){ }
 
-  postData(user: {login:string, password:string}){
-      const body = {name: user.login, password: user.password};
-      return this.http.post('http://localhost:3000/postuser', body); 
+  postData(user: {Login:string, Password:string}){
+//      const body = {name: user.login, password: user.password};
+      return this.http.post('https://localhost:7132/api/registration', user, {headers: {myHeaders: "fd"}} ); 
   }
 }

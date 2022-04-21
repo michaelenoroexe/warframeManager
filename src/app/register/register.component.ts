@@ -69,10 +69,13 @@ export class RegisterComponent implements OnInit {
 
     if (this.dataValid) {
       const user = {
-        login: this.login.value,
-        password: this.password.value
+        Login: this.login.value,
+        Password: this.password.value
       }
-      this.regUser.postData(user);
+      const che = this.regUser.postData(user);
+      che.subscribe((ev) => {
+        console.log(ev);
+      })
     }
 
   }
