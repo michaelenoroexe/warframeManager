@@ -6,6 +6,7 @@ import {RegUserService} from '../reg-user.service'
   selector: 'app-register',
   templateUrl: './register.component.html',
   styleUrls: ['./register.component.scss'],
+  providers: [RegUserService],
 })
 export class RegisterComponent implements OnInit {
   login: FormControl = new FormControl('', [
