@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, Validators } from '@angular/forms';
-import {RegUserService} from '../reg-user.service'
+import { Router } from '@angular/router';
+import { RegUserService } from '../reg-user.service';
 
 @Component({
   selector: 'app-register',
@@ -22,25 +23,30 @@ export class RegisterComponent implements OnInit {
   cPassword: FormControl = new FormControl('', [
     Validators.required,
     Validators.minLength(4),
-    Validators.maxLength(15)
+    Validators.maxLength(15),
   ]);
   loginInvalid: boolean = false;
-  passwordInvalid: boolean = false; 
+  passwordInvalid: boolean = false;
   cPasswordInvalid: boolean = false;
   dataValid: boolean = false;
   errorHandler: boolean = false;
   errorMessage: string = '';
 
-  constructor(private regUser: RegUserService) {
-  }
+  constructor(private regUser: RegUserService, private router: Router) {}
 
   ngOnInit(): void {}
   errorDispayer(err: string) {
     if (err === 'required') this.errorMessage = 'Required field is missing';
-    if (err === 'minlength') this.errorMessage = 'Minimal lenght of fields is 4';
-    if (err === 'maxlength') this.errorMessage = 'Maximal lenght of fields is 15';
-    if (err === 'noteq') this.errorMessage =     'Control password is incorrect';
+    if (err === 'minlength')
+      this.errorMessage = 'Minimal lenght of fields is 4';
+    if (err === 'maxlength')
+      this.errorMessage = 'Maximal lenght of fields is 15';
+    if (err === 'noteq') this.errorMessage = 'Control password is incorrect';
     this.errorHandler = true;
+  }
+
+  OnAccountRegister() {
+    this.router.navigate(['../login']);
   }
 
   fieldCheck(obj: FormControl) {
@@ -64,19 +70,25 @@ export class RegisterComponent implements OnInit {
     this.cPasswordInvalid = this.fieldCheck(this.cPassword);
     if (this.password.value !== this.cPassword.value) {
       this.dataValid = false;
-      this.errorDispayer("noteq");
+      this.errorDispayer('noteq');
     }
 
     if (this.dataValid) {
       const user = {
         Login: this.login.value,
-        Password: this.password.value
-      }
+        Password: this.password.value,
+      };
+      const acc = this;
       const che = this.regUser.postData(user);
-      che.subscribe((ev) => {
-        console.log(ev);
-      })
+      che.subscribe({
+        error(err) {
+          alert(err);
+        },
+        complete() {
+          alert('OK');
+          acc.OnAccountRegister();
+        },
+      });
     }
-
   }
 }
