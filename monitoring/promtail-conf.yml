@@ -24,3 +24,12 @@ scrape_configs:
         job: nginx
         __path__: /var/log/nginx/*log
         host: localhost
+
+# - job_name: mongo
+#   static_configs:
+#     - targets:
+#         - localhost
+#       labels:
+#         job: mongo
+#         __path__: /var/log/mongodb/*log
+#         host: localhost

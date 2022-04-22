@@ -10,6 +10,6 @@ export class RegUserService {
 
   postData(user: {Login:string, Password:string}){
 //      const body = {name: user.login, password: user.password};
-      return this.http.post('https://localhost:7132/api/registration', user, {headers: {myHeaders: "fd"}} ); 
+      return this.http.post('http://localhost/api/registration', user, {headers: {myHeaders: "fd"}} ); 
   }
 }
