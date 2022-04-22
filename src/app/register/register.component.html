@@ -8,8 +8,25 @@
       alt="User Icon"
       class="logo"
     />
+    <div id="loginMessage" [ngClass]="{invisible: !formvisible}">
+      Account successfully created! <br />
+      Now all you need is just login in. <br /><br /><br /><br /><br />
+      <a
+        class="underlineHover"
+        routerLink="/login"
+        routerLinkActive="true"
+        style="
+        display: block;
+        border-radius: 30px;
+        color: gold;
+        background-color: black;
+        padding: auto;
+        padding-bottom: 3px;"
+        > Sign in
+      </a>
+    </div>
     <!-- Login Form -->
-    <form id="loginForm" (submit)="userRegisterClick()">
+    <form id="loginForm" (submit)="userRegisterClick()" [ngClass]="{invisible: formvisible}">
       <input
         type="text"
         [formControl]="login"
@@ -49,7 +66,7 @@
       <input type="submit" class="fadeIn fourth submit" value="Sign up" />
     </form>
     <br />
-    <div id="formFooter" style="text-align: center">
+    <div id="formFooter" style="text-align: center" [ngClass]="{invisible: formvisible}">
       <a
         class="underlineHover"
         routerLink="/login"

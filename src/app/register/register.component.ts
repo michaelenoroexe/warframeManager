@@ -25,6 +25,7 @@ export class RegisterComponent implements OnInit {
     Validators.minLength(4),
     Validators.maxLength(15),
   ]);
+  formvisible: boolean =  !true;
   loginInvalid: boolean = false;
   passwordInvalid: boolean = false;
   cPasswordInvalid: boolean = false;
@@ -32,7 +33,7 @@ export class RegisterComponent implements OnInit {
   errorHandler: boolean = false;
   errorMessage: string = '';
 
-  constructor(private regUser: RegUserService, private router: Router) {}
+  constructor(private regUser: RegUserService) {}
 
   ngOnInit(): void {}
   errorDispayer(err: string) {
@@ -43,10 +44,6 @@ export class RegisterComponent implements OnInit {
       this.errorMessage = 'Maximal lenght of fields is 15';
     if (err === 'noteq') this.errorMessage = 'Control password is incorrect';
     this.errorHandler = true;
-  }
-
-  OnAccountRegister() {
-    this.router.navigate(['../login']);
   }
 
   fieldCheck(obj: FormControl) {
@@ -85,8 +82,7 @@ export class RegisterComponent implements OnInit {
           alert(err);
         },
         complete() {
-          alert('OK');
-          acc.OnAccountRegister();
+          acc.formvisible = true;
         },
       });
     }

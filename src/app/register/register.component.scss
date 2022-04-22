@@ -58,6 +58,19 @@ input {
 .active {
 visibility: visible !important;
 }
+.invisible{display:none;}
+
+#loginMessage {
+  margin-top: 1em;
+  border: 2px solid gold;
+  background-color: white;
+  height: fit-content;
+  text-align: center;
+  font-size: 1.2em;
+  padding: 1.2em;
+  border-radius: 60px;
+  height: 15em;
+}
 
 #loginForm {
   text-align: center;
