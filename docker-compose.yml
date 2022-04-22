@@ -17,7 +17,7 @@ services:
     volumes:
       - .:/app:rw
       - "/app/node_modules"
-      - ./nginx_logs/:/var/log/nginx/:rw
+      - ./logs/nginx/:/var/log/nginx/:z
     networks:
       - production
     logging:
@@ -25,44 +25,41 @@ services:
       options: 
         tag: "{{.ImageName}}|{{.Name}}|{{.ImageFullID}}|{{.FullID}}"
 
-  pgadmin:
-    image: dpage/pgadmin4:4.18
-    container_name: pgadmin
+  mongo:
+    image: mongo
+    container_name: mongo
     restart: always
     environment:
-      PGADMIN_DEFAULT_EMAIL: admin
-      PGADMIN_DEFAULT_PASSWORD: admin
-      PGADMIN_LISTEN_PORT: 545
-    ports:
-    - "545:545"
-    volumes:
-    - pgadmin-data:/var/lib/pgadmin
-    links:
-      - "postgres:pgsql-server"
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: example
+    volumes: 
+      - ./logs/mongo/:/var/log/mongodb/
+    #  - ./mongo_data:/data/db:rw
     networks:
       - production
-  
-  postgres:
-    container_name: database
-    restart: always
-    image: postgres:14.2-alpine
-    environment:
-      POSTGRES_DB: "database"
-      POSTGRES_USER: "admin"
-      POSTGRES_PASSWORD: "admin"
-      PGDATA: "/var/lib/postgresql/data/pgdata"
-    volumes:
-      - ../2. Init Database:/docker-entrypoint-initdb.d
-      - pgdata:/var/lib/postgresql/pgdata
-    ports:
-      - "5432:5432"
-    networks:
-      - production
-    logging:
-      driver: "json-file"
-      options: 
-        tag: "{{.ImageName}}|{{.Name}}|{{.ImageFullID}}|{{.FullID}}"
 
+  mongo-express:
+    image: mongo-express
+    container_name: mongo-express
+    ports:
+      - 8081:8081
+    environment:
+      ME_CONFIG_MONGODB_SERVER: mongo
+      ME_CONFIG_MONGODB_ADMINUSERNAME: root
+      ME_CONFIG_MONGODB_ADMINPASSWORD: example
+    networks:
+      - production
+    depends_on:
+      - mongo
+
+  backend:
+    container_name: api
+    build: ./WarframeManagerBack/
+    ports:
+      - "7132:80"
+      #- "5132:80"
+    networks:
+      - production
 ##### END OF PRODUCTION SECTION #####
 
 
@@ -82,8 +79,9 @@ services:
     container_name: promtail
     volumes:
       - ./monitoring/promtail-conf.yml:/etc/promtail/docker-config.yaml
+      - ./logs/nginx/:/var/log/nginx/:z
+      - ./logs/mongo/:/var/log/mongodb/:z
       - /var/lib/docker/containers/:/var/host_system/docker/containers/
-      - ./nginx_logs:/var/log/nginx/:ro
     command: -config.file=/etc/promtail/docker-config.yaml
     networks:
       - loki
@@ -133,6 +131,5 @@ services:
 ##### END OF MONITORING #####
 
 volumes:
-  pgdata:
-  pgadmin-data:
+  mongo_data:
   prometheus_data:
