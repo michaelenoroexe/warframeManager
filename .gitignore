@@ -40,7 +40,9 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
-.pgdata/
 dist
+
+# Logs and temporary data
+.pgdata/
 *logs/*
 *mongo*/*
