@@ -57,11 +57,17 @@ services:
   backend:
     container_name: api
     build: ./WarframeManagerBack/
+    env_file:
+      - .env
     ports:
       - "7132:80"
       #- "5132:80"
     networks:
       - production
+    logging:
+      driver: "json-file"
+      options: 
+        tag: "{{.ImageName}}|{{.Name}}|{{.ImageFullID}}|{{.FullID}}"
 ##### END OF PRODUCTION SECTION #####
 
 
