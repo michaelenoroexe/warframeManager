@@ -9,7 +9,7 @@ import { RegErrorsService } from './reg-errors.service';
   selector: 'app-register',
   templateUrl: './register.component.html',
   styleUrls: ['./register.component.scss'],
-  providers: [RegUserService],
+  providers: [RegUserService, RegErrorsService],
 })
 export class RegisterComponent implements OnInit {
   login: FormControl = new FormControl('', [
@@ -71,7 +71,6 @@ export class RegisterComponent implements OnInit {
       this.dataValid = false;
       this.errorDispayer('noteq');
     }
-
     if (this.dataValid) {
       const user = {
         Login: this.login.value,

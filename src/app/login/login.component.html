@@ -12,10 +12,12 @@
 
     <!-- Login Form -->
 
-    <form id="loginForm">
+    <form id="loginForm" (submit)="userSignInClick()" >
       <input
         type="text"
         id="login"
+        [formControl]="login"
+        [ngClass]="{'error': loginInvalid}"
         class="fadeIn second field"
         name="login"
         placeholder="Username"
@@ -24,6 +26,8 @@
       <input
         type="password"
         id="password"
+        [formControl]="password"
+        [ngClass]="{'error': passwordInvalid}"
         class="fadeIn third field"
         name="password"
         placeholder="Password"
@@ -33,6 +37,11 @@
       <div id="remMeCont">
         <input type="checkbox" name="remMe" id="remMe" />
         <label for="remMe" id="remMeLable">Remember me</label> <br />
+      </div>
+      <div 
+      id="errorHandler"
+      [ngClass]="{'active': errorHandler}"
+      > {{errorMessage}}
       </div>
       <input type="submit" class="fadeIn fourth submit" value="Log In" />
     </form>
