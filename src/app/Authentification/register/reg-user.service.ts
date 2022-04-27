@@ -8,7 +8,7 @@ export class RegUserService {
 
   constructor(private http: HttpClient){ }
 
-  postData(user: {Login:string, Password:string}){
+  PostData(user: {Login:string, Password:string}){
 //      const body = {name: user.login, password: user.password};
       return this.http.post('https://localhost:7132/api/registration', user); 
   }

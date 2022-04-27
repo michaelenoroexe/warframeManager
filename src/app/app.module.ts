@@ -6,9 +6,9 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { LoginComponent } from './login/login.component';
+import { LoginComponent } from './Authentification/login/login.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { RegisterComponent } from './register/register.component';
+import { RegisterComponent } from './Authentification/register/register.component';
 
 @NgModule({
   declarations: [
