@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
-import {HttpClient} from '@angular/common/http';
+import { HttpClient } from '@angular/common/http';
+import { environment } from './../../../environments/environment';
 
 @Injectable({
   providedIn: 'root'
@@ -10,6 +11,6 @@ export class LoginUserService {
 
   PostData(user: {Login:string, Password:string}){
 //      const body = {name: user.login, password: user.password};
-      return this.http.post('https://localhost:7132/api/signin', user); 
+      return this.http.post(environment.apiURL+'signin', user); 
   }
 }
