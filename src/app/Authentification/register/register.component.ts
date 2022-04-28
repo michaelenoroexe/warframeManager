@@ -1,6 +1,6 @@
 import { BoundElementProperty } from '@angular/compiler';
 import { Component, OnInit } from '@angular/core';
-import { FormControl, Validators } from '@angular/forms';
+import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import { RegUserService } from './reg-user.service';
 import { RegErrorsService } from './reg-errors.service';
@@ -13,10 +13,7 @@ import { ErrorHandlerService } from '../Shared/error-handler.service'
   providers: [RegUserService, RegErrorsService],
 })
 export class RegisterComponent implements OnInit {
-  valid:any =[Validators.required, Validators.minLength(4), Validators.maxLength(32),]
-  login: FormControl = new FormControl('', this.valid);
-  password: FormControl = new FormControl('', this.valid);
-  cPassword: FormControl = new FormControl('', this.valid);
+  form: FormGroup = new FormGroup({});
   formvisible: boolean =  !true;
   loginInvalid: boolean = false;
   passwordInvalid: boolean = false;
@@ -28,25 +25,28 @@ export class RegisterComponent implements OnInit {
 
   constructor(private regUser: RegUserService, errorUser:RegErrorsService) {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    const valid =[Validators.required, Validators.minLength(4), Validators.maxLength(32),]
+    this.form = new FormGroup ({
+      login: new FormControl(null, valid),
+      password: new FormControl(null, valid),
+      cPassword: new FormControl(null, valid),
+    })
+  }
+  logValCh(){ this.loginInvalid = ErrorHandlerService.FieldCheck(this, this.form.get("login")) }
+  passValCh(){ this.passwordInvalid = ErrorHandlerService.FieldCheck(this, this.form.get("password")) }
+  cPassValCh(){ this.cPasswordInvalid = ErrorHandlerService.FieldCheck(this, this.form.get("cPassword")) }  
 
   userRegisterClick() {
-    this.dataValid = true;
-    this.errorHandler = false;
-    this.loginInvalid = ErrorHandlerService.FieldCheck(this, this.login);
-    this.passwordInvalid = ErrorHandlerService.FieldCheck(this, this.password);
-    this.cPasswordInvalid = ErrorHandlerService.FieldCheck(this, this.cPassword);
-    if (this.password.value !== this.cPassword.value) {
-      this.dataValid = false;
-      ErrorHandlerService.ErrorDispay(this, 'noteq');
-    }
-    if (this.dataValid) {
+    this.form.disable();
+    const acc = this;
+    ErrorHandlerService.NotEualPass(acc);
+    if (acc.dataValid) {
       const user = {
-        Login: this.login.value,
-        Password: this.password.value,
+        Login: acc.form.value.login.value,
+        Password: acc.form.value.password.value,
       };
-      const acc = this;
-      const che = this.regUser.PostData(user);
+      const che = acc.regUser.PostData(user);
       che.subscribe({
         error(err) {
           ErrorHandlerService.ErrorDispay(acc, acc.errorUser.errorHandler(err));
@@ -56,5 +56,6 @@ export class RegisterComponent implements OnInit {
         },
       });
     }
+    acc.form.enable();
   }
 }

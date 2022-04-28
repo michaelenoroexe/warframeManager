@@ -18,6 +18,7 @@ input {
   width: auto;
   height: 100%;
   display: grid;
+  flex-direction: column;
   background-image: url(../../../assets/light-graybackground.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -53,6 +54,12 @@ input {
   visibility: visible !important;
   }
 .invisible{display:none;}
+input:disabled {
+  border-color: gray;
+  background-color: white !important;
+  color:  gray !important;
+}
+
 
 
 #formContent {
@@ -65,7 +72,9 @@ input {
   width: 400px;
   height: 530px;
 }
-
+#loginForm {
+  text-align: center;
+}
 #remMeCont {
   margin-bottom: 5px;
 }
@@ -105,10 +114,12 @@ input {
   margin-bottom: 10px;
   padding: 5px;
   visibility: hidden;
+  overflow: auto;
   background-color: white;
   color: red;
   text-align: center;
-  font-size: 1.4em;
+  max-width: 300px;
+  font-size: 1.2em;
 }
 
 #inputSec {

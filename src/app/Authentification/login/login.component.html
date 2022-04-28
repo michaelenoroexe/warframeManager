@@ -12,11 +12,12 @@
 
     <!-- Login Form -->
 
-    <form id="loginForm" (submit)="userSignInClick()" >
+    <form id="loginForm" [formGroup]="form" (submit)="userSignInClick()" >
       <input
         type="text"
         id="login"
-        [formControl]="login"
+        formControlName="login"
+        (ngModelChange)="logValCh()"
         [ngClass]="{'error': loginInvalid}"
         class="fadeIn second field"
         name="login"
@@ -26,9 +27,10 @@
       <input
         type="password"
         id="password"
-        [formControl]="password"
+        formControlName="password"
+        (ngModelChange)="passValCh()"
         [ngClass]="{'error': passwordInvalid}"
-        class="fadeIn third field"
+        class="fadeIn third field error"
         name="password"
         placeholder="Password"
         required
@@ -43,7 +45,11 @@
       [ngClass]="{'active': errorHandler}"
       > {{errorMessage}}
       </div>
-      <input type="submit" class="fadeIn fourth submit" value="Log In" />
+      <input 
+      type="submit"  
+      class="fadeIn fourth submit" 
+      [disabled]="form.invalid"
+      value="Log In" />
     </form>
     <br />
 

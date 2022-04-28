@@ -59,6 +59,11 @@ input {
 visibility: visible !important;
 }
 .invisible{display:none;}
+input:disabled {
+  border-color: gray;
+  background-color: white !important;
+  color:  gray !important;
+}
 
 #loginMessage {
   margin-top: 1em;
@@ -114,10 +119,11 @@ visibility: visible !important;
   margin-bottom: 10px;
   padding: 5px;
   visibility: hidden;
+  overflow: auto;
   background-color: white;
   color: red;
   text-align: center;
-  font-size: 1.4em;
+  font-size: 1.2em;
 }
 
 #formFooter {

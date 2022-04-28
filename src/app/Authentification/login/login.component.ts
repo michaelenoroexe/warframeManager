@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { LoginUserService } from './login-user.service';
-import { FormControl, Validators } from '@angular/forms';
+import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { ErrorHandlerService } from '../Shared/error-handler.service'
 
 @Component({
@@ -10,40 +10,39 @@ import { ErrorHandlerService } from '../Shared/error-handler.service'
   providers: [LoginUserService],
 })
 export class LoginComponent implements OnInit {
-  valid:any =[Validators.required, Validators.minLength(4), Validators.maxLength(32),]
-  login: FormControl = new FormControl('', this.valid);
-  password: FormControl = new FormControl('', this.valid);
-  loginInvalid: boolean = false;
+  form: FormGroup = new FormGroup({});
+  loginInvalid?: boolean = false;
   passwordInvalid: boolean = false;
-  errorHandler: boolean = false;
+  errorHandler: boolean = true;
   errorMessage: string = '';
-  dataValid: boolean = false;
+  dataValid: boolean = true;
 //  errorUser:RegErrorsService = new RegErrorsService();
   constructor(private logUser: LoginUserService) { }
 
   ngOnInit(): void {
+    const valid =[Validators.required, Validators.minLength(4), Validators.maxLength(32),]
+    this.form = new FormGroup ({
+      login: new FormControl(null, valid),
+      password: new FormControl(null, valid) 
+    })
   }
-  
+
+  logValCh(){ this.loginInvalid = ErrorHandlerService.FieldCheck(this, this.form.get("login")) }
+  passValCh(){ this.passwordInvalid = ErrorHandlerService.FieldCheck(this, this.form.get("password")) }
+
   userSignInClick() {
-    this.dataValid = true;
-    this.errorHandler = false;
-    this.loginInvalid = ErrorHandlerService.FieldCheck(this, this.login);
-    this.passwordInvalid = ErrorHandlerService.FieldCheck(this, this.password);
-    if (this.dataValid) {
-      const user = {
-        Login: this.login.value,
-        Password: this.password.value,
-      };
-      const acc = this;
-      const che = this.logUser.PostData(user);
-      che.subscribe({
-        error(err) {
-//          acc.errorDispayer(acc.errorUser.errorHandler(err));
-        },
-        complete() {
-//          acc.formvisible = true;
-        },
-      });
-    }
+    this.form.disable();
+    const acc = this;
+    const che = this.logUser.PostData(this.form.value);
+    che.subscribe({
+      error(err) {
+//        acc.errorDispayer(acc.errorUser.errorHandler(err));
+        acc.form.enable();
+      },
+      complete() {
+//        acc.formvisible = true;
+        acc.form.enable();
+      },
+    });
   }
 }
