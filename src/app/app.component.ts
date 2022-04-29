@@ -1,3 +1,4 @@
+import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
 
 @Component({
@@ -7,4 +8,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'warframeManager';
+
+  constructor(private http: HttpClient) {}
+
+  testReq(){
+    let tok = localStorage.getItem("accessToken");
+    console.log(tok);
+    this.http.get("https://localhost:7132/weatherforecast/test", {
+      headers: {
+        "Authorization": "Bearer " + tok
+      }
+    }).subscribe((val)=>console.log(val)); 
+  }
 }

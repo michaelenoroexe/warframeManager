@@ -16,6 +16,7 @@ export class LoginComponent implements OnInit {
   errorHandler: boolean = true;
   errorMessage: string = '';
   dataValid: boolean = true;
+  tokenKey = "accessToken";
 //  errorUser:RegErrorsService = new RegErrorsService();
   constructor(private logUser: LoginUserService) { }
 
@@ -35,6 +36,10 @@ export class LoginComponent implements OnInit {
     const acc = this;
     const che = this.logUser.PostData(this.form.value);
     che.subscribe({
+      next(value:any) {
+        localStorage.setItem(acc.tokenKey, value["successMessage"])
+        console.log(value["successMessage"]);
+      },
       error(err) {
 //        acc.errorDispayer(acc.errorUser.errorHandler(err));
         acc.form.enable();

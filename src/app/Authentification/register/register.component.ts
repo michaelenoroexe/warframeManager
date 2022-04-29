@@ -43,8 +43,8 @@ export class RegisterComponent implements OnInit {
     ErrorHandlerService.NotEualPass(acc);
     if (acc.dataValid) {
       const user = {
-        Login: acc.form.value.login.value,
-        Password: acc.form.value.password.value,
+        Login: acc.form.value.login,
+        Password: acc.form.value.password,
       };
       const che = acc.regUser.PostData(user);
       che.subscribe({
