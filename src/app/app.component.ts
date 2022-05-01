@@ -1,5 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
+import { environment } from './../environments/environment';
 
 @Component({
   selector: 'app-root',
@@ -14,7 +15,7 @@ export class AppComponent {
   testReq(){
     let tok = localStorage.getItem("accessToken");
     console.log(tok);
-    this.http.get("https://localhost:7132/weatherforecast/test", {
+    this.http.get(environment.apiURL+"weatherforecast/test", {
       headers: {
         "Authorization": "Bearer " + tok
       }
