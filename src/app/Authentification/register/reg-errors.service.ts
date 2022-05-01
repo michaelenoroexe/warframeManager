@@ -15,6 +15,6 @@ export class RegErrorsService {
     if(err["status"]==409) {
       return "sLogin already exist";
     } 
-    return "s"+err["error"];
+    return "sUnknown error";
   }
 }

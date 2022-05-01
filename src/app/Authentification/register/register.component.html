@@ -26,10 +26,11 @@
       </a>
     </div>
     <!-- Login Form -->
-    <form id="loginForm" (submit)="userRegisterClick()" [ngClass]="{invisible: formvisible}">
+    <form id="loginForm" [formGroup]="form" (submit)="userRegisterClick()" [ngClass]="{invisible: formvisible}">
       <input
         type="text"
-        [formControl]="login"
+        formControlName="login"
+        (ngModelChange)="logValCh()"
         [ngClass]="{'error': loginInvalid}"
         id="login"
         class="fadeIn second field"
@@ -39,7 +40,8 @@
       /><br />
       <input
         type="password"
-        [formControl]="password"
+        formControlName="password"
+        (ngModelChange)="passValCh()"
         [ngClass]="{'error': passwordInvalid}"
         id="password"
         class="fadeIn third field"
@@ -49,7 +51,8 @@
       /><br />
       <input
       type="password"
-      [formControl]="cPassword"
+      formControlName="cPassword"
+      (ngModelChange)="cPassValCh()"
       [ngClass]="{'error': cPasswordInvalid}"
       id="confPassword"
       class="fadeIn third field"
@@ -62,7 +65,11 @@
         [ngClass]="{'active': errorHandler}"
         > {{errorMessage}}
       </div>
-      <input type="submit" class="fadeIn fourth submit" value="Sign up" />
+      <input 
+      type="submit" 
+      class="fadeIn fourth submit"
+      [disabled]="form.invalid || form.disabled || !dataValid" 
+      value="Sign up" />
     </form>
     <br />
     <div id="formFooter" style="text-align: center" [ngClass]="{invisible: formvisible}">

@@ -1,0 +1,145 @@
+input {
+  font-size: 1.3em;
+  border: solid lightgray;
+}
+
+.field:focus {
+  outline-style: none;
+  border-color: black;
+  margin: 0px;
+}
+.field:valid {
+  border-color: gold;
+}
+
+.logincontainer {
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 100%;
+  display: grid;
+  flex-direction: column;
+  background-image: url(../../../assets/light-graybackground.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo {
+  height: 150px;
+  width: 150px;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  margin: auto;
+  text-align: center;
+}
+
+.submit {
+  width: 275px;
+  border-radius: 20px;
+  border-color: black;
+  background-color: white;
+  color: black;
+}
+.submit:hover {
+  background-color: black;
+  color: white;
+}
+.submit:focus {
+  color: gold;
+}
+.error {
+  border-color: red !important;
+}
+.active {
+  visibility: visible !important;
+  }
+.invisible{display:none;}
+input:disabled {
+  border-color: gray;
+  background-color: white !important;
+  color:  gray !important;
+}
+
+
+
+#formContent {
+  background-color: white;
+  border: 2px solid gold;
+  border-radius: 25px;
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  justify-content: center;
+  width: 400px;
+  height: 530px;
+}
+#loginForm {
+  text-align: center;
+}
+#remMeCont {
+  margin-bottom: 5px;
+}
+#remMe {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+#remMe + label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+  font-size: 1.2em;
+}
+#remMe + label::before {
+  content: "";
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px solid #adb5bd;
+  border-radius: 0.25em;
+  margin-right: 0.5em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+#remMe:checked + label::before {
+  border-color: black;
+  background-color: gold;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='000000' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+}
+
+#errorHandler {
+  height: 40px;
+  margin-bottom: 10px;
+  padding: 5px;
+  visibility: hidden;
+  overflow: auto;
+  background-color: white;
+  color: red;
+  text-align: center;
+  max-width: 300px;
+  font-size: 1.2em;
+}
+
+#inputSec {
+  padding: 6px;
+  border-radius: 20px;
+}
+
+#login {
+  border-radius: 20px 20px 0px 0px;
+  padding: 5px;
+  border-width: 2px 2px 1px 2px;
+}
+
+#password {
+  border-radius: 0px 0px 20px 20px;
+  padding: 5px;
+  border-width: 1px 2px 2px 2px;
+}
+
+#formFooter {
+  justify-content: end;
+  padding-bottom: 0px;
+}
