@@ -4,10 +4,11 @@ import { FormControl, ValidatorFn } from '@angular/forms';
 @Injectable ({
   providedIn: 'root'
 })
+// Handles error that can happend during expluatation
 export class ErrorHandlerService {
 
   constructor(){ }
-
+  // Checking validation of data in accepted field
   static FieldCheck(form:any, obj: any) {
     if (!obj.invalid) {
       form.dataValid = true;
@@ -21,7 +22,7 @@ export class ErrorHandlerService {
       }
     return true;
   }
-
+  // Display error message 
   static ErrorDispay(form:any, error:string) {
     if (error === 'required') form.errorMessage = 'Required field is missing';
     if (error === 'minlength') form.errorMessage = 'Minimal lenght of fields is 4';
@@ -31,7 +32,7 @@ export class ErrorHandlerService {
     form.dataValid = false;
     form.errorHandler = true;
   }
-
+  // Check equality of password with confirm password
   static NotEualPass(form:any) {
     if (form.form.get("password")?.value !== form.form.get("cPassword")?.value) {
       ErrorHandlerService.ErrorDispay(form, 'noteq');

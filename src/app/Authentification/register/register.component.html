@@ -1,7 +1,6 @@
 <div class="wrapper fadeInDown fixed-top logincontainer">
   <div id="formContent">
-    <!-- Tabs Titles -->
-    <!-- Icon -->
+    <!-- Logo -->
     <img
       src="assets/warframelogoblack.png"
       id="icon"
@@ -25,8 +24,8 @@
         > Sign in
       </a>
     </div>
-    <!-- Login Form -->
-    <form id="loginForm" [formGroup]="form" (submit)="userRegisterClick()" [ngClass]="{invisible: formvisible}">
+    <!-- Register -->
+    <form id="regForm" [formGroup]="form" (submit)="userRegisterClick()" [ngClass]="{invisible: formvisible}">
       <input
         type="text"
         formControlName="login"

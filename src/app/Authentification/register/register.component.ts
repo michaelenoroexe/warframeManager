@@ -25,6 +25,7 @@ export class RegisterComponent implements OnInit {
 
   constructor(private regUser: RegUserService, errorUser:RegErrorsService) {}
 
+  // Initialisation register component
   ngOnInit(): void {
     const valid =[Validators.required, Validators.minLength(4), Validators.maxLength(32),]
     this.form = new FormGroup ({
@@ -33,10 +34,13 @@ export class RegisterComponent implements OnInit {
       cPassword: new FormControl(null, valid),
     })
   }
+
+  // Checking validation of data
   logValCh(){ this.loginInvalid = ErrorHandlerService.FieldCheck(this, this.form.get("login")) }
   passValCh(){ this.passwordInvalid = ErrorHandlerService.FieldCheck(this, this.form.get("password")) }
   cPassValCh(){ this.cPasswordInvalid = ErrorHandlerService.FieldCheck(this, this.form.get("cPassword")) }  
 
+  // Register form submit handler
   userRegisterClick() {
     this.form.disable();
     const acc = this;
