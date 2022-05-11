@@ -17,9 +17,9 @@ export class LoginComponent implements OnInit {
   errorMessage: string = '';
   dataValid: boolean = true;
   tokenKey = "accessToken";
-//  errorUser:RegErrorsService = new RegErrorsService();
-  constructor(private logUser: LoginUserService) { }
 
+  constructor(private logUser: LoginUserService) { }
+  // Initialisation of login in system
   ngOnInit(): void {
     const valid =[Validators.required, Validators.minLength(4), Validators.maxLength(32),]
     this.form = new FormGroup ({
@@ -27,10 +27,11 @@ export class LoginComponent implements OnInit {
       password: new FormControl(null, valid) 
     })
   }
-
+  // Validation of fields 
   logValCh(){ this.loginInvalid = ErrorHandlerService.FieldCheck(this, this.form.get("login")) }
   passValCh(){ this.passwordInvalid = ErrorHandlerService.FieldCheck(this, this.form.get("password")) }
 
+  // Handles form submit button
   userSignInClick() {
     this.form.disable();
     const acc = this;

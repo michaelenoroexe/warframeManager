@@ -8,7 +8,7 @@ import { environment } from './../../../environments/environment';
 export class LoginUserService {
 
   constructor(private http: HttpClient){ }
-
+  // Sending request to server to login in
   PostData(user: {Login:string, Password:string}){
 //      const body = {name: user.login, password: user.password};
       return this.http.post(environment.apiURL+'signin', user); 

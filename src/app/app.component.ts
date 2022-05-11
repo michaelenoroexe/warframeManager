@@ -11,7 +11,7 @@ export class AppComponent {
   title = 'warframeManager';
 
   constructor(private http: HttpClient) {}
-
+  // Test request for checking performance of jwt tokens 
   testReq(){
     let tok = localStorage.getItem("accessToken");
     console.log(tok);
