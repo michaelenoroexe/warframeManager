@@ -1,0 +1,8 @@
+<nav>
+  <button (click)="chosenSection = 'arsenal'">arsenal</button>
+  <button (click)="chosenSection = 'resources'">resources</button>
+  <div id="recSec" *ngIf="chosenSection == 'resources'">
+    <a routerLink="#" routerLinkActive="active"><span>></span> table</a>
+    <a routerLink="#" routerLinkActive="active"><span>></span> location</a>
+  </div>
+</nav>

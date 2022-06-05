@@ -1,0 +1,25 @@
+.mainWindow {
+  height: 100%;
+  display: flex;
+  app-navbar {
+    width: 19.444vw;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+  }
+  .plac {
+    height: 100%;
+    overflow:scroll;
+  }
+  .bg {
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    position: fixed;
+    background-image: url("../assets/resourcetablebg.png");
+    filter: opacity(0.77);
+    background-color: #D9D9D933;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}

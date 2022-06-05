@@ -1,0 +1,35 @@
+.userInfo {
+  padding-top: 3.125vw;
+  padding-right: 2.083vw;
+  padding-bottom: 3.472vw;
+  padding-left: 2.778vw;
+  img {
+    height: 6.944vw;
+    width: 6.944vw;
+    margin-right: 0.694vw;
+    border-radius: 100vw;
+    float: left;
+  }
+  h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.111vw;
+    font-weight: 700;
+    font-style: italic;
+    color: #E4E4E4;
+    margin-bottom: 0px;
+    overflow: hidden; 
+  }
+  .userNick {
+    font-style: normal;
+  }
+  .userRank {
+    font-size: 0.972vw;
+    margin-bottom: 2.083vw;  
+  }
+  .userCred {
+    text-align: right;
+  }
+  .userPlat {
+    text-align: right;
+  }
+}
