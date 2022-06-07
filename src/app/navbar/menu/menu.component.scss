@@ -11,6 +11,7 @@ nav {
   color: #E4E4E4;
   button, a {
     height: 2.778vw;
+    line-height: 2.778vw;
     padding-left: 2.778vw;
     margin-bottom: 0.554vw;
     border: none;
@@ -21,11 +22,16 @@ nav {
     color: inherit;
   }
   button {
+    font-family: inherit;
     width: 100%;
     text-align: left;
   }
   a {
+    font-family: inherit;
     display: block;
     text-decoration: none;
+  }
+  .selected {
+    color: #817F7F;
   }
 }

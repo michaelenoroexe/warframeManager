@@ -11,6 +11,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { RegisterComponent } from './Authentification/register/register.component';
 import { UserinfoComponent } from './navbar/userinfo/userinfo.component';
 import { MenuComponent } from './navbar/menu/menu.component';
+import { ResTableComponent } from './sections/resources/table/table.component';
+import { ResTableItemComponent } from './sections/resources/table/res-table-item/res-table-item.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { MenuComponent } from './navbar/menu/menu.component';
     NavbarComponent,
     RegisterComponent,
     UserinfoComponent,
-    MenuComponent
+    MenuComponent,
+    ResTableComponent,
+    ResTableItemComponent
   ],
   imports: [
     BrowserModule,

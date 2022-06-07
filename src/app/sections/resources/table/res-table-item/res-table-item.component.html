@@ -1,0 +1,11 @@
+<div class="item">
+  <img [src]="icon" alt="Img" (click)="mastered = !mastered">
+  <div class="itemInfo">
+    <h1 style="height: 38.5px;">{{name}}</h1>
+    <h1>owned:</h1>
+    <input type="text" inputmode="numeric" (keypress)="keyPressNumbers($event)" (change)="setZero($event)"  [(ngModel)]="ownedNumber">
+  </div>
+  <div class="mastered" *ngIf="mastered">
+    mastered
+  </div>
+</div>

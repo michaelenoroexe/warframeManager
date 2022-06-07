@@ -1,0 +1,15 @@
+<div class="tableContainer">
+  <h1>resources</h1>
+  <input type="text">
+  <div class="searchControl">
+    <button>search</button>
+    <button>filter</button>
+  </div>
+  <div class="resTable">
+    <app-res-table-item 
+    *ngFor="let item of elmass" 
+    [name]=item.name 
+    [ownedNumber]=item.owned
+    [mastered]=item.mastered></app-res-table-item>
+  </div>
+</div>

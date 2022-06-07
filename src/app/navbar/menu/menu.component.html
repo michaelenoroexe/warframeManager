@@ -1,8 +1,22 @@
 <nav>
-  <button (click)="chosenSection = 'arsenal'">arsenal</button>
-  <button (click)="chosenSection = 'resources'">resources</button>
+  <button (click)="chosenSection = 'arsenal'"
+  [ngClass]="(chosenSection=='arsenal')?'selected':''"
+  >arsenal</button>
+  <button (click)="chosenSection = 'resources'"
+  [ngClass]="(chosenSection=='resources')?'selected':''"
+  >resources</button>
   <div id="recSec" *ngIf="chosenSection == 'resources'">
-    <a routerLink="#" routerLinkActive="active"><span>></span> table</a>
-    <a routerLink="#" routerLinkActive="active"><span>></span> location</a>
+    <a 
+      routerLink="./resources/table" 
+      routerLinkActive="active" 
+      [ngClass]="(selected=='table')?'selected':''" 
+      (click)="selected = 'table'">
+    <span>></span> table</a>
+    <a 
+      routerLink="#" 
+      routerLinkActive="active" 
+      [ngClass]="(selected=='location')?'selected':''"
+      (click)="selected = 'location'">
+    <span>></span> location</a>
   </div>
 </nav>
