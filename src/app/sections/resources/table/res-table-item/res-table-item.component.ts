@@ -7,16 +7,18 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class ResTableItemComponent implements OnInit {
   @Input()
-  icon:string = "../../../../../assets/resources/95x95.png";
+  icon:string| undefined = "../../../../../assets/resources/95x95.png";
   @Input()
   name:string = "ERR";
   @Input()
   ownedNumber:number = 0;
   @Input()
   mastered:boolean = false;
+  blueprint:boolean = false;
   constructor() { }
 
   ngOnInit(): void {
+    if (this.name.toLowerCase().includes('blueprint')) this.blueprint = true;
   }
    // Only Integer Numbers
   keyPressNumbers(event:any) {

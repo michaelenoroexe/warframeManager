@@ -8,6 +8,12 @@
   img {
     height: 95px;
     width: 95px;
+    object-fit: contain;
+  }
+  .blueprint {
+    background-image: url('../../../../../assets/resources/blueprint.png');
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   .itemInfo {
     margin-left: 33px;
@@ -33,7 +39,7 @@
     width: 95px;
     background-color: #64A495;
     text-align: center;
-    bottom: 22px;
+    bottom: 30px;
     font-family: 'Arial';
     font-style: italic;
     font-weight: 400;

@@ -7,7 +7,8 @@
   </div>
   <div class="resTable">
     <app-res-table-item 
-    *ngFor="let item of elmass" 
+    *ngFor="let item of elmass"
+    [icon]=item.icon
     [name]=item.name 
     [ownedNumber]=item.owned
     [mastered]=item.mastered></app-res-table-item>

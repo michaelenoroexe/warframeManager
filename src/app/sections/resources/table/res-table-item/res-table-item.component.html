@@ -1,5 +1,9 @@
 <div class="item">
-  <img [src]="icon" alt="Img" (click)="mastered = !mastered">
+  <img 
+  [src]="icon" 
+  alt="Img" 
+  (click)="mastered = !mastered"
+  [ngClass]="{'blueprint': blueprint}">
   <div class="itemInfo">
     <h1 style="height: 38.5px;">{{name}}</h1>
     <h1>owned:</h1>

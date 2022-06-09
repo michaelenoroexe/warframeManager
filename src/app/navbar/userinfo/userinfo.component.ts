@@ -1,4 +1,6 @@
+import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-userinfo',
@@ -10,9 +12,9 @@ export class UserinfoComponent implements OnInit {
   rank:String = "Silver sage";
   credits:number = 42706462;
   platinum:number = 1001;
-  constructor() { }
+  constructor() { 
+  }
 
   ngOnInit(): void {
   }
-
 }
