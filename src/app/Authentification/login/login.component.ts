@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { LoginUserService } from './login-user.service';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { ErrorHandlerService } from '../Shared/error-handler.service'
+import { LogErrorsService } from './log-errors.service';
 
 @Component({
   selector: 'app-login',
@@ -17,6 +18,7 @@ export class LoginComponent implements OnInit {
   errorMessage: string = '';
   dataValid: boolean = true;
   tokenKey = "accessToken";
+  errorUser:LogErrorsService = new LogErrorsService();
 
   constructor(private logUser: LoginUserService) { }
   // Initialisation of login in system
@@ -42,7 +44,7 @@ export class LoginComponent implements OnInit {
         console.log(value["successMessage"]);
       },
       error(err) {
-//        acc.errorDispayer(acc.errorUser.errorHandler(err));
+        ErrorHandlerService.ErrorDispay(acc, acc.errorUser.errorHandler(err));
         acc.form.enable();
       },
       complete() {

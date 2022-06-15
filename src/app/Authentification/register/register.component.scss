@@ -62,7 +62,7 @@ visibility: visible !important;
 input:disabled {
   border-color: gray;
   background-color: white !important;
-  color:  gray !important;
+  color: gray !important;
 }
 
 #loginMessage {
@@ -123,6 +123,7 @@ input:disabled {
   background-color: white;
   color: red;
   text-align: center;
+  max-width: 300px;
   font-size: 1.2em;
 }
 
