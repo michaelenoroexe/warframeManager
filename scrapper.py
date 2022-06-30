@@ -1,10 +1,27 @@
+from array import array
+from copyreg import constructor
+from unicodedata import name
 import requests, re
 
 import json
 from bs4 import BeautifulSoup
 scrapped_names = []
 stoplist = r"(Кува|Догмат|МК1-*)"
-fullList = {}
+fullList = list()
+
+
+class item:
+    def __init__(self, name, type, href, location = None):
+        self.name = name
+        self.type = type
+        self.location = location
+        self.href = href
+    def toJSON(self):
+        return json.dumps(self, default=lambda o: o.__dict__, sort_keys=True, indent=4)
+    name = str()
+    type = list()
+    location = str()
+    href = str()
 
 def GetWeaponsList():
     """Function that gets list of all weapons from warframe wiki"""
@@ -13,7 +30,7 @@ def GetWeaponsList():
     request = requests.get(url)
     soup_obj = BeautifulSoup(request.content, 'html.parser')
     # Get all weapons from table on page
-    dict = {}
+    item_list = list()
     navboxgroup_list = soup_obj.find_all('td', {'class':'navboxgroup'})
     for navboxgroup_el in navboxgroup_list:
         navbox_Sibling = navboxgroup_el.nextSibling
@@ -21,10 +38,10 @@ def GetWeaponsList():
             for element in navbox_Sibling.contents:
                 if element.name:
                     # print (element.contents[2])
-                    dict[element.contents[2].attrs['title']] = element.contents[2].attrs['href']
+                    item_list.append(item(element.contents[2].attrs['title'], ['weapon'], element.contents[2].attrs['href']) )
                 else:
                     pass
-    return dict
+    return item_list
 
 
 def GetWarframesList ():
@@ -33,14 +50,14 @@ def GetWarframesList ():
     # Get page with warframes
     request = requests.get(url)
     soup_obj = BeautifulSoup(request.content, 'html.parser')
-    dict = {}
+    item_list = list()
     # Get table of warframes
     table = soup_obj.find('table', {'class':'navbox'})
     # Get all objects with warframes
     warframes = table.findAll('span', {'data-param2':'Warframes'})
     for warframe in warframes:
-        dict [warframe.attrs['data-param']] = warframe.contents[2].attrs['href']
-    return dict
+        item_list.append(item(warframe.attrs['data-param'], ['warframe'], warframe.contents[2].attrs['href']))
+    return item_list
 
 
 def GetCompanionsList ():
@@ -49,14 +66,14 @@ def GetCompanionsList ():
     # Get page with companions
     request = requests.get(url)
     soup_obj = BeautifulSoup(request.content, 'html.parser')
-    dict = {}
+    item_list = list()
     # Get table of companions
     table = soup_obj.find('table', {'class':'navbox'})
     # Get all objects with companions
     companions = table.findAll('span', {'data-param2':'Companions'})
     for companion in companions:
-        dict [companion.attrs['data-param']] = companion.contents[2].attrs['href']
-    return dict
+        item_list.append(item(companion.attrs['data-param'], ['companion'], companion.contents[2].attrs['href']))
+    return item_list
 
 
 def GetArchwingsList ():
@@ -65,14 +82,14 @@ def GetArchwingsList ():
     # Get page with archwings
     request = requests.get(url)
     soup_obj = BeautifulSoup(request.content, 'html.parser')
-    dict = {}
+    item_list = list()
     # Get table of archwings
     table = soup_obj.find('table', {'class':'navbox'})
     # Get all objects with archwings
     archwings = table.find('td', {'class': ''}).findAll('a')
     for archwing in archwings:
-        dict [archwing.attrs['title']] = archwing.attrs['href']
-    return dict
+        item_list.append(item(archwing.attrs['title'], ['archwing'], archwing.attrs['href']))
+    return item_list
 
 
 def GetResourcesList ():
@@ -81,21 +98,22 @@ def GetResourcesList ():
     # Get page with resources
     request = requests.get(url)
     soup_obj = BeautifulSoup(request.content, 'html.parser')
-    dict = {}
+    item_list = list()
     # Get table of resources
     table = soup_obj.find('table', {'class':'navbox'})
     # Get all objects with resources
     resources = table.findAll('span', {'data-param2':'Resources'})
     for resource in resources:
-        dict [resource.attrs['data-param']] = resource.contents[2].attrs['href']
-    return dict
+        item_list.append(item(resource.attrs['data-param'], ['resource'], resource.contents[2].attrs['href']))
+    return item_list
 
-fullList.update(GetWarframesList())
-fullList.update(GetWeaponsList()) 
-fullList.update(GetCompanionsList()) 
-fullList.update(GetArchwingsList()) 
-fullList.update(GetResourcesList()) 
+fullList.extend(GetWarframesList())
+fullList.extend(GetWeaponsList()) 
+fullList.extend(GetCompanionsList()) 
+fullList.extend(GetArchwingsList()) 
+fullList.extend(GetResourcesList()) 
 
 with open('allItems.json', 'w') as outp:
-    json.dump(fullList, outp, indent=4)
+    for ite in fullList:
+        outp.writelines(ite.toJSON());
 
