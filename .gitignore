@@ -46,3 +46,4 @@ dist
 .pgdata/
 *logs/*
 *mongo*/*
+allItems.json
