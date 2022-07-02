@@ -12,7 +12,7 @@ fullList = list()
 
 
 class item:
-    def __init__(self, name, type, href, location = None):
+    def __init__(self, name, type, href, location = NULL):
         self.name = name
         self.type = type
         self.location = location
@@ -123,7 +123,7 @@ def GetArchwingsList ():
 
 def GetResourcesList ():
     """Function that gets list of all resources from warframe wiki"""
-    url = 'https://warframe.fandom.com/wiki/Resources'
+    url = 'https://warframe.fandom.com/wiki/Category:Resources'
     # Get page with resources
     request = requests.get(url)
     soup_obj = BeautifulSoup(request.content, 'html.parser')
@@ -133,13 +133,34 @@ def GetResourcesList ():
     # Get all objects with resources
     resources = table.findAll('span', {'data-param2':'Resources'})
     for resource in resources:
-        item_list.append(item(resource.attrs['data-param'], ['resource'], resource.contents[2].attrs['href']))
+        res_request = requests.get('https://warframe.fandom.com' + resource.contents[2].attrs['href'])
+        soup_res = BeautifulSoup(res_request.content, 'html.parser')
+        res_info = soup_res.find_all('div', {'class':'pi-data-value pi-font'})
+        tag_List = []
+        try:
+            tag_List.append(res_info[0].text.lower())
+        except:
+            pass
+        try:
+            tag_List.append(res_info[2].text.lower())
+        except:
+            pass
+        try:
+            tag_List.append(res_info[3].text.lower())
+        except:
+            pass
+        location = str()
+        try:
+            location = res_info[1].contents[0].contents[3].lower()
+        except:
+            pass
+        item_list.append(item(resource.attrs['data-param'], tag_List, resource.contents[2].attrs['href'], location) )
     return item_list
 
-#fullList.extend(GetWarframesList())
-#fullList.extend(GetWeaponsList()) 
-#fullList.extend(GetCompanionsList()) 
-#fullList.extend(GetArchwingsList()) 
+fullList.extend(GetWarframesList())
+fullList.extend(GetWeaponsList()) 
+fullList.extend(GetCompanionsList()) 
+fullList.extend(GetArchwingsList()) 
 fullList.extend(GetResourcesList()) 
 
 with open('allItems.json', 'w') as outp:
