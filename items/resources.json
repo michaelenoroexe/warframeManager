@@ -1,0 +1,2114 @@
+{
+    "name": "Alloy Plate",
+    "type": [
+        "common",
+        "resource"
+    ],
+    "location": [
+        ": Venus",
+        "Phobos",
+        "Ceres",
+        "Jupiter",
+        "Pluto",
+        "Sedna."
+    ],
+    "href": "/wiki/Alloy_Plate"
+}{
+    "name": "Ferrite",
+    "type": [
+        "common",
+        "resource"
+    ],
+    "location": [
+        ": Mercury",
+        "Earth",
+        "Lua",
+        "Neptune",
+        "the Void."
+    ],
+    "href": "/wiki/Ferrite"
+}{
+    "name": "Nano Spores",
+    "type": [
+        "common",
+        "resource"
+    ],
+    "location": [
+        ": Saturn",
+        "Neptune",
+        "Eris",
+        "Deimos."
+    ],
+    "href": "/wiki/Nano_Spores"
+}{
+    "name": "Salvage",
+    "type": [
+        "common",
+        "resource"
+    ],
+    "location": [
+        ": Mars",
+        "Jupiter",
+        "Sedna."
+    ],
+    "href": "/wiki/Salvage"
+}{
+    "name": "Carbides",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Carbides"
+}{
+    "name": "Circuits",
+    "type": [
+        "uncommon",
+        "resource"
+    ],
+    "location": [
+        ": Venus",
+        "Ceres",
+        "the Kuva Fortress."
+    ],
+    "href": "/wiki/Circuits"
+}{
+    "name": "Cryotic",
+    "type": [
+        "resource"
+    ],
+    "location": [
+        ": Excavation Missions on Venus",
+        "Earth",
+        "Phobos",
+        "Europa",
+        "Neptune."
+    ],
+    "href": "/wiki/Cryotic"
+}{
+    "name": "Cubic Diodes",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Cubic_Diodes"
+}{
+    "name": "Hexenon",
+    "type": [
+        "uncommon",
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Hexenon"
+}{
+    "name": "Oxium",
+    "type": [
+        "resource"
+    ],
+    "location": [
+        ": Venus",
+        "Jupiter",
+        "Mars",
+        "Neptune",
+        "Pluto",
+        "Eris",
+        "Europa",
+        "Lua."
+    ],
+    "href": "/wiki/Oxium"
+}{
+    "name": "Plastids",
+    "type": [
+        "uncommon",
+        "resource"
+    ],
+    "location": [
+        ": Phobos",
+        "Saturn",
+        "Uranus",
+        "Pluto",
+        "Eris."
+    ],
+    "href": "/wiki/Plastids"
+}{
+    "name": "Polymer Bundle",
+    "type": [
+        "uncommon",
+        "resource"
+    ],
+    "location": [
+        ": Mercury",
+        "Venus",
+        "Uranus"
+    ],
+    "href": "/wiki/Polymer_Bundle"
+}{
+    "name": "Rubedo",
+    "type": [
+        "uncommon",
+        "resource"
+    ],
+    "location": [
+        ": Earth",
+        "Lua",
+        "Phobos",
+        "Europa",
+        "Pluto",
+        "Sedna",
+        "the Void."
+    ],
+    "href": "/wiki/Rubedo"
+}{
+    "name": "Argon Crystal",
+    "type": [
+        "rare",
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Argon_Crystal"
+}{
+    "name": "Control Module",
+    "type": [
+        "rare",
+        "resource"
+    ],
+    "location": [
+        ": Europa",
+        "Neptune",
+        "the Void."
+    ],
+    "href": "/wiki/Control_Module"
+}{
+    "name": "Gallium",
+    "type": [
+        "rare",
+        "resource"
+    ],
+    "location": [
+        ": Mars and Uranus."
+    ],
+    "href": "/wiki/Gallium"
+}{
+    "name": "Morphics",
+    "type": [
+        "rare",
+        "resource"
+    ],
+    "location": [
+        ": Mercury",
+        "Mars",
+        "Phobos",
+        "Europa",
+        "Pluto."
+    ],
+    "href": "/wiki/Morphics"
+}{
+    "name": "Neural Sensors",
+    "type": [
+        "rare",
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Neural_Sensors"
+}{
+    "name": "Neurodes",
+    "type": [
+        "rare",
+        "resource"
+    ],
+    "location": [
+        ": Earth",
+        "Lua",
+        "Eris",
+        "Deimos."
+    ],
+    "href": "/wiki/Neurodes"
+}{
+    "name": "Orokin Cell",
+    "type": [
+        "rare",
+        "resource"
+    ],
+    "location": [
+        ": Ceres",
+        "Saturn",
+        "Deimos."
+    ],
+    "href": "/wiki/Orokin_Cell"
+}{
+    "name": "Tellurium",
+    "type": [
+        "rare",
+        "resource"
+    ],
+    "location": [
+        ": Archwing Missions on Uranus."
+    ],
+    "href": "/wiki/Tellurium"
+}{
+    "name": "Antiserum Injector Fragment",
+    "type": [
+        "resource"
+    ],
+    "location": [
+        ": Infested Salvage Missions on Eris."
+    ],
+    "href": "/wiki/Antiserum_Injector_Fragment"
+}{
+    "name": "Detonite Ampule",
+    "type": [
+        "uncommon",
+        "resource"
+    ],
+    "location": [
+        ": Venus",
+        "Earth",
+        "Lua",
+        "Ceres",
+        "Saturn",
+        "Sedna",
+        "the Kuva Fortress."
+    ],
+    "href": "/wiki/Detonite_Ampule"
+}{
+    "name": "Detonite Injector",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Detonite_Injector"
+}{
+    "name": "Fieldron Sample",
+    "type": [
+        "uncommon",
+        "resource"
+    ],
+    "location": [
+        ": Venus",
+        "Mars",
+        "Jupiter",
+        "Europa",
+        "Neptune",
+        "Pluto."
+    ],
+    "href": "/wiki/Fieldron_Sample"
+}{
+    "name": "Fieldron",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Fieldron"
+}{
+    "name": "Mutagen Sample",
+    "type": [
+        "uncommon",
+        "resource"
+    ],
+    "location": [
+        ": Eris and Deimos."
+    ],
+    "href": "/wiki/Mutagen_Sample"
+}{
+    "name": "Mutagen Mass",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Mutagen_Mass"
+}{
+    "name": "Pigment",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Pigment"
+}{
+    "name": "Synthula",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Synthula"
+}{
+    "name": "Animo Nav Beacon",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Animo_Nav_Beacon"
+}{
+    "name": "Cryptographic ALU",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Cryptographic_ALU"
+}{
+    "name": "Judgement Points",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Kela_De_Thaym#Judgement_Points"
+}{
+    "name": "Nav Coordinate",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Nav_Coordinate"
+}{
+    "name": "Omega Isotope",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Omega_Isotope"
+}{
+    "name": "Ayatan Amber Star",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Ayatan_Amber_Star"
+}{
+    "name": "Ayatan Cyan Star",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Ayatan_Star"
+}{
+    "name": "Endo",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Endo"
+}{
+    "name": "Granum Crown",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Granum_Crown"
+}{
+    "name": "Exemplar Granum Crown",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Exemplar_Granum_Crown"
+}{
+    "name": "Zenith Granum Crown",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Zenith_Granum_Crown"
+}{
+    "name": "Intact Sentient Core",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Sentient_Core"
+}{
+    "name": "Javlok Capacitor",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Javlok_Capacitor"
+}{
+    "name": "Kavat Genetic Code",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Kavat_Genetic_Code"
+}{
+    "name": "Nitain Extract",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Nitain_Extract"
+}{
+    "name": "Orokin Cipher",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Orokin_Cipher"
+}{
+    "name": "Kuva",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Kuva_(Resource)"
+}{
+    "name": "Riven Sliver",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Riven_Sliver"
+}{
+    "name": "Somatic Fibers",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Somatic_Fibers"
+}{
+    "name": "Steel Essence",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Steel_Essence"
+}{
+    "name": "Synthetic Eidolon Shard",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Synthetic_Eidolon_Shard"
+}{
+    "name": "Vitus Essence",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Vitus_Essence"
+}{
+    "name": "Void Traces",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Void_Traces"
+}{
+    "name": "Spectral Debris",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Spectral_Debris"
+}{
+    "name": "Carbides",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Carbides"
+}{
+    "name": "Cubic Diodes",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Cubic_Diodes"
+}{
+    "name": "Titanium",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Titanium"
+}{
+    "name": "Ticor Plate",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Ticor_Plate"
+}{
+    "name": "Asterite",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Asterite"
+}{
+    "name": "Gallos Rods",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Gallos_Rods"
+}{
+    "name": "Isos",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Isos"
+}{
+    "name": "Aucrux Capacitors",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Aucrux_Capacitors"
+}{
+    "name": "Komms",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Komms"
+}{
+    "name": "Nullstones",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Nullstones"
+}{
+    "name": "Anomaly Shard",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Anomaly_Shard"
+}{
+    "name": "Corrupted Holokey",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Corrupted_Holokey"
+}{
+    "name": "Kuva",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Kuva_(Resource)"
+}{
+    "name": "Riven Sliver",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Riven_Sliver"
+}{
+    "name": "Void Traces",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Void_Traces"
+}{
+    "name": "Mandachord",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Mandachord"
+}{
+    "name": "Orokin Archive",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/The_Archwing"
+}{
+    "name": "Pherliac Pods",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Pherliac_Pod"
+}{
+    "name": "Chitinous Husk",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Pherliac_Pod"
+}{
+    "name": "Infected Palpators",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Pherliac_Pod"
+}{
+    "name": "Pulsating Tubercles",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Pherliac_Pod"
+}{
+    "name": "Severed Bile Sac",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Pherliac_Pod"
+}{
+    "name": "Proof Fragment",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/The_Limbo_Theorem"
+}{
+    "name": "Chroma Mark",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/The_New_Strange/Chroma_Mark"
+}{
+    "name": "Chroma Signal",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/The_New_Strange/Chroma_Signal"
+}{
+    "name": "Scorched Beacon",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/The_New_Strange/Scorched_Beacon"
+}{
+    "name": "Frostleaf",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Frostleaf"
+}{
+    "name": "Vestan Moss",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Vestan_Moss"
+}{
+    "name": "Sunlight Dragonlily",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Sunlight_Dragonlily"
+}{
+    "name": "Sunlight Jadeleaf",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Sunlight_Jadeleaf"
+}{
+    "name": "Sunlight Threshcone",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Sunlight_Threshcone"
+}{
+    "name": "Moonlight Dragonlily",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Moonlight_Dragonlily"
+}{
+    "name": "Moonlight Jadeleaf",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Moonlight_Jadeleaf"
+}{
+    "name": "Moonlight Threshcone",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Moonlight_Threshcone"
+}{
+    "name": "Ruk's Claw",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Ruk%27s_Claw"
+}{
+    "name": "Dusklight Sarracenia",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Dusklight_Sarracenia"
+}{
+    "name": "Lunar Pitcher",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Lunar_Pitcher"
+}{
+    "name": "Corpus Cipher",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Corpus_Cipher"
+}{
+    "name": "Corpus Datamass",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Corpus_Datamass"
+}{
+    "name": "Alpha Corruptor",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Corruptor"
+}{
+    "name": "Beta Corruptor",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Corruptor"
+}{
+    "name": "Stable Corruptor",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Corruptor"
+}{
+    "name": "Tethra Data Fragments",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Tethra_Data_Fragments"
+}{
+    "name": "Pyrus Essence",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Pyrus_Essence"
+}{
+    "name": "Trembera Essence",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Trembera_Essence"
+}{
+    "name": "Cephalite Resonance",
+    "type": [
+        "rare",
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Cephalite_Resonance"
+}{
+    "name": "Zealot Derelict Code",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Zealot_Derelict_Code"
+}{
+    "name": "Aya",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Aya"
+}{
+    "name": "Regal Aya",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Regal_Aya"
+}{
+    "name": "Grokdrul",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Grokdrul"
+}{
+    "name": "Iradite",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Iradite"
+}{
+    "name": "Maprico",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Maprico"
+}{
+    "name": "Nistlepod",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Nistlepod"
+}{
+    "name": "Condroc Wing",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Condroc_Wing"
+}{
+    "name": "Kuaka Spinal Claw",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Kuaka_Spinal_Claw"
+}{
+    "name": "Cetus Wisp",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Cetus_Wisp"
+}{
+    "name": "Breath Of The Eidolon",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Breath_Of_The_Eidolon"
+}{
+    "name": "Eidolon Shard",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Eidolon_Shard"
+}{
+    "name": "Brilliant Eidolon Shard",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Brilliant_Eidolon_Shard"
+}{
+    "name": "Radiant Eidolon Shard",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Radiant_Eidolon_Shard"
+}{
+    "name": "Exceptional Sentient Core",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Sentient_Core"
+}{
+    "name": "Flawless Sentient Core",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Sentient_Core"
+}{
+    "name": "Intact Sentient Core",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Sentient_Core"
+}{
+    "name": "Narmer Isoplast",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Narmer_Isoplast"
+}{
+    "name": "Hemocyte Cystolith",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Hemocyte_Cystolith"
+}{
+    "name": "Auron",
+    "type": [
+        "rare",
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Auron"
+}{
+    "name": "Auroxium Alloy",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Auroxium_Alloy"
+}{
+    "name": "Coprun",
+    "type": [
+        "common",
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Coprun"
+}{
+    "name": "Coprite Alloy",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Coprite_Alloy"
+}{
+    "name": "Ferros",
+    "type": [
+        "uncommon",
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Ferros"
+}{
+    "name": "Fersteel Alloy",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Fersteel_Alloy"
+}{
+    "name": "Pyrol",
+    "type": [
+        "common",
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Pyrol"
+}{
+    "name": "Pyrotic Alloy",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Pyrotic_Alloy"
+}{
+    "name": "Azurite",
+    "type": [
+        "common",
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Azurite"
+}{
+    "name": "Tear Azurite",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Tear_Azurite"
+}{
+    "name": "Crimzian",
+    "type": [
+        "rare",
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Crimzian"
+}{
+    "name": "Star Crimzian",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Star_Crimzian"
+}{
+    "name": "Devar",
+    "type": [
+        "common",
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Devar"
+}{
+    "name": "Esher Devar",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Esher_Devar"
+}{
+    "name": "Nyth",
+    "type": [
+        "rare",
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Nyth"
+}{
+    "name": "Heart Nyth",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Heart_Nyth"
+}{
+    "name": "Sentirum",
+    "type": [
+        "rare",
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Sentirum"
+}{
+    "name": "Radian Sentirum",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Radian_Sentirum"
+}{
+    "name": "Veridos",
+    "type": [
+        "uncommon",
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Veridos"
+}{
+    "name": "Marquise Veridos",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Marquise_Veridos"
+}{
+    "name": "Fish Meat",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Fish_Meat"
+}{
+    "name": "Fish Oil",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Fish_Oil"
+}{
+    "name": "Fish Scales",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Fish_Scales"
+}{
+    "name": "Charc Electroplax",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Charc_Electroplax"
+}{
+    "name": "Cuthol Tendrils",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Cuthol_Tendrils"
+}{
+    "name": "Goopolla Spleen",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Goopolla_Spleen"
+}{
+    "name": "Karkina Antenna",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Karkina_Antenna"
+}{
+    "name": "Khut-Khut Venom Sac",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Khut-Khut_Venom_Sac"
+}{
+    "name": "Mawfish Bones",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Mawfish_Bones"
+}{
+    "name": "Mortus Horn",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Mortus_Horn"
+}{
+    "name": "Murkray Liver",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Murkray_Liver"
+}{
+    "name": "Norg Brain",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Norg_Brain"
+}{
+    "name": "Seram Beetle Shell",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Seram_Beetle_Shell"
+}{
+    "name": "Sharrac Teeth",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Sharrac_Teeth"
+}{
+    "name": "Tralok Eyes",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Tralok_Eyes"
+}{
+    "name": "Yogwun Stomach",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Yogwun_Stomach"
+}{
+    "name": "Boot",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Boot"
+}{
+    "name": "Gorgaricus Spore",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Gorgaricus_Spore"
+}{
+    "name": "Mytocardia Spore",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Mytocardia_Spore"
+}{
+    "name": "Tepa Nodule",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Tepa_Nodule"
+}{
+    "name": "Thermal Sludge",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Thermal_Sludge"
+}{
+    "name": "Advances Debt-Bond",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Advances_Debt-Bond"
+}{
+    "name": "Familial Debt-Bond",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Familial_Debt-Bond"
+}{
+    "name": "Medical Debt-Bond",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Medical_Debt-Bond"
+}{
+    "name": "Shelter Debt-Bond",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Shelter_Debt-Bond"
+}{
+    "name": "Training Debt-Bond",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Training_Debt-Bond"
+}{
+    "name": "Atmo Systems",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Atmo_Systems"
+}{
+    "name": "Gyromag Systems",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Gyromag_Systems"
+}{
+    "name": "Repeller Systems",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Repeller_Systems"
+}{
+    "name": "Calda Toroid",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Calda_Toroid"
+}{
+    "name": "Sola Toroid",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Sola_Toroid"
+}{
+    "name": "Vega Toroid",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Vega_Toroid"
+}{
+    "name": "Crisma Toroid",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Crisma_Toroid"
+}{
+    "name": "Lazulite Toroid",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Lazulite_Toroid"
+}{
+    "name": "Narmer Isoplast",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Narmer_Isoplast"
+}{
+    "name": "Diluted Thermia",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Diluted_Thermia"
+}{
+    "name": "Axidite",
+    "type": [
+        "common",
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Axidite"
+}{
+    "name": "Axidrol Alloy",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Axidrol_Alloy"
+}{
+    "name": "Hesperon",
+    "type": [
+        "rare",
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Hesperon"
+}{
+    "name": "Hespazym Alloy",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Hespazym_Alloy"
+}{
+    "name": "Travoride",
+    "type": [
+        "common",
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Travoride"
+}{
+    "name": "Travocyte Alloy",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Travocyte_Alloy"
+}{
+    "name": "Venerol",
+    "type": [
+        "uncommon",
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Venerol"
+}{
+    "name": "Venerdo Alloy",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Venerdo_Alloy"
+}{
+    "name": "Amarast",
+    "type": [
+        "rare",
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Amarast"
+}{
+    "name": "Star Amarast",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Star_Amarast"
+}{
+    "name": "Goblite",
+    "type": [
+        "uncommon",
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Goblite"
+}{
+    "name": "Goblite Tears",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Goblite_Tears"
+}{
+    "name": "Noctrul",
+    "type": [
+        "common",
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Noctrul"
+}{
+    "name": "Heart Noctrul",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Heart_Noctrul"
+}{
+    "name": "Phasmin",
+    "type": [
+        "common",
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Phasmin"
+}{
+    "name": "Smooth Phasmin",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Smooth_Phasmin"
+}{
+    "name": "Thyst",
+    "type": [
+        "rare",
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Thyst"
+}{
+    "name": "Marquise Thyst",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Marquise_Thyst"
+}{
+    "name": "Zodian",
+    "type": [
+        "rare",
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Zodian"
+}{
+    "name": "Radiant Zodian",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Radiant_Zodian"
+}{
+    "name": "Scrap",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Scrap"
+}{
+    "name": "Echowinder Anoscopic Sensor",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Echowinder_Anoscopic_Sensor"
+}{
+    "name": "Tink Dissipator Coil",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Tink_Dissipator_Coil"
+}{
+    "name": "Synathid Ecosynth Analyzer",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Synathid_Ecosynth_Analyzer"
+}{
+    "name": "Tromyzon Entroplasma",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Tromyzon_Entroplasma"
+}{
+    "name": "Scrubber Exa Brain",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Scrubber_Exa_Brain"
+}{
+    "name": "Longwinder Lathe Coagulant",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Longwinder_Lathe_Coagulant"
+}{
+    "name": "Brickie Muon Battery",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Brickie_Muon_Battery"
+}{
+    "name": "Recaster Neural Relay",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Recaster_Neural_Relay"
+}{
+    "name": "Mirewinder Parallel Biode",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Mirewinder_Parallel_Biode"
+}{
+    "name": "Eye-Eye Rotoblade",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Eye-Eye_Rotoblade"
+}{
+    "name": "Charamote Sagan Module",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Charamote_Sagan_Module"
+}{
+    "name": "Kriller Thermal Laser",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Kriller_Thermal_Laser"
+}{
+    "name": "Sapcaddy Venedo Case",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Sapcaddy_Venedo_Case"
+}{
+    "name": "Crewman's Boot",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Crewman%27s_Boot"
+}{
+    "name": "Ganglion",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Ganglion"
+}{
+    "name": "Lucent Teroglobe",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Lucent_Teroglobe"
+}{
+    "name": "Pustulite",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Pustulite"
+}{
+    "name": "Scintillant",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Scintillant"
+}{
+    "name": "Seriglass Shard",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Seriglass_Shard"
+}{
+    "name": "Fass Residue",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Fass_Residue"
+}{
+    "name": "Vome Residue",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Vome_Residue"
+}{
+    "name": "Daughter Token",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Daughter_Token"
+}{
+    "name": "Father Token",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Father_Token"
+}{
+    "name": "Grandmother Token",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Grandmother_Token"
+}{
+    "name": "Mother Token",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Mother_Token"
+}{
+    "name": "Otak Token",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Otak_Token"
+}{
+    "name": "Son Token",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Son_Token"
+}{
+    "name": "Orokin Animus Matrix",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Orokin_Animus_Matrix"
+}{
+    "name": "Orokin Ballistics Matrix",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Orokin_Ballistics_Matrix"
+}{
+    "name": "Orokin Orientation Matrix",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Orokin_Orientation_Matrix"
+}{
+    "name": "Damaged Necramech Casing",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Damaged_Necramech_Casing"
+}{
+    "name": "Damaged Necramech Engine",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Damaged_Necramech_Engine"
+}{
+    "name": "Damaged Necramech Pod",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Damaged_Necramech_Pod"
+}{
+    "name": "Damaged Necramech Weapon Barrel",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Damaged_Necramech_Weapon_Barrel"
+}{
+    "name": "Damaged Necramech Weapon Pod",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Damaged_Necramech_Weapon_Pod"
+}{
+    "name": "Damaged Necramech Weapon Receiver",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Damaged_Necramech_Weapon_Receiver"
+}{
+    "name": "Damaged Necramech Weapon Stock",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Damaged_Necramech_Weapon_Stock"
+}{
+    "name": "Adramalium",
+    "type": [
+        "common",
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Adramalium"
+}{
+    "name": "Adramal Alloy",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Adramal_Alloy"
+}{
+    "name": "Bapholite",
+    "type": [
+        "common",
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Bapholite"
+}{
+    "name": "Tempered Bapholite",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Tempered_Bapholite"
+}{
+    "name": "Namalon",
+    "type": [
+        "uncommon",
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Namalon"
+}{
+    "name": "Devolved Namalon",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Devolved_Namalon"
+}{
+    "name": "Thaumica",
+    "type": [
+        "rare",
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Thaumica"
+}{
+    "name": "Thaumic Distillate",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Thaumic_Distillate"
+}{
+    "name": "Dagonic",
+    "type": [
+        "common",
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Dagonic"
+}{
+    "name": "Purged Dagonic",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Purged_Dagonic"
+}{
+    "name": "Embolos",
+    "type": [
+        "rare",
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Embolos"
+}{
+    "name": "Cabochon Embolos",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Cabochon_Embolos"
+}{
+    "name": "Heciphron",
+    "type": [
+        "uncommon",
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Heciphron"
+}{
+    "name": "Purified Heciphron",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Purified_Heciphron"
+}{
+    "name": "Necrathene",
+    "type": [
+        "rare",
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Necrathene"
+}{
+    "name": "Stellated Necrathene",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Stellated_Necrathene"
+}{
+    "name": "Tiametrite",
+    "type": [
+        "common",
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Tiametrite"
+}{
+    "name": "Faceted Tiametrite",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Faceted_Tiametrite"
+}{
+    "name": "Xenorhast",
+    "type": [
+        "rare",
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Xenorhast"
+}{
+    "name": "Trapezium Xenorhast",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Trapezium_Xenorhast"
+}{
+    "name": "Benign Infested Tumor",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Benign_Infested_Tumor"
+}{
+    "name": "Ferment Bladder",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Ferment_Bladder"
+}{
+    "name": "Tubercular Gill System",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Tubercular_Gill_System"
+}{
+    "name": "Biotic Filter",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Biotic_Filter"
+}{
+    "name": "Cranial Foremount",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Cranial_Foremount"
+}{
+    "name": "Dendrite Blastoma",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Dendrite_Blastoma"
+}{
+    "name": "Ocular Stem-Root",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Ocular_Stem-Root"
+}{
+    "name": "Parasitic Tethermaw",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Parasitic_Tethermaw"
+}{
+    "name": "Pustulent Cognitive Nodule",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Pustulent_Cognitive_Nodule"
+}{
+    "name": "Saturated Muscle Mass",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Saturated_Muscle_Mass"
+}{
+    "name": "Spinal Core Section",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Spinal_Core_Section"
+}{
+    "name": "Sporulate Sac",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Sporulate_Sac"
+}{
+    "name": "Waxen Sebum Deposit",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Waxen_Sebum_Deposit"
+}{
+    "name": "Alloy Plate",
+    "type": [
+        "common",
+        "resource"
+    ],
+    "location": [
+        ": Venus",
+        "Phobos",
+        "Ceres",
+        "Jupiter",
+        "Pluto",
+        "Sedna."
+    ],
+    "href": "/wiki/Alloy_Plate"
+}{
+    "name": "Ferrite",
+    "type": [
+        "common",
+        "resource"
+    ],
+    "location": [
+        ": Mercury",
+        "Earth",
+        "Lua",
+        "Neptune",
+        "the Void."
+    ],
+    "href": "/wiki/Ferrite"
+}{
+    "name": "Thrax Plasm",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Thrax_Plasm"
+}{
+    "name": "Voidgel Orb",
+    "type": [
+        "rare",
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Voidgel_Orb"
+}{
+    "name": "Entrati Lanthorn",
+    "type": [
+        "rare",
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Entrati_Lanthorn"
+}{
+    "name": "Voidplume Down",
+    "type": [
+        "common",
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Voidplume_Down"
+}{
+    "name": "Voidplume Vane",
+    "type": [
+        "uncommon",
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Voidplume_Vane"
+}{
+    "name": "Voidplume Crest",
+    "type": [
+        "rare",
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Voidplume_Crest"
+}{
+    "name": "Voidplume Quill",
+    "type": [
+        "common",
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Voidplume_Quill"
+}{
+    "name": "Voidplume Pinion",
+    "type": [
+        "rare",
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Voidplume_Pinion"
+}{
+    "name": "Argozene",
+    "type": [
+        "resource"
+    ],
+    "location": "",
+    "href": "/wiki/Argozene"
+}

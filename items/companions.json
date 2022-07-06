@@ -1,0 +1,343 @@
+{
+    "name": "Carrier",
+    "type": [
+        "sentinel",
+        "robotic",
+        "companion"
+    ],
+    "location": null,
+    "href": "/wiki/Carrier"
+}{
+    "name": "Carrier Prime",
+    "type": [
+        "sentinel",
+        "robotic",
+        "companion"
+    ],
+    "location": null,
+    "href": "/wiki/Carrier/Prime"
+}{
+    "name": "Dethcube",
+    "type": [
+        "sentinel",
+        "robotic",
+        "companion"
+    ],
+    "location": null,
+    "href": "/wiki/Dethcube"
+}{
+    "name": "Dethcube Prime",
+    "type": [
+        "sentinel",
+        "robotic",
+        "companion"
+    ],
+    "location": null,
+    "href": "/wiki/Dethcube/Prime"
+}{
+    "name": "Diriga",
+    "type": [
+        "sentinel",
+        "robotic",
+        "companion"
+    ],
+    "location": null,
+    "href": "/wiki/Diriga"
+}{
+    "name": "Djinn",
+    "type": [
+        "sentinel",
+        "robotic",
+        "companion"
+    ],
+    "location": null,
+    "href": "/wiki/Djinn"
+}{
+    "name": "Helios",
+    "type": [
+        "sentinel",
+        "robotic",
+        "companion"
+    ],
+    "location": null,
+    "href": "/wiki/Helios"
+}{
+    "name": "Helios Prime",
+    "type": [
+        "sentinel",
+        "robotic",
+        "companion"
+    ],
+    "location": null,
+    "href": "/wiki/Helios/Prime"
+}{
+    "name": "Nautilus",
+    "type": [
+        "sentinel",
+        "robotic",
+        "companion"
+    ],
+    "location": null,
+    "href": "/wiki/Nautilus"
+}{
+    "name": "Oxylus",
+    "type": [
+        "sentinel",
+        "robotic",
+        "companion"
+    ],
+    "location": null,
+    "href": "/wiki/Oxylus"
+}{
+    "name": "Shade",
+    "type": [
+        "sentinel",
+        "robotic",
+        "companion"
+    ],
+    "location": null,
+    "href": "/wiki/Shade"
+}{
+    "name": "Prisma Shade",
+    "type": [
+        "sentinel",
+        "robotic",
+        "companion"
+    ],
+    "location": null,
+    "href": "/wiki/Prisma_Shade"
+}{
+    "name": "Taxon",
+    "type": [
+        "sentinel",
+        "robotic",
+        "companion"
+    ],
+    "location": null,
+    "href": "/wiki/Taxon"
+}{
+    "name": "Wyrm",
+    "type": [
+        "sentinel",
+        "robotic",
+        "companion"
+    ],
+    "location": null,
+    "href": "/wiki/Wyrm"
+}{
+    "name": "Wyrm Prime",
+    "type": [
+        "sentinel",
+        "robotic",
+        "companion"
+    ],
+    "location": null,
+    "href": "/wiki/Wyrm/Prime"
+}{
+    "name": "Lambeo Moa",
+    "type": [
+        "moa (companion)",
+        "robotic",
+        "companion"
+    ],
+    "location": null,
+    "href": "/wiki/Model#Lambeo"
+}{
+    "name": "Oloro Moa",
+    "type": [
+        "moa (companion)",
+        "robotic",
+        "companion"
+    ],
+    "location": null,
+    "href": "/wiki/Model#Oloro"
+}{
+    "name": "Para Moa",
+    "type": [
+        "moa (companion)",
+        "robotic",
+        "companion"
+    ],
+    "location": null,
+    "href": "/wiki/Model#Para"
+}{
+    "name": "Nychus Moa",
+    "type": [
+        "moa (companion)",
+        "robotic",
+        "companion"
+    ],
+    "location": null,
+    "href": "/wiki/Model#Nychus"
+}{
+    "name": "Bhaira Hound",
+    "type": [
+        "hound (companion)",
+        "robotic",
+        "companion"
+    ],
+    "location": null,
+    "href": "/wiki/Model#Bhaira"
+}{
+    "name": "Dorma Hound",
+    "type": [
+        "hound (companion)",
+        "robotic",
+        "companion"
+    ],
+    "location": null,
+    "href": "/wiki/Model#Dorma"
+}{
+    "name": "Hec Hound",
+    "type": [
+        "hound (companion)",
+        "robotic",
+        "companion"
+    ],
+    "location": null,
+    "href": "/wiki/Model#Hec"
+}{
+    "name": "Chesa Kubrow",
+    "type": [
+        "kubrow",
+        "beast",
+        "companion"
+    ],
+    "location": null,
+    "href": "/wiki/Chesa_Kubrow"
+}{
+    "name": "Helminth Charger",
+    "type": [
+        "kubrow",
+        "beast",
+        "companion"
+    ],
+    "location": null,
+    "href": "/wiki/Helminth_Charger"
+}{
+    "name": "Huras Kubrow",
+    "type": [
+        "kubrow",
+        "beast",
+        "companion"
+    ],
+    "location": null,
+    "href": "/wiki/Huras_Kubrow"
+}{
+    "name": "Raksa Kubrow",
+    "type": [
+        "kubrow",
+        "beast",
+        "companion"
+    ],
+    "location": null,
+    "href": "/wiki/Raksa_Kubrow"
+}{
+    "name": "Sahasa Kubrow",
+    "type": [
+        "kubrow",
+        "beast",
+        "companion"
+    ],
+    "location": null,
+    "href": "/wiki/Sahasa_Kubrow"
+}{
+    "name": "Sunika Kubrow",
+    "type": [
+        "kubrow",
+        "beast",
+        "companion"
+    ],
+    "location": null,
+    "href": "/wiki/Sunika_Kubrow"
+}{
+    "name": "Vizier Predasite",
+    "type": [
+        "predasite",
+        "beast",
+        "companion"
+    ],
+    "location": null,
+    "href": "/wiki/Vizier_Predasite"
+}{
+    "name": "Pharaoh Predasite",
+    "type": [
+        "predasite",
+        "beast",
+        "companion"
+    ],
+    "location": null,
+    "href": "/wiki/Pharaoh_Predasite"
+}{
+    "name": "Medjay Predasite",
+    "type": [
+        "predasite",
+        "beast",
+        "companion"
+    ],
+    "location": null,
+    "href": "/wiki/Medjay_Predasite"
+}{
+    "name": "Adarza Kavat",
+    "type": [
+        "kavat",
+        "beast",
+        "companion"
+    ],
+    "location": null,
+    "href": "/wiki/Adarza_Kavat"
+}{
+    "name": "Smeeta Kavat",
+    "type": [
+        "kavat",
+        "beast",
+        "companion"
+    ],
+    "location": null,
+    "href": "/wiki/Smeeta_Kavat"
+}{
+    "name": "Vasca Kavat",
+    "type": [
+        "kavat",
+        "beast",
+        "companion"
+    ],
+    "location": null,
+    "href": "/wiki/Vasca_Kavat"
+}{
+    "name": "Venari",
+    "type": [
+        "kavat",
+        "beast",
+        "companion"
+    ],
+    "location": null,
+    "href": "/wiki/Venari"
+}{
+    "name": "Sly Vulpaphyla",
+    "type": [
+        "vulpaphyla",
+        "beast",
+        "companion"
+    ],
+    "location": null,
+    "href": "/wiki/Sly_Vulpaphyla"
+}{
+    "name": "Crescent Vulpaphyla",
+    "type": [
+        "vulpaphyla",
+        "beast",
+        "companion"
+    ],
+    "location": null,
+    "href": "/wiki/Crescent_Vulpaphyla"
+}{
+    "name": "Panzer Vulpaphyla",
+    "type": [
+        "vulpaphyla",
+        "beast",
+        "companion"
+    ],
+    "location": null,
+    "href": "/wiki/Panzer_Vulpaphyla"
+}

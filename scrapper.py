@@ -12,13 +12,13 @@ fullList = list()
 
 
 class item:
-    def __init__(self, name, type, href, location = NULL):
+    def __init__(self, name, type, href, location = None):
         self.name = name
         self.type = type
         self.location = location
         self.href = href
     def toJSON(self):
-        return json.dumps(self, default=lambda o: o.__dict__, sort_keys=True, indent=4)
+        return json.dumps(self, default=lambda o: o.__dict__, indent=4)
     name = str()
     type = list()
     location = str()
@@ -133,37 +133,37 @@ def GetResourcesList ():
     # Get all objects with resources
     resources = table.findAll('span', {'data-param2':'Resources'})
     for resource in resources:
+        # Get full info of res
         res_request = requests.get('https://warframe.fandom.com' + resource.contents[2].attrs['href'])
         soup_res = BeautifulSoup(res_request.content, 'html.parser')
+        # Get res tags
         res_info = soup_res.find_all('div', {'class':'pi-data-value pi-font'})
+        # Applight all tags to res
         tag_List = []
-        try:
-            tag_List.append(res_info[0].text.lower())
-        except:
-            pass
-        try:
-            tag_List.append(res_info[2].text.lower())
-        except:
-            pass
-        try:
-            tag_List.append(res_info[3].text.lower())
-        except:
-            pass
+        tag_allow = {'Common', 'Uncommon', 'Rare'}
+        for res_inf in res_info:
+            if res_inf.text in tag_allow:
+                tag_List.append(res_inf.text.lower().strip())
+        tag_List.append('resource')
+        # Get location from res info
         location = str()
-        try:
-            location = res_info[1].contents[0].contents[3].lower()
-        except:
-            pass
+        if ( len(res_info) > 0 and hasattr(res_info[1], 'contents') and hasattr(res_info[1].contents[0], 'contents') and len(res_info[1].contents[0].contents) > 3 ):
+            if ('Locations' in res_info[1].contents[0].text):
+                loc = [(loc[4:] if loc.startswith('and') else loc) for loc in [ loc.strip() for loc in res_info[1].contents[0].text.split('Locations')[1].split(',')]]
+                location = loc
         item_list.append(item(resource.attrs['data-param'], tag_List, resource.contents[2].attrs['href'], location) )
     return item_list
 
-fullList.extend(GetWarframesList())
-fullList.extend(GetWeaponsList()) 
-fullList.extend(GetCompanionsList()) 
-fullList.extend(GetArchwingsList()) 
-fullList.extend(GetResourcesList()) 
 
-with open('allItems.json', 'w') as outp:
-    for ite in fullList:
-        outp.writelines(ite.toJSON());
+def Save_To_File(name, item_list):
+    with open('./items/' + name, 'w') as outp:
+        for ite in item_list:
+            outp.writelines(ite.toJSON());
+
+
+#Save_To_File('warframes.json', GetWarframesList())
+#Save_To_File('weapons.json', GetWeaponsList())
+#Save_To_File('companions.json', GetCompanionsList())
+#Save_To_File('archwings.json', GetArchwingsList())
+Save_To_File('resources.json', GetResourcesList())
 
