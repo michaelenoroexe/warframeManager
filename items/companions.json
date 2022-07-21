@@ -1,343 +1,274 @@
-{
+[{
     "name": "Carrier",
     "type": [
-        "sentinel",
-        "robotic",
-        "companion"
-    ],
-    "location": null,
-    "href": "/wiki/Carrier"
-}{
+        "62d8682daeef469267d80853",
+        "62d8682daeef469267d80842",
+        "62d8682daeef469267d80851"
+    ]
+},{
     "name": "Carrier Prime",
     "type": [
-        "sentinel",
-        "robotic",
-        "companion"
-    ],
-    "location": null,
-    "href": "/wiki/Carrier/Prime"
-}{
+        "62d8682daeef469267d80853",
+        "62d8682daeef469267d80842",
+        "62d8682daeef469267d80851"
+    ]
+},{
     "name": "Dethcube",
     "type": [
-        "sentinel",
-        "robotic",
-        "companion"
-    ],
-    "location": null,
-    "href": "/wiki/Dethcube"
-}{
+        "62d8682daeef469267d80853",
+        "62d8682daeef469267d80842",
+        "62d8682daeef469267d80851"
+    ]
+},{
     "name": "Dethcube Prime",
     "type": [
-        "sentinel",
-        "robotic",
-        "companion"
-    ],
-    "location": null,
-    "href": "/wiki/Dethcube/Prime"
-}{
+        "62d8682daeef469267d80853",
+        "62d8682daeef469267d80842",
+        "62d8682daeef469267d80851"
+    ]
+},{
     "name": "Diriga",
     "type": [
-        "sentinel",
-        "robotic",
-        "companion"
-    ],
-    "location": null,
-    "href": "/wiki/Diriga"
-}{
+        "62d8682daeef469267d80853",
+        "62d8682daeef469267d80842",
+        "62d8682daeef469267d80851"
+    ]
+},{
     "name": "Djinn",
     "type": [
-        "sentinel",
-        "robotic",
-        "companion"
-    ],
-    "location": null,
-    "href": "/wiki/Djinn"
-}{
+        "62d8682daeef469267d80853",
+        "62d8682daeef469267d80842",
+        "62d8682daeef469267d80851"
+    ]
+},{
     "name": "Helios",
     "type": [
-        "sentinel",
-        "robotic",
-        "companion"
-    ],
-    "location": null,
-    "href": "/wiki/Helios"
-}{
+        "62d8682daeef469267d80853",
+        "62d8682daeef469267d80842",
+        "62d8682daeef469267d80851"
+    ]
+},{
     "name": "Helios Prime",
     "type": [
-        "sentinel",
-        "robotic",
-        "companion"
-    ],
-    "location": null,
-    "href": "/wiki/Helios/Prime"
-}{
+        "62d8682daeef469267d80853",
+        "62d8682daeef469267d80842",
+        "62d8682daeef469267d80851"
+    ]
+},{
     "name": "Nautilus",
     "type": [
-        "sentinel",
-        "robotic",
-        "companion"
-    ],
-    "location": null,
-    "href": "/wiki/Nautilus"
-}{
+        "62d8682daeef469267d80853",
+        "62d8682daeef469267d80842",
+        "62d8682daeef469267d80851"
+    ]
+},{
     "name": "Oxylus",
     "type": [
-        "sentinel",
-        "robotic",
-        "companion"
-    ],
-    "location": null,
-    "href": "/wiki/Oxylus"
-}{
+        "62d8682daeef469267d80853",
+        "62d8682daeef469267d80842",
+        "62d8682daeef469267d80851"
+    ]
+},{
     "name": "Shade",
     "type": [
-        "sentinel",
-        "robotic",
-        "companion"
-    ],
-    "location": null,
-    "href": "/wiki/Shade"
-}{
+        "62d8682daeef469267d80853",
+        "62d8682daeef469267d80842",
+        "62d8682daeef469267d80851"
+    ]
+},{
     "name": "Prisma Shade",
     "type": [
-        "sentinel",
-        "robotic",
-        "companion"
-    ],
-    "location": null,
-    "href": "/wiki/Prisma_Shade"
-}{
+        "62d8682daeef469267d80853",
+        "62d8682daeef469267d80842",
+        "62d8682daeef469267d80851"
+    ]
+},{
     "name": "Taxon",
     "type": [
-        "sentinel",
-        "robotic",
-        "companion"
-    ],
-    "location": null,
-    "href": "/wiki/Taxon"
-}{
+        "62d8682daeef469267d80853",
+        "62d8682daeef469267d80842",
+        "62d8682daeef469267d80851"
+    ]
+},{
     "name": "Wyrm",
     "type": [
-        "sentinel",
-        "robotic",
-        "companion"
-    ],
-    "location": null,
-    "href": "/wiki/Wyrm"
-}{
+        "62d8682daeef469267d80853",
+        "62d8682daeef469267d80842",
+        "62d8682daeef469267d80851"
+    ]
+},{
     "name": "Wyrm Prime",
     "type": [
-        "sentinel",
-        "robotic",
-        "companion"
-    ],
-    "location": null,
-    "href": "/wiki/Wyrm/Prime"
-}{
+        "62d8682daeef469267d80853",
+        "62d8682daeef469267d80842",
+        "62d8682daeef469267d80851"
+    ]
+},{
     "name": "Lambeo Moa",
     "type": [
-        "moa (companion)",
-        "robotic",
-        "companion"
-    ],
-    "location": null,
-    "href": "/wiki/Model#Lambeo"
-}{
+        "62d8682daeef469267d80854",
+        "62d8682daeef469267d80842",
+        "62d8682daeef469267d80851"
+    ]
+},{
     "name": "Oloro Moa",
     "type": [
-        "moa (companion)",
-        "robotic",
-        "companion"
-    ],
-    "location": null,
-    "href": "/wiki/Model#Oloro"
-}{
+        "62d8682daeef469267d80854",
+        "62d8682daeef469267d80842",
+        "62d8682daeef469267d80851"
+    ]
+},{
     "name": "Para Moa",
     "type": [
-        "moa (companion)",
-        "robotic",
-        "companion"
-    ],
-    "location": null,
-    "href": "/wiki/Model#Para"
-}{
+        "62d8682daeef469267d80854",
+        "62d8682daeef469267d80842",
+        "62d8682daeef469267d80851"
+    ]
+},{
     "name": "Nychus Moa",
     "type": [
-        "moa (companion)",
-        "robotic",
-        "companion"
-    ],
-    "location": null,
-    "href": "/wiki/Model#Nychus"
-}{
+        "62d8682daeef469267d80854",
+        "62d8682daeef469267d80842",
+        "62d8682daeef469267d80851"
+    ]
+},{
     "name": "Bhaira Hound",
     "type": [
-        "hound (companion)",
-        "robotic",
-        "companion"
-    ],
-    "location": null,
-    "href": "/wiki/Model#Bhaira"
-}{
+        "62d8682daeef469267d80855",
+        "62d8682daeef469267d80842",
+        "62d8682daeef469267d80851"
+    ]
+},{
     "name": "Dorma Hound",
     "type": [
-        "hound (companion)",
-        "robotic",
-        "companion"
-    ],
-    "location": null,
-    "href": "/wiki/Model#Dorma"
-}{
+        "62d8682daeef469267d80855",
+        "62d8682daeef469267d80842",
+        "62d8682daeef469267d80851"
+    ]
+},{
     "name": "Hec Hound",
     "type": [
-        "hound (companion)",
-        "robotic",
-        "companion"
-    ],
-    "location": null,
-    "href": "/wiki/Model#Hec"
-}{
+        "62d8682daeef469267d80855",
+        "62d8682daeef469267d80842",
+        "62d8682daeef469267d80851"
+    ]
+},{
     "name": "Chesa Kubrow",
     "type": [
-        "kubrow",
-        "beast",
-        "companion"
-    ],
-    "location": null,
-    "href": "/wiki/Chesa_Kubrow"
-}{
+        "62d8682daeef469267d80857",
+        "62d8682daeef469267d80856",
+        "62d8682daeef469267d80851"
+    ]
+},{
     "name": "Helminth Charger",
     "type": [
-        "kubrow",
-        "beast",
-        "companion"
-    ],
-    "location": null,
-    "href": "/wiki/Helminth_Charger"
-}{
+        "62d8682daeef469267d80857",
+        "62d8682daeef469267d80856",
+        "62d8682daeef469267d80851"
+    ]
+},{
     "name": "Huras Kubrow",
     "type": [
-        "kubrow",
-        "beast",
-        "companion"
-    ],
-    "location": null,
-    "href": "/wiki/Huras_Kubrow"
-}{
+        "62d8682daeef469267d80857",
+        "62d8682daeef469267d80856",
+        "62d8682daeef469267d80851"
+    ]
+},{
     "name": "Raksa Kubrow",
     "type": [
-        "kubrow",
-        "beast",
-        "companion"
-    ],
-    "location": null,
-    "href": "/wiki/Raksa_Kubrow"
-}{
+        "62d8682daeef469267d80857",
+        "62d8682daeef469267d80856",
+        "62d8682daeef469267d80851"
+    ]
+},{
     "name": "Sahasa Kubrow",
     "type": [
-        "kubrow",
-        "beast",
-        "companion"
-    ],
-    "location": null,
-    "href": "/wiki/Sahasa_Kubrow"
-}{
+        "62d8682daeef469267d80857",
+        "62d8682daeef469267d80856",
+        "62d8682daeef469267d80851"
+    ]
+},{
     "name": "Sunika Kubrow",
     "type": [
-        "kubrow",
-        "beast",
-        "companion"
-    ],
-    "location": null,
-    "href": "/wiki/Sunika_Kubrow"
-}{
+        "62d8682daeef469267d80857",
+        "62d8682daeef469267d80856",
+        "62d8682daeef469267d80851"
+    ]
+},{
     "name": "Vizier Predasite",
     "type": [
-        "predasite",
-        "beast",
-        "companion"
-    ],
-    "location": null,
-    "href": "/wiki/Vizier_Predasite"
-}{
+        "62d8682daeef469267d80858",
+        "62d8682daeef469267d80856",
+        "62d8682daeef469267d80851"
+    ]
+},{
     "name": "Pharaoh Predasite",
     "type": [
-        "predasite",
-        "beast",
-        "companion"
-    ],
-    "location": null,
-    "href": "/wiki/Pharaoh_Predasite"
-}{
+        "62d8682daeef469267d80858",
+        "62d8682daeef469267d80856",
+        "62d8682daeef469267d80851"
+    ]
+},{
     "name": "Medjay Predasite",
     "type": [
-        "predasite",
-        "beast",
-        "companion"
-    ],
-    "location": null,
-    "href": "/wiki/Medjay_Predasite"
-}{
+        "62d8682daeef469267d80858",
+        "62d8682daeef469267d80856",
+        "62d8682daeef469267d80851"
+    ]
+},{
     "name": "Adarza Kavat",
     "type": [
-        "kavat",
-        "beast",
-        "companion"
-    ],
-    "location": null,
-    "href": "/wiki/Adarza_Kavat"
-}{
+        "62d8682daeef469267d80859",
+        "62d8682daeef469267d80856",
+        "62d8682daeef469267d80851"
+    ]
+},{
     "name": "Smeeta Kavat",
     "type": [
-        "kavat",
-        "beast",
-        "companion"
-    ],
-    "location": null,
-    "href": "/wiki/Smeeta_Kavat"
-}{
+        "62d8682daeef469267d80859",
+        "62d8682daeef469267d80856",
+        "62d8682daeef469267d80851"
+    ]
+},{
     "name": "Vasca Kavat",
     "type": [
-        "kavat",
-        "beast",
-        "companion"
-    ],
-    "location": null,
-    "href": "/wiki/Vasca_Kavat"
-}{
+        "62d8682daeef469267d80859",
+        "62d8682daeef469267d80856",
+        "62d8682daeef469267d80851"
+    ]
+},{
     "name": "Venari",
     "type": [
-        "kavat",
-        "beast",
-        "companion"
-    ],
-    "location": null,
-    "href": "/wiki/Venari"
-}{
+        "62d8682daeef469267d80859",
+        "62d8682daeef469267d80856",
+        "62d8682daeef469267d80851"
+    ]
+},{
+    "name": "Venari Prime",
+    "type": [
+        "62d8682daeef469267d80859",
+        "62d8682daeef469267d80856",
+        "62d8682daeef469267d80851"
+    ]
+},{
     "name": "Sly Vulpaphyla",
     "type": [
-        "vulpaphyla",
-        "beast",
-        "companion"
-    ],
-    "location": null,
-    "href": "/wiki/Sly_Vulpaphyla"
-}{
+        "62d8682daeef469267d8085a",
+        "62d8682daeef469267d80856",
+        "62d8682daeef469267d80851"
+    ]
+},{
     "name": "Crescent Vulpaphyla",
     "type": [
-        "vulpaphyla",
-        "beast",
-        "companion"
-    ],
-    "location": null,
-    "href": "/wiki/Crescent_Vulpaphyla"
-}{
+        "62d8682daeef469267d8085a",
+        "62d8682daeef469267d80856",
+        "62d8682daeef469267d80851"
+    ]
+},{
     "name": "Panzer Vulpaphyla",
     "type": [
-        "vulpaphyla",
-        "beast",
-        "companion"
-    ],
-    "location": null,
-    "href": "/wiki/Panzer_Vulpaphyla"
-}
+        "62d8682daeef469267d8085a",
+        "62d8682daeef469267d80856",
+        "62d8682daeef469267d80851"
+    ]
+},[

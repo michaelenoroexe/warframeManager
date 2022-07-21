@@ -3,26 +3,42 @@ from asyncio.windows_events import NULL
 from copyreg import constructor
 from unicodedata import category, name
 import requests, re
+import pymongo
 
 import json
 from bs4 import BeautifulSoup
 scrapped_names = []
 stoplist = r"(Кува|Догмат|МК1-*)"
 fullList = list()
-
+mongo_client = pymongo.MongoClient("mongodb+srv://warframe_manager_user:H9guvYhcVtWk5z25@warframemanagercluster.jvusw.mongodb.net/test")
+warf_db = mongo_client["WarframeManager"]
+types_col = warf_db["Types"]
 
 class item:
-    def __init__(self, name, type, href, location = None):
+    def __init__(self, name, type, href, location = NULL):
         self.name = name
         self.type = type
         self.location = location
         self.href = href
     def toJSON(self):
-        return json.dumps(self, default=lambda o: o.__dict__, indent=4)
+        obj = dict()
+        obj['name'] = self.name
+        obj['type'] = FindAndReturnTypesID(self.type)
+        if (self.location != NULL and self.location != ""): obj['locations'] = self.location
+        return json.dumps(obj, indent=4)
     name = str()
     type = list()
-    location = str()
+    location = list()
     href = str()
+
+
+def FindAndReturnTypesID(types):
+    type_list = list()
+    for type in types:
+        res = types_col.find_one({"name":type}, {"_id": 1, "name": 0})
+        type_list.append(str(res["_id"]))
+    return type_list
+
 
 def GetWeaponsList():
     """Function that gets list of all weapons from warframe wiki"""
@@ -47,7 +63,7 @@ def GetWeaponsList():
                         # Set tags for weapon
                         tag_list = []
                         tag_list.append(element.parent.previous.lower())
-                        tag_list.append(element.parent.parent.previous.lower())
+                        tag_list.append(GetCateg(element.parent.parent).lower())
                         tag_list.append(categs_Names[category].lower())
                         tag_list.append('weapon')
                         # Append item to list
@@ -87,7 +103,7 @@ def GetCompanionsList ():
     for companion in companions:
         # Setting tags for companions
         tag_List = []
-        tag_List.append(companion.parent.parent.contents[1].contents[0].attrs['title'].lower())
+        tag_List.append(companion.parent.parent.contents[1].contents[0].attrs['title'].lower().split(" ")[0])
         tag_List.append(GetCateg(companion.parent.parent).lower())
         tag_List.append('companion')
         # Adding companion in list
@@ -97,8 +113,15 @@ def GetCompanionsList ():
 
 def GetCateg(elem):
     """ Recursive function that find headers of table and return for tag """
-    if (elem.contents[1].name == 'th' if hasattr(elem, 'contents') else False ):
-        return elem.contents[1].contents[0].attrs['title']
+    if (hasattr(elem, 'contents')):
+        # 1 element for weapons categories
+        if (len(elem.contents) == 1):
+            if (elem.contents[0].name == 'th'):
+                return elem.contents[0].contents[0].text
+        # bunch of elements for companions
+        if (len(elem.contents) > 1):
+            if (elem.contents[1].name == 'th'):
+                return elem.contents[1].contents[0].attrs['title']
     return GetCateg(elem.previousSibling)
 
 
@@ -139,7 +162,7 @@ def GetResourcesList ():
         # Get res tags
         res_info = soup_res.find_all('div', {'class':'pi-data-value pi-font'})
         # Applight all tags to res
-        tag_List = []
+        tag_List = list()
         tag_allow = {'Common', 'Uncommon', 'Rare'}
         for res_inf in res_info:
             if res_inf.text in tag_allow:
@@ -149,21 +172,33 @@ def GetResourcesList ():
         location = str()
         if ( len(res_info) > 0 and hasattr(res_info[1], 'contents') and hasattr(res_info[1].contents[0], 'contents') and len(res_info[1].contents[0].contents) > 3 ):
             if ('Locations' in res_info[1].contents[0].text):
-                loc = [(loc[4:] if loc.startswith('and') else loc) for loc in [ loc.strip() for loc in res_info[1].contents[0].text.split('Locations')[1].split(',')]]
+                loc = [Location_Format(loc) for loc in [ loc.strip() for loc in res_info[1].contents[0].text.split('Locations')[1].split(',')]]
                 location = loc
         item_list.append(item(resource.attrs['data-param'], tag_List, resource.contents[2].attrs['href'], location) )
     return item_list
 
 
+
+def Location_Format(name):
+    loc_Name = name
+    if loc_Name.startswith(': '): loc_Name = loc_Name[2:]
+    if loc_Name.startswith('and'): loc_Name = loc_Name[4:]
+    if (loc_Name.endswith('.')): loc_Name = loc_Name[:len(loc_Name)-1]
+    return loc_Name.lower()
+
+
 def Save_To_File(name, item_list):
     with open('./items/' + name, 'w') as outp:
+        outp.write('[')
         for ite in item_list:
             outp.writelines(ite.toJSON());
+            outp.write(',')
+        outp.write('[')
 
 
-#Save_To_File('warframes.json', GetWarframesList())
+Save_To_File('warframes.json', GetWarframesList())
 #Save_To_File('weapons.json', GetWeaponsList())
-#Save_To_File('companions.json', GetCompanionsList())
-#Save_To_File('archwings.json', GetArchwingsList())
-Save_To_File('resources.json', GetResourcesList())
+Save_To_File('companions.json', GetCompanionsList())
+Save_To_File('archwings.json', GetArchwingsList())
+#Save_To_File('resources.json', GetResourcesList())
 

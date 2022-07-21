@@ -1,596 +1,431 @@
-{
+[{
     "name": "Ash",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Ash"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Ash Prime",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Ash/Prime"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Atlas",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Atlas"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Atlas Prime",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Atlas/Prime"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Banshee",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Banshee"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Banshee Prime",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Banshee/Prime"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Baruuk",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Baruuk"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Caliban",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Caliban"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Chroma",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Chroma"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Chroma Prime",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Chroma/Prime"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Ember",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Ember"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Ember Prime",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Ember/Prime"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Equinox",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Equinox"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Equinox Prime",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Equinox/Prime"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Excalibur",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Excalibur"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Excalibur Umbra",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Excalibur/Umbra"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Excalibur Prime",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Excalibur/Prime"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Frost",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Frost"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Frost Prime",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Frost/Prime"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Gara",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Gara"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Gara Prime",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Gara/Prime"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Garuda",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Garuda"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Garuda Prime",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Garuda/Prime"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Gauss",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Gauss"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Grendel",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Grendel"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Gyre",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Gyre"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Harrow",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Harrow"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Harrow Prime",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Harrow/Prime"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Hildryn",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Hildryn"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Hydroid",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Hydroid"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Hydroid Prime",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Hydroid/Prime"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Inaros",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Inaros"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Inaros Prime",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Inaros/Prime"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Ivara",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Ivara"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Ivara Prime",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Ivara/Prime"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Khora",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Khora"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
+    "name": "Khora Prime",
+    "type": [
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Lavos",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Lavos"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Limbo",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Limbo"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Limbo Prime",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Limbo/Prime"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Loki",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Loki"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Loki Prime",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Loki/Prime"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Mag",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Mag"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Mag Prime",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Mag/Prime"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Mesa",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Mesa"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Mesa Prime",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Mesa/Prime"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Mirage",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Mirage"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Mirage Prime",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Mirage/Prime"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Nekros",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Nekros"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Nekros Prime",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Nekros/Prime"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Nezha",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Nezha"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Nezha Prime",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Nezha/Prime"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Nidus",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Nidus"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Nidus Prime",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Nidus/Prime"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Nova",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Nova"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Nova Prime",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Nova/Prime"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Nyx",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Nyx"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Nyx Prime",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Nyx/Prime"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Oberon",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Oberon"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Oberon Prime",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Oberon/Prime"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Octavia",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Octavia"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Octavia Prime",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Octavia/Prime"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Protea",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Protea"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Revenant",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Revenant"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Rhino",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Rhino"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Rhino Prime",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Rhino/Prime"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Saryn",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Saryn"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Saryn Prime",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Saryn/Prime"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Sevagoth",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Sevagoth"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Titania",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Titania"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Titania Prime",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Titania/Prime"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Trinity",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Trinity"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Trinity Prime",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Trinity/Prime"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Valkyr",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Valkyr"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Valkyr Prime",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Valkyr/Prime"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Vauban",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Vauban"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Vauban Prime",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Vauban/Prime"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Volt",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Volt"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Volt Prime",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Volt/Prime"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Wisp",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Wisp"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Wukong",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Wukong"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Wukong Prime",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Wukong/Prime"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Xaku",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Xaku"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Yareli",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Yareli"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Zephyr",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Zephyr"
-}{
+        "62d8682daeef469267d8084f"
+    ]
+},{
     "name": "Zephyr Prime",
     "type": [
-        "warframe"
-    ],
-    "location": null,
-    "href": "/wiki/Zephyr/Prime"
-}
+        "62d8682daeef469267d8084f"
+    ]
+},[

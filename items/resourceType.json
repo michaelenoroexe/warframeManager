@@ -1,0 +1,186 @@
+[{
+	"name": "resource"
+},  {
+		"name": "untradable"
+	},{
+		"name": "common"
+	},{
+		"name": "uncommon"
+	},{
+		"name": "rare"
+	},{
+		"name": "special"
+	},{
+		"name": "starchart"
+	},{
+		"name": "research"
+	},{
+		"name": "navigation"
+	},{
+		"name": "empyrean"
+	},{
+		"name": "miscellaneous"
+	},{
+		"name": "open space"
+},{
+	"name": "weapon"
+},  {
+		"name": "auto"
+	},{
+		"name": "charge"
+	},{
+		"name": "semi"
+	},{
+		"name": "active"
+	},{
+		"name": "semi-active"
+	},{
+		"name": "auto-burst"
+	},{
+		"name": "auto-spool"
+	},{
+		"name": "burst"
+	},{
+		"name": "held"
+	},{
+		"name": "duplex"
+	},{
+		"name": "auto-charge"
+	},{
+		"name": "primary"
+	},{
+		"name": "arm cannon"
+	},{
+		"name": "bow"
+	},{
+		"name": "crossbow"
+	},{
+		"name": "exalted weapon"
+	},{
+		"name": "launcher"
+	},{
+		"name": "rifle"
+	},{
+		"name": "shotgun"
+	},{
+		"name": "sniper rifle"
+	},{
+		"name": "speargun"
+	},{
+		"name": "secondary"
+	},{
+		"name": "dual pistols"
+	},{
+		"name": "dual shotguns"
+	},{
+		"name": "pistol"
+	},{
+		"name": "shotgun sidearm"
+	},{
+		"name": "thrown"
+	},{
+		"name": "melee"
+	},{
+		"name": "dagger"
+	},{
+		"name": "gual daggers"
+	},{
+		"name": "dual swords"
+	},{
+		"name": "fist"
+	},{
+		"name": "glaive"
+	},{
+		"name": "gunblade"
+	},{
+		"name": "hammer"
+	},{
+		"name": "heavy blade"
+	},{
+		"name": "heavy scythe"
+	},{
+		"name": "machete"
+	},{
+		"name": "nikana"
+	},{
+		"name": "nunchaku"
+	},{
+		"name": "polearm"
+	},{
+		"name": "rapier"
+	},{
+		"name": "scythe"
+	},{
+		"name": "sparring"
+	},{
+		"name": "staff"
+	},{
+		"name": "sword and shield"
+	},{
+		"name": "sword"
+	},{
+		"name": "tonfa"
+	},{
+		"name": "two-handed nikana"
+	},{
+		"name": "warfan"
+	},{
+		"name": "whip"
+	},{
+		"name": "archwing"
+	},{
+		"name": "arch-gun"
+	},{
+		"name": "arch-melee"
+	},{
+		"name": "robotic"
+	},{
+		"name": "unique"
+	},{
+		"name": "modular"
+	},{
+		"name": "amp"
+	},{
+		"name": "zaw"
+	},{
+		"name": "zaw machete"
+	},{
+		"name": "zaw nikana"
+	},{
+		"name": "zaw rapier"
+	},{
+		"name": "zaw scythe"
+	},{
+		"name": "zaw sword"
+	},{
+		"name": "railjack"
+	},{
+		"name": "ordnance"
+	},{
+		"name": "turret"
+}, {
+	"name": "warframe"
+}, {
+	"name": "archwing"
+}, {
+	"name": "companion"
+}, {
+	"name": "robotic"
+}, {
+	"name": "sentinel"
+}, {
+	"name": "moa"
+}, {
+	"name": "hound"
+}, {
+	"name": "beast"
+}, {
+	"name": "kubrow"
+}, {
+	"name": "predasite"
+}, {
+	"name": "kavat"
+}, {
+	"name": "vulpaphyla"
+}
+	]

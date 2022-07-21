@@ -1,6301 +1,5057 @@
-{
+[{
     "name": "Bubonico",
     "type": [
         "auto",
         "arm cannon",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Bubonico"
-}{
+    ]
+},{
     "name": "Shedu",
     "type": [
         "auto",
         "arm cannon",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Shedu"
-}{
+    ]
+},{
     "name": "Cernos",
     "type": [
         "charge",
         "bow",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Cernos"
-}{
+    ]
+},{
     "name": "Cernos Prime",
     "type": [
         "charge",
         "bow",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Cernos_Prime"
-}{
+    ]
+},{
     "name": "Daikyu",
     "type": [
         "charge",
         "bow",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Daikyu"
-}{
+    ]
+},{
     "name": "Dread",
     "type": [
         "charge",
         "bow",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Dread"
-}{
+    ]
+},{
     "name": "Kuva Bramma",
     "type": [
         "charge",
         "bow",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Kuva_Bramma"
-}{
+    ]
+},{
     "name": "Lenz",
     "type": [
         "charge",
         "bow",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Lenz"
-}{
+    ]
+},{
     "name": "MK1-Paris",
     "type": [
         "charge",
         "bow",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/MK1-Paris"
-}{
+    ]
+},{
     "name": "Mutalist Cernos",
     "type": [
         "charge",
         "bow",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Mutalist_Cernos"
-}{
+    ]
+},{
     "name": "Nataruk",
     "type": [
         "charge",
         "bow",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Nataruk"
-}{
+    ]
+},{
     "name": "Paris",
     "type": [
         "charge",
         "bow",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Paris"
-}{
+    ]
+},{
     "name": "Paris Prime",
     "type": [
         "charge",
         "bow",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Paris_Prime"
-}{
+    ]
+},{
     "name": "Proboscis Cernos",
     "type": [
         "charge",
         "bow",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Proboscis_Cernos"
-}{
+    ]
+},{
     "name": "Rakta Cernos",
     "type": [
         "charge",
         "bow",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Rakta_Cernos"
-}{
+    ]
+},{
     "name": "Attica",
     "type": [
         "auto",
         "crossbow",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Attica"
-}{
+    ]
+},{
     "name": "Zhuge",
     "type": [
         "auto",
         "crossbow",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Zhuge"
-}{
+    ]
+},{
     "name": "Zhuge Prime",
     "type": [
         "auto",
         "crossbow",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Zhuge_Prime"
-}{
+    ]
+},{
     "name": "Nagantaka",
     "type": [
         "semi / burst",
-        "zhuge\u00a0prime",
+        "crossbow",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Nagantaka"
-}{
+    ]
+},{
     "name": "Nagantaka Prime",
     "type": [
         "semi / burst",
-        "zhuge\u00a0prime",
+        "crossbow",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Nagantaka_Prime"
-}{
+    ]
+},{
     "name": "Artemis Bow (Weapon)",
     "type": [
         "charge",
         "exalted weapon",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Artemis_Bow_(Weapon)"
-}{
+    ]
+},{
     "name": "Artemis Bow (Weapon)",
     "type": [
         "charge",
         "exalted weapon",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Artemis_Bow_(Weapon)"
-}{
+    ]
+},{
     "name": "Carmine Penta",
     "type": [
         "active",
         "launcher",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Carmine_Penta"
-}{
+    ]
+},{
     "name": "Penta",
     "type": [
         "active",
         "launcher",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Penta"
-}{
+    ]
+},{
     "name": "Secura Penta",
     "type": [
         "active",
         "launcher",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Secura_Penta"
-}{
+    ]
+},{
     "name": "Tenet Envoy",
     "type": [
         "auto",
-        "secura\u00a0penta",
+        "launcher",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Tenet_Envoy"
-}{
+    ]
+},{
     "name": "Ogris",
     "type": [
         "charge",
-        "tenet\u00a0envoy",
+        "launcher",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Ogris"
-}{
+    ]
+},{
     "name": "Kuva Ogris",
     "type": [
         "semi-auto",
-        "ogris",
+        "launcher",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Kuva_Ogris"
-}{
+    ]
+},{
     "name": "Kuva Tonkor",
     "type": [
         "semi-auto",
-        "ogris",
+        "launcher",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Kuva_Tonkor"
-}{
+    ]
+},{
     "name": "Kuva Zarr",
     "type": [
         "semi-auto",
-        "ogris",
+        "launcher",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Kuva_Zarr"
-}{
+    ]
+},{
     "name": "Tonkor",
     "type": [
         "semi-auto",
-        "ogris",
+        "launcher",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Tonkor"
-}{
+    ]
+},{
     "name": "Torid",
     "type": [
         "semi-auto",
-        "ogris",
+        "launcher",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Torid"
-}{
+    ]
+},{
     "name": "Zarr",
     "type": [
         "semi-auto",
-        "ogris",
+        "launcher",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Zarr"
-}{
+    ]
+},{
     "name": "Simulor",
     "type": [
         "active",
         "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Simulor"
-}{
+    ]
+},{
     "name": "Synoid Simulor",
     "type": [
         "active",
         "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Synoid_Simulor"
-}{
+    ]
+},{
     "name": "Acceltra",
     "type": [
         "auto",
-        "synoid\u00a0simulor",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Acceltra"
-}{
+    ]
+},{
     "name": "Basmu",
     "type": [
         "auto",
-        "synoid\u00a0simulor",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Basmu"
-}{
+    ]
+},{
     "name": "Baza",
     "type": [
         "auto",
-        "synoid\u00a0simulor",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Baza"
-}{
+    ]
+},{
     "name": "Baza Prime",
     "type": [
         "auto",
-        "synoid\u00a0simulor",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Baza_Prime"
-}{
+    ]
+},{
     "name": "Boltor",
     "type": [
         "auto",
-        "synoid\u00a0simulor",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Boltor"
-}{
+    ]
+},{
     "name": "Boltor Prime",
     "type": [
         "auto",
-        "synoid\u00a0simulor",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Boltor_Prime"
-}{
+    ]
+},{
     "name": "Braton",
     "type": [
         "auto",
-        "synoid\u00a0simulor",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Braton"
-}{
+    ]
+},{
     "name": "Braton Prime",
     "type": [
         "auto",
-        "synoid\u00a0simulor",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Braton_Prime"
-}{
+    ]
+},{
     "name": "Braton Vandal",
     "type": [
         "auto",
-        "synoid\u00a0simulor",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Braton_Vandal"
-}{
+    ]
+},{
     "name": "Buzlok",
     "type": [
         "auto",
-        "synoid\u00a0simulor",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Buzlok"
-}{
+    ]
+},{
     "name": "Dera",
     "type": [
         "auto",
-        "synoid\u00a0simulor",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Dera"
-}{
+    ]
+},{
     "name": "Dera Vandal",
     "type": [
         "auto",
-        "synoid\u00a0simulor",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Dera_Vandal"
-}{
+    ]
+},{
     "name": "Grakata",
     "type": [
         "auto",
-        "synoid\u00a0simulor",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Grakata"
-}{
+    ]
+},{
     "name": "Karak",
     "type": [
         "auto",
-        "synoid\u00a0simulor",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Karak"
-}{
+    ]
+},{
     "name": "Karak Wraith",
     "type": [
         "auto",
-        "synoid\u00a0simulor",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Karak_Wraith"
-}{
+    ]
+},{
     "name": "Kuva Karak",
     "type": [
         "auto",
-        "synoid\u00a0simulor",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Kuva_Karak"
-}{
+    ]
+},{
     "name": "MK1-Braton",
     "type": [
         "auto",
-        "synoid\u00a0simulor",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/MK1-Braton"
-}{
+    ]
+},{
     "name": "Mutalist Quanta",
     "type": [
         "auto",
-        "synoid\u00a0simulor",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Mutalist_Quanta"
-}{
+    ]
+},{
     "name": "Panthera",
     "type": [
         "auto",
-        "synoid\u00a0simulor",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Panthera"
-}{
+    ]
+},{
     "name": "Panthera Prime",
     "type": [
         "auto",
-        "synoid\u00a0simulor",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Panthera_Prime"
-}{
+    ]
+},{
     "name": "Prisma Grakata",
     "type": [
         "auto",
-        "synoid\u00a0simulor",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Prisma_Grakata"
-}{
+    ]
+},{
     "name": "Prisma Tetra",
     "type": [
         "auto",
-        "synoid\u00a0simulor",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Prisma_Tetra"
-}{
+    ]
+},{
     "name": "Telos Boltor",
     "type": [
         "auto",
-        "synoid\u00a0simulor",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Telos_Boltor"
-}{
+    ]
+},{
     "name": "Tenet Flux Rifle",
     "type": [
         "auto",
-        "synoid\u00a0simulor",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Tenet_Flux_Rifle"
-}{
+    ]
+},{
     "name": "Tetra",
     "type": [
         "auto",
-        "synoid\u00a0simulor",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Tetra"
-}{
+    ]
+},{
     "name": "Alternox",
     "type": [
         "auto / active",
-        "tetra",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Alternox"
-}{
+    ]
+},{
     "name": "Aeolak",
     "type": [
         "auto / charge",
-        "alternox",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Aeolak"
-}{
+    ]
+},{
     "name": "Ambassador",
     "type": [
         "auto / charge",
-        "alternox",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Ambassador"
-}{
+    ]
+},{
     "name": "Quellor",
     "type": [
         "auto / charge",
-        "alternox",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Quellor"
-}{
+    ]
+},{
     "name": "Stahlta",
     "type": [
         "auto / charge",
-        "alternox",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Stahlta"
-}{
+    ]
+},{
     "name": "Argonak",
     "type": [
         "auto / semi",
-        "stahlta",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Argonak"
-}{
+    ]
+},{
     "name": "Fulmin",
     "type": [
         "auto / semi",
-        "stahlta",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Fulmin"
-}{
+    ]
+},{
     "name": "Phenmor",
     "type": [
         "auto / semi",
-        "stahlta",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Phenmor"
-}{
+    ]
+},{
     "name": "Stradavar",
     "type": [
         "auto / semi",
-        "stahlta",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Stradavar"
-}{
+    ]
+},{
     "name": "Stradavar Prime",
     "type": [
         "auto / semi",
-        "stahlta",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Stradavar_Prime"
-}{
+    ]
+},{
     "name": "Tenet Tetra",
     "type": [
         "auto / semi",
-        "stahlta",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Tenet_Tetra"
-}{
+    ]
+},{
     "name": "Trumna",
     "type": [
         "auto / semi",
-        "stahlta",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Trumna"
-}{
+    ]
+},{
     "name": "Zenith",
     "type": [
         "auto / semi",
-        "stahlta",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Zenith"
-}{
+    ]
+},{
     "name": "Battacor",
     "type": [
         "auto burst",
-        "zenith",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Battacor"
-}{
+    ]
+},{
     "name": "Gorgon",
     "type": [
         "auto-spool",
-        "battacor",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Gorgon"
-}{
+    ]
+},{
     "name": "Gorgon Wraith",
     "type": [
         "auto-spool",
-        "battacor",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Gorgon_Wraith"
-}{
+    ]
+},{
     "name": "Prisma Gorgon",
     "type": [
         "auto-spool",
-        "battacor",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Prisma_Gorgon"
-}{
+    ]
+},{
     "name": "Soma",
     "type": [
         "auto-spool",
-        "battacor",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Soma"
-}{
+    ]
+},{
     "name": "Soma Prime",
     "type": [
         "auto-spool",
-        "battacor",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Soma_Prime"
-}{
+    ]
+},{
     "name": "Supra",
     "type": [
         "auto-spool",
-        "battacor",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Supra"
-}{
+    ]
+},{
     "name": "Supra Vandal",
     "type": [
         "auto-spool",
-        "battacor",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Supra_Vandal"
-}{
+    ]
+},{
     "name": "Tenora",
     "type": [
         "auto-spool",
-        "battacor",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Tenora"
-}{
+    ]
+},{
     "name": "Tenora Prime",
     "type": [
         "auto-spool",
-        "battacor",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Tenora_Prime"
-}{
+    ]
+},{
     "name": "Burston",
     "type": [
         "burst",
-        "tenora\u00a0prime",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Burston"
-}{
+    ]
+},{
     "name": "Burston Prime",
     "type": [
         "burst",
-        "tenora\u00a0prime",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Burston_Prime"
-}{
+    ]
+},{
     "name": "Dex Sybaris",
     "type": [
         "burst",
-        "tenora\u00a0prime",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Dex_Sybaris"
-}{
+    ]
+},{
     "name": "Harpak",
     "type": [
         "burst",
-        "tenora\u00a0prime",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Harpak"
-}{
+    ]
+},{
     "name": "Hema",
     "type": [
         "burst",
-        "tenora\u00a0prime",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Hema"
-}{
+    ]
+},{
     "name": "Kuva Quartakk",
     "type": [
         "burst",
-        "tenora\u00a0prime",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Kuva_Quartakk"
-}{
+    ]
+},{
     "name": "Paracyst",
     "type": [
         "burst",
-        "tenora\u00a0prime",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Paracyst"
-}{
+    ]
+},{
     "name": "Quartakk",
     "type": [
         "burst",
-        "tenora\u00a0prime",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Quartakk"
-}{
+    ]
+},{
     "name": "Sybaris",
     "type": [
         "burst",
-        "tenora\u00a0prime",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Sybaris"
-}{
+    ]
+},{
     "name": "Sybaris Prime",
     "type": [
         "burst",
-        "tenora\u00a0prime",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Sybaris_Prime"
-}{
+    ]
+},{
     "name": "Tiberon",
     "type": [
         "burst",
-        "tenora\u00a0prime",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Tiberon"
-}{
+    ]
+},{
     "name": "Hind",
     "type": [
         "burst / semi",
-        "tiberon",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Hind"
-}{
+    ]
+},{
     "name": "Kuva Hind",
     "type": [
         "burst / semi / auto",
-        "hind",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Kuva_Hind"
-}{
+    ]
+},{
     "name": "Tiberon Prime",
     "type": [
         "burst / semi / auto",
-        "hind",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Tiberon_Prime"
-}{
+    ]
+},{
     "name": "Miter",
     "type": [
         "charge",
-        "tiberon\u00a0prime",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Miter"
-}{
+    ]
+},{
     "name": "Opticor",
     "type": [
         "charge",
-        "tiberon\u00a0prime",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Opticor"
-}{
+    ]
+},{
     "name": "Opticor Vandal",
     "type": [
         "charge",
-        "tiberon\u00a0prime",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Opticor_Vandal"
-}{
+    ]
+},{
     "name": "Amprex",
     "type": [
         "held",
-        "opticor\u00a0vandal",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Amprex"
-}{
+    ]
+},{
     "name": "Flux Rifle",
     "type": [
         "held",
-        "opticor\u00a0vandal",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Flux_Rifle"
-}{
+    ]
+},{
     "name": "Glaxion",
     "type": [
         "held",
-        "opticor\u00a0vandal",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Glaxion"
-}{
+    ]
+},{
     "name": "Glaxion Vandal",
     "type": [
         "held",
-        "opticor\u00a0vandal",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Glaxion_Vandal"
-}{
+    ]
+},{
     "name": "Ignis",
     "type": [
         "held",
-        "opticor\u00a0vandal",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Ignis"
-}{
+    ]
+},{
     "name": "Ignis Wraith",
     "type": [
         "held",
-        "opticor\u00a0vandal",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Ignis_Wraith"
-}{
+    ]
+},{
     "name": "Quanta",
     "type": [
         "held",
-        "opticor\u00a0vandal",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Quanta"
-}{
+    ]
+},{
     "name": "Quanta Vandal",
     "type": [
         "held",
-        "opticor\u00a0vandal",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Quanta_Vandal"
-}{
+    ]
+},{
     "name": "Synapse",
     "type": [
         "held",
-        "opticor\u00a0vandal",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Synapse"
-}{
+    ]
+},{
     "name": "Grinlok",
     "type": [
         "semi-auto",
-        "synapse",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Grinlok"
-}{
+    ]
+},{
     "name": "Kuva Chakkhurr",
     "type": [
         "semi-auto",
-        "synapse",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Kuva_Chakkhurr"
-}{
+    ]
+},{
     "name": "Latron",
     "type": [
         "semi-auto",
-        "synapse",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Latron"
-}{
+    ]
+},{
     "name": "Latron Prime",
     "type": [
         "semi-auto",
-        "synapse",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Latron_Prime"
-}{
+    ]
+},{
     "name": "Latron Wraith",
     "type": [
         "semi-auto",
-        "synapse",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Latron_Wraith"
-}{
+    ]
+},{
     "name": "Prisma Grinlok",
     "type": [
         "semi-auto",
-        "synapse",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Prisma_Grinlok"
-}{
+    ]
+},{
     "name": "Veldt",
     "type": [
         "semi-auto",
-        "synapse",
+        "rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Veldt"
-}{
+    ]
+},{
     "name": "Astilla",
     "type": [
         "auto",
         "shotgun",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Astilla"
-}{
+    ]
+},{
     "name": "Astilla Prime",
     "type": [
         "auto",
         "shotgun",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Astilla_Prime"
-}{
+    ]
+},{
     "name": "Boar",
     "type": [
         "auto",
         "shotgun",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Boar"
-}{
+    ]
+},{
     "name": "Boar Prime",
     "type": [
         "auto",
         "shotgun",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Boar_Prime"
-}{
+    ]
+},{
     "name": "Sobek",
     "type": [
         "auto",
         "shotgun",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Sobek"
-}{
+    ]
+},{
     "name": "Cedo",
     "type": [
         "auto / semi",
-        "sobek",
+        "shotgun",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Cedo"
-}{
+    ]
+},{
     "name": "Felarx",
     "type": [
         "auto / semi",
-        "sobek",
+        "shotgun",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Felarx"
-}{
+    ]
+},{
     "name": "Kohm",
     "type": [
         "auto-spool",
-        "felarx",
+        "shotgun",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Kohm"
-}{
+    ]
+},{
     "name": "Kuva Kohm",
     "type": [
         "auto-spool",
-        "felarx",
+        "shotgun",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Kuva_Kohm"
-}{
+    ]
+},{
     "name": "Drakgoon",
     "type": [
         "charge",
-        "kuva\u00a0kohm",
+        "shotgun",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Drakgoon"
-}{
+    ]
+},{
     "name": "Kuva Drakgoon",
     "type": [
         "charge",
-        "kuva\u00a0kohm",
+        "shotgun",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Kuva_Drakgoon"
-}{
+    ]
+},{
     "name": "Sancti Tigris",
     "type": [
         "duplex",
-        "kuva\u00a0drakgoon",
+        "shotgun",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Sancti_Tigris"
-}{
+    ]
+},{
     "name": "Tigris",
     "type": [
         "duplex",
-        "kuva\u00a0drakgoon",
+        "shotgun",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Tigris"
-}{
+    ]
+},{
     "name": "Tigris Prime",
     "type": [
         "duplex",
-        "kuva\u00a0drakgoon",
+        "shotgun",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Tigris_Prime"
-}{
+    ]
+},{
     "name": "Convectrix",
     "type": [
         "held",
-        "tigris\u00a0prime",
+        "shotgun",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Convectrix"
-}{
+    ]
+},{
     "name": "Phage",
     "type": [
         "held",
-        "tigris\u00a0prime",
+        "shotgun",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Phage"
-}{
+    ]
+},{
     "name": "Phantasma",
     "type": [
         "held",
-        "tigris\u00a0prime",
+        "shotgun",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Phantasma"
-}{
+    ]
+},{
     "name": "Arca Plasmor",
     "type": [
         "semi-auto",
-        "phantasma",
+        "shotgun",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Arca_Plasmor"
-}{
+    ]
+},{
     "name": "Corinth",
     "type": [
         "semi-auto",
-        "phantasma",
+        "shotgun",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Corinth"
-}{
+    ]
+},{
     "name": "Corinth Prime",
     "type": [
         "semi-auto",
-        "phantasma",
+        "shotgun",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Corinth_Prime"
-}{
+    ]
+},{
     "name": "Exergis",
     "type": [
         "semi-auto",
-        "phantasma",
+        "shotgun",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Exergis"
-}{
+    ]
+},{
     "name": "Hek",
     "type": [
         "semi-auto",
-        "phantasma",
+        "shotgun",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Hek"
-}{
+    ]
+},{
     "name": "Kuva Hek",
     "type": [
         "semi-auto",
-        "phantasma",
+        "shotgun",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Kuva_Hek"
-}{
+    ]
+},{
     "name": "MK1-Strun",
     "type": [
         "semi-auto",
-        "phantasma",
+        "shotgun",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/MK1-Strun"
-}{
+    ]
+},{
     "name": "Strun",
     "type": [
         "semi-auto",
-        "phantasma",
+        "shotgun",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Strun"
-}{
+    ]
+},{
     "name": "Strun Prime",
     "type": [
         "semi-auto",
-        "phantasma",
+        "shotgun",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Strun_Prime"
-}{
+    ]
+},{
     "name": "Strun Wraith",
     "type": [
         "semi-auto",
-        "phantasma",
+        "shotgun",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Strun_Wraith"
-}{
+    ]
+},{
     "name": "Tenet Arca Plasmor",
     "type": [
         "semi-auto",
-        "phantasma",
+        "shotgun",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Tenet_Arca_Plasmor"
-}{
+    ]
+},{
     "name": "Vaykor Hek",
     "type": [
         "semi-auto",
-        "phantasma",
+        "shotgun",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Vaykor_Hek"
-}{
+    ]
+},{
     "name": "Lanka",
     "type": [
         "charge",
         "sniper rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Lanka"
-}{
+    ]
+},{
     "name": "Komorex",
     "type": [
         "semi-auto",
-        "lanka",
+        "sniper rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Komorex"
-}{
+    ]
+},{
     "name": "Rubico",
     "type": [
         "semi-auto",
-        "lanka",
+        "sniper rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Rubico"
-}{
+    ]
+},{
     "name": "Rubico Prime",
     "type": [
         "semi-auto",
-        "lanka",
+        "sniper rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Rubico_Prime"
-}{
+    ]
+},{
     "name": "Snipetron",
     "type": [
         "semi-auto",
-        "lanka",
+        "sniper rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Snipetron"
-}{
+    ]
+},{
     "name": "Snipetron Vandal",
     "type": [
         "semi-auto",
-        "lanka",
+        "sniper rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Snipetron_Vandal"
-}{
+    ]
+},{
     "name": "Sporothrix",
     "type": [
         "semi-auto",
-        "lanka",
+        "sniper rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Sporothrix"
-}{
+    ]
+},{
     "name": "Vectis",
     "type": [
         "semi-auto",
-        "lanka",
+        "sniper rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Vectis"
-}{
+    ]
+},{
     "name": "Vectis Prime",
     "type": [
         "semi-auto",
-        "lanka",
+        "sniper rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Vectis_Prime"
-}{
+    ]
+},{
     "name": "Vulkar",
     "type": [
         "semi-auto",
-        "lanka",
+        "sniper rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Vulkar"
-}{
+    ]
+},{
     "name": "Vulkar Wraith",
     "type": [
         "semi-auto",
-        "lanka",
+        "sniper rifle",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Vulkar_Wraith"
-}{
+    ]
+},{
     "name": "Scourge",
     "type": [
         "auto",
         "speargun",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Scourge"
-}{
+    ]
+},{
     "name": "Scourge Prime",
     "type": [
         "auto",
         "speargun",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Scourge_Prime"
-}{
+    ]
+},{
     "name": "Javlok",
     "type": [
         "auto charge",
-        "scourge\u00a0prime",
+        "speargun",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Javlok"
-}{
+    ]
+},{
     "name": "Ferrox",
     "type": [
         "charge",
-        "javlok",
+        "speargun",
         "primary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Ferrox"
-}{
+    ]
+},{
     "name": "Ballistica",
     "type": [
         "burst / charge",
         "crossbow",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Ballistica"
-}{
+    ]
+},{
     "name": "Ballistica Prime",
     "type": [
         "burst / charge",
         "crossbow",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Ballistica_Prime"
-}{
+    ]
+},{
     "name": "Rakta Ballistica",
     "type": [
         "burst / charge",
         "crossbow",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Rakta_Ballistica"
-}{
+    ]
+},{
     "name": "Afuris",
     "type": [
         "auto",
         "dual pistols",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Afuris"
-}{
+    ]
+},{
     "name": "Akstiletto",
     "type": [
         "auto",
         "dual pistols",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Akstiletto"
-}{
+    ]
+},{
     "name": "Akstiletto Prime",
     "type": [
         "auto",
         "dual pistols",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Akstiletto_Prime"
-}{
+    ]
+},{
     "name": "Akzani",
     "type": [
         "auto",
         "dual pistols",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Akzani"
-}{
+    ]
+},{
     "name": "Dex Furis",
     "type": [
         "auto",
         "dual pistols",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Dex_Furis"
-}{
+    ]
+},{
     "name": "Dual Cestra",
     "type": [
         "auto",
         "dual pistols",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Dual_Cestra"
-}{
+    ]
+},{
     "name": "Kuva Twin Stubbas",
     "type": [
         "auto",
         "dual pistols",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Kuva_Twin_Stubbas"
-}{
+    ]
+},{
     "name": "Prisma Twin Gremlins",
     "type": [
         "auto",
         "dual pistols",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Prisma_Twin_Gremlins"
-}{
+    ]
+},{
     "name": "Tenet Diplos",
     "type": [
         "auto",
         "dual pistols",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Tenet_Diplos"
-}{
+    ]
+},{
     "name": "Twin Grakatas",
     "type": [
         "auto",
         "dual pistols",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Twin_Grakatas"
-}{
+    ]
+},{
     "name": "Twin Gremlins",
     "type": [
         "auto",
         "dual pistols",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Twin_Gremlins"
-}{
+    ]
+},{
     "name": "Twin Vipers",
     "type": [
         "auto",
         "dual pistols",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Twin_Vipers"
-}{
+    ]
+},{
     "name": "Twin Vipers Wraith",
     "type": [
         "auto",
         "dual pistols",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Twin_Vipers_Wraith"
-}{
+    ]
+},{
     "name": "Aksomati",
     "type": [
         "auto-spool",
-        "twin\u00a0vipers\u00a0wraith",
+        "dual pistols",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Aksomati"
-}{
+    ]
+},{
     "name": "Aksomati Prime",
     "type": [
         "auto-spool",
-        "twin\u00a0vipers\u00a0wraith",
+        "dual pistols",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Aksomati_Prime"
-}{
+    ]
+},{
     "name": "Secura Dual Cestra",
     "type": [
         "auto-spool",
-        "twin\u00a0vipers\u00a0wraith",
+        "dual pistols",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Secura_Dual_Cestra"
-}{
+    ]
+},{
     "name": "Akarius",
     "type": [
         "burst",
-        "secura\u00a0dual\u00a0cestra",
+        "dual pistols",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Akarius"
-}{
+    ]
+},{
     "name": "Akjagara",
     "type": [
         "burst",
-        "secura\u00a0dual\u00a0cestra",
+        "dual pistols",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Akjagara"
-}{
+    ]
+},{
     "name": "Akjagara Prime",
     "type": [
         "burst",
-        "secura\u00a0dual\u00a0cestra",
+        "dual pistols",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Akjagara_Prime"
-}{
+    ]
+},{
     "name": "Staticor",
     "type": [
         "charge",
-        "akjagara\u00a0prime",
+        "dual pistols",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Staticor"
-}{
+    ]
+},{
     "name": "Akbolto",
     "type": [
         "semi-auto",
-        "staticor",
+        "dual pistols",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Akbolto"
-}{
+    ]
+},{
     "name": "Akbolto Prime",
     "type": [
         "semi-auto",
-        "staticor",
+        "dual pistols",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Akbolto_Prime"
-}{
+    ]
+},{
     "name": "Aklato",
     "type": [
         "semi-auto",
-        "staticor",
+        "dual pistols",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Aklato"
-}{
+    ]
+},{
     "name": "Aklex",
     "type": [
         "semi-auto",
-        "staticor",
+        "dual pistols",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Aklex"
-}{
+    ]
+},{
     "name": "Aklex Prime",
     "type": [
         "semi-auto",
-        "staticor",
+        "dual pistols",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Aklex_Prime"
-}{
+    ]
+},{
     "name": "Akmagnus",
     "type": [
         "semi-auto",
-        "staticor",
+        "dual pistols",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Akmagnus"
-}{
+    ]
+},{
     "name": "Akvasto",
     "type": [
         "semi-auto",
-        "staticor",
+        "dual pistols",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Akvasto"
-}{
+    ]
+},{
     "name": "Akvasto Prime",
     "type": [
         "semi-auto",
-        "staticor",
+        "dual pistols",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Akvasto_Prime"
-}{
+    ]
+},{
     "name": "Dual Toxocyst",
     "type": [
         "semi-auto",
-        "staticor",
+        "dual pistols",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Dual_Toxocyst"
-}{
+    ]
+},{
     "name": "Telos Akbolto",
     "type": [
         "semi-auto",
-        "staticor",
+        "dual pistols",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Telos_Akbolto"
-}{
+    ]
+},{
     "name": "Twin Kohmak",
     "type": [
         "auto-spool",
         "dual shotguns",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Twin_Kohmak"
-}{
+    ]
+},{
     "name": "Akbronco",
     "type": [
         "semi-auto",
-        "twin\u00a0kohmak",
+        "dual shotguns",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Akbronco"
-}{
+    ]
+},{
     "name": "Akbronco Prime",
     "type": [
         "semi-auto",
-        "twin\u00a0kohmak",
+        "dual shotguns",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Akbronco_Prime"
-}{
+    ]
+},{
     "name": "Twin Rogga",
     "type": [
         "semi-auto",
-        "twin\u00a0kohmak",
+        "dual shotguns",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Twin_Rogga"
-}{
+    ]
+},{
     "name": "Dex Pixia",
     "type": [
         "auto",
         "exalted weapon",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Dex_Pixia"
-}{
+    ]
+},{
     "name": "Dex Pixia",
     "type": [
         "auto",
         "exalted weapon",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Dex_Pixia"
-}{
+    ]
+},{
     "name": "Regulators",
     "type": [
         "auto",
         "exalted weapon",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Regulators"
-}{
+    ]
+},{
     "name": "Regulators",
     "type": [
         "auto",
         "exalted weapon",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Regulators"
-}{
+    ]
+},{
     "name": "Balefire Charger",
     "type": [
         "charge",
-        "regulators\u00a0prime",
+        "exalted weapon",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Balefire_Charger"
-}{
+    ]
+},{
     "name": "Azima",
     "type": [
         "auto",
         "pistol",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Azima"
-}{
+    ]
+},{
     "name": "Cestra",
     "type": [
         "auto",
         "pistol",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Cestra"
-}{
+    ]
+},{
     "name": "Furis",
     "type": [
         "auto",
         "pistol",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Furis"
-}{
+    ]
+},{
     "name": "Hystrix",
     "type": [
         "auto",
         "pistol",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Hystrix"
-}{
+    ]
+},{
+    "name": "Hystrix Prime",
+    "type": [
+        "auto",
+        "pistol",
+        "secondary",
+        "weapon"
+    ]
+},{
     "name": "Knell",
     "type": [
         "auto",
         "pistol",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Knell"
-}{
+    ]
+},{
     "name": "Knell Prime",
     "type": [
         "auto",
         "pistol",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Knell_Prime"
-}{
+    ]
+},{
     "name": "Kompressa",
     "type": [
         "auto",
         "pistol",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Kompressa"
-}{
+    ]
+},{
     "name": "MK1-Furis",
     "type": [
         "auto",
         "pistol",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/MK1-Furis"
-}{
+    ]
+},{
     "name": "Quatz",
     "type": [
         "auto",
         "pistol",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Quatz"
-}{
+    ]
+},{
     "name": "Stubba",
     "type": [
         "auto",
         "pistol",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Stubba"
-}{
+    ]
+},{
     "name": "Velox",
     "type": [
         "auto",
         "pistol",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Velox"
-}{
+    ]
+},{
     "name": "Viper",
     "type": [
         "auto",
         "pistol",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Viper"
-}{
+    ]
+},{
     "name": "Viper Wraith",
     "type": [
         "auto",
         "pistol",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Viper_Wraith"
-}{
+    ]
+},{
     "name": "Athodai",
     "type": [
         "auto / burst",
-        "viper\u00a0wraith",
+        "pistol",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Athodai"
-}{
+    ]
+},{
     "name": "Cyanex",
     "type": [
         "auto / burst",
-        "viper\u00a0wraith",
+        "pistol",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Cyanex"
-}{
+    ]
+},{
     "name": "Kraken",
     "type": [
         "burst",
-        "cyanex",
+        "pistol",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Kraken"
-}{
+    ]
+},{
     "name": "Kuva Kraken",
     "type": [
         "burst",
-        "cyanex",
+        "pistol",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Kuva_Kraken"
-}{
+    ]
+},{
     "name": "Sepulcrum",
     "type": [
         "burst",
-        "cyanex",
+        "pistol",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Sepulcrum"
-}{
+    ]
+},{
     "name": "Sicarus",
     "type": [
         "burst",
-        "cyanex",
+        "pistol",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Sicarus"
-}{
+    ]
+},{
     "name": "Sicarus Prime",
     "type": [
         "burst",
-        "cyanex",
+        "pistol",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Sicarus_Prime"
-}{
+    ]
+},{
     "name": "Angstrum",
     "type": [
         "charge",
-        "sicarus\u00a0prime",
+        "pistol",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Angstrum"
-}{
+    ]
+},{
     "name": "Prisma Angstrum",
     "type": [
         "charge",
-        "sicarus\u00a0prime",
+        "pistol",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Prisma_Angstrum"
-}{
+    ]
+},{
     "name": "Stug",
     "type": [
         "charge",
-        "sicarus\u00a0prime",
+        "pistol",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Stug"
-}{
+    ]
+},{
     "name": "Zylok",
     "type": [
         "duplex",
-        "stug",
+        "pistol",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Zylok"
-}{
+    ]
+},{
     "name": "Atomos",
     "type": [
         "held",
-        "zylok",
+        "pistol",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Atomos"
-}{
+    ]
+},{
     "name": "Catabolyst",
     "type": [
         "held",
-        "zylok",
+        "pistol",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Catabolyst"
-}{
+    ]
+},{
     "name": "Cycron",
     "type": [
         "held",
-        "zylok",
+        "pistol",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Cycron"
-}{
+    ]
+},{
     "name": "Embolist",
     "type": [
         "held",
-        "zylok",
+        "pistol",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Embolist"
-}{
+    ]
+},{
     "name": "Gammacor",
     "type": [
         "held",
-        "zylok",
+        "pistol",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Gammacor"
-}{
+    ]
+},{
     "name": "Kuva Nukor",
     "type": [
         "held",
-        "zylok",
+        "pistol",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Kuva_Nukor"
-}{
+    ]
+},{
     "name": "Nukor",
     "type": [
         "held",
-        "zylok",
+        "pistol",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Nukor"
-}{
+    ]
+},{
     "name": "Ocucor",
     "type": [
         "held",
-        "zylok",
+        "pistol",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Ocucor"
-}{
+    ]
+},{
     "name": "Spectra",
     "type": [
         "held",
-        "zylok",
+        "pistol",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Spectra"
-}{
+    ]
+},{
     "name": "Spectra Vandal",
     "type": [
         "held",
-        "zylok",
+        "pistol",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Spectra_Vandal"
-}{
+    ]
+},{
     "name": "Synoid Gammacor",
     "type": [
         "held",
-        "zylok",
+        "pistol",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Synoid_Gammacor"
-}{
+    ]
+},{
     "name": "Tenet Cycron",
     "type": [
         "held",
-        "zylok",
+        "pistol",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Tenet_Cycron"
-}{
+    ]
+},{
     "name": "Laetum",
     "type": [
         "semi / auto",
-        "tenet\u00a0cycron",
+        "pistol",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Laetum"
-}{
+    ]
+},{
     "name": "Epitaph",
     "type": [
         "semi / charge",
-        "laetum",
+        "pistol",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Epitaph"
-}{
+    ]
+},{
     "name": "Acrid",
     "type": [
         "semi-auto",
-        "epitaph",
+        "pistol",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Acrid"
-}{
+    ]
+},{
     "name": "Arca Scisco",
     "type": [
         "semi-auto",
-        "epitaph",
+        "pistol",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Arca_Scisco"
-}{
+    ]
+},{
     "name": "Bolto",
     "type": [
         "semi-auto",
-        "epitaph",
+        "pistol",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Bolto"
-}{
+    ]
+},{
     "name": "Kulstar",
     "type": [
         "semi-auto",
-        "epitaph",
+        "pistol",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Kulstar"
-}{
+    ]
+},{
     "name": "Kuva Seer",
     "type": [
         "semi-auto",
-        "epitaph",
+        "pistol",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Kuva_Seer"
-}{
+    ]
+},{
     "name": "Lato",
     "type": [
         "semi-auto",
-        "epitaph",
+        "pistol",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Lato"
-}{
+    ]
+},{
     "name": "Lato Prime",
     "type": [
         "semi-auto",
-        "epitaph",
+        "pistol",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Lato_Prime"
-}{
+    ]
+},{
     "name": "Lato Vandal",
     "type": [
         "semi-auto",
-        "epitaph",
+        "pistol",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Lato_Vandal"
-}{
+    ]
+},{
     "name": "Lex",
     "type": [
         "semi-auto",
-        "epitaph",
+        "pistol",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Lex"
-}{
+    ]
+},{
     "name": "Lex Prime",
     "type": [
         "semi-auto",
-        "epitaph",
+        "pistol",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Lex_Prime"
-}{
+    ]
+},{
     "name": "Magnus",
     "type": [
         "semi-auto",
-        "epitaph",
+        "pistol",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Magnus"
-}{
+    ]
+},{
     "name": "Magnus Prime",
     "type": [
         "semi-auto",
-        "epitaph",
+        "pistol",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Magnus_Prime"
-}{
+    ]
+},{
     "name": "Marelok",
     "type": [
         "semi-auto",
-        "epitaph",
+        "pistol",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Marelok"
-}{
+    ]
+},{
     "name": "Pandero",
     "type": [
         "semi-auto",
-        "epitaph",
+        "pistol",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Pandero"
-}{
+    ]
+},{
     "name": "Pandero Prime",
     "type": [
         "semi-auto",
-        "epitaph",
+        "pistol",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Pandero_Prime"
-}{
+    ]
+},{
     "name": "Plinx",
     "type": [
         "semi-auto",
-        "epitaph",
+        "pistol",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Plinx"
-}{
+    ]
+},{
     "name": "Seer",
     "type": [
         "semi-auto",
-        "epitaph",
+        "pistol",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Seer"
-}{
+    ]
+},{
     "name": "Sonicor",
     "type": [
         "semi-auto",
-        "epitaph",
+        "pistol",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Sonicor"
-}{
+    ]
+},{
     "name": "Tenet Spirex",
     "type": [
         "semi-auto",
-        "epitaph",
+        "pistol",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Tenet_Spirex"
-}{
+    ]
+},{
     "name": "Tysis",
     "type": [
         "semi-auto",
-        "epitaph",
+        "pistol",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Tysis"
-}{
+    ]
+},{
     "name": "Vasto",
     "type": [
         "semi-auto",
-        "epitaph",
+        "pistol",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Vasto"
-}{
+    ]
+},{
     "name": "Vasto Prime",
     "type": [
         "semi-auto",
-        "epitaph",
+        "pistol",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Vasto_Prime"
-}{
+    ]
+},{
     "name": "Vaykor Marelok",
     "type": [
         "semi-auto",
-        "epitaph",
+        "pistol",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Vaykor_Marelok"
-}{
+    ]
+},{
     "name": "Zakti",
     "type": [
         "semi-auto",
-        "epitaph",
+        "pistol",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Zakti"
-}{
+    ]
+},{
     "name": "Zakti Prime",
     "type": [
         "semi-auto",
-        "epitaph",
+        "pistol",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Zakti_Prime"
-}{
+    ]
+},{
     "name": "Zymos",
     "type": [
         "semi-auto",
-        "epitaph",
+        "pistol",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Zymos"
-}{
+    ]
+},{
     "name": "Pyrana",
     "type": [
         "auto",
         "shotgun sidearm",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Pyrana"
-}{
+    ]
+},{
     "name": "Pyrana Prime",
     "type": [
         "auto",
         "shotgun sidearm",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Pyrana_Prime"
-}{
+    ]
+},{
     "name": "Kohmak",
     "type": [
         "auto-spool",
-        "pyrana\u00a0prime",
+        "shotgun sidearm",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Kohmak"
-}{
+    ]
+},{
     "name": "Brakk",
     "type": [
         "semi-auto",
-        "kohmak",
+        "shotgun sidearm",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Brakk"
-}{
+    ]
+},{
     "name": "Bronco",
     "type": [
         "semi-auto",
-        "kohmak",
+        "shotgun sidearm",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Bronco"
-}{
+    ]
+},{
     "name": "Bronco Prime",
     "type": [
         "semi-auto",
-        "kohmak",
+        "shotgun sidearm",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Bronco_Prime"
-}{
+    ]
+},{
     "name": "Detron",
     "type": [
         "semi-auto",
-        "kohmak",
+        "shotgun sidearm",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Detron"
-}{
+    ]
+},{
     "name": "Euphona Prime",
     "type": [
         "semi-auto",
-        "kohmak",
+        "shotgun sidearm",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Euphona_Prime"
-}{
+    ]
+},{
     "name": "Kuva Brakk",
     "type": [
         "semi-auto",
-        "kohmak",
+        "shotgun sidearm",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Kuva_Brakk"
-}{
+    ]
+},{
     "name": "Mara Detron",
     "type": [
         "semi-auto",
-        "kohmak",
+        "shotgun sidearm",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Mara_Detron"
-}{
+    ]
+},{
     "name": "Tenet Detron",
     "type": [
         "semi-auto",
-        "kohmak",
+        "shotgun sidearm",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Tenet_Detron"
-}{
+    ]
+},{
     "name": "Castanas",
     "type": [
         "active",
         "thrown",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Castanas"
-}{
+    ]
+},{
     "name": "Sancti Castanas",
     "type": [
         "active",
         "thrown",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Sancti_Castanas"
-}{
+    ]
+},{
     "name": "Talons",
     "type": [
         "active",
         "thrown",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Talons"
-}{
+    ]
+},{
     "name": "Despair",
     "type": [
         "auto",
-        "talons",
+        "thrown",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Despair"
-}{
+    ]
+},{
     "name": "Hikou",
     "type": [
         "auto",
-        "talons",
+        "thrown",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Hikou"
-}{
+    ]
+},{
     "name": "Hikou Prime",
     "type": [
         "auto",
-        "talons",
+        "thrown",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Hikou_Prime"
-}{
+    ]
+},{
     "name": "Kunai",
     "type": [
         "auto",
-        "talons",
+        "thrown",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Kunai"
-}{
+    ]
+},{
     "name": "MK1-Kunai",
     "type": [
         "auto",
-        "talons",
+        "thrown",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/MK1-Kunai"
-}{
+    ]
+},{
     "name": "Pox",
     "type": [
         "auto",
-        "talons",
+        "thrown",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Pox"
-}{
+    ]
+},{
     "name": "Spira",
     "type": [
         "auto",
-        "talons",
+        "thrown",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Spira"
-}{
+    ]
+},{
     "name": "Spira Prime",
     "type": [
         "auto",
-        "talons",
+        "thrown",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Spira_Prime"
-}{
+    ]
+},{
     "name": "Fusilai",
     "type": [
         "auto / semi",
-        "spira\u00a0prime",
+        "thrown",
         "secondary",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Fusilai"
-}{
+    ]
+},{
     "name": "Ghoulsaw",
     "type": [
         "assault saw",
         "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Ghoulsaw"
-}{
+    ]
+},{
     "name": "Ceti Lacera",
     "type": [
         "blade and whip",
-        "ghoulsaw",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Ceti_Lacera"
-}{
+    ]
+},{
     "name": "Jat Kusar",
     "type": [
         "blade and whip",
-        "ghoulsaw",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Jat_Kusar"
-}{
+    ]
+},{
     "name": "Lacera",
     "type": [
         "blade and whip",
-        "ghoulsaw",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Lacera"
-}{
+    ]
+},{
     "name": "Mios",
     "type": [
         "blade and whip",
-        "ghoulsaw",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Mios"
-}{
+    ]
+},{
     "name": "Keratinos",
     "type": [
         "claws",
-        "mios",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Keratinos"
-}{
+    ]
+},{
     "name": "Ripkas",
     "type": [
         "claws",
-        "mios",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Ripkas"
-}{
+    ]
+},{
     "name": "Venka",
     "type": [
         "claws",
-        "mios",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Venka"
-}{
+    ]
+},{
     "name": "Venka Prime",
     "type": [
         "claws",
-        "mios",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Venka_Prime"
-}{
+    ]
+},{
     "name": "Ceramic Dagger",
     "type": [
         "dagger",
-        "venka\u00a0prime",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Ceramic_Dagger"
-}{
+    ]
+},{
     "name": "Dark Dagger",
     "type": [
         "dagger",
-        "venka\u00a0prime",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Dark_Dagger"
-}{
+    ]
+},{
     "name": "Heat Dagger",
     "type": [
         "dagger",
-        "venka\u00a0prime",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Heat_Dagger"
-}{
+    ]
+},{
     "name": "Innodem",
     "type": [
         "dagger",
-        "venka\u00a0prime",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Innodem"
-}{
+    ]
+},{
     "name": "Karyst",
     "type": [
         "dagger",
-        "venka\u00a0prime",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Karyst"
-}{
+    ]
+},{
     "name": "Karyst Prime",
     "type": [
         "dagger",
-        "venka\u00a0prime",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Karyst_Prime"
-}{
+    ]
+},{
     "name": "Rakta Dark Dagger",
     "type": [
         "dagger",
-        "venka\u00a0prime",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Rakta_Dark_Dagger"
-}{
+    ]
+},{
     "name": "Rumblejack",
     "type": [
         "dagger",
-        "venka\u00a0prime",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Rumblejack"
-}{
+    ]
+},{
     "name": "Sheev",
     "type": [
         "dagger",
-        "venka\u00a0prime",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Sheev"
-}{
+    ]
+},{
     "name": "Ether Daggers",
     "type": [
         "dual daggers",
-        "sheev",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Ether_Daggers"
-}{
+    ]
+},{
     "name": "Fang",
     "type": [
         "dual daggers",
-        "sheev",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Fang"
-}{
+    ]
+},{
     "name": "Fang Prime",
     "type": [
         "dual daggers",
-        "sheev",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Fang_Prime"
-}{
+    ]
+},{
     "name": "Nepheri",
     "type": [
         "dual daggers",
-        "sheev",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Nepheri"
-}{
+    ]
+},{
     "name": "Okina",
     "type": [
         "dual daggers",
-        "sheev",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Okina"
-}{
+    ]
+},{
     "name": "Dark Split-Sword",
     "type": [
         "dual swords",
-        "okina",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Dark_Split-Sword"
-}{
+    ]
+},{
     "name": "Dex Dakra",
     "type": [
         "dual swords",
-        "okina",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Dex_Dakra"
-}{
+    ]
+},{
     "name": "Dual Cleavers",
     "type": [
         "dual swords",
-        "okina",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Dual_Cleavers"
-}{
+    ]
+},{
     "name": "Dual Ether",
     "type": [
         "dual swords",
-        "okina",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Dual_Ether"
-}{
+    ]
+},{
     "name": "Dual Heat Swords",
     "type": [
         "dual swords",
-        "okina",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Dual_Heat_Swords"
-}{
+    ]
+},{
     "name": "Dual Ichor",
     "type": [
         "dual swords",
-        "okina",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Dual_Ichor"
-}{
+    ]
+},{
     "name": "Dual Kamas",
     "type": [
         "dual swords",
-        "okina",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Dual_Kamas"
-}{
+    ]
+},{
     "name": "Dual Kamas Prime",
     "type": [
         "dual swords",
-        "okina",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Dual_Kamas_Prime"
-}{
+    ]
+},{
     "name": "Dual Keres",
     "type": [
         "dual swords",
-        "okina",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Dual_Keres"
-}{
+    ]
+},{
+    "name": "Dual Keres Prime",
+    "type": [
+        "dual swords",
+        "melee",
+        "melee",
+        "weapon"
+    ]
+},{
     "name": "Dual Raza",
     "type": [
         "dual swords",
-        "okina",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Dual_Raza"
-}{
+    ]
+},{
     "name": "Dual Skana",
     "type": [
         "dual swords",
-        "okina",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Dual_Skana"
-}{
+    ]
+},{
     "name": "Dual Zoren",
     "type": [
         "dual swords",
-        "okina",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Dual_Zoren"
-}{
+    ]
+},{
     "name": "Nami Skyla",
     "type": [
         "dual swords",
-        "okina",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Nami_Skyla"
-}{
+    ]
+},{
     "name": "Nami Skyla Prime",
     "type": [
         "dual swords",
-        "okina",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Nami_Skyla_Prime"
-}{
+    ]
+},{
     "name": "Prisma Dual Cleavers",
     "type": [
         "dual swords",
-        "okina",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Prisma_Dual_Cleavers"
-}{
+    ]
+},{
     "name": "Twin Basolk",
     "type": [
         "dual swords",
-        "okina",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Twin_Basolk"
-}{
+    ]
+},{
     "name": "Twin Krohkur",
     "type": [
         "dual swords",
-        "okina",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Twin_Krohkur"
-}{
+    ]
+},{
     "name": "Desert Wind",
     "type": [
         "exalted weapon",
-        "twin\u00a0krohkur",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Desert_Wind"
-}{
+    ]
+},{
     "name": "Diwata",
     "type": [
         "exalted weapon",
-        "twin\u00a0krohkur",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Diwata"
-}{
+    ]
+},{
     "name": "Diwata",
     "type": [
         "exalted weapon",
-        "twin\u00a0krohkur",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Diwata"
-}{
+    ]
+},{
     "name": "Exalted Blade (Weapon)",
     "type": [
         "exalted weapon",
-        "twin\u00a0krohkur",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Exalted_Blade_(Weapon)"
-}{
+    ]
+},{
     "name": "Exalted Blade (Weapon)",
     "type": [
         "exalted weapon",
-        "twin\u00a0krohkur",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Exalted_Blade_(Weapon)"
-}{
+    ]
+},{
     "name": "Exalted Blade (Weapon)",
     "type": [
         "exalted weapon",
-        "twin\u00a0krohkur",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Exalted_Blade_(Weapon)"
-}{
+    ]
+},{
     "name": "Garuda Prime Talons",
     "type": [
         "exalted weapon",
-        "twin\u00a0krohkur",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Garuda_Prime_Talons"
-}{
+    ]
+},{
     "name": "Garuda Talons",
     "type": [
         "exalted weapon",
-        "twin\u00a0krohkur",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Garuda_Talons"
-}{
+    ]
+},{
     "name": "Iron Staff",
     "type": [
         "exalted weapon",
-        "twin\u00a0krohkur",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Iron_Staff"
-}{
+    ]
+},{
     "name": "Iron Staff",
     "type": [
         "exalted weapon",
-        "twin\u00a0krohkur",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Iron_Staff"
-}{
+    ]
+},{
     "name": "Shadow Claws",
     "type": [
         "exalted weapon",
-        "twin\u00a0krohkur",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Shadow_Claws"
-}{
+    ]
+},{
     "name": "Valkyr Talons",
     "type": [
         "exalted weapon",
-        "twin\u00a0krohkur",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Valkyr_Talons"
-}{
+    ]
+},{
     "name": "Valkyr Talons",
     "type": [
         "exalted weapon",
-        "twin\u00a0krohkur",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Valkyr_Talons"
-}{
+    ]
+},{
     "name": "Ankyros",
     "type": [
         "fist",
-        "valkyr\u00a0talons",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Ankyros"
-}{
+    ]
+},{
     "name": "Ankyros Prime",
     "type": [
         "fist",
-        "valkyr\u00a0talons",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Ankyros_Prime"
-}{
+    ]
+},{
     "name": "Furax",
     "type": [
         "fist",
-        "valkyr\u00a0talons",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Furax"
-}{
+    ]
+},{
     "name": "Furax Wraith",
     "type": [
         "fist",
-        "valkyr\u00a0talons",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Furax_Wraith"
-}{
+    ]
+},{
     "name": "MK1-Furax",
     "type": [
         "fist",
-        "valkyr\u00a0talons",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/MK1-Furax"
-}{
+    ]
+},{
     "name": "Tekko",
     "type": [
         "fist",
-        "valkyr\u00a0talons",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Tekko"
-}{
+    ]
+},{
     "name": "Tekko Prime",
     "type": [
         "fist",
-        "valkyr\u00a0talons",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Tekko_Prime"
-}{
+    ]
+},{
     "name": "Cerata",
     "type": [
         "glaive",
-        "tekko\u00a0prime",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Cerata"
-}{
+    ]
+},{
     "name": "Falcor",
     "type": [
         "glaive",
-        "tekko\u00a0prime",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Falcor"
-}{
+    ]
+},{
     "name": "Glaive",
     "type": [
         "glaive",
-        "tekko\u00a0prime",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Glaive"
-}{
+    ]
+},{
     "name": "Glaive Prime",
     "type": [
         "glaive",
-        "tekko\u00a0prime",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Glaive_Prime"
-}{
+    ]
+},{
     "name": "Halikar",
     "type": [
         "glaive",
-        "tekko\u00a0prime",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Halikar"
-}{
+    ]
+},{
     "name": "Halikar Wraith",
     "type": [
         "glaive",
-        "tekko\u00a0prime",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Halikar_Wraith"
-}{
+    ]
+},{
     "name": "Kestrel",
     "type": [
         "glaive",
-        "tekko\u00a0prime",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Kestrel"
-}{
+    ]
+},{
     "name": "Orvius",
     "type": [
         "glaive",
-        "tekko\u00a0prime",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Orvius"
-}{
+    ]
+},{
     "name": "Pathocyst",
     "type": [
         "glaive",
-        "tekko\u00a0prime",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Pathocyst"
-}{
+    ]
+},{
     "name": "Xoris",
     "type": [
         "glaive",
-        "tekko\u00a0prime",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Xoris"
-}{
+    ]
+},{
     "name": "Redeemer",
     "type": [
         "gunblade",
-        "xoris",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Redeemer"
-}{
+    ]
+},{
     "name": "Redeemer Prime",
     "type": [
         "gunblade",
-        "xoris",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Redeemer_Prime"
-}{
+    ]
+},{
     "name": "Sarpa",
     "type": [
         "gunblade",
-        "xoris",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Sarpa"
-}{
+    ]
+},{
     "name": "Stropha",
     "type": [
         "gunblade",
-        "xoris",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Stropha"
-}{
+    ]
+},{
     "name": "Vastilok",
     "type": [
         "gunblade",
-        "xoris",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Vastilok"
-}{
+    ]
+},{
     "name": "Arca Titron",
     "type": [
         "hammer",
-        "vastilok",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Arca_Titron"
-}{
+    ]
+},{
     "name": "Fragor",
     "type": [
         "hammer",
-        "vastilok",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Fragor"
-}{
+    ]
+},{
     "name": "Fragor Prime",
     "type": [
         "hammer",
-        "vastilok",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Fragor_Prime"
-}{
+    ]
+},{
     "name": "Heliocor",
     "type": [
         "hammer",
-        "vastilok",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Heliocor"
-}{
+    ]
+},{
     "name": "Jat Kittag",
     "type": [
         "hammer",
-        "vastilok",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Jat_Kittag"
-}{
+    ]
+},{
     "name": "Kuva Shildeg",
     "type": [
         "hammer",
-        "vastilok",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Kuva_Shildeg"
-}{
+    ]
+},{
     "name": "Magistar",
     "type": [
         "hammer",
-        "vastilok",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Magistar"
-}{
+    ]
+},{
     "name": "Sancti Magistar",
     "type": [
         "hammer",
-        "vastilok",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Sancti_Magistar"
-}{
+    ]
+},{
     "name": "Sibear",
     "type": [
         "hammer",
-        "vastilok",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Sibear"
-}{
+    ]
+},{
     "name": "Synoid Heliocor",
     "type": [
         "hammer",
-        "vastilok",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Synoid_Heliocor"
-}{
+    ]
+},{
     "name": "Volnus",
     "type": [
         "hammer",
-        "vastilok",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Volnus"
-}{
+    ]
+},{
     "name": "Volnus Prime",
     "type": [
         "hammer",
-        "vastilok",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Volnus_Prime"
-}{
+    ]
+},{
     "name": "Wolf Sledge",
     "type": [
         "hammer",
-        "vastilok",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Wolf_Sledge"
-}{
+    ]
+},{
     "name": "Dark Split-Sword",
     "type": [
         "heavy blade",
-        "wolf\u00a0sledge",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Dark_Split-Sword"
-}{
+    ]
+},{
     "name": "Galatine",
     "type": [
         "heavy blade",
-        "wolf\u00a0sledge",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Galatine"
-}{
+    ]
+},{
     "name": "Galatine Prime",
     "type": [
         "heavy blade",
-        "wolf\u00a0sledge",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Galatine_Prime"
-}{
+    ]
+},{
     "name": "Gram",
     "type": [
         "heavy blade",
-        "wolf\u00a0sledge",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Gram"
-}{
+    ]
+},{
     "name": "Gram Prime",
     "type": [
         "heavy blade",
-        "wolf\u00a0sledge",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Gram_Prime"
-}{
+    ]
+},{
     "name": "Masseter",
     "type": [
         "heavy blade",
-        "wolf\u00a0sledge",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Masseter"
-}{
+    ]
+},{
     "name": "Paracesis",
     "type": [
         "heavy blade",
-        "wolf\u00a0sledge",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Paracesis"
-}{
+    ]
+},{
     "name": "Scindo",
     "type": [
         "heavy blade",
-        "wolf\u00a0sledge",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Scindo"
-}{
+    ]
+},{
     "name": "Scindo Prime",
     "type": [
         "heavy blade",
-        "wolf\u00a0sledge",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Scindo_Prime"
-}{
+    ]
+},{
     "name": "Tenet Exec",
     "type": [
         "heavy blade",
-        "wolf\u00a0sledge",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Tenet_Exec"
-}{
+    ]
+},{
     "name": "Vitrica",
     "type": [
         "heavy blade",
-        "wolf\u00a0sledge",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Vitrica"
-}{
+    ]
+},{
     "name": "War",
     "type": [
         "heavy blade",
-        "wolf\u00a0sledge",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/War"
-}{
+    ]
+},{
     "name": "Zenistar",
     "type": [
         "heavy blade",
-        "wolf\u00a0sledge",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Zenistar"
-}{
+    ]
+},{
     "name": "Hespar",
     "type": [
         "heavy scythe",
-        "zenistar",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Hespar"
-}{
+    ]
+},{
     "name": "Gazal Machete",
     "type": [
         "machete",
-        "hespar",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Gazal_Machete"
-}{
+    ]
+},{
     "name": "Kama",
     "type": [
         "machete",
-        "hespar",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Kama"
-}{
+    ]
+},{
     "name": "Kreska",
     "type": [
         "machete",
-        "hespar",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Kreska"
-}{
+    ]
+},{
     "name": "Machete",
     "type": [
         "machete",
-        "hespar",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Machete"
-}{
+    ]
+},{
     "name": "Machete Wraith",
     "type": [
         "machete",
-        "hespar",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Machete_Wraith"
-}{
+    ]
+},{
     "name": "Nami Solo",
     "type": [
         "machete",
-        "hespar",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Nami_Solo"
-}{
+    ]
+},{
     "name": "Prisma Machete",
     "type": [
         "machete",
-        "hespar",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Prisma_Machete"
-}{
+    ]
+},{
     "name": "Prova",
     "type": [
         "machete",
-        "hespar",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Prova"
-}{
+    ]
+},{
     "name": "Prova Vandal",
     "type": [
         "machete",
-        "hespar",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Prova_Vandal"
-}{
+    ]
+},{
     "name": "Dragon Nikana",
     "type": [
         "nikana",
-        "prova\u00a0vandal",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Dragon_Nikana"
-}{
+    ]
+},{
     "name": "Nikana",
     "type": [
         "nikana",
-        "prova\u00a0vandal",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Nikana"
-}{
+    ]
+},{
     "name": "Nikana Prime",
     "type": [
         "nikana",
-        "prova\u00a0vandal",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Nikana_Prime"
-}{
+    ]
+},{
     "name": "Skiajati",
     "type": [
         "nikana",
-        "prova\u00a0vandal",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Skiajati"
-}{
+    ]
+},{
     "name": "Ninkondi",
     "type": [
         "nunchaku",
-        "skiajati",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Ninkondi"
-}{
+    ]
+},{
     "name": "Ninkondi Prime",
     "type": [
         "nunchaku",
-        "skiajati",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Ninkondi_Prime"
-}{
+    ]
+},{
     "name": "Pulmonars",
     "type": [
         "nunchaku",
-        "skiajati",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Pulmonars"
-}{
+    ]
+},{
     "name": "Shaku",
     "type": [
         "nunchaku",
-        "skiajati",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Shaku"
-}{
+    ]
+},{
     "name": "Cassowar",
     "type": [
         "polearm",
-        "shaku",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Cassowar"
-}{
+    ]
+},{
     "name": "Guandao",
     "type": [
         "polearm",
-        "shaku",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Guandao"
-}{
+    ]
+},{
     "name": "Guandao Prime",
     "type": [
         "polearm",
-        "shaku",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Guandao_Prime"
-}{
+    ]
+},{
     "name": "Kesheg",
     "type": [
         "polearm",
-        "shaku",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Kesheg"
-}{
+    ]
+},{
     "name": "Korumm",
     "type": [
         "polearm",
-        "shaku",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Korumm"
-}{
+    ]
+},{
     "name": "Lesion",
     "type": [
         "polearm",
-        "shaku",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Lesion"
-}{
+    ]
+},{
     "name": "Orthos",
     "type": [
         "polearm",
-        "shaku",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Orthos"
-}{
+    ]
+},{
     "name": "Orthos Prime",
     "type": [
         "polearm",
-        "shaku",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Orthos_Prime"
-}{
+    ]
+},{
     "name": "Pupacyst",
     "type": [
         "polearm",
-        "shaku",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Pupacyst"
-}{
+    ]
+},{
     "name": "Serro",
     "type": [
         "polearm",
-        "shaku",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Serro"
-}{
+    ]
+},{
     "name": "Sydon",
     "type": [
         "polearm",
-        "shaku",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Sydon"
-}{
+    ]
+},{
     "name": "Tonbo",
     "type": [
         "polearm",
-        "shaku",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Tonbo"
-}{
+    ]
+},{
     "name": "Vaykor Sydon",
     "type": [
         "polearm",
-        "shaku",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Vaykor_Sydon"
-}{
+    ]
+},{
     "name": "Destreza",
     "type": [
         "rapier",
-        "vaykor\u00a0sydon",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Destreza"
-}{
+    ]
+},{
     "name": "Destreza Prime",
     "type": [
         "rapier",
-        "vaykor\u00a0sydon",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Destreza_Prime"
-}{
+    ]
+},{
     "name": "Endura",
     "type": [
         "rapier",
-        "vaykor\u00a0sydon",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Endura"
-}{
+    ]
+},{
     "name": "Anku",
     "type": [
         "scythe",
-        "endura",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Anku"
-}{
+    ]
+},{
     "name": "Caustacyst",
     "type": [
         "scythe",
-        "endura",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Caustacyst"
-}{
+    ]
+},{
     "name": "Ether Reaper",
     "type": [
         "scythe",
-        "endura",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Ether_Reaper"
-}{
+    ]
+},{
     "name": "Hate",
     "type": [
         "scythe",
-        "endura",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Hate"
-}{
+    ]
+},{
     "name": "Reaper Prime",
     "type": [
         "scythe",
-        "endura",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Reaper_Prime"
-}{
+    ]
+},{
     "name": "Tenet Grigori",
     "type": [
         "scythe",
-        "endura",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Tenet_Grigori"
-}{
+    ]
+},{
     "name": "Venato",
     "type": [
         "scythe",
-        "endura",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Venato"
-}{
+    ]
+},{
     "name": "Hirudo",
     "type": [
         "sparring",
-        "venato",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Hirudo"
-}{
+    ]
+},{
     "name": "Kogake",
     "type": [
         "sparring",
-        "venato",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Kogake"
-}{
+    ]
+},{
     "name": "Kogake Prime",
     "type": [
         "sparring",
-        "venato",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Kogake_Prime"
-}{
+    ]
+},{
     "name": "Korrudo",
     "type": [
         "sparring",
-        "venato",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Korrudo"
-}{
+    ]
+},{
     "name": "Obex",
     "type": [
         "sparring",
-        "venato",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Obex"
-}{
+    ]
+},{
     "name": "Prisma Obex",
     "type": [
         "sparring",
-        "venato",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Prisma_Obex"
-}{
+    ]
+},{
     "name": "Amphis",
     "type": [
         "staff",
-        "prisma\u00a0obex",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Amphis"
-}{
+    ]
+},{
     "name": "Bo",
     "type": [
         "staff",
-        "prisma\u00a0obex",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Bo"
-}{
+    ]
+},{
     "name": "Bo Prime",
     "type": [
         "staff",
-        "prisma\u00a0obex",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Bo_Prime"
-}{
+    ]
+},{
     "name": "Broken Scepter",
     "type": [
         "staff",
-        "prisma\u00a0obex",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Broken_Scepter"
-}{
+    ]
+},{
     "name": "Cadus",
     "type": [
         "staff",
-        "prisma\u00a0obex",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Cadus"
-}{
+    ]
+},{
     "name": "MK1-Bo",
     "type": [
         "staff",
-        "prisma\u00a0obex",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/MK1-Bo"
-}{
+    ]
+},{
     "name": "Tipedo",
     "type": [
         "staff",
-        "prisma\u00a0obex",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Tipedo"
-}{
+    ]
+},{
     "name": "Tipedo Prime",
     "type": [
         "staff",
-        "prisma\u00a0obex",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Tipedo_Prime"
-}{
+    ]
+},{
     "name": "Ack & Brunt",
     "type": [
         "sword and shield",
-        "tipedo\u00a0prime",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Ack_%26_Brunt"
-}{
+    ]
+},{
     "name": "Cobra & Crane",
     "type": [
         "sword and shield",
-        "tipedo\u00a0prime",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Cobra_%26_Crane"
-}{
+    ]
+},{
     "name": "Sigma & Octantis",
     "type": [
         "sword and shield",
-        "tipedo\u00a0prime",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Sigma_%26_Octantis"
-}{
+    ]
+},{
     "name": "Silva & Aegis",
     "type": [
         "sword and shield",
-        "tipedo\u00a0prime",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Silva_%26_Aegis"
-}{
+    ]
+},{
     "name": "Silva & Aegis Prime",
     "type": [
         "sword and shield",
-        "tipedo\u00a0prime",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Silva_%26_Aegis_Prime"
-}{
+    ]
+},{
     "name": "Tenet Agendus",
     "type": [
         "sword and shield",
-        "tipedo\u00a0prime",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Tenet_Agendus"
-}{
+    ]
+},{
     "name": "Broken War",
     "type": [
         "sword",
-        "tenet\u00a0agendus",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Broken_War"
-}{
+    ]
+},{
     "name": "Cronus",
     "type": [
         "sword",
-        "tenet\u00a0agendus",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Cronus"
-}{
+    ]
+},{
     "name": "Dakra Prime",
     "type": [
         "sword",
-        "tenet\u00a0agendus",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Dakra_Prime"
-}{
+    ]
+},{
     "name": "Dark Sword",
     "type": [
         "sword",
-        "tenet\u00a0agendus",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Dark_Sword"
-}{
+    ]
+},{
     "name": "Ether Sword",
     "type": [
         "sword",
-        "tenet\u00a0agendus",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Ether_Sword"
-}{
+    ]
+},{
     "name": "Heat Sword",
     "type": [
         "sword",
-        "tenet\u00a0agendus",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Heat_Sword"
-}{
+    ]
+},{
     "name": "Jaw Sword",
     "type": [
         "sword",
-        "tenet\u00a0agendus",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Jaw_Sword"
-}{
+    ]
+},{
     "name": "Krohkur",
     "type": [
         "sword",
-        "tenet\u00a0agendus",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Krohkur"
-}{
+    ]
+},{
     "name": "Mire",
     "type": [
         "sword",
-        "tenet\u00a0agendus",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Mire"
-}{
+    ]
+},{
     "name": "Pangolin Prime",
     "type": [
         "sword",
-        "tenet\u00a0agendus",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Pangolin_Prime"
-}{
+    ]
+},{
     "name": "Pangolin Sword",
     "type": [
         "sword",
-        "tenet\u00a0agendus",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Pangolin_Sword"
-}{
+    ]
+},{
     "name": "Plasma Sword",
     "type": [
         "sword",
-        "tenet\u00a0agendus",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Plasma_Sword"
-}{
+    ]
+},{
     "name": "Prisma Skana",
     "type": [
         "sword",
-        "tenet\u00a0agendus",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Prisma_Skana"
-}{
+    ]
+},{
     "name": "Skana",
     "type": [
         "sword",
-        "tenet\u00a0agendus",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Skana"
-}{
+    ]
+},{
     "name": "Skana Prime",
     "type": [
         "sword",
-        "tenet\u00a0agendus",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Skana_Prime"
-}{
+    ]
+},{
     "name": "Boltace",
     "type": [
         "tonfa",
-        "skana\u00a0prime",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Boltace"
-}{
+    ]
+},{
     "name": "Kronen",
     "type": [
         "tonfa",
-        "skana\u00a0prime",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Kronen"
-}{
+    ]
+},{
     "name": "Kronen Prime",
     "type": [
         "tonfa",
-        "skana\u00a0prime",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Kronen_Prime"
-}{
+    ]
+},{
     "name": "Ohma",
     "type": [
         "tonfa",
-        "skana\u00a0prime",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Ohma"
-}{
+    ]
+},{
     "name": "Praedos",
     "type": [
         "tonfa",
-        "skana\u00a0prime",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Praedos"
-}{
+    ]
+},{
     "name": "Telos Boltace",
     "type": [
         "tonfa",
-        "skana\u00a0prime",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Telos_Boltace"
-}{
+    ]
+},{
     "name": "Pennant",
     "type": [
         "two-handed nikana",
-        "telos\u00a0boltace",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Pennant"
-}{
+    ]
+},{
     "name": "Tatsu",
     "type": [
         "two-handed nikana",
-        "telos\u00a0boltace",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Tatsu"
-}{
+    ]
+},{
     "name": "Tenet Livia",
     "type": [
         "two-handed nikana",
-        "telos\u00a0boltace",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Tenet_Livia"
-}{
+    ]
+},{
     "name": "Arum Spinosa",
     "type": [
         "warfan",
-        "tenet\u00a0livia",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Arum_Spinosa"
-}{
+    ]
+},{
     "name": "Gunsen",
     "type": [
         "warfan",
-        "tenet\u00a0livia",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Gunsen"
-}{
+    ]
+},{
     "name": "Quassus",
     "type": [
         "warfan",
-        "tenet\u00a0livia",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Quassus"
-}{
+    ]
+},{
     "name": "Vericres",
     "type": [
         "warfan",
-        "tenet\u00a0livia",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Vericres"
-}{
+    ]
+},{
     "name": "Atterax",
     "type": [
         "whip",
-        "vericres",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Atterax"
-}{
+    ]
+},{
     "name": "Galvacord",
     "type": [
         "whip",
-        "vericres",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Galvacord"
-}{
+    ]
+},{
     "name": "Lecta",
     "type": [
         "whip",
-        "vericres",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Lecta"
-}{
+    ]
+},{
     "name": "Scoliac",
     "type": [
         "whip",
-        "vericres",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Scoliac"
-}{
+    ]
+},{
     "name": "Secura Lecta",
     "type": [
         "whip",
-        "vericres",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Secura_Lecta"
-}{
+    ]
+},{
     "name": "Verdilac",
     "type": [
         "whip",
-        "vericres",
+        "melee",
         "melee",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Verdilac"
-}{
+    ]
+},{
     "name": "Dual Decurion",
     "type": [
         "auto",
         "arch-gun",
         "archwing",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Dual_Decurion"
-}{
+    ]
+},{
     "name": "Imperator",
     "type": [
         "auto",
         "arch-gun",
         "archwing",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Imperator"
-}{
+    ]
+},{
     "name": "Kuva Ayanga",
     "type": [
         "auto",
         "arch-gun",
         "archwing",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Kuva_Ayanga"
-}{
+    ]
+},{
     "name": "Kuva Grattler",
     "type": [
         "auto",
         "arch-gun",
         "archwing",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Kuva_Grattler"
-}{
+    ]
+},{
     "name": "Prisma Dual Decurions",
     "type": [
         "auto",
         "arch-gun",
         "archwing",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Prisma_Dual_Decurions"
-}{
+    ]
+},{
     "name": "Mausolon",
     "type": [
         "auto / semi",
-        "prisma\u00a0dual\u00a0decurions",
+        "arch-gun",
         "archwing",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Mausolon"
-}{
+    ]
+},{
     "name": "Cyngas",
     "type": [
         "auto-burst",
-        "mausolon",
+        "arch-gun",
         "archwing",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Cyngas"
-}{
+    ]
+},{
     "name": "Morgha",
     "type": [
         "auto-burst",
-        "mausolon",
+        "arch-gun",
         "archwing",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Morgha"
-}{
+    ]
+},{
     "name": "Grattler",
     "type": [
         "auto-spool",
-        "morgha",
+        "arch-gun",
         "archwing",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Grattler"
-}{
+    ]
+},{
     "name": "Imperator Vandal",
     "type": [
         "auto-spool",
-        "morgha",
+        "arch-gun",
         "archwing",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Imperator_Vandal"
-}{
+    ]
+},{
     "name": "Phaedra",
     "type": [
         "auto-spool",
-        "morgha",
+        "arch-gun",
         "archwing",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Phaedra"
-}{
+    ]
+},{
     "name": "Corvas",
     "type": [
         "charge",
-        "phaedra",
+        "arch-gun",
         "archwing",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Corvas"
-}{
+    ]
+},{
     "name": "Corvas Prime",
     "type": [
         "charge",
-        "phaedra",
+        "arch-gun",
         "archwing",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Corvas_Prime"
-}{
+    ]
+},{
     "name": "Velocitus",
     "type": [
         "charge",
-        "phaedra",
+        "arch-gun",
         "archwing",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Velocitus"
-}{
+    ]
+},{
     "name": "Cortege",
     "type": [
         "held",
-        "velocitus",
+        "arch-gun",
         "archwing",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Cortege"
-}{
+    ]
+},{
     "name": "Larkspur",
     "type": [
         "held",
-        "velocitus",
+        "arch-gun",
         "archwing",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Larkspur"
-}{
+    ]
+},{
     "name": "Fluctus",
     "type": [
         "semi-auto",
-        "larkspur",
+        "arch-gun",
         "archwing",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Fluctus"
-}{
+    ]
+},{
     "name": "Dual Decurion",
     "type": [
         "auto",
         "dual pistols",
         "archwing",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Dual_Decurion"
-}{
+    ]
+},{
     "name": "Prisma Dual Decurions",
     "type": [
         "auto",
         "dual pistols",
         "archwing",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Prisma_Dual_Decurions"
-}{
+    ]
+},{
     "name": "Arquebex",
     "type": [
         "auto",
         "exalted weapon",
         "archwing",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Arquebex"
-}{
+    ]
+},{
     "name": "Kuva Ayanga",
     "type": [
         "auto",
         "launcher",
         "archwing",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Kuva_Ayanga"
-}{
+    ]
+},{
     "name": "Kuva Grattler",
     "type": [
         "auto",
         "launcher",
         "archwing",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Kuva_Grattler"
-}{
+    ]
+},{
     "name": "Morgha",
     "type": [
         "auto-burst",
-        "kuva\u00a0grattler\u00a0(atmosphere)",
+        "launcher",
         "archwing",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Morgha"
-}{
+    ]
+},{
     "name": "Grattler",
     "type": [
         "auto-spool",
-        "morgha\u00a0(atmosphere)",
+        "launcher",
         "archwing",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Grattler"
-}{
+    ]
+},{
     "name": "Agkuza",
     "type": [
         "arch-melee",
         "melee",
         "archwing",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Agkuza"
-}{
+    ]
+},{
     "name": "Centaur",
     "type": [
         "arch-melee",
         "melee",
         "archwing",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Centaur"
-}{
+    ]
+},{
     "name": "Kaszas",
     "type": [
         "arch-melee",
         "melee",
         "archwing",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Kaszas"
-}{
+    ]
+},{
     "name": "Knux",
     "type": [
         "arch-melee",
         "melee",
         "archwing",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Knux"
-}{
+    ]
+},{
     "name": "Onorix",
     "type": [
         "arch-melee",
         "melee",
         "archwing",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Onorix"
-}{
+    ]
+},{
     "name": "Prisma Veritux",
     "type": [
         "arch-melee",
         "melee",
         "archwing",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Prisma_Veritux"
-}{
+    ]
+},{
     "name": "Rathbone",
     "type": [
         "arch-melee",
         "melee",
         "archwing",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Rathbone"
-}{
+    ]
+},{
     "name": "Veritux",
     "type": [
         "arch-melee",
         "melee",
         "archwing",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Veritux"
-}{
+    ]
+},{
     "name": "Ironbride",
     "type": [
         "exalted weapon",
-        "veritux",
+        "melee",
         "archwing",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Ironbride"
-}{
+    ]
+},{
     "name": "Imperator",
     "type": [
         "auto",
         "rifle",
         "archwing",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Imperator"
-}{
+    ]
+},{
     "name": "Mausolon",
     "type": [
         "auto / semi",
-        "imperator\u00a0(atmosphere)",
+        "rifle",
         "archwing",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Mausolon"
-}{
+    ]
+},{
     "name": "Imperator Vandal",
     "type": [
         "auto-spool",
-        "mausolon\u00a0(atmosphere)",
+        "rifle",
         "archwing",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Imperator_Vandal"
-}{
+    ]
+},{
     "name": "Phaedra",
     "type": [
         "auto-spool",
-        "mausolon\u00a0(atmosphere)",
+        "rifle",
         "archwing",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Phaedra"
-}{
+    ]
+},{
     "name": "Cyngas",
     "type": [
         "burst",
-        "phaedra\u00a0(atmosphere)",
+        "rifle",
         "archwing",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Cyngas"
-}{
+    ]
+},{
     "name": "Velocitus",
     "type": [
         "charge",
-        "cyngas\u00a0(atmosphere)",
+        "rifle",
         "archwing",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Velocitus"
-}{
+    ]
+},{
     "name": "Cortege",
     "type": [
         "held",
-        "velocitus\u00a0(atmosphere)",
+        "rifle",
         "archwing",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Cortege"
-}{
+    ]
+},{
     "name": "Larkspur",
     "type": [
         "held",
-        "velocitus\u00a0(atmosphere)",
+        "rifle",
         "archwing",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Larkspur"
-}{
+    ]
+},{
     "name": "Fluctus",
     "type": [
         "semi-auto",
-        "larkspur\u00a0(atmosphere)",
+        "rifle",
         "archwing",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Fluctus"
-}{
+    ]
+},{
     "name": "Corvas",
     "type": [
         "charge",
         "shotgun",
         "archwing",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Corvas"
-}{
+    ]
+},{
     "name": "Corvas Prime",
     "type": [
         "charge",
         "shotgun",
         "archwing",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Corvas_Prime"
-}{
+    ]
+},{
     "name": "Deconstructor",
     "type": [
         "auto",
         "glaive",
         "robotic",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Deconstructor"
-}{
+    ]
+},{
     "name": "Deconstructor Prime",
     "type": [
         "auto",
         "glaive",
         "robotic",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Deconstructor_Prime"
-}{
+    ]
+},{
     "name": "Akaten",
     "type": [
         "unique",
         "melee",
         "robotic",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Akaten"
-}{
+    ]
+},{
     "name": "Batoten",
     "type": [
         "unique",
         "melee",
         "robotic",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Batoten"
-}{
+    ]
+},{
     "name": "Lacerten",
     "type": [
         "unique",
         "melee",
         "robotic",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Lacerten"
-}{
+    ]
+},{
     "name": "Burst Laser",
     "type": [
         "burst",
         "pistol",
         "robotic",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Burst_Laser"
-}{
+    ]
+},{
     "name": "Prisma Burst Laser",
     "type": [
         "burst",
         "pistol",
         "robotic",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Prisma_Burst_Laser"
-}{
+    ]
+},{
     "name": "Laser Rifle",
     "type": [
         "auto",
         "rifle",
         "robotic",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Laser_Rifle"
-}{
+    ]
+},{
     "name": "Multron",
     "type": [
         "auto",
         "rifle",
         "robotic",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Multron"
-}{
+    ]
+},{
     "name": "Prime Laser Rifle",
     "type": [
         "auto",
         "rifle",
         "robotic",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Prime_Laser_Rifle"
-}{
+    ]
+},{
     "name": "Tazicor",
     "type": [
         "auto",
         "rifle",
         "robotic",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Tazicor"
-}{
+    ]
+},{
     "name": "Deth Machine Rifle",
     "type": [
         "auto-spool",
-        "tazicor",
+        "rifle",
         "robotic",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Deth_Machine_Rifle"
-}{
+    ]
+},{
     "name": "Deth Machine Rifle Prime",
     "type": [
         "auto-spool",
-        "tazicor",
+        "rifle",
         "robotic",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Deth_Machine_Rifle_Prime"
-}{
+    ]
+},{
     "name": "Helstrum",
     "type": [
         "burst",
-        "deth\u00a0machine\u00a0rifle\u00a0prime",
+        "rifle",
         "robotic",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Helstrum"
-}{
+    ]
+},{
     "name": "Vulcax",
     "type": [
         "charge",
-        "helstrum",
+        "rifle",
         "robotic",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Vulcax"
-}{
+    ]
+},{
     "name": "Artax",
     "type": [
         "held",
-        "vulcax",
+        "rifle",
         "robotic",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Artax"
-}{
+    ]
+},{
     "name": "Cryotra",
     "type": [
         "held",
-        "vulcax",
+        "rifle",
         "robotic",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Cryotra"
-}{
+    ]
+},{
     "name": "Verglas",
     "type": [
         "held",
-        "vulcax",
+        "rifle",
         "robotic",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Verglas"
-}{
+    ]
+},{
     "name": "Stinger",
     "type": [
         "semi-auto",
-        "verglas",
+        "rifle",
         "robotic",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Stinger"
-}{
+    ]
+},{
     "name": "Sweeper",
     "type": [
         "auto",
         "shotgun",
         "robotic",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Sweeper"
-}{
+    ]
+},{
     "name": "Sweeper Prime",
     "type": [
         "auto",
         "shotgun",
         "robotic",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Sweeper_Prime"
-}{
+    ]
+},{
     "name": "Vulklok",
     "type": [
         "auto",
         "sniper rifle",
         "robotic",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Vulklok"
-}{
+    ]
+},{
     "name": "Rahn Prism",
     "type": [
         "auto",
         "amp",
         "modular",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Rahn_Prism"
-}{
+    ]
+},{
     "name": "Cantic Prism",
     "type": [
         "burst",
-        "rahn\u00a0prism\u00a0(gilded)",
+        "amp",
         "modular",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Cantic_Prism"
-}{
+    ]
+},{
     "name": "Exard Scaffold",
     "type": [
         "burst",
-        "rahn\u00a0prism\u00a0(gilded)",
+        "amp",
         "modular",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Exard_Scaffold"
-}{
+    ]
+},{
     "name": "Granmu Prism",
     "type": [
         "burst",
-        "rahn\u00a0prism\u00a0(gilded)",
+        "amp",
         "modular",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Granmu_Prism"
-}{
+    ]
+},{
     "name": "Pencha Scaffold",
     "type": [
         "charge",
-        "granmu\u00a0prism\u00a0(gilded)",
+        "amp",
         "modular",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Pencha_Scaffold"
-}{
+    ]
+},{
     "name": "Klamora Prism",
     "type": [
         "held",
-        "pencha\u00a0scaffold\u00a0(gilded)",
+        "amp",
         "modular",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Klamora_Prism"
-}{
+    ]
+},{
     "name": "Klebrik Scaffold",
     "type": [
         "held",
-        "pencha\u00a0scaffold\u00a0(gilded)",
+        "amp",
         "modular",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Klebrik_Scaffold"
-}{
+    ]
+},{
     "name": "Lega Prism",
     "type": [
         "held",
-        "pencha\u00a0scaffold\u00a0(gilded)",
+        "amp",
         "modular",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Lega_Prism"
-}{
+    ]
+},{
     "name": "Mote Amp",
     "type": [
         "held",
-        "pencha\u00a0scaffold\u00a0(gilded)",
+        "amp",
         "modular",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Mote_Amp"
-}{
+    ]
+},{
     "name": "Dissic Scaffold",
     "type": [
         "semi-auto",
-        "mote\u00a0amp\u00a0(gilded)",
+        "amp",
         "modular",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Dissic_Scaffold"
-}{
+    ]
+},{
     "name": "Phahd Scaffold",
     "type": [
         "semi-auto",
-        "mote\u00a0amp\u00a0(gilded)",
+        "amp",
         "modular",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Phahd_Scaffold"
-}{
+    ]
+},{
     "name": "Propa Scaffold",
     "type": [
         "semi-auto",
-        "mote\u00a0amp\u00a0(gilded)",
+        "amp",
         "modular",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Propa_Scaffold"
-}{
+    ]
+},{
     "name": "Raplak Prism",
     "type": [
         "semi-auto",
-        "mote\u00a0amp\u00a0(gilded)",
+        "amp",
         "modular",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Raplak_Prism"
-}{
+    ]
+},{
     "name": "Shraksun Scaffold",
     "type": [
         "semi-auto",
-        "mote\u00a0amp\u00a0(gilded)",
+        "amp",
         "modular",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Shraksun_Scaffold"
-}{
+    ]
+},{
     "name": "Shwaak Prism",
     "type": [
         "semi-auto",
-        "mote\u00a0amp\u00a0(gilded)",
+        "amp",
         "modular",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Shwaak_Prism"
-}{
+    ]
+},{
     "name": "Sirocco",
     "type": [
         "semi-auto",
-        "mote\u00a0amp\u00a0(gilded)",
+        "amp",
         "modular",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Sirocco"
-}{
+    ]
+},{
     "name": "Tombfinger",
     "type": [
         "charge",
         "launcher",
         "modular",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Tombfinger"
-}{
+    ]
+},{
     "name": "Balla",
     "type": [
         "zaw dagger / staff",
         "melee",
         "modular",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Balla"
-}{
+    ]
+},{
     "name": "Rabvee",
     "type": [
         "zaw machete / hammer",
-        "balla",
+        "melee",
         "modular",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Rabvee"
-}{
+    ]
+},{
     "name": "Cyath",
     "type": [
         "zaw machete / polearm",
-        "rabvee",
+        "melee",
         "modular",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Cyath"
-}{
+    ]
+},{
     "name": "Kronsh",
     "type": [
         "zaw machete / polearm",
-        "rabvee",
+        "melee",
         "modular",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Kronsh"
-}{
+    ]
+},{
     "name": "Sepfahn",
     "type": [
         "zaw nikana / staff",
-        "kronsh",
+        "melee",
         "modular",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Sepfahn"
-}{
+    ]
+},{
     "name": "Dehtat",
     "type": [
         "zaw rapier / polearm",
-        "sepfahn",
+        "melee",
         "modular",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Dehtat"
-}{
+    ]
+},{
     "name": "Plague Kripath",
     "type": [
         "zaw rapier / polearm",
-        "sepfahn",
+        "melee",
         "modular",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Plague_Kripath"
-}{
+    ]
+},{
     "name": "Dokrahm",
     "type": [
         "zaw scythe / heavy blade",
-        "plague\u00a0kripath",
+        "melee",
         "modular",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Dokrahm"
-}{
+    ]
+},{
     "name": "Plague Keewar",
     "type": [
         "zaw scythe / staff",
-        "dokrahm",
+        "melee",
         "modular",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Plague_Keewar"
-}{
+    ]
+},{
     "name": "Mewan",
     "type": [
         "zaw sword / polearm",
-        "plague\u00a0keewar",
+        "melee",
         "modular",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Mewan"
-}{
+    ]
+},{
     "name": "Ooltha",
     "type": [
         "zaw sword / staff",
-        "mewan",
+        "melee",
         "modular",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Ooltha"
-}{
+    ]
+},{
     "name": "Rattleguts",
     "type": [
         "auto",
         "pistol",
         "modular",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Rattleguts"
-}{
+    ]
+},{
     "name": "Gaze",
     "type": [
         "held",
-        "rattleguts",
+        "pistol",
         "modular",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Gaze"
-}{
+    ]
+},{
     "name": "Vermisplicer",
     "type": [
         "held",
-        "rattleguts",
+        "pistol",
         "modular",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Vermisplicer"
-}{
+    ]
+},{
     "name": "Catchmoon",
     "type": [
         "semi-auto",
-        "vermisplicer",
+        "pistol",
         "modular",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Catchmoon"
-}{
+    ]
+},{
     "name": "Sporelacer",
     "type": [
         "semi-auto",
-        "vermisplicer",
+        "pistol",
         "modular",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Sporelacer"
-}{
+    ]
+},{
     "name": "Tombfinger",
     "type": [
         "semi-auto",
-        "vermisplicer",
+        "pistol",
         "modular",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Tombfinger"
-}{
+    ]
+},{
     "name": "Rattleguts",
     "type": [
         "auto",
         "rifle",
         "modular",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Rattleguts"
-}{
+    ]
+},{
     "name": "Gaze",
     "type": [
         "held",
-        "rattleguts\u00a0(primary)",
+        "rifle",
         "modular",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Gaze"
-}{
+    ]
+},{
     "name": "Vermisplicer",
     "type": [
         "held",
-        "rattleguts\u00a0(primary)",
+        "rifle",
         "modular",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Vermisplicer"
-}{
+    ]
+},{
     "name": "Catchmoon",
     "type": [
         "auto",
         "shotgun",
         "modular",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Catchmoon"
-}{
+    ]
+},{
     "name": "Sporelacer",
     "type": [
         "auto",
         "shotgun",
         "modular",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Sporelacer"
-}{
+    ]
+},{
     "name": "Galvarc",
     "type": [
         "semi-auto",
         "ordnance",
         "railjack",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Galvarc"
-}{
+    ]
+},{
     "name": "Milati",
     "type": [
         "semi-auto",
         "ordnance",
         "railjack",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Milati"
-}{
+    ]
+},{
     "name": "Tycho Seeker",
     "type": [
         "semi-auto",
         "ordnance",
         "railjack",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Tycho_Seeker"
-}{
+    ]
+},{
     "name": "Apoc",
     "type": [
         "auto",
         "turret",
         "railjack",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Apoc"
-}{
+    ]
+},{
     "name": "Carcinnox",
     "type": [
         "auto",
         "turret",
         "railjack",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Carcinnox"
-}{
+    ]
+},{
     "name": "Glazio",
     "type": [
         "auto",
         "turret",
         "railjack",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Glazio"
-}{
+    ]
+},{
     "name": "Laith",
     "type": [
         "auto",
         "turret",
         "railjack",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Laith"
-}{
+    ]
+},{
     "name": "Apoc",
     "type": [
         "auto",
         "turret",
         "railjack",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Apoc"
-}{
+    ]
+},{
     "name": "Carcinnox",
     "type": [
         "auto",
         "turret",
         "railjack",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Carcinnox"
-}{
+    ]
+},{
     "name": "Glazio",
     "type": [
         "auto",
         "turret",
         "railjack",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Glazio"
-}{
+    ]
+},{
     "name": "Laith",
     "type": [
         "auto",
         "turret",
         "railjack",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Laith"
-}{
+    ]
+},{
     "name": "Vort",
     "type": [
         "auto",
         "turret",
         "railjack",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Vort"
-}{
+    ]
+},{
     "name": "Apoc",
     "type": [
         "auto",
         "turret",
         "railjack",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Apoc"
-}{
+    ]
+},{
     "name": "Carcinnox",
     "type": [
         "auto",
         "turret",
         "railjack",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Carcinnox"
-}{
+    ]
+},{
     "name": "Glazio",
     "type": [
         "auto",
         "turret",
         "railjack",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Glazio"
-}{
+    ]
+},{
     "name": "Laith",
     "type": [
         "auto",
         "turret",
         "railjack",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Laith"
-}{
+    ]
+},{
     "name": "Vort",
     "type": [
         "auto",
         "turret",
         "railjack",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Vort"
-}{
+    ]
+},{
     "name": "Vort",
     "type": [
         "auto",
         "turret",
         "railjack",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Vort"
-}{
+    ]
+},{
     "name": "Apoc",
     "type": [
         "auto",
         "turret",
         "railjack",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Apoc"
-}{
+    ]
+},{
     "name": "Carcinnox",
     "type": [
         "auto",
         "turret",
         "railjack",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Carcinnox"
-}{
+    ]
+},{
     "name": "Glazio",
     "type": [
         "auto",
         "turret",
         "railjack",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Glazio"
-}{
+    ]
+},{
     "name": "Laith",
     "type": [
         "auto",
         "turret",
         "railjack",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Laith"
-}{
+    ]
+},{
     "name": "Vort",
     "type": [
         "auto",
         "turret",
         "railjack",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Vort"
-}{
+    ]
+},{
     "name": "Pulsar",
     "type": [
         "auto burst",
-        "zetki\u00a0vort\u00a0mk\u00a0iii",
+        "turret",
         "railjack",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Pulsar"
-}{
+    ]
+},{
     "name": "Pulsar",
     "type": [
         "auto burst",
-        "zetki\u00a0vort\u00a0mk\u00a0iii",
+        "turret",
         "railjack",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Pulsar"
-}{
+    ]
+},{
     "name": "Pulsar",
     "type": [
         "auto burst",
-        "zetki\u00a0vort\u00a0mk\u00a0iii",
+        "turret",
         "railjack",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Pulsar"
-}{
+    ]
+},{
     "name": "Pulsar",
     "type": [
         "auto burst",
-        "zetki\u00a0vort\u00a0mk\u00a0iii",
+        "turret",
         "railjack",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Pulsar"
-}{
+    ]
+},{
     "name": "Talyn",
     "type": [
         "auto-spool",
-        "zetki\u00a0pulsar\u00a0mk\u00a0iii",
+        "turret",
         "railjack",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Talyn"
-}{
+    ]
+},{
     "name": "Talyn",
     "type": [
         "auto-spool",
-        "zetki\u00a0pulsar\u00a0mk\u00a0iii",
+        "turret",
         "railjack",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Talyn"
-}{
+    ]
+},{
     "name": "Talyn",
     "type": [
         "auto-spool",
-        "zetki\u00a0pulsar\u00a0mk\u00a0iii",
+        "turret",
         "railjack",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Talyn"
-}{
+    ]
+},{
     "name": "Talyn",
     "type": [
         "auto-spool",
-        "zetki\u00a0pulsar\u00a0mk\u00a0iii",
+        "turret",
         "railjack",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Talyn"
-}{
+    ]
+},{
     "name": "Tunguska Cannon",
     "type": [
         "charge",
-        "zetki\u00a0talyn\u00a0mk\u00a0iii",
+        "turret",
         "railjack",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Tunguska_Cannon"
-}{
+    ]
+},{
     "name": "Photor",
     "type": [
         "held",
-        "tunguska\u00a0cannon",
+        "turret",
         "railjack",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Photor"
-}{
+    ]
+},{
     "name": "Photor",
     "type": [
         "held",
-        "tunguska\u00a0cannon",
+        "turret",
         "railjack",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Photor"
-}{
+    ]
+},{
     "name": "Photor",
     "type": [
         "held",
-        "tunguska\u00a0cannon",
+        "turret",
         "railjack",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Photor"
-}{
+    ]
+},{
     "name": "Photor",
     "type": [
         "held",
-        "tunguska\u00a0cannon",
+        "turret",
         "railjack",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Photor"
-}{
+    ]
+},{
     "name": "Cryophon",
     "type": [
         "semi-auto",
-        "zetki\u00a0photor\u00a0mk\u00a0iii",
+        "turret",
         "railjack",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Cryophon"
-}{
+    ]
+},{
     "name": "Cryophon",
     "type": [
         "semi-auto",
-        "zetki\u00a0photor\u00a0mk\u00a0iii",
+        "turret",
         "railjack",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Cryophon"
-}{
+    ]
+},{
     "name": "Cryophon",
     "type": [
         "semi-auto",
-        "zetki\u00a0photor\u00a0mk\u00a0iii",
+        "turret",
         "railjack",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Cryophon"
-}{
+    ]
+},{
     "name": "Cryophon",
     "type": [
         "semi-auto",
-        "zetki\u00a0photor\u00a0mk\u00a0iii",
+        "turret",
         "railjack",
         "weapon"
-    ],
-    "location": null,
-    "href": "/wiki/Cryophon"
-}
+    ]
+},[
