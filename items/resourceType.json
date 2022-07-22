@@ -35,9 +35,13 @@
 	},{
 		"name": "semi-active"
 	},{
+		"name": "semi-auto"
+	},{
 		"name": "auto-burst"
 	},{
 		"name": "auto-spool"
+	},{
+		"name": "auto burst"
 	},{
 		"name": "burst"
 	},{
@@ -46,6 +50,8 @@
 		"name": "duplex"
 	},{
 		"name": "auto-charge"
+	},{
+		"name": "auto charge"
 	},{
 		"name": "primary"
 	},{
@@ -81,11 +87,17 @@
 	},{
 		"name": "melee"
 	},{
+		"name": "assault saw"
+	},{
+		"name": "blade and whip"
+	},{
 		"name": "dagger"
 	},{
-		"name": "gual daggers"
+		"name": "dual daggers"
 	},{
 		"name": "dual swords"
+	},{
+		"name": "claws"
 	},{
 		"name": "fist"
 	},{
@@ -144,6 +156,8 @@
 		"name": "zaw"
 	},{
 		"name": "zaw machete"
+	},{
+		"name": "zaw dagger"
 	},{
 		"name": "zaw nikana"
 	},{

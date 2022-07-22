@@ -13,6 +13,7 @@ fullList = list()
 mongo_client = pymongo.MongoClient("mongodb+srv://warframe_manager_user:H9guvYhcVtWk5z25@warframemanagercluster.jvusw.mongodb.net/test")
 warf_db = mongo_client["WarframeManager"]
 types_col = warf_db["Types"]
+planets_Col = warf_db["Planets"]
 
 class item:
     def __init__(self, name, type, href, location = NULL):
@@ -24,7 +25,7 @@ class item:
         obj = dict()
         obj['name'] = self.name
         obj['type'] = FindAndReturnTypesID(self.type)
-        if (self.location != NULL and self.location != ""): obj['locations'] = self.location
+        if (self.location != NULL and len(self.location) > 0): obj['locations'] = self.location
         return json.dumps(obj, indent=4)
     name = str()
     type = list()
@@ -36,7 +37,10 @@ def FindAndReturnTypesID(types):
     type_list = list()
     for type in types:
         res = types_col.find_one({"name":type}, {"_id": 1, "name": 0})
-        type_list.append(str(res["_id"]))
+        if res != None:
+            type_list.append(str(res["_id"]))
+        else:
+            print(type)
     return type_list
 
 
@@ -62,7 +66,8 @@ def GetWeaponsList():
                     if element.name:
                         # Set tags for weapon
                         tag_list = []
-                        tag_list.append(element.parent.previous.lower())
+                        for categ in element.parent.previous.lower().split(" / "):
+                            tag_list.append(categ)
                         tag_list.append(GetCateg(element.parent.parent).lower())
                         tag_list.append(categs_Names[category].lower())
                         tag_list.append('weapon')
@@ -146,45 +151,56 @@ def GetArchwingsList ():
 
 def GetResourcesList ():
     """Function that gets list of all resources from warframe wiki"""
-    url = 'https://warframe.fandom.com/wiki/Category:Resources'
+    url = 'https://warframe.fandom.com/wiki/Resources'
     # Get page with resources
     request = requests.get(url)
-    soup_obj = BeautifulSoup(request.content, 'html.parser')
-    item_list = list()
+    soup_Obj = BeautifulSoup(request.content, 'html.parser')
+    tables_list = soup_Obj.findAll('table')
+    common_Res = tables_list[2]
+    uncommon_Res = tables_list[3]
+    rare_Res = tables_list[4]   
+    research_Res = tables_list[5]
+    item_List = list()
     # Get table of resources
-    table = soup_obj.find('table', {'class':'navbox'})
+    table = soup_Obj.find('table', {'class':'navbox mw-collapsible'})
     # Get all objects with resources
     resources = table.findAll('span', {'data-param2':'Resources'})
     for resource in resources:
-        # Get full info of res
-        res_request = requests.get('https://warframe.fandom.com' + resource.contents[2].attrs['href'])
-        soup_res = BeautifulSoup(res_request.content, 'html.parser')
-        # Get res tags
-        res_info = soup_res.find_all('div', {'class':'pi-data-value pi-font'})
         # Applight all tags to res
         tag_List = list()
-        tag_allow = {'Common', 'Uncommon', 'Rare'}
-        for res_inf in res_info:
-            if res_inf.text in tag_allow:
-                tag_List.append(res_inf.text.lower().strip())
+        res_Type = resource.parent.parent.previous
+        if (res_Type != None and res_Type != NULL):
+            tag_List.append(res_Type.lower().strip())
+        allowed_Tags_With_Locations = {'Common', 'Uncommon', 'Rare', 'Research'}
         tag_List.append('resource')
-        # Get location from res info
-        location = str()
-        if ( len(res_info) > 0 and hasattr(res_info[1], 'contents') and hasattr(res_info[1].contents[0], 'contents') and len(res_info[1].contents[0].contents) > 3 ):
-            if ('Locations' in res_info[1].contents[0].text):
-                loc = [Location_Format(loc) for loc in [ loc.strip() for loc in res_info[1].contents[0].text.split('Locations')[1].split(',')]]
-                location = loc
-        item_list.append(item(resource.attrs['data-param'], tag_List, resource.contents[2].attrs['href'], location) )
-    return item_list
+        # Get location of resource
+        location = list()
+        if (res_Type in allowed_Tags_With_Locations):
+            loc_Res = Get_Location(resource.attrs['data-param'], common_Res if (res_Type == 'Common') else uncommon_Res if (res_Type == 'Uncommon') else rare_Res if (res_Type == 'Rare') else research_Res)
+            if (len(loc_Res) > 0):
+                location = loc_Res
+        item_List.append(item(resource.attrs['data-param'], tag_List, resource.contents[2].attrs['href'], location) )
+    return item_List
 
 
-
-def Location_Format(name):
-    loc_Name = name
-    if loc_Name.startswith(': '): loc_Name = loc_Name[2:]
-    if loc_Name.startswith('and'): loc_Name = loc_Name[4:]
-    if (loc_Name.endswith('.')): loc_Name = loc_Name[:len(loc_Name)-1]
-    return loc_Name.lower()
+def Get_Location(res_Name, tab):
+    planet_list = ['mercury','venus','earth','lua','mars','deimos','phobos','ceres','jupiter','europa','saturn','uranus','neptune','pluto','eris','sedna','void','kuva fortress']
+    loc_List = list()
+    res = tab.find('span', {'data-param':res_Name})
+    if (res == None): return loc_List
+    # Get list of resource belong
+    res_Box = res.parent.parent.contents
+    for state_Num in range(3, len(res_Box)+1, 2):
+        if (len(res_Box[state_Num].contents) > 1):
+            # Get planets id from db
+            re = planets_Col.find_one({"name":planet_list[int((state_Num-1)/2)-1]}, {"_id": 1, "name": 0})
+            if re != None:
+                loc_List.append(str(re["_id"]))
+            else:
+                # Printing result if planet not in db
+                print(int((state_Num-1)/2)-1)
+                print(planet_list[int((state_Num-1)/2)-1])
+    return loc_List
 
 
 def Save_To_File(name, item_list):
@@ -196,9 +212,9 @@ def Save_To_File(name, item_list):
         outp.write('[')
 
 
-Save_To_File('warframes.json', GetWarframesList())
+#Save_To_File('warframes.json', GetWarframesList())
 #Save_To_File('weapons.json', GetWeaponsList())
-Save_To_File('companions.json', GetCompanionsList())
-Save_To_File('archwings.json', GetArchwingsList())
-#Save_To_File('resources.json', GetResourcesList())
+#Save_To_File('companions.json', GetCompanionsList())
+#Save_To_File('archwings.json', GetArchwingsList())
+Save_To_File('resources.json', GetResourcesList())
 

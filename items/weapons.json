@@ -1,5057 +1,5100 @@
 [{
     "name": "Bubonico",
     "type": [
-        "auto",
-        "arm cannon",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d80818",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Shedu",
     "type": [
-        "auto",
-        "arm cannon",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d80818",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Cernos",
     "type": [
-        "charge",
-        "bow",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080d",
+        "62d8682daeef469267d80819",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Cernos Prime",
     "type": [
-        "charge",
-        "bow",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080d",
+        "62d8682daeef469267d80819",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Daikyu",
     "type": [
-        "charge",
-        "bow",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080d",
+        "62d8682daeef469267d80819",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Dread",
     "type": [
-        "charge",
-        "bow",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080d",
+        "62d8682daeef469267d80819",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Kuva Bramma",
     "type": [
-        "charge",
-        "bow",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080d",
+        "62d8682daeef469267d80819",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Lenz",
     "type": [
-        "charge",
-        "bow",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080d",
+        "62d8682daeef469267d80819",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "MK1-Paris",
     "type": [
-        "charge",
-        "bow",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080d",
+        "62d8682daeef469267d80819",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Mutalist Cernos",
     "type": [
-        "charge",
-        "bow",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080d",
+        "62d8682daeef469267d80819",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Nataruk",
     "type": [
-        "charge",
-        "bow",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080d",
+        "62d8682daeef469267d80819",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Paris",
     "type": [
-        "charge",
-        "bow",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080d",
+        "62d8682daeef469267d80819",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Paris Prime",
     "type": [
-        "charge",
-        "bow",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080d",
+        "62d8682daeef469267d80819",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Proboscis Cernos",
     "type": [
-        "charge",
-        "bow",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080d",
+        "62d8682daeef469267d80819",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Rakta Cernos",
     "type": [
-        "charge",
-        "bow",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080d",
+        "62d8682daeef469267d80819",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Attica",
     "type": [
-        "auto",
-        "crossbow",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8081a",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Zhuge",
     "type": [
-        "auto",
-        "crossbow",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8081a",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Zhuge Prime",
     "type": [
-        "auto",
-        "crossbow",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8081a",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Nagantaka",
     "type": [
-        "semi / burst",
-        "crossbow",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080e",
+        "62d8682daeef469267d80813",
+        "62d8682daeef469267d8081a",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Nagantaka Prime",
     "type": [
-        "semi / burst",
-        "crossbow",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080e",
+        "62d8682daeef469267d80813",
+        "62d8682daeef469267d8081a",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Artemis Bow (Weapon)",
     "type": [
-        "charge",
-        "exalted weapon",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080d",
+        "62d8682daeef469267d8081b",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Artemis Bow (Weapon)",
     "type": [
-        "charge",
-        "exalted weapon",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080d",
+        "62d8682daeef469267d8081b",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Carmine Penta",
     "type": [
-        "active",
-        "launcher",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080f",
+        "62d8682daeef469267d8081c",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Penta",
     "type": [
-        "active",
-        "launcher",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080f",
+        "62d8682daeef469267d8081c",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Secura Penta",
     "type": [
-        "active",
-        "launcher",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080f",
+        "62d8682daeef469267d8081c",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Tenet Envoy",
     "type": [
-        "auto",
-        "launcher",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8081c",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Ogris",
     "type": [
-        "charge",
-        "launcher",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080d",
+        "62d8682daeef469267d8081c",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Kuva Ogris",
     "type": [
-        "semi-auto",
-        "launcher",
-        "primary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d8081c",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Kuva Tonkor",
     "type": [
-        "semi-auto",
-        "launcher",
-        "primary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d8081c",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Kuva Zarr",
     "type": [
-        "semi-auto",
-        "launcher",
-        "primary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d8081c",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Tonkor",
     "type": [
-        "semi-auto",
-        "launcher",
-        "primary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d8081c",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Torid",
     "type": [
-        "semi-auto",
-        "launcher",
-        "primary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d8081c",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Zarr",
     "type": [
-        "semi-auto",
-        "launcher",
-        "primary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d8081c",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Simulor",
     "type": [
-        "active",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080f",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Synoid Simulor",
     "type": [
-        "active",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080f",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Acceltra",
     "type": [
-        "auto",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Basmu",
     "type": [
-        "auto",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Baza",
     "type": [
-        "auto",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Baza Prime",
     "type": [
-        "auto",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Boltor",
     "type": [
-        "auto",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Boltor Prime",
     "type": [
-        "auto",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Braton",
     "type": [
-        "auto",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Braton Prime",
     "type": [
-        "auto",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Braton Vandal",
     "type": [
-        "auto",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Buzlok",
     "type": [
-        "auto",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Dera",
     "type": [
-        "auto",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Dera Vandal",
     "type": [
-        "auto",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Grakata",
     "type": [
-        "auto",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Karak",
     "type": [
-        "auto",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Karak Wraith",
     "type": [
-        "auto",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Kuva Karak",
     "type": [
-        "auto",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "MK1-Braton",
     "type": [
-        "auto",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Mutalist Quanta",
     "type": [
-        "auto",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Panthera",
     "type": [
-        "auto",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Panthera Prime",
     "type": [
-        "auto",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Prisma Grakata",
     "type": [
-        "auto",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Prisma Tetra",
     "type": [
-        "auto",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Telos Boltor",
     "type": [
-        "auto",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Tenet Flux Rifle",
     "type": [
-        "auto",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Tetra",
     "type": [
-        "auto",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Alternox",
     "type": [
-        "auto / active",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8080f",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Aeolak",
     "type": [
-        "auto / charge",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8080d",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Ambassador",
     "type": [
-        "auto / charge",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8080d",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Quellor",
     "type": [
-        "auto / charge",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8080d",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Stahlta",
     "type": [
-        "auto / charge",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8080d",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Argonak",
     "type": [
-        "auto / semi",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8080e",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Fulmin",
     "type": [
-        "auto / semi",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8080e",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Phenmor",
     "type": [
-        "auto / semi",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8080e",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Stradavar",
     "type": [
-        "auto / semi",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8080e",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Stradavar Prime",
     "type": [
-        "auto / semi",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8080e",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Tenet Tetra",
     "type": [
-        "auto / semi",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8080e",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Trumna",
     "type": [
-        "auto / semi",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8080e",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Zenith",
     "type": [
-        "auto / semi",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8080e",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Battacor",
     "type": [
-        "auto burst",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d99e7abf2d1fd28552bbe7",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Gorgon",
     "type": [
-        "auto-spool",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d80812",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Gorgon Wraith",
     "type": [
-        "auto-spool",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d80812",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Prisma Gorgon",
     "type": [
-        "auto-spool",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d80812",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Soma",
     "type": [
-        "auto-spool",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d80812",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Soma Prime",
     "type": [
-        "auto-spool",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d80812",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Supra",
     "type": [
-        "auto-spool",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d80812",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Supra Vandal",
     "type": [
-        "auto-spool",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d80812",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Tenora",
     "type": [
-        "auto-spool",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d80812",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Tenora Prime",
     "type": [
-        "auto-spool",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d80812",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Burston",
     "type": [
-        "burst",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d80813",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Burston Prime",
     "type": [
-        "burst",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d80813",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Dex Sybaris",
     "type": [
-        "burst",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d80813",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Harpak",
     "type": [
-        "burst",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d80813",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Hema",
     "type": [
-        "burst",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d80813",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Kuva Quartakk",
     "type": [
-        "burst",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d80813",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Paracyst",
     "type": [
-        "burst",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d80813",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Quartakk",
     "type": [
-        "burst",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d80813",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Sybaris",
     "type": [
-        "burst",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d80813",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Sybaris Prime",
     "type": [
-        "burst",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d80813",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Tiberon",
     "type": [
-        "burst",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d80813",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Hind",
     "type": [
-        "burst / semi",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d80813",
+        "62d8682daeef469267d8080e",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Kuva Hind",
     "type": [
-        "burst / semi / auto",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d80813",
+        "62d8682daeef469267d8080e",
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Tiberon Prime",
     "type": [
-        "burst / semi / auto",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d80813",
+        "62d8682daeef469267d8080e",
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Miter",
     "type": [
-        "charge",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080d",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Opticor",
     "type": [
-        "charge",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080d",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Opticor Vandal",
     "type": [
-        "charge",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080d",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Amprex",
     "type": [
-        "held",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d80814",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Flux Rifle",
     "type": [
-        "held",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d80814",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Glaxion",
     "type": [
-        "held",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d80814",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Glaxion Vandal",
     "type": [
-        "held",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d80814",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Ignis",
     "type": [
-        "held",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d80814",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Ignis Wraith",
     "type": [
-        "held",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d80814",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Quanta",
     "type": [
-        "held",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d80814",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Quanta Vandal",
     "type": [
-        "held",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d80814",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Synapse",
     "type": [
-        "held",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d80814",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Grinlok",
     "type": [
-        "semi-auto",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Kuva Chakkhurr",
     "type": [
-        "semi-auto",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Latron",
     "type": [
-        "semi-auto",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Latron Prime",
     "type": [
-        "semi-auto",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Latron Wraith",
     "type": [
-        "semi-auto",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Prisma Grinlok",
     "type": [
-        "semi-auto",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Veldt",
     "type": [
-        "semi-auto",
-        "rifle",
-        "primary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Astilla",
     "type": [
-        "auto",
-        "shotgun",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8081e",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Astilla Prime",
     "type": [
-        "auto",
-        "shotgun",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8081e",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Boar",
     "type": [
-        "auto",
-        "shotgun",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8081e",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Boar Prime",
     "type": [
-        "auto",
-        "shotgun",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8081e",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Sobek",
     "type": [
-        "auto",
-        "shotgun",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8081e",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Cedo",
     "type": [
-        "auto / semi",
-        "shotgun",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8080e",
+        "62d8682daeef469267d8081e",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Felarx",
     "type": [
-        "auto / semi",
-        "shotgun",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8080e",
+        "62d8682daeef469267d8081e",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Kohm",
     "type": [
-        "auto-spool",
-        "shotgun",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d80812",
+        "62d8682daeef469267d8081e",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Kuva Kohm",
     "type": [
-        "auto-spool",
-        "shotgun",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d80812",
+        "62d8682daeef469267d8081e",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Drakgoon",
     "type": [
-        "charge",
-        "shotgun",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080d",
+        "62d8682daeef469267d8081e",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Kuva Drakgoon",
     "type": [
-        "charge",
-        "shotgun",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080d",
+        "62d8682daeef469267d8081e",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Sancti Tigris",
     "type": [
-        "duplex",
-        "shotgun",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d80815",
+        "62d8682daeef469267d8081e",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Tigris",
     "type": [
-        "duplex",
-        "shotgun",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d80815",
+        "62d8682daeef469267d8081e",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Tigris Prime",
     "type": [
-        "duplex",
-        "shotgun",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d80815",
+        "62d8682daeef469267d8081e",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Convectrix",
     "type": [
-        "held",
-        "shotgun",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d80814",
+        "62d8682daeef469267d8081e",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Phage",
     "type": [
-        "held",
-        "shotgun",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d80814",
+        "62d8682daeef469267d8081e",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Phantasma",
     "type": [
-        "held",
-        "shotgun",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d80814",
+        "62d8682daeef469267d8081e",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Arca Plasmor",
     "type": [
-        "semi-auto",
-        "shotgun",
-        "primary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d8081e",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Corinth",
     "type": [
-        "semi-auto",
-        "shotgun",
-        "primary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d8081e",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Corinth Prime",
     "type": [
-        "semi-auto",
-        "shotgun",
-        "primary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d8081e",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Exergis",
     "type": [
-        "semi-auto",
-        "shotgun",
-        "primary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d8081e",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Hek",
     "type": [
-        "semi-auto",
-        "shotgun",
-        "primary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d8081e",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Kuva Hek",
     "type": [
-        "semi-auto",
-        "shotgun",
-        "primary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d8081e",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "MK1-Strun",
     "type": [
-        "semi-auto",
-        "shotgun",
-        "primary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d8081e",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Strun",
     "type": [
-        "semi-auto",
-        "shotgun",
-        "primary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d8081e",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Strun Prime",
     "type": [
-        "semi-auto",
-        "shotgun",
-        "primary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d8081e",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Strun Wraith",
     "type": [
-        "semi-auto",
-        "shotgun",
-        "primary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d8081e",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Tenet Arca Plasmor",
     "type": [
-        "semi-auto",
-        "shotgun",
-        "primary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d8081e",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Vaykor Hek",
     "type": [
-        "semi-auto",
-        "shotgun",
-        "primary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d8081e",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Lanka",
     "type": [
-        "charge",
-        "sniper rifle",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080d",
+        "62d8682daeef469267d8081f",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Komorex",
     "type": [
-        "semi-auto",
-        "sniper rifle",
-        "primary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d8081f",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Rubico",
     "type": [
-        "semi-auto",
-        "sniper rifle",
-        "primary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d8081f",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Rubico Prime",
     "type": [
-        "semi-auto",
-        "sniper rifle",
-        "primary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d8081f",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Snipetron",
     "type": [
-        "semi-auto",
-        "sniper rifle",
-        "primary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d8081f",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Snipetron Vandal",
     "type": [
-        "semi-auto",
-        "sniper rifle",
-        "primary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d8081f",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Sporothrix",
     "type": [
-        "semi-auto",
-        "sniper rifle",
-        "primary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d8081f",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Vectis",
     "type": [
-        "semi-auto",
-        "sniper rifle",
-        "primary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d8081f",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Vectis Prime",
     "type": [
-        "semi-auto",
-        "sniper rifle",
-        "primary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d8081f",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Vulkar",
     "type": [
-        "semi-auto",
-        "sniper rifle",
-        "primary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d8081f",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Vulkar Wraith",
     "type": [
-        "semi-auto",
-        "sniper rifle",
-        "primary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d8081f",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Scourge",
     "type": [
-        "auto",
-        "speargun",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d80820",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Scourge Prime",
     "type": [
-        "auto",
-        "speargun",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d80820",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Javlok",
     "type": [
-        "auto charge",
-        "speargun",
-        "primary",
-        "weapon"
+        "62d99ea1bf2d1fd28552bbe8",
+        "62d8682daeef469267d80820",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Ferrox",
     "type": [
-        "charge",
-        "speargun",
-        "primary",
-        "weapon"
+        "62d8682daeef469267d8080d",
+        "62d8682daeef469267d80820",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Ballistica",
     "type": [
-        "burst / charge",
-        "crossbow",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d80813",
+        "62d8682daeef469267d8080d",
+        "62d8682daeef469267d8081a",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Ballistica Prime",
     "type": [
-        "burst / charge",
-        "crossbow",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d80813",
+        "62d8682daeef469267d8080d",
+        "62d8682daeef469267d8081a",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Rakta Ballistica",
     "type": [
-        "burst / charge",
-        "crossbow",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d80813",
+        "62d8682daeef469267d8080d",
+        "62d8682daeef469267d8081a",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Afuris",
     "type": [
-        "auto",
-        "dual pistols",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d80822",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Akstiletto",
     "type": [
-        "auto",
-        "dual pistols",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d80822",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Akstiletto Prime",
     "type": [
-        "auto",
-        "dual pistols",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d80822",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Akzani",
     "type": [
-        "auto",
-        "dual pistols",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d80822",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Dex Furis",
     "type": [
-        "auto",
-        "dual pistols",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d80822",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Dual Cestra",
     "type": [
-        "auto",
-        "dual pistols",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d80822",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Kuva Twin Stubbas",
     "type": [
-        "auto",
-        "dual pistols",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d80822",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Prisma Twin Gremlins",
     "type": [
-        "auto",
-        "dual pistols",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d80822",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Tenet Diplos",
     "type": [
-        "auto",
-        "dual pistols",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d80822",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Twin Grakatas",
     "type": [
-        "auto",
-        "dual pistols",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d80822",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Twin Gremlins",
     "type": [
-        "auto",
-        "dual pistols",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d80822",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Twin Vipers",
     "type": [
-        "auto",
-        "dual pistols",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d80822",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Twin Vipers Wraith",
     "type": [
-        "auto",
-        "dual pistols",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d80822",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Aksomati",
     "type": [
-        "auto-spool",
-        "dual pistols",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d80812",
+        "62d8682daeef469267d80822",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Aksomati Prime",
     "type": [
-        "auto-spool",
-        "dual pistols",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d80812",
+        "62d8682daeef469267d80822",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Secura Dual Cestra",
     "type": [
-        "auto-spool",
-        "dual pistols",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d80812",
+        "62d8682daeef469267d80822",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Akarius",
     "type": [
-        "burst",
-        "dual pistols",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d80813",
+        "62d8682daeef469267d80822",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Akjagara",
     "type": [
-        "burst",
-        "dual pistols",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d80813",
+        "62d8682daeef469267d80822",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Akjagara Prime",
     "type": [
-        "burst",
-        "dual pistols",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d80813",
+        "62d8682daeef469267d80822",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Staticor",
     "type": [
-        "charge",
-        "dual pistols",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d8080d",
+        "62d8682daeef469267d80822",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Akbolto",
     "type": [
-        "semi-auto",
-        "dual pistols",
-        "secondary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d80822",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Akbolto Prime",
     "type": [
-        "semi-auto",
-        "dual pistols",
-        "secondary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d80822",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Aklato",
     "type": [
-        "semi-auto",
-        "dual pistols",
-        "secondary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d80822",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Aklex",
     "type": [
-        "semi-auto",
-        "dual pistols",
-        "secondary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d80822",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Aklex Prime",
     "type": [
-        "semi-auto",
-        "dual pistols",
-        "secondary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d80822",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Akmagnus",
     "type": [
-        "semi-auto",
-        "dual pistols",
-        "secondary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d80822",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Akvasto",
     "type": [
-        "semi-auto",
-        "dual pistols",
-        "secondary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d80822",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Akvasto Prime",
     "type": [
-        "semi-auto",
-        "dual pistols",
-        "secondary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d80822",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Dual Toxocyst",
     "type": [
-        "semi-auto",
-        "dual pistols",
-        "secondary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d80822",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Telos Akbolto",
     "type": [
-        "semi-auto",
-        "dual pistols",
-        "secondary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d80822",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Twin Kohmak",
     "type": [
-        "auto-spool",
-        "dual shotguns",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d80812",
+        "62d8682daeef469267d80823",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Akbronco",
     "type": [
-        "semi-auto",
-        "dual shotguns",
-        "secondary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d80823",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Akbronco Prime",
     "type": [
-        "semi-auto",
-        "dual shotguns",
-        "secondary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d80823",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Twin Rogga",
     "type": [
-        "semi-auto",
-        "dual shotguns",
-        "secondary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d80823",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Dex Pixia",
     "type": [
-        "auto",
-        "exalted weapon",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8081b",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Dex Pixia",
     "type": [
-        "auto",
-        "exalted weapon",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8081b",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Regulators",
     "type": [
-        "auto",
-        "exalted weapon",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8081b",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Regulators",
     "type": [
-        "auto",
-        "exalted weapon",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8081b",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Balefire Charger",
     "type": [
-        "charge",
-        "exalted weapon",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d8080d",
+        "62d8682daeef469267d8081b",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Azima",
     "type": [
-        "auto",
-        "pistol",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Cestra",
     "type": [
-        "auto",
-        "pistol",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Furis",
     "type": [
-        "auto",
-        "pistol",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Hystrix",
     "type": [
-        "auto",
-        "pistol",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Hystrix Prime",
     "type": [
-        "auto",
-        "pistol",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Knell",
     "type": [
-        "auto",
-        "pistol",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Knell Prime",
     "type": [
-        "auto",
-        "pistol",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Kompressa",
     "type": [
-        "auto",
-        "pistol",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "MK1-Furis",
     "type": [
-        "auto",
-        "pistol",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Quatz",
     "type": [
-        "auto",
-        "pistol",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Stubba",
     "type": [
-        "auto",
-        "pistol",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Velox",
     "type": [
-        "auto",
-        "pistol",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Viper",
     "type": [
-        "auto",
-        "pistol",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Viper Wraith",
     "type": [
-        "auto",
-        "pistol",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Athodai",
     "type": [
-        "auto / burst",
-        "pistol",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d80813",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Cyanex",
     "type": [
-        "auto / burst",
-        "pistol",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d80813",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Kraken",
     "type": [
-        "burst",
-        "pistol",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d80813",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Kuva Kraken",
     "type": [
-        "burst",
-        "pistol",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d80813",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Sepulcrum",
     "type": [
-        "burst",
-        "pistol",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d80813",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Sicarus",
     "type": [
-        "burst",
-        "pistol",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d80813",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Sicarus Prime",
     "type": [
-        "burst",
-        "pistol",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d80813",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Angstrum",
     "type": [
-        "charge",
-        "pistol",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d8080d",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Prisma Angstrum",
     "type": [
-        "charge",
-        "pistol",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d8080d",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Stug",
     "type": [
-        "charge",
-        "pistol",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d8080d",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Zylok",
     "type": [
-        "duplex",
-        "pistol",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d80815",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Atomos",
     "type": [
-        "held",
-        "pistol",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d80814",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Catabolyst",
     "type": [
-        "held",
-        "pistol",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d80814",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Cycron",
     "type": [
-        "held",
-        "pistol",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d80814",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Embolist",
     "type": [
-        "held",
-        "pistol",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d80814",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Gammacor",
     "type": [
-        "held",
-        "pistol",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d80814",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Kuva Nukor",
     "type": [
-        "held",
-        "pistol",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d80814",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Nukor",
     "type": [
-        "held",
-        "pistol",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d80814",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Ocucor",
     "type": [
-        "held",
-        "pistol",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d80814",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Spectra",
     "type": [
-        "held",
-        "pistol",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d80814",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Spectra Vandal",
     "type": [
-        "held",
-        "pistol",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d80814",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Synoid Gammacor",
     "type": [
-        "held",
-        "pistol",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d80814",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Tenet Cycron",
     "type": [
-        "held",
-        "pistol",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d80814",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Laetum",
     "type": [
-        "semi / auto",
-        "pistol",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d8080e",
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Epitaph",
     "type": [
-        "semi / charge",
-        "pistol",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d8080e",
+        "62d8682daeef469267d8080d",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Acrid",
     "type": [
-        "semi-auto",
-        "pistol",
-        "secondary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Arca Scisco",
     "type": [
-        "semi-auto",
-        "pistol",
-        "secondary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Bolto",
     "type": [
-        "semi-auto",
-        "pistol",
-        "secondary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Kulstar",
     "type": [
-        "semi-auto",
-        "pistol",
-        "secondary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Kuva Seer",
     "type": [
-        "semi-auto",
-        "pistol",
-        "secondary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Lato",
     "type": [
-        "semi-auto",
-        "pistol",
-        "secondary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Lato Prime",
     "type": [
-        "semi-auto",
-        "pistol",
-        "secondary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Lato Vandal",
     "type": [
-        "semi-auto",
-        "pistol",
-        "secondary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Lex",
     "type": [
-        "semi-auto",
-        "pistol",
-        "secondary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Lex Prime",
     "type": [
-        "semi-auto",
-        "pistol",
-        "secondary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Magnus",
     "type": [
-        "semi-auto",
-        "pistol",
-        "secondary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Magnus Prime",
     "type": [
-        "semi-auto",
-        "pistol",
-        "secondary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Marelok",
     "type": [
-        "semi-auto",
-        "pistol",
-        "secondary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Pandero",
     "type": [
-        "semi-auto",
-        "pistol",
-        "secondary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Pandero Prime",
     "type": [
-        "semi-auto",
-        "pistol",
-        "secondary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Plinx",
     "type": [
-        "semi-auto",
-        "pistol",
-        "secondary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Seer",
     "type": [
-        "semi-auto",
-        "pistol",
-        "secondary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Sonicor",
     "type": [
-        "semi-auto",
-        "pistol",
-        "secondary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Tenet Spirex",
     "type": [
-        "semi-auto",
-        "pistol",
-        "secondary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Tysis",
     "type": [
-        "semi-auto",
-        "pistol",
-        "secondary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Vasto",
     "type": [
-        "semi-auto",
-        "pistol",
-        "secondary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Vasto Prime",
     "type": [
-        "semi-auto",
-        "pistol",
-        "secondary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Vaykor Marelok",
     "type": [
-        "semi-auto",
-        "pistol",
-        "secondary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Zakti",
     "type": [
-        "semi-auto",
-        "pistol",
-        "secondary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Zakti Prime",
     "type": [
-        "semi-auto",
-        "pistol",
-        "secondary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Zymos",
     "type": [
-        "semi-auto",
-        "pistol",
-        "secondary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Pyrana",
     "type": [
-        "auto",
-        "shotgun sidearm",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d80825",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Pyrana Prime",
     "type": [
-        "auto",
-        "shotgun sidearm",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d80825",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Kohmak",
     "type": [
-        "auto-spool",
-        "shotgun sidearm",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d80812",
+        "62d8682daeef469267d80825",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Brakk",
     "type": [
-        "semi-auto",
-        "shotgun sidearm",
-        "secondary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d80825",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Bronco",
     "type": [
-        "semi-auto",
-        "shotgun sidearm",
-        "secondary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d80825",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Bronco Prime",
     "type": [
-        "semi-auto",
-        "shotgun sidearm",
-        "secondary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d80825",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Detron",
     "type": [
-        "semi-auto",
-        "shotgun sidearm",
-        "secondary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d80825",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Euphona Prime",
     "type": [
-        "semi-auto",
-        "shotgun sidearm",
-        "secondary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d80825",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Kuva Brakk",
     "type": [
-        "semi-auto",
-        "shotgun sidearm",
-        "secondary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d80825",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Mara Detron",
     "type": [
-        "semi-auto",
-        "shotgun sidearm",
-        "secondary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d80825",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Tenet Detron",
     "type": [
-        "semi-auto",
-        "shotgun sidearm",
-        "secondary",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d80825",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Castanas",
     "type": [
-        "active",
-        "thrown",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d8080f",
+        "62d8682daeef469267d80826",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Sancti Castanas",
     "type": [
-        "active",
-        "thrown",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d8080f",
+        "62d8682daeef469267d80826",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Talons",
     "type": [
-        "active",
-        "thrown",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d8080f",
+        "62d8682daeef469267d80826",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Despair",
     "type": [
-        "auto",
-        "thrown",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d80826",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Hikou",
     "type": [
-        "auto",
-        "thrown",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d80826",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Hikou Prime",
     "type": [
-        "auto",
-        "thrown",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d80826",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Kunai",
     "type": [
-        "auto",
-        "thrown",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d80826",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "MK1-Kunai",
     "type": [
-        "auto",
-        "thrown",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d80826",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Pox",
     "type": [
-        "auto",
-        "thrown",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d80826",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Spira",
     "type": [
-        "auto",
-        "thrown",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d80826",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Spira Prime",
     "type": [
-        "auto",
-        "thrown",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d80826",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Fusilai",
     "type": [
-        "auto / semi",
-        "thrown",
-        "secondary",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8080e",
+        "62d8682daeef469267d80826",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Ghoulsaw",
     "type": [
-        "assault saw",
-        "melee",
-        "melee",
-        "weapon"
+        "62d99edfbf2d1fd28552bbe9",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Ceti Lacera",
     "type": [
-        "blade and whip",
-        "melee",
-        "melee",
-        "weapon"
+        "62d99ef2bf2d1fd28552bbea",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Jat Kusar",
     "type": [
-        "blade and whip",
-        "melee",
-        "melee",
-        "weapon"
+        "62d99ef2bf2d1fd28552bbea",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Lacera",
     "type": [
-        "blade and whip",
-        "melee",
-        "melee",
-        "weapon"
+        "62d99ef2bf2d1fd28552bbea",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Mios",
     "type": [
-        "blade and whip",
-        "melee",
-        "melee",
-        "weapon"
+        "62d99ef2bf2d1fd28552bbea",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Keratinos",
     "type": [
-        "claws",
-        "melee",
-        "melee",
-        "weapon"
+        "62d9a0b9bf2d1fd28552bbeb",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Ripkas",
     "type": [
-        "claws",
-        "melee",
-        "melee",
-        "weapon"
+        "62d9a0b9bf2d1fd28552bbeb",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Venka",
     "type": [
-        "claws",
-        "melee",
-        "melee",
-        "weapon"
+        "62d9a0b9bf2d1fd28552bbeb",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Venka Prime",
     "type": [
-        "claws",
-        "melee",
-        "melee",
-        "weapon"
+        "62d9a0b9bf2d1fd28552bbeb",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Ceramic Dagger",
     "type": [
-        "dagger",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80828",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Dark Dagger",
     "type": [
-        "dagger",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80828",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Heat Dagger",
     "type": [
-        "dagger",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80828",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Innodem",
     "type": [
-        "dagger",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80828",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Karyst",
     "type": [
-        "dagger",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80828",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Karyst Prime",
     "type": [
-        "dagger",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80828",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Rakta Dark Dagger",
     "type": [
-        "dagger",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80828",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Rumblejack",
     "type": [
-        "dagger",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80828",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Sheev",
     "type": [
-        "dagger",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80828",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Ether Daggers",
     "type": [
-        "dual daggers",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80829",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Fang",
     "type": [
-        "dual daggers",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80829",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Fang Prime",
     "type": [
-        "dual daggers",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80829",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Nepheri",
     "type": [
-        "dual daggers",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80829",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Okina",
     "type": [
-        "dual daggers",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80829",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Dark Split-Sword",
     "type": [
-        "dual swords",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8082a",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Dex Dakra",
     "type": [
-        "dual swords",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8082a",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Dual Cleavers",
     "type": [
-        "dual swords",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8082a",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Dual Ether",
     "type": [
-        "dual swords",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8082a",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Dual Heat Swords",
     "type": [
-        "dual swords",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8082a",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Dual Ichor",
     "type": [
-        "dual swords",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8082a",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Dual Kamas",
     "type": [
-        "dual swords",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8082a",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Dual Kamas Prime",
     "type": [
-        "dual swords",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8082a",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Dual Keres",
     "type": [
-        "dual swords",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8082a",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Dual Keres Prime",
     "type": [
-        "dual swords",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8082a",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Dual Raza",
     "type": [
-        "dual swords",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8082a",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Dual Skana",
     "type": [
-        "dual swords",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8082a",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Dual Zoren",
     "type": [
-        "dual swords",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8082a",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Nami Skyla",
     "type": [
-        "dual swords",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8082a",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Nami Skyla Prime",
     "type": [
-        "dual swords",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8082a",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Prisma Dual Cleavers",
     "type": [
-        "dual swords",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8082a",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Twin Basolk",
     "type": [
-        "dual swords",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8082a",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Twin Krohkur",
     "type": [
-        "dual swords",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8082a",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Desert Wind",
     "type": [
-        "exalted weapon",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8081b",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Diwata",
     "type": [
-        "exalted weapon",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8081b",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Diwata",
     "type": [
-        "exalted weapon",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8081b",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Exalted Blade (Weapon)",
     "type": [
-        "exalted weapon",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8081b",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Exalted Blade (Weapon)",
     "type": [
-        "exalted weapon",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8081b",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Exalted Blade (Weapon)",
     "type": [
-        "exalted weapon",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8081b",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Garuda Prime Talons",
     "type": [
-        "exalted weapon",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8081b",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Garuda Talons",
     "type": [
-        "exalted weapon",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8081b",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Iron Staff",
     "type": [
-        "exalted weapon",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8081b",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Iron Staff",
     "type": [
-        "exalted weapon",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8081b",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Shadow Claws",
     "type": [
-        "exalted weapon",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8081b",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Valkyr Talons",
     "type": [
-        "exalted weapon",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8081b",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Valkyr Talons",
     "type": [
-        "exalted weapon",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8081b",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Ankyros",
     "type": [
-        "fist",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8082b",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Ankyros Prime",
     "type": [
-        "fist",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8082b",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Furax",
     "type": [
-        "fist",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8082b",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Furax Wraith",
     "type": [
-        "fist",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8082b",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "MK1-Furax",
     "type": [
-        "fist",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8082b",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Tekko",
     "type": [
-        "fist",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8082b",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Tekko Prime",
     "type": [
-        "fist",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8082b",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Cerata",
     "type": [
-        "glaive",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8082c",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Falcor",
     "type": [
-        "glaive",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8082c",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Glaive",
     "type": [
-        "glaive",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8082c",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Glaive Prime",
     "type": [
-        "glaive",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8082c",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Halikar",
     "type": [
-        "glaive",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8082c",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Halikar Wraith",
     "type": [
-        "glaive",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8082c",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Kestrel",
     "type": [
-        "glaive",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8082c",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Orvius",
     "type": [
-        "glaive",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8082c",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Pathocyst",
     "type": [
-        "glaive",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8082c",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Xoris",
     "type": [
-        "glaive",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8082c",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Redeemer",
     "type": [
-        "gunblade",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8082d",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Redeemer Prime",
     "type": [
-        "gunblade",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8082d",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Sarpa",
     "type": [
-        "gunblade",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8082d",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Stropha",
     "type": [
-        "gunblade",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8082d",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Vastilok",
     "type": [
-        "gunblade",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8082d",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Arca Titron",
     "type": [
-        "hammer",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8082e",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Fragor",
     "type": [
-        "hammer",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8082e",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Fragor Prime",
     "type": [
-        "hammer",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8082e",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Heliocor",
     "type": [
-        "hammer",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8082e",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Jat Kittag",
     "type": [
-        "hammer",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8082e",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Kuva Shildeg",
     "type": [
-        "hammer",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8082e",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Magistar",
     "type": [
-        "hammer",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8082e",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Sancti Magistar",
     "type": [
-        "hammer",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8082e",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Sibear",
     "type": [
-        "hammer",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8082e",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Synoid Heliocor",
     "type": [
-        "hammer",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8082e",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Volnus",
     "type": [
-        "hammer",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8082e",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Volnus Prime",
     "type": [
-        "hammer",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8082e",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Wolf Sledge",
     "type": [
-        "hammer",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8082e",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Dark Split-Sword",
     "type": [
-        "heavy blade",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8082f",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Galatine",
     "type": [
-        "heavy blade",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8082f",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Galatine Prime",
     "type": [
-        "heavy blade",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8082f",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Gram",
     "type": [
-        "heavy blade",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8082f",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Gram Prime",
     "type": [
-        "heavy blade",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8082f",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Masseter",
     "type": [
-        "heavy blade",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8082f",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Paracesis",
     "type": [
-        "heavy blade",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8082f",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Scindo",
     "type": [
-        "heavy blade",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8082f",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Scindo Prime",
     "type": [
-        "heavy blade",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8082f",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Tenet Exec",
     "type": [
-        "heavy blade",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8082f",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Vitrica",
     "type": [
-        "heavy blade",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8082f",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "War",
     "type": [
-        "heavy blade",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8082f",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Zenistar",
     "type": [
-        "heavy blade",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8082f",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Hespar",
     "type": [
-        "heavy scythe",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80830",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Gazal Machete",
     "type": [
-        "machete",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80831",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Kama",
     "type": [
-        "machete",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80831",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Kreska",
     "type": [
-        "machete",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80831",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Machete",
     "type": [
-        "machete",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80831",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Machete Wraith",
     "type": [
-        "machete",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80831",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Nami Solo",
     "type": [
-        "machete",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80831",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Prisma Machete",
     "type": [
-        "machete",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80831",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Prova",
     "type": [
-        "machete",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80831",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Prova Vandal",
     "type": [
-        "machete",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80831",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Dragon Nikana",
     "type": [
-        "nikana",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80832",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Nikana",
     "type": [
-        "nikana",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80832",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Nikana Prime",
     "type": [
-        "nikana",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80832",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Skiajati",
     "type": [
-        "nikana",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80832",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Ninkondi",
     "type": [
-        "nunchaku",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80833",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Ninkondi Prime",
     "type": [
-        "nunchaku",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80833",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Pulmonars",
     "type": [
-        "nunchaku",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80833",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Shaku",
     "type": [
-        "nunchaku",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80833",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Cassowar",
     "type": [
-        "polearm",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80834",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Guandao",
     "type": [
-        "polearm",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80834",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Guandao Prime",
     "type": [
-        "polearm",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80834",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Kesheg",
     "type": [
-        "polearm",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80834",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Korumm",
     "type": [
-        "polearm",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80834",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Lesion",
     "type": [
-        "polearm",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80834",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Orthos",
     "type": [
-        "polearm",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80834",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Orthos Prime",
     "type": [
-        "polearm",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80834",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Pupacyst",
     "type": [
-        "polearm",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80834",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Serro",
     "type": [
-        "polearm",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80834",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Sydon",
     "type": [
-        "polearm",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80834",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Tonbo",
     "type": [
-        "polearm",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80834",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Vaykor Sydon",
     "type": [
-        "polearm",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80834",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Destreza",
     "type": [
-        "rapier",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80835",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Destreza Prime",
     "type": [
-        "rapier",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80835",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Endura",
     "type": [
-        "rapier",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80835",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Anku",
     "type": [
-        "scythe",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80836",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Caustacyst",
     "type": [
-        "scythe",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80836",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Ether Reaper",
     "type": [
-        "scythe",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80836",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Hate",
     "type": [
-        "scythe",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80836",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Reaper Prime",
     "type": [
-        "scythe",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80836",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Tenet Grigori",
     "type": [
-        "scythe",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80836",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Venato",
     "type": [
-        "scythe",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80836",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Hirudo",
     "type": [
-        "sparring",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80837",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Kogake",
     "type": [
-        "sparring",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80837",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Kogake Prime",
     "type": [
-        "sparring",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80837",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Korrudo",
     "type": [
-        "sparring",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80837",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Obex",
     "type": [
-        "sparring",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80837",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Prisma Obex",
     "type": [
-        "sparring",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80837",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Amphis",
     "type": [
-        "staff",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80838",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Bo",
     "type": [
-        "staff",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80838",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Bo Prime",
     "type": [
-        "staff",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80838",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Broken Scepter",
     "type": [
-        "staff",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80838",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Cadus",
     "type": [
-        "staff",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80838",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "MK1-Bo",
     "type": [
-        "staff",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80838",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Tipedo",
     "type": [
-        "staff",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80838",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Tipedo Prime",
     "type": [
-        "staff",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80838",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Ack & Brunt",
     "type": [
-        "sword and shield",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80839",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Cobra & Crane",
     "type": [
-        "sword and shield",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80839",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Sigma & Octantis",
     "type": [
-        "sword and shield",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80839",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Silva & Aegis",
     "type": [
-        "sword and shield",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80839",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Silva & Aegis Prime",
     "type": [
-        "sword and shield",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80839",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Tenet Agendus",
     "type": [
-        "sword and shield",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d80839",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Broken War",
     "type": [
-        "sword",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8083a",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Cronus",
     "type": [
-        "sword",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8083a",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Dakra Prime",
     "type": [
-        "sword",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8083a",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Dark Sword",
     "type": [
-        "sword",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8083a",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Ether Sword",
     "type": [
-        "sword",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8083a",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Heat Sword",
     "type": [
-        "sword",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8083a",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Jaw Sword",
     "type": [
-        "sword",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8083a",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Krohkur",
     "type": [
-        "sword",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8083a",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Mire",
     "type": [
-        "sword",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8083a",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Pangolin Prime",
     "type": [
-        "sword",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8083a",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Pangolin Sword",
     "type": [
-        "sword",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8083a",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Plasma Sword",
     "type": [
-        "sword",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8083a",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Prisma Skana",
     "type": [
-        "sword",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8083a",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Skana",
     "type": [
-        "sword",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8083a",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Skana Prime",
     "type": [
-        "sword",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8083a",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Boltace",
     "type": [
-        "tonfa",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8083b",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Kronen",
     "type": [
-        "tonfa",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8083b",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Kronen Prime",
     "type": [
-        "tonfa",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8083b",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Ohma",
     "type": [
-        "tonfa",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8083b",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Praedos",
     "type": [
-        "tonfa",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8083b",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Telos Boltace",
     "type": [
-        "tonfa",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8083b",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Pennant",
     "type": [
-        "two-handed nikana",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8083c",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Tatsu",
     "type": [
-        "two-handed nikana",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8083c",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Tenet Livia",
     "type": [
-        "two-handed nikana",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8083c",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Arum Spinosa",
     "type": [
-        "warfan",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8083d",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Gunsen",
     "type": [
-        "warfan",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8083d",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Quassus",
     "type": [
-        "warfan",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8083d",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Vericres",
     "type": [
-        "warfan",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8083d",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Atterax",
     "type": [
-        "whip",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8083e",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Galvacord",
     "type": [
-        "whip",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8083e",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Lecta",
     "type": [
-        "whip",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8083e",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Scoliac",
     "type": [
-        "whip",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8083e",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Secura Lecta",
     "type": [
-        "whip",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8083e",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Verdilac",
     "type": [
-        "whip",
-        "melee",
-        "melee",
-        "weapon"
+        "62d8682daeef469267d8083e",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Dual Decurion",
     "type": [
-        "auto",
-        "arch-gun",
-        "archwing",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d80840",
+        "62d8682daeef469267d8083f",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Imperator",
     "type": [
-        "auto",
-        "arch-gun",
-        "archwing",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d80840",
+        "62d8682daeef469267d8083f",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Kuva Ayanga",
     "type": [
-        "auto",
-        "arch-gun",
-        "archwing",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d80840",
+        "62d8682daeef469267d8083f",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Kuva Grattler",
     "type": [
-        "auto",
-        "arch-gun",
-        "archwing",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d80840",
+        "62d8682daeef469267d8083f",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Prisma Dual Decurions",
     "type": [
-        "auto",
-        "arch-gun",
-        "archwing",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d80840",
+        "62d8682daeef469267d8083f",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Mausolon",
     "type": [
-        "auto / semi",
-        "arch-gun",
-        "archwing",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8080e",
+        "62d8682daeef469267d80840",
+        "62d8682daeef469267d8083f",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Cyngas",
     "type": [
-        "auto-burst",
-        "arch-gun",
-        "archwing",
-        "weapon"
+        "62d8682daeef469267d80811",
+        "62d8682daeef469267d80840",
+        "62d8682daeef469267d8083f",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Morgha",
     "type": [
-        "auto-burst",
-        "arch-gun",
-        "archwing",
-        "weapon"
+        "62d8682daeef469267d80811",
+        "62d8682daeef469267d80840",
+        "62d8682daeef469267d8083f",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Grattler",
     "type": [
-        "auto-spool",
-        "arch-gun",
-        "archwing",
-        "weapon"
+        "62d8682daeef469267d80812",
+        "62d8682daeef469267d80840",
+        "62d8682daeef469267d8083f",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Imperator Vandal",
     "type": [
-        "auto-spool",
-        "arch-gun",
-        "archwing",
-        "weapon"
+        "62d8682daeef469267d80812",
+        "62d8682daeef469267d80840",
+        "62d8682daeef469267d8083f",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Phaedra",
     "type": [
-        "auto-spool",
-        "arch-gun",
-        "archwing",
-        "weapon"
+        "62d8682daeef469267d80812",
+        "62d8682daeef469267d80840",
+        "62d8682daeef469267d8083f",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Corvas",
     "type": [
-        "charge",
-        "arch-gun",
-        "archwing",
-        "weapon"
+        "62d8682daeef469267d8080d",
+        "62d8682daeef469267d80840",
+        "62d8682daeef469267d8083f",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Corvas Prime",
     "type": [
-        "charge",
-        "arch-gun",
-        "archwing",
-        "weapon"
+        "62d8682daeef469267d8080d",
+        "62d8682daeef469267d80840",
+        "62d8682daeef469267d8083f",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Velocitus",
     "type": [
-        "charge",
-        "arch-gun",
-        "archwing",
-        "weapon"
+        "62d8682daeef469267d8080d",
+        "62d8682daeef469267d80840",
+        "62d8682daeef469267d8083f",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Cortege",
     "type": [
-        "held",
-        "arch-gun",
-        "archwing",
-        "weapon"
+        "62d8682daeef469267d80814",
+        "62d8682daeef469267d80840",
+        "62d8682daeef469267d8083f",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Larkspur",
     "type": [
-        "held",
-        "arch-gun",
-        "archwing",
-        "weapon"
+        "62d8682daeef469267d80814",
+        "62d8682daeef469267d80840",
+        "62d8682daeef469267d8083f",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Fluctus",
     "type": [
-        "semi-auto",
-        "arch-gun",
-        "archwing",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d80840",
+        "62d8682daeef469267d8083f",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Dual Decurion",
     "type": [
-        "auto",
-        "dual pistols",
-        "archwing",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d80822",
+        "62d8682daeef469267d8083f",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Prisma Dual Decurions",
     "type": [
-        "auto",
-        "dual pistols",
-        "archwing",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d80822",
+        "62d8682daeef469267d8083f",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Arquebex",
     "type": [
-        "auto",
-        "exalted weapon",
-        "archwing",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8081b",
+        "62d8682daeef469267d8083f",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Kuva Ayanga",
     "type": [
-        "auto",
-        "launcher",
-        "archwing",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8081c",
+        "62d8682daeef469267d8083f",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Kuva Grattler",
     "type": [
-        "auto",
-        "launcher",
-        "archwing",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8081c",
+        "62d8682daeef469267d8083f",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Morgha",
     "type": [
-        "auto-burst",
-        "launcher",
-        "archwing",
-        "weapon"
+        "62d8682daeef469267d80811",
+        "62d8682daeef469267d8081c",
+        "62d8682daeef469267d8083f",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Grattler",
     "type": [
-        "auto-spool",
-        "launcher",
-        "archwing",
-        "weapon"
+        "62d8682daeef469267d80812",
+        "62d8682daeef469267d8081c",
+        "62d8682daeef469267d8083f",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Agkuza",
     "type": [
-        "arch-melee",
-        "melee",
-        "archwing",
-        "weapon"
+        "62d8682daeef469267d80841",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8083f",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Centaur",
     "type": [
-        "arch-melee",
-        "melee",
-        "archwing",
-        "weapon"
+        "62d8682daeef469267d80841",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8083f",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Kaszas",
     "type": [
-        "arch-melee",
-        "melee",
-        "archwing",
-        "weapon"
+        "62d8682daeef469267d80841",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8083f",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Knux",
     "type": [
-        "arch-melee",
-        "melee",
-        "archwing",
-        "weapon"
+        "62d8682daeef469267d80841",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8083f",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Onorix",
     "type": [
-        "arch-melee",
-        "melee",
-        "archwing",
-        "weapon"
+        "62d8682daeef469267d80841",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8083f",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Prisma Veritux",
     "type": [
-        "arch-melee",
-        "melee",
-        "archwing",
-        "weapon"
+        "62d8682daeef469267d80841",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8083f",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Rathbone",
     "type": [
-        "arch-melee",
-        "melee",
-        "archwing",
-        "weapon"
+        "62d8682daeef469267d80841",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8083f",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Veritux",
     "type": [
-        "arch-melee",
-        "melee",
-        "archwing",
-        "weapon"
+        "62d8682daeef469267d80841",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8083f",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Ironbride",
     "type": [
-        "exalted weapon",
-        "melee",
-        "archwing",
-        "weapon"
+        "62d8682daeef469267d8081b",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8083f",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Imperator",
     "type": [
-        "auto",
-        "rifle",
-        "archwing",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d8083f",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Mausolon",
     "type": [
-        "auto / semi",
-        "rifle",
-        "archwing",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8080e",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d8083f",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Imperator Vandal",
     "type": [
-        "auto-spool",
-        "rifle",
-        "archwing",
-        "weapon"
+        "62d8682daeef469267d80812",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d8083f",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Phaedra",
     "type": [
-        "auto-spool",
-        "rifle",
-        "archwing",
-        "weapon"
+        "62d8682daeef469267d80812",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d8083f",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Cyngas",
     "type": [
-        "burst",
-        "rifle",
-        "archwing",
-        "weapon"
+        "62d8682daeef469267d80813",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d8083f",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Velocitus",
     "type": [
-        "charge",
-        "rifle",
-        "archwing",
-        "weapon"
+        "62d8682daeef469267d8080d",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d8083f",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Cortege",
     "type": [
-        "held",
-        "rifle",
-        "archwing",
-        "weapon"
+        "62d8682daeef469267d80814",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d8083f",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Larkspur",
     "type": [
-        "held",
-        "rifle",
-        "archwing",
-        "weapon"
+        "62d8682daeef469267d80814",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d8083f",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Fluctus",
     "type": [
-        "semi-auto",
-        "rifle",
-        "archwing",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d8083f",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Corvas",
     "type": [
-        "charge",
-        "shotgun",
-        "archwing",
-        "weapon"
+        "62d8682daeef469267d8080d",
+        "62d8682daeef469267d8081e",
+        "62d8682daeef469267d8083f",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Corvas Prime",
     "type": [
-        "charge",
-        "shotgun",
-        "archwing",
-        "weapon"
+        "62d8682daeef469267d8080d",
+        "62d8682daeef469267d8081e",
+        "62d8682daeef469267d8083f",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Deconstructor",
     "type": [
-        "auto",
-        "glaive",
-        "robotic",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8082c",
+        "62d8682daeef469267d80842",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Deconstructor Prime",
     "type": [
-        "auto",
-        "glaive",
-        "robotic",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8082c",
+        "62d8682daeef469267d80842",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Akaten",
     "type": [
-        "unique",
-        "melee",
-        "robotic",
-        "weapon"
+        "62d8682daeef469267d80843",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80842",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Batoten",
     "type": [
-        "unique",
-        "melee",
-        "robotic",
-        "weapon"
+        "62d8682daeef469267d80843",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80842",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Lacerten",
     "type": [
-        "unique",
-        "melee",
-        "robotic",
-        "weapon"
+        "62d8682daeef469267d80843",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80842",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Burst Laser",
     "type": [
-        "burst",
-        "pistol",
-        "robotic",
-        "weapon"
+        "62d8682daeef469267d80813",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80842",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Prisma Burst Laser",
     "type": [
-        "burst",
-        "pistol",
-        "robotic",
-        "weapon"
+        "62d8682daeef469267d80813",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80842",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Laser Rifle",
     "type": [
-        "auto",
-        "rifle",
-        "robotic",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80842",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Multron",
     "type": [
-        "auto",
-        "rifle",
-        "robotic",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80842",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Prime Laser Rifle",
     "type": [
-        "auto",
-        "rifle",
-        "robotic",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80842",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Tazicor",
     "type": [
-        "auto",
-        "rifle",
-        "robotic",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80842",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Deth Machine Rifle",
     "type": [
-        "auto-spool",
-        "rifle",
-        "robotic",
-        "weapon"
+        "62d8682daeef469267d80812",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80842",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Deth Machine Rifle Prime",
     "type": [
-        "auto-spool",
-        "rifle",
-        "robotic",
-        "weapon"
+        "62d8682daeef469267d80812",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80842",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Helstrum",
     "type": [
-        "burst",
-        "rifle",
-        "robotic",
-        "weapon"
+        "62d8682daeef469267d80813",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80842",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Vulcax",
     "type": [
-        "charge",
-        "rifle",
-        "robotic",
-        "weapon"
+        "62d8682daeef469267d8080d",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80842",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Artax",
     "type": [
-        "held",
-        "rifle",
-        "robotic",
-        "weapon"
+        "62d8682daeef469267d80814",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80842",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Cryotra",
     "type": [
-        "held",
-        "rifle",
-        "robotic",
-        "weapon"
+        "62d8682daeef469267d80814",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80842",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Verglas",
     "type": [
-        "held",
-        "rifle",
-        "robotic",
-        "weapon"
+        "62d8682daeef469267d80814",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80842",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Stinger",
     "type": [
-        "semi-auto",
-        "rifle",
-        "robotic",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80842",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Sweeper",
     "type": [
-        "auto",
-        "shotgun",
-        "robotic",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8081e",
+        "62d8682daeef469267d80842",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Sweeper Prime",
     "type": [
-        "auto",
-        "shotgun",
-        "robotic",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8081e",
+        "62d8682daeef469267d80842",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Vulklok",
     "type": [
-        "auto",
-        "sniper rifle",
-        "robotic",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8081f",
+        "62d8682daeef469267d80842",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Rahn Prism",
     "type": [
-        "auto",
-        "amp",
-        "modular",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d80845",
+        "62d8682daeef469267d80844",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Cantic Prism",
     "type": [
-        "burst",
-        "amp",
-        "modular",
-        "weapon"
+        "62d8682daeef469267d80813",
+        "62d8682daeef469267d80845",
+        "62d8682daeef469267d80844",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Exard Scaffold",
     "type": [
-        "burst",
-        "amp",
-        "modular",
-        "weapon"
+        "62d8682daeef469267d80813",
+        "62d8682daeef469267d80845",
+        "62d8682daeef469267d80844",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Granmu Prism",
     "type": [
-        "burst",
-        "amp",
-        "modular",
-        "weapon"
+        "62d8682daeef469267d80813",
+        "62d8682daeef469267d80845",
+        "62d8682daeef469267d80844",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Pencha Scaffold",
     "type": [
-        "charge",
-        "amp",
-        "modular",
-        "weapon"
+        "62d8682daeef469267d8080d",
+        "62d8682daeef469267d80845",
+        "62d8682daeef469267d80844",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Klamora Prism",
     "type": [
-        "held",
-        "amp",
-        "modular",
-        "weapon"
+        "62d8682daeef469267d80814",
+        "62d8682daeef469267d80845",
+        "62d8682daeef469267d80844",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Klebrik Scaffold",
     "type": [
-        "held",
-        "amp",
-        "modular",
-        "weapon"
+        "62d8682daeef469267d80814",
+        "62d8682daeef469267d80845",
+        "62d8682daeef469267d80844",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Lega Prism",
     "type": [
-        "held",
-        "amp",
-        "modular",
-        "weapon"
+        "62d8682daeef469267d80814",
+        "62d8682daeef469267d80845",
+        "62d8682daeef469267d80844",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Mote Amp",
     "type": [
-        "held",
-        "amp",
-        "modular",
-        "weapon"
+        "62d8682daeef469267d80814",
+        "62d8682daeef469267d80845",
+        "62d8682daeef469267d80844",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Dissic Scaffold",
     "type": [
-        "semi-auto",
-        "amp",
-        "modular",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d80845",
+        "62d8682daeef469267d80844",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Phahd Scaffold",
     "type": [
-        "semi-auto",
-        "amp",
-        "modular",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d80845",
+        "62d8682daeef469267d80844",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Propa Scaffold",
     "type": [
-        "semi-auto",
-        "amp",
-        "modular",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d80845",
+        "62d8682daeef469267d80844",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Raplak Prism",
     "type": [
-        "semi-auto",
-        "amp",
-        "modular",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d80845",
+        "62d8682daeef469267d80844",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Shraksun Scaffold",
     "type": [
-        "semi-auto",
-        "amp",
-        "modular",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d80845",
+        "62d8682daeef469267d80844",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Shwaak Prism",
     "type": [
-        "semi-auto",
-        "amp",
-        "modular",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d80845",
+        "62d8682daeef469267d80844",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Sirocco",
     "type": [
-        "semi-auto",
-        "amp",
-        "modular",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d80845",
+        "62d8682daeef469267d80844",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Tombfinger",
     "type": [
-        "charge",
-        "launcher",
-        "modular",
-        "weapon"
+        "62d8682daeef469267d8080d",
+        "62d8682daeef469267d8081c",
+        "62d8682daeef469267d80844",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Balla",
     "type": [
-        "zaw dagger / staff",
-        "melee",
-        "modular",
-        "weapon"
+        "62d9a0d2bf2d1fd28552bbec",
+        "62d8682daeef469267d80838",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80844",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Rabvee",
     "type": [
-        "zaw machete / hammer",
-        "melee",
-        "modular",
-        "weapon"
+        "62d8682daeef469267d80847",
+        "62d8682daeef469267d8082e",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80844",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Cyath",
     "type": [
-        "zaw machete / polearm",
-        "melee",
-        "modular",
-        "weapon"
+        "62d8682daeef469267d80847",
+        "62d8682daeef469267d80834",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80844",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Kronsh",
     "type": [
-        "zaw machete / polearm",
-        "melee",
-        "modular",
-        "weapon"
+        "62d8682daeef469267d80847",
+        "62d8682daeef469267d80834",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80844",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Sepfahn",
     "type": [
-        "zaw nikana / staff",
-        "melee",
-        "modular",
-        "weapon"
+        "62d8682daeef469267d80848",
+        "62d8682daeef469267d80838",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80844",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Dehtat",
     "type": [
-        "zaw rapier / polearm",
-        "melee",
-        "modular",
-        "weapon"
+        "62d8682daeef469267d80849",
+        "62d8682daeef469267d80834",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80844",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Plague Kripath",
     "type": [
-        "zaw rapier / polearm",
-        "melee",
-        "modular",
-        "weapon"
+        "62d8682daeef469267d80849",
+        "62d8682daeef469267d80834",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80844",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Dokrahm",
     "type": [
-        "zaw scythe / heavy blade",
-        "melee",
-        "modular",
-        "weapon"
+        "62d8682daeef469267d8084a",
+        "62d8682daeef469267d8082f",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80844",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Plague Keewar",
     "type": [
-        "zaw scythe / staff",
-        "melee",
-        "modular",
-        "weapon"
+        "62d8682daeef469267d8084a",
+        "62d8682daeef469267d80838",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80844",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Mewan",
     "type": [
-        "zaw sword / polearm",
-        "melee",
-        "modular",
-        "weapon"
+        "62d8682daeef469267d8084b",
+        "62d8682daeef469267d80834",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80844",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Ooltha",
     "type": [
-        "zaw sword / staff",
-        "melee",
-        "modular",
-        "weapon"
+        "62d8682daeef469267d8084b",
+        "62d8682daeef469267d80838",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80844",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Rattleguts",
     "type": [
-        "auto",
-        "pistol",
-        "modular",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80844",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Gaze",
     "type": [
-        "held",
-        "pistol",
-        "modular",
-        "weapon"
+        "62d8682daeef469267d80814",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80844",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Vermisplicer",
     "type": [
-        "held",
-        "pistol",
-        "modular",
-        "weapon"
+        "62d8682daeef469267d80814",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80844",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Catchmoon",
     "type": [
-        "semi-auto",
-        "pistol",
-        "modular",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80844",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Sporelacer",
     "type": [
-        "semi-auto",
-        "pistol",
-        "modular",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80844",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Tombfinger",
     "type": [
-        "semi-auto",
-        "pistol",
-        "modular",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80844",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Rattleguts",
     "type": [
-        "auto",
-        "rifle",
-        "modular",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80844",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Gaze",
     "type": [
-        "held",
-        "rifle",
-        "modular",
-        "weapon"
+        "62d8682daeef469267d80814",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80844",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Vermisplicer",
     "type": [
-        "held",
-        "rifle",
-        "modular",
-        "weapon"
+        "62d8682daeef469267d80814",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80844",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Catchmoon",
     "type": [
-        "auto",
-        "shotgun",
-        "modular",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8081e",
+        "62d8682daeef469267d80844",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Sporelacer",
     "type": [
-        "auto",
-        "shotgun",
-        "modular",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8081e",
+        "62d8682daeef469267d80844",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Galvarc",
     "type": [
-        "semi-auto",
-        "ordnance",
-        "railjack",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d8084d",
+        "62d8682daeef469267d8084c",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Milati",
     "type": [
-        "semi-auto",
-        "ordnance",
-        "railjack",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d8084d",
+        "62d8682daeef469267d8084c",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Tycho Seeker",
     "type": [
-        "semi-auto",
-        "ordnance",
-        "railjack",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d8084d",
+        "62d8682daeef469267d8084c",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Apoc",
     "type": [
-        "auto",
-        "turret",
-        "railjack",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8084e",
+        "62d8682daeef469267d8084c",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Carcinnox",
     "type": [
-        "auto",
-        "turret",
-        "railjack",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8084e",
+        "62d8682daeef469267d8084c",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Glazio",
     "type": [
-        "auto",
-        "turret",
-        "railjack",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8084e",
+        "62d8682daeef469267d8084c",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Laith",
     "type": [
-        "auto",
-        "turret",
-        "railjack",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8084e",
+        "62d8682daeef469267d8084c",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Apoc",
     "type": [
-        "auto",
-        "turret",
-        "railjack",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8084e",
+        "62d8682daeef469267d8084c",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Carcinnox",
     "type": [
-        "auto",
-        "turret",
-        "railjack",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8084e",
+        "62d8682daeef469267d8084c",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Glazio",
     "type": [
-        "auto",
-        "turret",
-        "railjack",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8084e",
+        "62d8682daeef469267d8084c",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Laith",
     "type": [
-        "auto",
-        "turret",
-        "railjack",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8084e",
+        "62d8682daeef469267d8084c",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Vort",
     "type": [
-        "auto",
-        "turret",
-        "railjack",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8084e",
+        "62d8682daeef469267d8084c",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Apoc",
     "type": [
-        "auto",
-        "turret",
-        "railjack",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8084e",
+        "62d8682daeef469267d8084c",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Carcinnox",
     "type": [
-        "auto",
-        "turret",
-        "railjack",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8084e",
+        "62d8682daeef469267d8084c",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Glazio",
     "type": [
-        "auto",
-        "turret",
-        "railjack",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8084e",
+        "62d8682daeef469267d8084c",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Laith",
     "type": [
-        "auto",
-        "turret",
-        "railjack",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8084e",
+        "62d8682daeef469267d8084c",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Vort",
     "type": [
-        "auto",
-        "turret",
-        "railjack",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8084e",
+        "62d8682daeef469267d8084c",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Vort",
     "type": [
-        "auto",
-        "turret",
-        "railjack",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8084e",
+        "62d8682daeef469267d8084c",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Apoc",
     "type": [
-        "auto",
-        "turret",
-        "railjack",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8084e",
+        "62d8682daeef469267d8084c",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Carcinnox",
     "type": [
-        "auto",
-        "turret",
-        "railjack",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8084e",
+        "62d8682daeef469267d8084c",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Glazio",
     "type": [
-        "auto",
-        "turret",
-        "railjack",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8084e",
+        "62d8682daeef469267d8084c",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Laith",
     "type": [
-        "auto",
-        "turret",
-        "railjack",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8084e",
+        "62d8682daeef469267d8084c",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Vort",
     "type": [
-        "auto",
-        "turret",
-        "railjack",
-        "weapon"
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8084e",
+        "62d8682daeef469267d8084c",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Pulsar",
     "type": [
-        "auto burst",
-        "turret",
-        "railjack",
-        "weapon"
+        "62d99e7abf2d1fd28552bbe7",
+        "62d8682daeef469267d8084e",
+        "62d8682daeef469267d8084c",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Pulsar",
     "type": [
-        "auto burst",
-        "turret",
-        "railjack",
-        "weapon"
+        "62d99e7abf2d1fd28552bbe7",
+        "62d8682daeef469267d8084e",
+        "62d8682daeef469267d8084c",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Pulsar",
     "type": [
-        "auto burst",
-        "turret",
-        "railjack",
-        "weapon"
+        "62d99e7abf2d1fd28552bbe7",
+        "62d8682daeef469267d8084e",
+        "62d8682daeef469267d8084c",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Pulsar",
     "type": [
-        "auto burst",
-        "turret",
-        "railjack",
-        "weapon"
+        "62d99e7abf2d1fd28552bbe7",
+        "62d8682daeef469267d8084e",
+        "62d8682daeef469267d8084c",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Talyn",
     "type": [
-        "auto-spool",
-        "turret",
-        "railjack",
-        "weapon"
+        "62d8682daeef469267d80812",
+        "62d8682daeef469267d8084e",
+        "62d8682daeef469267d8084c",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Talyn",
     "type": [
-        "auto-spool",
-        "turret",
-        "railjack",
-        "weapon"
+        "62d8682daeef469267d80812",
+        "62d8682daeef469267d8084e",
+        "62d8682daeef469267d8084c",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Talyn",
     "type": [
-        "auto-spool",
-        "turret",
-        "railjack",
-        "weapon"
+        "62d8682daeef469267d80812",
+        "62d8682daeef469267d8084e",
+        "62d8682daeef469267d8084c",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Talyn",
     "type": [
-        "auto-spool",
-        "turret",
-        "railjack",
-        "weapon"
+        "62d8682daeef469267d80812",
+        "62d8682daeef469267d8084e",
+        "62d8682daeef469267d8084c",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Tunguska Cannon",
     "type": [
-        "charge",
-        "turret",
-        "railjack",
-        "weapon"
+        "62d8682daeef469267d8080d",
+        "62d8682daeef469267d8084e",
+        "62d8682daeef469267d8084c",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Photor",
     "type": [
-        "held",
-        "turret",
-        "railjack",
-        "weapon"
+        "62d8682daeef469267d80814",
+        "62d8682daeef469267d8084e",
+        "62d8682daeef469267d8084c",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Photor",
     "type": [
-        "held",
-        "turret",
-        "railjack",
-        "weapon"
+        "62d8682daeef469267d80814",
+        "62d8682daeef469267d8084e",
+        "62d8682daeef469267d8084c",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Photor",
     "type": [
-        "held",
-        "turret",
-        "railjack",
-        "weapon"
+        "62d8682daeef469267d80814",
+        "62d8682daeef469267d8084e",
+        "62d8682daeef469267d8084c",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Photor",
     "type": [
-        "held",
-        "turret",
-        "railjack",
-        "weapon"
+        "62d8682daeef469267d80814",
+        "62d8682daeef469267d8084e",
+        "62d8682daeef469267d8084c",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Cryophon",
     "type": [
-        "semi-auto",
-        "turret",
-        "railjack",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d8084e",
+        "62d8682daeef469267d8084c",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Cryophon",
     "type": [
-        "semi-auto",
-        "turret",
-        "railjack",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d8084e",
+        "62d8682daeef469267d8084c",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Cryophon",
     "type": [
-        "semi-auto",
-        "turret",
-        "railjack",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d8084e",
+        "62d8682daeef469267d8084c",
+        "62d8682daeef469267d8080b"
     ]
 },{
     "name": "Cryophon",
     "type": [
-        "semi-auto",
-        "turret",
-        "railjack",
-        "weapon"
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d8084e",
+        "62d8682daeef469267d8084c",
+        "62d8682daeef469267d8080b"
     ]
 },[
