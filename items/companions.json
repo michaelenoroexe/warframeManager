@@ -1,157 +1,400 @@
 [{
-    "name": "Carrier",
-    "type": [
-        "62d8682daeef469267d80853",
-        "62d8682daeef469267d80842",
-        "62d8682daeef469267d80851"
-    ]
-},{
     "name": "Carrier Prime",
     "type": [
         "62d8682daeef469267d80853",
-        "62d8682daeef469267d80842",
+        "62d8682daeef469267d80852",
         "62d8682daeef469267d80851"
+    ],
+    "credits": 15000,
+    "createTime": 86400.0,
+    "components": {
+        "Carrier Prime Carapace": 1,
+        "Carrier Prime Cerebrum": 1,
+        "Carrier Prime Systems": 1,
+        "Orokin Cell": 6
+    }
+},{
+    "name": "Carrier Prime Carapace",
+    "type": [
+        "62f26bf16f0c9aeda5a6a4f7"
+    ]
+},{
+    "name": "Carrier Prime Cerebrum",
+    "type": [
+        "62f26bf16f0c9aeda5a6a4f7"
+    ]
+},{
+    "name": "Carrier Prime Systems",
+    "type": [
+        "62f26bf16f0c9aeda5a6a4f7"
     ]
 },{
     "name": "Dethcube",
     "type": [
         "62d8682daeef469267d80853",
-        "62d8682daeef469267d80842",
+        "62d8682daeef469267d80852",
         "62d8682daeef469267d80851"
-    ]
+    ],
+    "credits": 15000,
+    "createTime": 86400.0,
+    "components": {
+        "Alloy Plate": 500,
+        "Circuits": 400,
+        "Nano Spores": 200,
+        "Control Module": 1
+    }
+},{
+    "name": "Carrier",
+    "type": [
+        "62d8682daeef469267d80853",
+        "62d8682daeef469267d80852",
+        "62d8682daeef469267d80851"
+    ],
+    "credits": 15000,
+    "createTime": 86400.0,
+    "components": {
+        "Alloy Plate": 1000,
+        "Circuits": 400,
+        "Nano Spores": 1500,
+        "Control Module": 3
+    }
 },{
     "name": "Dethcube Prime",
     "type": [
         "62d8682daeef469267d80853",
-        "62d8682daeef469267d80842",
+        "62d8682daeef469267d80852",
         "62d8682daeef469267d80851"
+    ],
+    "credits": 15000,
+    "createTime": 86400.0,
+    "components": {
+        "Dethcube Prime Carapace": 1,
+        "Dethcube Prime Cerebrum": 1,
+        "Dethcube Prime Systems": 1,
+        "Orokin Cell": 6
+    }
+},{
+    "name": "Dethcube Prime Carapace",
+    "type": [
+        "62f26bf16f0c9aeda5a6a4f7"
+    ]
+},{
+    "name": "Dethcube Prime Cerebrum",
+    "type": [
+        "62f26bf16f0c9aeda5a6a4f7"
+    ]
+},{
+    "name": "Dethcube Prime Systems",
+    "type": [
+        "62f26bf16f0c9aeda5a6a4f7"
     ]
 },{
     "name": "Diriga",
     "type": [
         "62d8682daeef469267d80853",
-        "62d8682daeef469267d80842",
+        "62d8682daeef469267d80852",
         "62d8682daeef469267d80851"
-    ]
+    ],
+    "credits": 15000,
+    "createTime": 86400.0,
+    "components": {
+        "Alloy Plate": 600,
+        "Argon Crystal": 2,
+        "Plastids": 350,
+        "Polymer Bundle": 500
+    }
 },{
     "name": "Djinn",
     "type": [
         "62d8682daeef469267d80853",
-        "62d8682daeef469267d80842",
+        "62d8682daeef469267d80852",
         "62d8682daeef469267d80851"
-    ]
+    ],
+    "credits": 30000,
+    "createTime": 86400.0,
+    "components": {
+        "Mutagen Mass": 6,
+        "Salvage": 30000,
+        "Circuits": 3500,
+        "Forma": 2
+    }
 },{
     "name": "Helios",
     "type": [
         "62d8682daeef469267d80853",
-        "62d8682daeef469267d80842",
+        "62d8682daeef469267d80852",
         "62d8682daeef469267d80851"
-    ]
+    ],
+    "credits": 5000,
+    "createTime": 86400.0,
+    "components": {
+        "Fieldron": 10,
+        "Oxium": 300,
+        "Ferrite": 5000,
+        "Forma": 1
+    }
 },{
     "name": "Helios Prime",
     "type": [
         "62d8682daeef469267d80853",
-        "62d8682daeef469267d80842",
+        "62d8682daeef469267d80852",
         "62d8682daeef469267d80851"
+    ],
+    "credits": 15000,
+    "createTime": 86400.0,
+    "components": {
+        "Helios Prime Carapace": 1,
+        "Helios Prime Cerebrum": 1,
+        "Helios Prime Systems": 1,
+        "Orokin Cell": 6
+    }
+},{
+    "name": "Helios Prime Carapace",
+    "type": [
+        "62f26bf16f0c9aeda5a6a4f7"
+    ]
+},{
+    "name": "Helios Prime Cerebrum",
+    "type": [
+        "62f26bf16f0c9aeda5a6a4f7"
+    ]
+},{
+    "name": "Helios Prime Systems",
+    "type": [
+        "62f26bf16f0c9aeda5a6a4f7"
     ]
 },{
     "name": "Nautilus",
     "type": [
         "62d8682daeef469267d80853",
-        "62d8682daeef469267d80842",
+        "62d8682daeef469267d80852",
         "62d8682daeef469267d80851"
+    ],
+    "credits": 15000,
+    "createTime": 86400.0,
+    "components": {
+        "Nautilus Cerebrum": 1,
+        "Nautilus Carapace": 1,
+        "Nautilus Systems": 1,
+        "Nullstones": 5
+    }
+},{
+    "name": "Nautilus Cerebrum",
+    "type": [
+        "62f26bf16f0c9aeda5a6a4f7"
     ]
 },{
-    "name": "Oxylus",
+    "name": "Nautilus Carapace",
     "type": [
-        "62d8682daeef469267d80853",
-        "62d8682daeef469267d80842",
-        "62d8682daeef469267d80851"
+        "62f26bf16f0c9aeda5a6a4f7"
+    ]
+},{
+    "name": "Nautilus Systems",
+    "type": [
+        "62f26bf16f0c9aeda5a6a4f7"
     ]
 },{
     "name": "Shade",
     "type": [
         "62d8682daeef469267d80853",
-        "62d8682daeef469267d80842",
+        "62d8682daeef469267d80852",
         "62d8682daeef469267d80851"
-    ]
-},{
-    "name": "Prisma Shade",
-    "type": [
-        "62d8682daeef469267d80853",
-        "62d8682daeef469267d80842",
-        "62d8682daeef469267d80851"
-    ]
+    ],
+    "credits": 15000,
+    "createTime": 86400.0,
+    "components": {
+        "Alloy Plate": 500,
+        "Circuits": 400,
+        "Nano Spores": 200,
+        "Control Module": 1
+    }
 },{
     "name": "Taxon",
     "type": [
         "62d8682daeef469267d80853",
-        "62d8682daeef469267d80842",
+        "62d8682daeef469267d80852",
+        "62d8682daeef469267d80851"
+    ],
+    "credits": 15000,
+    "createTime": 86400.0,
+    "components": {
+        "Ferrite": 500,
+        "Polymer Bundle": 200,
+        "Rubedo": 200,
+        "Neurodes": 1
+    }
+},{
+    "name": "Prisma Shade",
+    "type": [
+        "62d8682daeef469267d80853",
+        "62d8682daeef469267d80852",
         "62d8682daeef469267d80851"
     ]
 },{
     "name": "Wyrm",
     "type": [
         "62d8682daeef469267d80853",
-        "62d8682daeef469267d80842",
+        "62d8682daeef469267d80852",
         "62d8682daeef469267d80851"
-    ]
+    ],
+    "credits": 15000,
+    "createTime": 86400.0,
+    "components": {
+        "Alloy Plate": 500,
+        "Circuits": 400,
+        "Nano Spores": 200,
+        "Control Module": 1
+    }
 },{
     "name": "Wyrm Prime",
     "type": [
         "62d8682daeef469267d80853",
-        "62d8682daeef469267d80842",
+        "62d8682daeef469267d80852",
         "62d8682daeef469267d80851"
+    ],
+    "credits": 15000,
+    "createTime": 86400.0,
+    "components": {
+        "Wyrm Prime Carapace": 1,
+        "Wyrm Prime Cerebrum": 1,
+        "Wyrm Prime Systems": 1,
+        "Orokin Cell": 6
+    }
+},{
+    "name": "Wyrm Prime Carapace",
+    "type": [
+        "62f26bf16f0c9aeda5a6a4f7"
+    ]
+},{
+    "name": "Wyrm Prime Cerebrum",
+    "type": [
+        "62f26bf16f0c9aeda5a6a4f7"
+    ]
+},{
+    "name": "Wyrm Prime Systems",
+    "type": [
+        "62f26bf16f0c9aeda5a6a4f7"
     ]
 },{
     "name": "Lambeo Moa",
     "type": [
         "62d8682daeef469267d80854",
-        "62d8682daeef469267d80842",
+        "62d8682daeef469267d80852",
         "62d8682daeef469267d80851"
-    ]
+    ],
+    "credits": 50000,
+    "createTime": 86400.0,
+    "components": {
+        "Gorgaricus Spore": 20,
+        "Heart Noctrul": 10,
+        "Venerdo Alloy": 30,
+        "Morphics": 2
+    }
 },{
     "name": "Oloro Moa",
     "type": [
         "62d8682daeef469267d80854",
-        "62d8682daeef469267d80842",
+        "62d8682daeef469267d80852",
         "62d8682daeef469267d80851"
-    ]
+    ],
+    "credits": 50000,
+    "createTime": 86400.0,
+    "components": {
+        "Thermal Sludge": 20,
+        "Goblite Tears": 10,
+        "Travocyte Alloy": 30,
+        "Morphics": 2
+    }
+},{
+    "name": "Oxylus",
+    "type": [
+        "62d8682daeef469267d80853",
+        "62d8682daeef469267d80852",
+        "62d8682daeef469267d80851"
+    ],
+    "credits": 15000,
+    "createTime": 86400.0,
+    "components": {
+        "Goblite Tears": 15,
+        "Axidrol Alloy": 45,
+        "Scrap": 40,
+        "Longwinder Lathe Coagulant": 10
+    }
 },{
     "name": "Para Moa",
     "type": [
         "62d8682daeef469267d80854",
-        "62d8682daeef469267d80842",
+        "62d8682daeef469267d80852",
         "62d8682daeef469267d80851"
-    ]
+    ],
+    "credits": 50000,
+    "createTime": 86400.0,
+    "components": {
+        "Mytocardia Spore": 20,
+        "Smooth Phasmin": 10,
+        "Axidrol Alloy": 30,
+        "Morphics": 2
+    }
 },{
     "name": "Nychus Moa",
     "type": [
         "62d8682daeef469267d80854",
-        "62d8682daeef469267d80842",
+        "62d8682daeef469267d80852",
         "62d8682daeef469267d80851"
-    ]
+    ],
+    "credits": 50000,
+    "createTime": 86400.0,
+    "components": {
+        "Gorgaricus Spore": 20,
+        "Goblite Tears": 10,
+        "Venerdo Alloy": 20,
+        "Morphics": 2
+    }
 },{
     "name": "Bhaira Hound",
     "type": [
         "62d8682daeef469267d80855",
-        "62d8682daeef469267d80842",
+        "62d8682daeef469267d80852",
         "62d8682daeef469267d80851"
-    ]
+    ],
+    "credits": 50000,
+    "createTime": 86400.0,
+    "components": {
+        "Spectral Debris": 5,
+        "Gallium": 5,
+        "Marquise Thyst": 2,
+        "Eye-Eye Rotoblade": 10
+    }
 },{
     "name": "Dorma Hound",
     "type": [
         "62d8682daeef469267d80855",
-        "62d8682daeef469267d80842",
+        "62d8682daeef469267d80852",
         "62d8682daeef469267d80851"
-    ]
+    ],
+    "credits": 50000,
+    "createTime": 86400.0,
+    "components": {
+        "Spectral Debris": 5,
+        "Gallium": 5,
+        "Radian Sentirum": 2,
+        "Mirewinder Parallel Biode": 10
+    }
 },{
     "name": "Hec Hound",
     "type": [
         "62d8682daeef469267d80855",
-        "62d8682daeef469267d80842",
+        "62d8682daeef469267d80852",
         "62d8682daeef469267d80851"
-    ]
+    ],
+    "credits": 50000,
+    "createTime": 86400.0,
+    "components": {
+        "Spectral Debris": 5,
+        "Gallium": 5,
+        "Trapezium Xenorhast": 2,
+        "Sapcaddy Venedo Case": 10
+    }
 },{
     "name": "Chesa Kubrow",
     "type": [
@@ -271,4 +514,4 @@
         "62d8682daeef469267d80856",
         "62d8682daeef469267d80851"
     ]
-},[
+}]

@@ -1,26 +1,259 @@
 [{
-    "name": "Amesha",
-    "type": [
-        "62d8682daeef469267d8083f"
-    ]
-},{
     "name": "Elytron",
     "type": [
         "62d8682daeef469267d8083f"
-    ]
+    ],
+    "credits": 25000,
+    "createTime": 129600.0,
+    "components": {
+        "Elytron Harness": 1,
+        "Elytron Systems": 1,
+        "Elytron Wings": 1,
+        "Control Module": 5
+    }
 },{
-    "name": "Itzal",
+    "name": "Elytron Harness",
+    "type": [
+        "62f2d1286f0c9aeda5a6a4f8"
+    ],
+    "credits": 15000,
+    "createTime": 21600.0,
+    "components": {
+        "Ferrite": 1000,
+        "Morphics": 1,
+        "Rubedo": 300,
+        "Orokin Cell": 3
+    }
+},{
+    "name": "Elytron Systems",
+    "type": [
+        "62f2d1286f0c9aeda5a6a4f8"
+    ],
+    "credits": 15000,
+    "createTime": 21600.0,
+    "components": {
+        "Control Module": 1,
+        "Morphics": 5,
+        "Salvage": 6000,
+        "Cryotic": 3800
+    }
+},{
+    "name": "Elytron Wings",
+    "type": [
+        "62f2d1286f0c9aeda5a6a4f8"
+    ],
+    "credits": 15000,
+    "createTime": 21600.0,
+    "components": {
+        "Alloy Plate": 6000,
+        "Neural Sensors": 2,
+        "Polymer Bundle": 5500,
+        "Rubedo": 1100
+    }
+},{
+    "name": "Amesha",
     "type": [
         "62d8682daeef469267d8083f"
-    ]
+    ],
+    "credits": 25000,
+    "createTime": 43200.0,
+    "components": {
+        "Amesha Harness": 1,
+        "Amesha Systems": 1,
+        "Amesha Wings": 1,
+        "Nitain Extract": 4
+    }
+},{
+    "name": "Amesha Harness",
+    "type": [
+        "62f2d1286f0c9aeda5a6a4f8"
+    ],
+    "credits": 15000,
+    "createTime": 21600.0,
+    "components": {
+        "Nitain Extract": 2,
+        "Circuits": 900,
+        "Polymer Bundle": 3600,
+        "Alloy Plate": 5500
+    }
+},{
+    "name": "Amesha Systems",
+    "type": [
+        "62f2d1286f0c9aeda5a6a4f8"
+    ],
+    "credits": 15000,
+    "createTime": 21600.0,
+    "components": {
+        "Control Module": 1,
+        "Nitain Extract": 2,
+        "Salvage": 6700,
+        "Circuits": 2800
+    }
+},{
+    "name": "Amesha Wings",
+    "type": [
+        "62f2d1286f0c9aeda5a6a4f8"
+    ],
+    "credits": 15000,
+    "createTime": 21600.0,
+    "components": {
+        "Alloy Plate": 5600,
+        "Neurodes": 5,
+        "Polymer Bundle": 4200,
+        "Nitain Extract": 2
+    }
 },{
     "name": "Odonata",
     "type": [
         "62d8682daeef469267d8083f"
-    ]
+    ],
+    "credits": 7000,
+    "createTime": 600.0,
+    "components": {
+        "Odonata Harness": 1,
+        "Odonata Systems": 1,
+        "Odonata Wings": 1,
+        "Circuits": 300
+    }
+},{
+    "name": "Odonata Harness",
+    "type": [
+        "62f2d1286f0c9aeda5a6a4f8"
+    ],
+    "credits": 7000,
+    "createTime": 60.0,
+    "components": {
+        "Morphics": 1,
+        "Ferrite": 1000,
+        "Rubedo": 300
+    }
+},{
+    "name": "Odonata Systems",
+    "type": [
+        "62f2d1286f0c9aeda5a6a4f8"
+    ],
+    "credits": 7000,
+    "createTime": 60.0,
+    "components": {
+        "Neurodes": 1,
+        "Morphics": 1,
+        "Salvage": 500,
+        "Circuits": 300
+    }
+},{
+    "name": "Odonata Wings",
+    "type": [
+        "62f2d1286f0c9aeda5a6a4f8"
+    ],
+    "credits": 7000,
+    "createTime": 60.0,
+    "components": {
+        "Alloy Plate": 150,
+        "Neurodes": 1,
+        "Polymer Bundle": 150,
+        "Rubedo": 500
+    }
+},{
+    "name": "Itzal",
+    "type": [
+        "62d8682daeef469267d8083f"
+    ],
+    "credits": 25000,
+    "createTime": 129600.0,
+    "components": {
+        "Itzal Harness": 1,
+        "Itzal Systems": 1,
+        "Itzal Wings": 1,
+        "Control Module": 2
+    }
+},{
+    "name": "Itzal Harness",
+    "type": [
+        "62f2d1286f0c9aeda5a6a4f8"
+    ],
+    "credits": 15000,
+    "createTime": 21600.0,
+    "components": {
+        "Oxium": 180,
+        "Ferrite": 700,
+        "Rubedo": 300,
+        "Tellurium": 2
+    }
+},{
+    "name": "Itzal Systems",
+    "type": [
+        "62f2d1286f0c9aeda5a6a4f8"
+    ],
+    "credits": 15000,
+    "createTime": 21600.0,
+    "components": {
+        "Control Module": 1,
+        "Oxium": 320,
+        "Salvage": 800,
+        "Neurodes": 2
+    }
+},{
+    "name": "Itzal Wings",
+    "type": [
+        "62f2d1286f0c9aeda5a6a4f8"
+    ],
+    "credits": 15000,
+    "createTime": 21600.0,
+    "components": {
+        "Alloy Plate": 150,
+        "Oxium": 400,
+        "Ferrite": 900,
+        "Tellurium": 2
+    }
 },{
     "name": "Odonata/Prime",
     "type": [
         "62d8682daeef469267d8083f"
-    ]
-},[
+    ],
+    "credits": 25000,
+    "createTime": 129600.0,
+    "components": {
+        "Odonata Prime Harness": 1,
+        "Odonata Prime Systems": 1,
+        "Odonata Prime Wings": 1,
+        "Orokin Cell": 1
+    }
+},{
+    "name": "Odonata Prime Harness",
+    "type": [
+        "62f2d1286f0c9aeda5a6a4f8"
+    ],
+    "credits": 15000,
+    "createTime": 21600.0,
+    "components": {
+        "Morphics": 1,
+        "Salvage": 1000,
+        "Rubedo": 300
+    }
+},{
+    "name": "Odonata Prime Systems",
+    "type": [
+        "62f2d1286f0c9aeda5a6a4f8"
+    ],
+    "credits": 15000,
+    "createTime": 21600.0,
+    "components": {
+        "Control Module": 1,
+        "Neural Sensors": 1,
+        "Ferrite": 500,
+        "Plastids": 500
+    }
+},{
+    "name": "Odonata Prime Wings",
+    "type": [
+        "62f2d1286f0c9aeda5a6a4f8"
+    ],
+    "credits": 15000,
+    "createTime": 21600.0,
+    "components": {
+        "Alloy Plate": 150,
+        "Neurodes": 1,
+        "Polymer Bundle": 150,
+        "Rubedo": 500
+    }
+}]
