@@ -6,13 +6,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Atlas Prime Neuroptics Blueprint": 1,
-        "Atlas Prime Chassis Blueprint": 1,
-        "Atlas Prime Systems Blueprint": 1,
+        "Atlas Prime Neuroptics": 1,
+        "Atlas Prime Chassis": 1,
+        "Atlas Prime Systems": 1,
         "Orokin Cell": 5
-    }
+    },
+    "masterable": true
 },{
-    "name": "Atlas Prime Neuroptics Blueprint",
+    "name": "Atlas Prime Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -23,9 +24,10 @@
         "Cryotic": 525,
         "Salvage": 4700,
         "Oxium": 200
-    }
+    },
+    "masterable": false
 },{
-    "name": "Atlas Prime Chassis Blueprint",
+    "name": "Atlas Prime Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -36,9 +38,10 @@
         "Nitain Extract": 2,
         "Rubedo": 725,
         "Ferrite": 3600
-    }
+    },
+    "masterable": false
 },{
-    "name": "Atlas Prime Systems Blueprint",
+    "name": "Atlas Prime Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -49,58 +52,8 @@
         "Gallium": 4,
         "Polymer Bundle": 1200,
         "Alloy Plate": 3200
-    }
-},{
-    "name": "Ash Prime",
-    "type": [
-        "62d8682daeef469267d8084f"
-    ],
-    "credits": 25000,
-    "createTime": 259200.0,
-    "components": {
-        "Ash Prime Neuroptics Blueprint": 1,
-        "Ash Prime Chassis Blueprint": 1,
-        "Ash Prime Systems Blueprint": 1,
-        "Orokin Cell": 1
-    }
-},{
-    "name": "Ash Prime Neuroptics Blueprint",
-    "type": [
-        "62ec19a030c80bbc44011faa"
-    ],
-    "credits": 15000,
-    "createTime": 43200.0,
-    "components": {
-        "Alloy Plate": 150,
-        "Neural Sensors": 2,
-        "Salvage": 1000,
-        "Rubedo": 750
-    }
-},{
-    "name": "Ash Prime Chassis Blueprint",
-    "type": [
-        "62ec19a030c80bbc44011faa"
-    ],
-    "credits": 15000,
-    "createTime": 43200.0,
-    "components": {
-        "Gallium": 3,
-        "Nano Spores": 1000,
-        "Rubedo": 400
-    }
-},{
-    "name": "Ash Prime Systems Blueprint",
-    "type": [
-        "62ec19a030c80bbc44011faa"
-    ],
-    "credits": 15000,
-    "createTime": 43200.0,
-    "components": {
-        "Control Module": 3,
-        "Orokin Cell": 1,
-        "Ferrite": 1000,
-        "Circuits": 500
-    }
+    },
+    "masterable": false
 },{
     "name": "Ash",
     "type": [
@@ -109,13 +62,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Ash Neuroptics Blueprint": 1,
-        "Ash Chassis Blueprint": 1,
-        "Ash Systems Blueprint": 1,
+        "Ash Neuroptics": 1,
+        "Ash Chassis": 1,
+        "Ash Systems": 1,
         "Orokin Cell": 1
-    }
+    },
+    "masterable": true
 },{
-    "name": "Ash Neuroptics Blueprint",
+    "name": "Ash Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -126,9 +80,10 @@
         "Neural Sensors": 1,
         "Polymer Bundle": 150,
         "Rubedo": 500
-    }
+    },
+    "masterable": false
 },{
-    "name": "Ash Chassis Blueprint",
+    "name": "Ash Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -138,9 +93,10 @@
         "Morphics": 1,
         "Ferrite": 1000,
         "Rubedo": 300
-    }
+    },
+    "masterable": false
 },{
-    "name": "Ash Systems Blueprint",
+    "name": "Ash Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -151,7 +107,63 @@
         "Morphics": 1,
         "Salvage": 500,
         "Plastids": 500
-    }
+    },
+    "masterable": false
+},{
+    "name": "Ash Prime",
+    "type": [
+        "62d8682daeef469267d8084f"
+    ],
+    "credits": 25000,
+    "createTime": 259200.0,
+    "components": {
+        "Ash Prime Neuroptics": 1,
+        "Ash Prime Chassis": 1,
+        "Ash Prime Systems": 1,
+        "Orokin Cell": 1
+    },
+    "masterable": true
+},{
+    "name": "Ash Prime Neuroptics",
+    "type": [
+        "62ec19a030c80bbc44011faa"
+    ],
+    "credits": 15000,
+    "createTime": 43200.0,
+    "components": {
+        "Alloy Plate": 150,
+        "Neural Sensors": 2,
+        "Salvage": 1000,
+        "Rubedo": 750
+    },
+    "masterable": false
+},{
+    "name": "Ash Prime Chassis",
+    "type": [
+        "62ec19a030c80bbc44011faa"
+    ],
+    "credits": 15000,
+    "createTime": 43200.0,
+    "components": {
+        "Gallium": 3,
+        "Nano Spores": 1000,
+        "Rubedo": 400
+    },
+    "masterable": false
+},{
+    "name": "Ash Prime Systems",
+    "type": [
+        "62ec19a030c80bbc44011faa"
+    ],
+    "credits": 15000,
+    "createTime": 43200.0,
+    "components": {
+        "Control Module": 3,
+        "Orokin Cell": 1,
+        "Ferrite": 1000,
+        "Circuits": 500
+    },
+    "masterable": false
 },{
     "name": "Atlas",
     "type": [
@@ -160,13 +172,14 @@
     "credits": 30000,
     "createTime": 259200.0,
     "components": {
-        "Atlas Neuroptics Blueprint": 1,
-        "Atlas Chassis Blueprint": 1,
-        "Atlas Systems Blueprint": 1,
+        "Atlas Neuroptics": 1,
+        "Atlas Chassis": 1,
+        "Atlas Systems": 1,
         "Orokin Cell": 1
-    }
+    },
+    "masterable": true
 },{
-    "name": "Atlas Neuroptics Blueprint",
+    "name": "Atlas Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -177,9 +190,10 @@
         "Alloy Plate": 1100,
         "Circuits": 800,
         "Neurodes": 5
-    }
+    },
+    "masterable": false
 },{
-    "name": "Atlas Chassis Blueprint",
+    "name": "Atlas Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -190,9 +204,10 @@
         "Cryotic": 1300,
         "Rubedo": 700,
         "Argon Crystal": 2
-    }
+    },
+    "masterable": false
 },{
-    "name": "Atlas Systems Blueprint",
+    "name": "Atlas Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -203,7 +218,63 @@
         "Polymer Bundle": 1700,
         "Morphics": 5,
         "Orokin Cell": 1
-    }
+    },
+    "masterable": false
+},{
+    "name": "Banshee",
+    "type": [
+        "62d8682daeef469267d8084f"
+    ],
+    "credits": 25000,
+    "createTime": 259200.0,
+    "components": {
+        "Banshee Neuroptics": 1,
+        "Banshee Chassis": 1,
+        "Banshee Systems": 1,
+        "Orokin Cell": 1
+    },
+    "masterable": true
+},{
+    "name": "Banshee Neuroptics",
+    "type": [
+        "62ec19a030c80bbc44011faa"
+    ],
+    "credits": 15000,
+    "createTime": 43200.0,
+    "components": {
+        "Circuits": 150,
+        "Neural Sensors": 1,
+        "Polymer Bundle": 200,
+        "Salvage": 500
+    },
+    "masterable": false
+},{
+    "name": "Banshee Chassis",
+    "type": [
+        "62ec19a030c80bbc44011faa"
+    ],
+    "credits": 15000,
+    "createTime": 43200.0,
+    "components": {
+        "Morphics": 1,
+        "Ferrite": 900,
+        "Rubedo": 50
+    },
+    "masterable": false
+},{
+    "name": "Banshee Systems",
+    "type": [
+        "62ec19a030c80bbc44011faa"
+    ],
+    "credits": 15000,
+    "createTime": 43200.0,
+    "components": {
+        "Control Module": 1,
+        "Morphics": 1,
+        "Salvage": 500,
+        "Plastids": 400
+    },
+    "masterable": false
 },{
     "name": "Banshee Prime",
     "type": [
@@ -212,13 +283,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Banshee Prime Neuroptics Blueprint": 1,
-        "Banshee Prime Chassis Blueprint": 1,
-        "Banshee Prime Systems Blueprint": 1,
+        "Banshee Prime Neuroptics": 1,
+        "Banshee Prime Chassis": 1,
+        "Banshee Prime Systems": 1,
         "Orokin Cell": 5
-    }
+    },
+    "masterable": true
 },{
-    "name": "Banshee Prime Neuroptics Blueprint",
+    "name": "Banshee Prime Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -229,9 +301,10 @@
         "Alloy Plate": 6000,
         "Circuits": 1500,
         "Nitain Extract": 2
-    }
+    },
+    "masterable": false
 },{
-    "name": "Banshee Prime Chassis Blueprint",
+    "name": "Banshee Prime Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -242,9 +315,10 @@
         "Cryotic": 1500,
         "Rubedo": 2000,
         "Salvage": 7000
-    }
+    },
+    "masterable": false
 },{
-    "name": "Banshee Prime Systems Blueprint",
+    "name": "Banshee Prime Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -255,7 +329,8 @@
         "Control Module": 10,
         "Oxium": 300,
         "Ferrite": 4500
-    }
+    },
+    "masterable": false
 },{
     "name": "Baruuk",
     "type": [
@@ -264,13 +339,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Baruuk Neuroptics Blueprint": 1,
-        "Baruuk Chassis Blueprint": 1,
-        "Baruuk Systems Blueprint": 1,
+        "Baruuk Neuroptics": 1,
+        "Baruuk Chassis": 1,
+        "Baruuk Systems": 1,
         "Orokin Cell": 1
-    }
+    },
+    "masterable": true
 },{
-    "name": "Baruuk Neuroptics Blueprint",
+    "name": "Baruuk Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -281,9 +357,10 @@
         "Alloy Plate": 2850,
         "Hespazym Alloy": 50,
         "Synathid Ecosynth Analyzer": 5
-    }
+    },
+    "masterable": false
 },{
-    "name": "Baruuk Chassis Blueprint",
+    "name": "Baruuk Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -294,9 +371,10 @@
         "Salvage": 3250,
         "Hespazym Alloy": 100,
         "Marquise Thyst": 5
-    }
+    },
+    "masterable": false
 },{
-    "name": "Baruuk Systems Blueprint",
+    "name": "Baruuk Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -307,58 +385,8 @@
         "Ferrite": 2500,
         "Tromyzon Entroplasma": 10,
         "Radiant Zodian": 5
-    }
-},{
-    "name": "Banshee",
-    "type": [
-        "62d8682daeef469267d8084f"
-    ],
-    "credits": 25000,
-    "createTime": 259200.0,
-    "components": {
-        "Banshee Neuroptics Blueprint": 1,
-        "Banshee Chassis Blueprint": 1,
-        "Banshee Systems Blueprint": 1,
-        "Orokin Cell": 1
-    }
-},{
-    "name": "Banshee Neuroptics Blueprint",
-    "type": [
-        "62ec19a030c80bbc44011faa"
-    ],
-    "credits": 15000,
-    "createTime": 43200.0,
-    "components": {
-        "Circuits": 150,
-        "Neural Sensors": 1,
-        "Polymer Bundle": 200,
-        "Salvage": 500
-    }
-},{
-    "name": "Banshee Chassis Blueprint",
-    "type": [
-        "62ec19a030c80bbc44011faa"
-    ],
-    "credits": 15000,
-    "createTime": 43200.0,
-    "components": {
-        "Morphics": 1,
-        "Ferrite": 900,
-        "Rubedo": 50
-    }
-},{
-    "name": "Banshee Systems Blueprint",
-    "type": [
-        "62ec19a030c80bbc44011faa"
-    ],
-    "credits": 15000,
-    "createTime": 43200.0,
-    "components": {
-        "Control Module": 1,
-        "Morphics": 1,
-        "Salvage": 500,
-        "Plastids": 400
-    }
+    },
+    "masterable": false
 },{
     "name": "Caliban",
     "type": [
@@ -367,13 +395,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Caliban Neuroptics Blueprint": 1,
-        "Caliban Chassis Blueprint": 1,
-        "Caliban Systems Blueprint": 1,
+        "Caliban Neuroptics": 1,
+        "Caliban Chassis": 1,
+        "Caliban Systems": 1,
         "Orokin Cell": 12
-    }
+    },
+    "masterable": true
 },{
-    "name": "Caliban Neuroptics Blueprint",
+    "name": "Caliban Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -384,9 +413,10 @@
         "Narmer Isoplast": 12,
         "Neural Sensors": 10,
         "Tralok Eyes": 20
-    }
+    },
+    "masterable": false
 },{
-    "name": "Caliban Chassis Blueprint",
+    "name": "Caliban Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -397,9 +427,10 @@
         "Narmer Isoplast": 16,
         "Mortus Horn": 20,
         "Hespazym Alloy": 100
-    }
+    },
+    "masterable": false
 },{
-    "name": "Caliban Systems Blueprint",
+    "name": "Caliban Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -410,7 +441,64 @@
         "Narmer Isoplast": 12,
         "Breath Of The Eidolon": 30,
         "Hexenon": 30
-    }
+    },
+    "masterable": false
+},{
+    "name": "Chroma",
+    "type": [
+        "62d8682daeef469267d8084f"
+    ],
+    "credits": 25000,
+    "createTime": 259200.0,
+    "components": {
+        "Chroma Neuroptics": 1,
+        "Chroma Chassis": 1,
+        "Chroma Systems": 1,
+        "Volt Neuroptics": 1
+    },
+    "masterable": true
+},{
+    "name": "Chroma Neuroptics",
+    "type": [
+        "62ec19a030c80bbc44011faa"
+    ],
+    "credits": 15000,
+    "createTime": 43200.0,
+    "components": {
+        "Plastids": 200,
+        "Neural Sensors": 2,
+        "Polymer Bundle": 350,
+        "0": 0
+    },
+    "masterable": false
+},{
+    "name": "Chroma Chassis",
+    "type": [
+        "62ec19a030c80bbc44011faa"
+    ],
+    "credits": 15000,
+    "createTime": 43200.0,
+    "components": {
+        "Neurodes": 2,
+        "Salvage": 900,
+        "Plastids": 50,
+        "0": 0
+    },
+    "masterable": false
+},{
+    "name": "Chroma Systems",
+    "type": [
+        "62ec19a030c80bbc44011faa"
+    ],
+    "credits": 15000,
+    "createTime": 43200.0,
+    "components": {
+        "Oxium": 400,
+        "Argon Crystal": 2,
+        "Neurodes": 1,
+        "0": 0
+    },
+    "masterable": false
 },{
     "name": "Chroma Prime",
     "type": [
@@ -419,13 +507,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Chroma Prime Neuroptics Blueprint": 1,
-        "Chroma Prime Chassis Blueprint": 1,
-        "Chroma Prime Systems Blueprint": 1,
+        "Chroma Prime Neuroptics": 1,
+        "Chroma Prime Chassis": 1,
+        "Chroma Prime Systems": 1,
         "Orokin Cell": 5
-    }
+    },
+    "masterable": true
 },{
-    "name": "Chroma Prime Neuroptics Blueprint",
+    "name": "Chroma Prime Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -436,9 +525,10 @@
         "Circuits": 1750,
         "Plastids": 450,
         "Nano Spores": 4750
-    }
+    },
+    "masterable": false
 },{
-    "name": "Chroma Prime Chassis Blueprint",
+    "name": "Chroma Prime Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -449,9 +539,10 @@
         "Control Module": 10,
         "Rubedo": 1600,
         "Salvage": 7800
-    }
+    },
+    "masterable": false
 },{
-    "name": "Chroma Prime Systems Blueprint",
+    "name": "Chroma Prime Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -462,59 +553,8 @@
         "Neural Sensors": 5,
         "Polymer Bundle": 1775,
         "Ferrite": 4000
-    }
-},{
-    "name": "Chroma",
-    "type": [
-        "62d8682daeef469267d8084f"
-    ],
-    "credits": 25000,
-    "createTime": 259200.0,
-    "components": {
-        "Chroma Neuroptics Blueprint": 1,
-        "Chroma Chassis Blueprint": 1,
-        "Chroma Systems Blueprint": 1,
-        "Volt Neuroptics": 1
-    }
-},{
-    "name": "Chroma Neuroptics Blueprint",
-    "type": [
-        "62ec19a030c80bbc44011faa"
-    ],
-    "credits": 15000,
-    "createTime": 43200.0,
-    "components": {
-        "Plastids": 200,
-        "Neural Sensors": 2,
-        "Polymer Bundle": 350,
-        "Ember Neuroptics": 1
-    }
-},{
-    "name": "Chroma Chassis Blueprint",
-    "type": [
-        "62ec19a030c80bbc44011faa"
-    ],
-    "credits": 15000,
-    "createTime": 43200.0,
-    "components": {
-        "Neurodes": 2,
-        "Salvage": 900,
-        "Plastids": 50,
-        "Frost Chassis": 1
-    }
-},{
-    "name": "Chroma Systems Blueprint",
-    "type": [
-        "62ec19a030c80bbc44011faa"
-    ],
-    "credits": 15000,
-    "createTime": 43200.0,
-    "components": {
-        "Oxium": 400,
-        "Argon Crystal": 2,
-        "Neurodes": 1,
-        "Saryn Systems": 1
-    }
+    },
+    "masterable": false
 },{
     "name": "Ember",
     "type": [
@@ -523,13 +563,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Ember Neuroptics Blueprint": 1,
-        "Ember Chassis Blueprint": 1,
-        "Ember Systems Blueprint": 1,
+        "Ember Neuroptics": 1,
+        "Ember Chassis": 1,
+        "Ember Systems": 1,
         "Orokin Cell": 1
-    }
+    },
+    "masterable": true
 },{
-    "name": "Ember Neuroptics Blueprint",
+    "name": "Ember Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -540,9 +581,10 @@
         "Neural Sensors": 1,
         "Polymer Bundle": 150,
         "Rubedo": 500
-    }
+    },
+    "masterable": false
 },{
-    "name": "Ember Chassis Blueprint",
+    "name": "Ember Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -552,9 +594,10 @@
         "Morphics": 1,
         "Ferrite": 1000,
         "Rubedo": 300
-    }
+    },
+    "masterable": false
 },{
-    "name": "Ember Systems Blueprint",
+    "name": "Ember Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -565,7 +608,8 @@
         "Morphics": 1,
         "Salvage": 500,
         "Plastids": 220
-    }
+    },
+    "masterable": false
 },{
     "name": "Ember Prime",
     "type": [
@@ -574,13 +618,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Ember Prime Neuroptics Blueprint": 1,
-        "Ember Prime Chassis Blueprint": 1,
-        "Ember Prime Systems Blueprint": 1,
+        "Ember Prime Neuroptics": 1,
+        "Ember Prime Chassis": 1,
+        "Ember Prime Systems": 1,
         "Orokin Cell": 1
-    }
+    },
+    "masterable": true
 },{
-    "name": "Ember Prime Neuroptics Blueprint",
+    "name": "Ember Prime Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -591,9 +636,10 @@
         "Neural Sensors": 2,
         "Polymer Bundle": 1000,
         "Rubedo": 750
-    }
+    },
+    "masterable": false
 },{
-    "name": "Ember Prime Chassis Blueprint",
+    "name": "Ember Prime Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -603,9 +649,10 @@
         "Morphics": 3,
         "Ferrite": 1000,
         "Rubedo": 300
-    }
+    },
+    "masterable": false
 },{
-    "name": "Ember Prime Systems Blueprint",
+    "name": "Ember Prime Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -616,12 +663,131 @@
         "Morphics": 1,
         "Nano Spores": 1200,
         "Plastids": 700
-    }
+    },
+    "masterable": false
 },{
     "name": "Equinox",
     "type": [
         "62d8682daeef469267d8084f"
-    ]
+    ],
+    "credits": 25000,
+    "createTime": 259200.0,
+    "components": {
+        "Equinox Day Aspect": 1,
+        "Equinox Night Aspect": 1,
+        "Forma": 1
+    },
+    "masterable": true
+},{
+    "name": "Equinox Day Aspect",
+    "type": [
+        "62ec19a030c80bbc44011faa"
+    ],
+    "credits": 25000,
+    "createTime": 259200.0,
+    "components": {
+        "Equinox Day Neuroptics": 1,
+        "Equinox Day Chassis": 1,
+        "Equinox Day Systems": 1,
+        "Orokin Cell": 1
+    },
+    "masterable": false
+},{
+    "name": "Equinox Day Neuroptics",
+    "type": [
+        "62ec19a030c80bbc44011faa"
+    ],
+    "credits": 15000,
+    "createTime": 43200.0,
+    "components": {
+        "Alloy Plate": 150,
+        "Neural Sensors": 1,
+        "Ferrite": 150,
+        "Rubedo": 500
+    },
+    "masterable": false
+},{
+    "name": "Equinox Day Chassis",
+    "type": [
+        "62ec19a030c80bbc44011faa"
+    ],
+    "credits": 15000,
+    "createTime": 43200.0,
+    "components": {
+        "Gallium": 1,
+        "Ferrite": 1000,
+        "Rubedo": 300
+    },
+    "masterable": false
+},{
+    "name": "Equinox Day System",
+    "type": [
+        "62ec19a030c80bbc44011faa"
+    ],
+    "credits": 15000,
+    "createTime": 43200.0,
+    "components": {
+        "Control Module": 1,
+        "Gallium": 1,
+        "Salvage": 500,
+        "Rubedo": 500
+    },
+    "masterable": false
+},{
+    "name": "Equinox Night Aspect",
+    "type": [
+        "62ec19a030c80bbc44011faa"
+    ],
+    "credits": 25000,
+    "createTime": 259200.0,
+    "components": {
+        "Equinox Night Neuroptics": 1,
+        "Equinox Night Chassis": 1,
+        "Equinox Night Systems": 1,
+        "Orokin Cell": 1
+    },
+    "masterable": false
+},{
+    "name": "Equinox Night Neuroptics",
+    "type": [
+        "62ec19a030c80bbc44011faa"
+    ],
+    "credits": 15000,
+    "createTime": 43200.0,
+    "components": {
+        "Alloy Plate": 150,
+        "Neural Sensors": 1,
+        "Polymer Bundle": 150,
+        "Plastids": 500
+    },
+    "masterable": false
+},{
+    "name": "Equinox Night Chassis",
+    "type": [
+        "62ec19a030c80bbc44011faa"
+    ],
+    "credits": 15000,
+    "createTime": 43200.0,
+    "components": {
+        "Morphics": 1,
+        "Polymer Bundle": 1000,
+        "Plastids": 300
+    },
+    "masterable": false
+},{
+    "name": "Equinox Night System",
+    "type": [
+        "62ec19a030c80bbc44011faa"
+    ],
+    "credits": 15000,
+    "createTime": 43200.0,
+    "components": {
+        "Control Module": 1,
+        "Morphics": 1,
+        "Nano Spores": 500,
+        "Plastids": 500
+    },
+    "masterable": false
 },{
     "name": "Equinox Prime",
     "type": [
@@ -630,13 +796,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Equinox Prime Neuroptics Blueprint": 1,
-        "Equinox Prime Chassis Blueprint": 1,
-        "Equinox Prime Systems Blueprint": 1,
+        "Equinox Prime Neuroptics": 1,
+        "Equinox Prime Chassis": 1,
+        "Equinox Prime Systems": 1,
         "Orokin Cell": 5
-    }
+    },
+    "masterable": true
 },{
-    "name": "Equinox Prime Neuroptics Blueprint",
+    "name": "Equinox Prime Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -647,9 +814,10 @@
         "Circuits": 1000,
         "Polymer Bundle": 1275,
         "Nano Spores": 2350
-    }
+    },
+    "masterable": false
 },{
-    "name": "Equinox Prime Chassis Blueprint",
+    "name": "Equinox Prime Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -660,9 +828,10 @@
         "Oxium": 150,
         "Gallium": 5,
         "Ferrite": 4000
-    }
+    },
+    "masterable": false
 },{
-    "name": "Equinox Prime Systems Blueprint",
+    "name": "Equinox Prime Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -673,7 +842,8 @@
         "Cryotic": 575,
         "Plastids": 225,
         "Salvage": 5400
-    }
+    },
+    "masterable": false
 },{
     "name": "Excalibur",
     "type": [
@@ -682,13 +852,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Excalibur Neuroptics Blueprint": 1,
-        "Excalibur Chassis Blueprint": 1,
-        "Excalibur Systems Blueprint": 1,
+        "Excalibur Neuroptics": 1,
+        "Excalibur Chassis": 1,
+        "Excalibur Systems": 1,
         "Orokin Cell": 1
-    }
+    },
+    "masterable": true
 },{
-    "name": "Excalibur Neuroptics Blueprint",
+    "name": "Excalibur Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -699,9 +870,10 @@
         "Neural Sensors": 1,
         "Polymer Bundle": 150,
         "Rubedo": 500
-    }
+    },
+    "masterable": false
 },{
-    "name": "Excalibur Chassis Blueprint",
+    "name": "Excalibur Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -711,9 +883,10 @@
         "Morphics": 1,
         "Ferrite": 1000,
         "Rubedo": 300
-    }
+    },
+    "masterable": false
 },{
-    "name": "Excalibur Systems Blueprint",
+    "name": "Excalibur Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -724,17 +897,20 @@
         "Morphics": 1,
         "Salvage": 500,
         "Plastids": 220
-    }
+    },
+    "masterable": false
 },{
     "name": "Excalibur Umbra",
     "type": [
         "62d8682daeef469267d8084f"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Excalibur Prime",
     "type": [
         "62d8682daeef469267d8084f"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Frost Prime",
     "type": [
@@ -743,13 +919,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Frost Prime Neuroptics Blueprint": 1,
-        "Frost Prime Chassis Blueprint": 1,
-        "Frost Prime Systems Blueprint": 1,
+        "Frost Prime Neuroptics": 1,
+        "Frost Prime Chassis": 1,
+        "Frost Prime Systems": 1,
         "Orokin Cell": 1
-    }
+    },
+    "masterable": true
 },{
-    "name": "Frost Prime Neuroptics Blueprint",
+    "name": "Frost Prime Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -760,9 +937,10 @@
         "Neural Sensors": 1,
         "Polymer Bundle": 150,
         "Rubedo": 500
-    }
+    },
+    "masterable": false
 },{
-    "name": "Frost Prime Chassis Blueprint",
+    "name": "Frost Prime Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -772,9 +950,10 @@
         "Morphics": 1,
         "Ferrite": 1000,
         "Rubedo": 300
-    }
+    },
+    "masterable": false
 },{
-    "name": "Frost Prime Systems Blueprint",
+    "name": "Frost Prime Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -785,7 +964,8 @@
         "Morphics": 1,
         "Salvage": 500,
         "Plastids": 220
-    }
+    },
+    "masterable": false
 },{
     "name": "Frost",
     "type": [
@@ -794,13 +974,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Frost Neuroptics Blueprint": 1,
-        "Frost Chassis Blueprint": 1,
-        "Frost Systems Blueprint": 1,
+        "Frost Neuroptics": 1,
+        "Frost Chassis": 1,
+        "Frost Systems": 1,
         "Orokin Cell": 1
-    }
+    },
+    "masterable": true
 },{
-    "name": "Frost Neuroptics Blueprint",
+    "name": "Frost Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -811,9 +992,10 @@
         "Neural Sensors": 1,
         "Polymer Bundle": 150,
         "Rubedo": 500
-    }
+    },
+    "masterable": false
 },{
-    "name": "Frost Chassis Blueprint",
+    "name": "Frost Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -823,9 +1005,10 @@
         "Morphics": 1,
         "Ferrite": 1000,
         "Rubedo": 300
-    }
+    },
+    "masterable": false
 },{
-    "name": "Frost Systems Blueprint",
+    "name": "Frost Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -836,7 +1019,8 @@
         "Morphics": 1,
         "Salvage": 500,
         "Plastids": 500
-    }
+    },
+    "masterable": false
 },{
     "name": "Gara",
     "type": [
@@ -845,13 +1029,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Gara Neuroptics Blueprint": 1,
-        "Gara Chassis Blueprint": 1,
-        "Gara Systems Blueprint": 1,
+        "Gara Neuroptics": 1,
+        "Gara Chassis": 1,
+        "Gara Systems": 1,
         "Orokin Cell": 3
-    }
+    },
+    "masterable": true
 },{
-    "name": "Gara Neuroptics Blueprint",
+    "name": "Gara Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -862,9 +1047,10 @@
         "Grokdrul": 65,
         "Pyrotic Alloy": 90,
         "Circuits": 700
-    }
+    },
+    "masterable": false
 },{
-    "name": "Gara Chassis Blueprint",
+    "name": "Gara Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -875,9 +1061,10 @@
         "Coprite Alloy": 120,
         "Iradite": 55,
         "Rubedo": 800
-    }
+    },
+    "masterable": false
 },{
-    "name": "Gara Systems Blueprint",
+    "name": "Gara Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -888,7 +1075,8 @@
         "Charc Electroplax": 35,
         "Esher Devar": 25,
         "Circuits": 850
-    }
+    },
+    "masterable": false
 },{
     "name": "Gara Prime",
     "type": [
@@ -897,13 +1085,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Gara Prime Neuroptics Blueprint": 1,
-        "Gara Prime Chassis Blueprint": 1,
-        "Gara Prime Systems Blueprint": 1,
+        "Gara Prime Neuroptics": 1,
+        "Gara Prime Chassis": 1,
+        "Gara Prime Systems": 1,
         "Orokin Cell": 5
-    }
+    },
+    "masterable": true
 },{
-    "name": "Gara Prime Neuroptics Blueprint",
+    "name": "Gara Prime Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -914,9 +1103,10 @@
         "Argon Crystal": 2,
         "Rubedo": 1500,
         "Ferrite": 6750
-    }
+    },
+    "masterable": false
 },{
-    "name": "Gara Prime Chassis Blueprint",
+    "name": "Gara Prime Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -927,9 +1117,10 @@
         "Polymer Bundle": 2150,
         "Oxium": 250,
         "Nano Spores": 8750
-    }
+    },
+    "masterable": false
 },{
-    "name": "Gara Prime Systems Blueprint",
+    "name": "Gara Prime Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -940,7 +1131,8 @@
         "Tellurium": 2,
         "Circuits": 1350,
         "Salvage": 4375
-    }
+    },
+    "masterable": false
 },{
     "name": "Garuda",
     "type": [
@@ -949,13 +1141,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Garuda Neuroptics Blueprint": 1,
-        "Garuda Chassis Blueprint": 1,
-        "Garuda Systems Blueprint": 1,
+        "Garuda Neuroptics": 1,
+        "Garuda Chassis": 1,
+        "Garuda Systems": 1,
         "Kuva (Resource)": 3500
-    }
+    },
+    "masterable": true
 },{
-    "name": "Garuda Neuroptics Blueprint",
+    "name": "Garuda Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -966,9 +1159,10 @@
         "Star Amarast": 6,
         "Axidrol Alloy": 40,
         "Nano Spores": 5000
-    }
+    },
+    "masterable": false
 },{
-    "name": "Garuda Chassis Blueprint",
+    "name": "Garuda Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -979,9 +1173,10 @@
         "Radiant Zodian": 3,
         "Travocyte Alloy": 40,
         "Alloy Plate": 2200
-    }
+    },
+    "masterable": false
 },{
-    "name": "Garuda Systems Blueprint",
+    "name": "Garuda Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -992,7 +1187,8 @@
         "Marquise Thyst": 3,
         "Venerdo Alloy": 40,
         "Polymer Bundle": 2400
-    }
+    },
+    "masterable": false
 },{
     "name": "Garuda Prime",
     "type": [
@@ -1001,13 +1197,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Garuda Neuroptics Blueprint": 1,
-        "Garuda Chassis Blueprint": 1,
-        "Garuda Systems Blueprint": 1,
+        "Garuda Prime Neuroptics Blueprint": 1,
+        "Garuda Prime Chassis Blueprint": 1,
+        "Garuda Prime Systems Blueprint": 1,
         "Orokin Cell": 5
-    }
+    },
+    "masterable": true
 },{
-    "name": "Garuda Neuroptics Blueprint",
+    "name": "Garuda Prime Neuroptics Blueprint",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -1018,9 +1215,10 @@
         "Cryotic": 600,
         "Circuits": 1100,
         "Nano Spores": 4975
-    }
+    },
+    "masterable": false
 },{
-    "name": "Garuda Chassis Blueprint",
+    "name": "Garuda Prime Chassis Blueprint",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -1031,9 +1229,10 @@
         "Plastids": 450,
         "Polymer Bundle": 1425,
         "Alloy Plate": 5500
-    }
+    },
+    "masterable": false
 },{
-    "name": "Garuda Systems Blueprint",
+    "name": "Garuda Prime Systems Blueprint",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -1044,7 +1243,8 @@
         "Neurodes": 3,
         "Rubedo": 1250,
         "Salvage": 3800
-    }
+    },
+    "masterable": false
 },{
     "name": "Gauss",
     "type": [
@@ -1053,13 +1253,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Gauss Neuroptics Blueprint": 1,
-        "Gauss Chassis Blueprint": 1,
-        "Gauss Systems Blueprint": 1,
+        "Gauss Neuroptics": 1,
+        "Gauss Chassis": 1,
+        "Gauss Systems": 1,
         "Orokin Cell": 3
-    }
+    },
+    "masterable": true
 },{
-    "name": "Gauss Neuroptics Blueprint",
+    "name": "Gauss Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -1070,9 +1271,10 @@
         "Rubedo": 1600,
         "Salvage": 6200,
         "Alloy Plate": 2950
-    }
+    },
+    "masterable": false
 },{
-    "name": "Gauss Chassis Blueprint",
+    "name": "Gauss Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -1083,9 +1285,10 @@
         "Heart Nyth": 3,
         "Star Crimzian": 6,
         "Grokdrul": 55
-    }
+    },
+    "masterable": false
 },{
-    "name": "Gauss Systems Blueprint",
+    "name": "Gauss Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -1096,7 +1299,8 @@
         "Marquise Thyst": 3,
         "Mytocardia Spore": 70,
         "Thermal Sludge": 85
-    }
+    },
+    "masterable": false
 },{
     "name": "Grendel",
     "type": [
@@ -1105,13 +1309,14 @@
     "credits": 35000,
     "createTime": 259200.0,
     "components": {
-        "Grendel Neuroptics Blueprint": 1,
-        "Grendel Chassis Blueprint": 1,
-        "Grendel Systems Blueprint": 1,
+        "Grendel Neuroptics": 1,
+        "Grendel Chassis": 1,
+        "Grendel Systems": 1,
         "Orokin Cell": 3
-    }
+    },
+    "masterable": true
 },{
-    "name": "Grendel Neuroptics Blueprint",
+    "name": "Grendel Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -1122,9 +1327,10 @@
         "Control Module": 5,
         "Ferrite": 3500,
         "Alloy Plate": 3800
-    }
+    },
+    "masterable": false
 },{
-    "name": "Grendel Chassis Blueprint",
+    "name": "Grendel Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -1135,9 +1341,10 @@
         "Kuaka Spinal Claw": 30,
         "Tralok Eyes": 20,
         "Murkray Liver": 15
-    }
+    },
+    "masterable": false
 },{
-    "name": "Grendel Systems Blueprint",
+    "name": "Grendel Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -1148,7 +1355,8 @@
         "Morphics": 10,
         "Fish Meat": 125,
         "Fish Oil": 100
-    }
+    },
+    "masterable": false
 },{
     "name": "Gyre",
     "type": [
@@ -1157,13 +1365,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Gyre Neuroptics Blueprint": 1,
-        "Gyre Chassis Blueprint": 1,
-        "Gyre Systems Blueprint": 1,
+        "Gyre Neuroptics": 1,
+        "Gyre Chassis": 1,
+        "Gyre Systems": 1,
         "Orokin Cell": 3
-    }
+    },
+    "masterable": true
 },{
-    "name": "Gyre Neuroptics Blueprint",
+    "name": "Gyre Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -1174,9 +1383,10 @@
         "Thrax Plasm": 300,
         "Voidgel Orb": 60,
         "Plastids": 4500
-    }
+    },
+    "masterable": false
 },{
-    "name": "Gyre Chassis Blueprint",
+    "name": "Gyre Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -1187,9 +1397,10 @@
         "Thrax Plasm": 500,
         "Entrati Lanthorn": 12,
         "Alloy Plate": 3300
-    }
+    },
+    "masterable": false
 },{
-    "name": "Gyre Systems Blueprint",
+    "name": "Gyre Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -1200,7 +1411,8 @@
         "Thrax Plasm": 300,
         "Voidplume Quill": 40,
         "Ferrite": 6500
-    }
+    },
+    "masterable": false
 },{
     "name": "Harrow",
     "type": [
@@ -1209,13 +1421,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Harrow Neuroptics Blueprint": 1,
-        "Harrow Chassis Blueprint": 1,
-        "Harrow Systems Blueprint": 1,
+        "Harrow Neuroptics": 1,
+        "Harrow Chassis": 1,
+        "Harrow Systems": 1,
         "Kuva (Resource)": 2000
-    }
+    },
+    "masterable": true
 },{
-    "name": "Harrow Neuroptics Blueprint",
+    "name": "Harrow Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -1226,9 +1439,10 @@
         "Polymer Bundle": 4000,
         "Plastids": 2000,
         "Neural Sensors": 5
-    }
+    },
+    "masterable": false
 },{
-    "name": "Harrow Chassis Blueprint",
+    "name": "Harrow Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -1239,9 +1453,10 @@
         "Salvage": 25000,
         "Oxium": 800,
         "Orokin Cell": 5
-    }
+    },
+    "masterable": false
 },{
-    "name": "Harrow Systems Blueprint",
+    "name": "Harrow Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -1252,7 +1467,8 @@
         "Cryotic": 1000,
         "Ferrite": 25000,
         "Control Module": 15
-    }
+    },
+    "masterable": false
 },{
     "name": "Harrow Prime",
     "type": [
@@ -1261,13 +1477,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Harrow Prime Neuroptics Blueprint": 1,
-        "Harrow Prime Chassis Blueprint": 1,
-        "Harrow Prime Systems Blueprint": 1,
+        "Harrow Prime Neuroptics": 1,
+        "Harrow Prime Chassis": 1,
+        "Harrow Prime Systems": 1,
         "Orokin Cell": 5
-    }
+    },
+    "masterable": true
 },{
-    "name": "Harrow Prime Neuroptics Blueprint",
+    "name": "Harrow Prime Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -1278,9 +1495,10 @@
         "Cryotic": 600,
         "Circuits": 1100,
         "Nano Spores": 4975
-    }
+    },
+    "masterable": false
 },{
-    "name": "Harrow Prime Chassis Blueprint",
+    "name": "Harrow Prime Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -1291,9 +1509,10 @@
         "Plastids": 450,
         "Polymer Bundle": 1425,
         "Alloy Plate": 5500
-    }
+    },
+    "masterable": false
 },{
-    "name": "Harrow Prime Systems Blueprint",
+    "name": "Harrow Prime Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -1304,7 +1523,8 @@
         "Neurodes": 3,
         "Rubedo": 1250,
         "Salvage": 3800
-    }
+    },
+    "masterable": false
 },{
     "name": "Hildryn",
     "type": [
@@ -1313,13 +1533,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Hildryn Neuroptics Blueprint": 1,
-        "Hildryn Chassis Blueprint": 1,
-        "Hildryn Systems Blueprint": 1,
+        "Hildryn Neuroptics": 1,
+        "Hildryn Chassis": 1,
+        "Hildryn Systems": 1,
         "Orokin Cell": 3
-    }
+    },
+    "masterable": true
 },{
-    "name": "Hildryn Neuroptics Blueprint",
+    "name": "Hildryn Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -1330,9 +1551,10 @@
         "Argon Crystal": 1,
         "Mytocardia Spore": 85,
         "Circuits": 1600
-    }
+    },
+    "masterable": false
 },{
-    "name": "Hildryn Chassis Blueprint",
+    "name": "Hildryn Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -1343,9 +1565,10 @@
         "Nitain Extract": 2,
         "Thermal Sludge": 90,
         "Rubedo": 2300
-    }
+    },
+    "masterable": false
 },{
-    "name": "Hildryn Systems Blueprint",
+    "name": "Hildryn Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -1356,59 +1579,8 @@
         "Tellurium": 2,
         "Gorgaricus Spore": 95,
         "Plastids": 1500
-    }
-},{
-    "name": "Hydroid Prime",
-    "type": [
-        "62d8682daeef469267d8084f"
-    ],
-    "credits": 25000,
-    "createTime": 259200.0,
-    "components": {
-        "Hydroid Prime Neuroptics Blueprint": 1,
-        "Hydroid Prime Chassis Blueprint": 1,
-        "Hydroid Prime Systems Blueprint": 1,
-        "Orokin Cell": 5
-    }
-},{
-    "name": "Hydroid Prime Neuroptics Blueprint",
-    "type": [
-        "62ec19a030c80bbc44011faa"
-    ],
-    "credits": 15000,
-    "createTime": 43200.0,
-    "components": {
-        "Neural Sensors": 5,
-        "Alloy Plate": 8750,
-        "Plastids": 1100,
-        "Nano Spores": 12750
-    }
-},{
-    "name": "Hydroid Prime Chassis Blueprint",
-    "type": [
-        "62ec19a030c80bbc44011faa"
-    ],
-    "credits": 15000,
-    "createTime": 43200.0,
-    "components": {
-        "Argon Crystal": 2,
-        "Gallium": 5,
-        "Salvage": 10500,
-        "Ferrite": 6750
-    }
-},{
-    "name": "Hydroid Prime Systems Blueprint",
-    "type": [
-        "62ec19a030c80bbc44011faa"
-    ],
-    "credits": 15000,
-    "createTime": 43200.0,
-    "components": {
-        "Nitain Extract": 2,
-        "Control Module": 10,
-        "Circuits": 1300,
-        "Cryotic": 925
-    }
+    },
+    "masterable": false
 },{
     "name": "Hydroid",
     "type": [
@@ -1417,13 +1589,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Hydroid Neuroptics Blueprint": 1,
-        "Hydroid Chassis Blueprint": 1,
-        "Hydroid Systems Blueprint": 1,
+        "Hydroid Neuroptics": 1,
+        "Hydroid Chassis": 1,
+        "Hydroid Systems": 1,
         "Orokin Cell": 1
-    }
+    },
+    "masterable": true
 },{
-    "name": "Hydroid Neuroptics Blueprint",
+    "name": "Hydroid Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -1434,9 +1607,10 @@
         "Control Module": 1,
         "Polymer Bundle": 150,
         "Argon Crystal": 2
-    }
+    },
+    "masterable": false
 },{
-    "name": "Hydroid Chassis Blueprint",
+    "name": "Hydroid Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -1447,9 +1621,10 @@
         "Polymer Bundle": 1000,
         "Rubedo": 300,
         "Nano Spores": 1200
-    }
+    },
+    "masterable": false
 },{
-    "name": "Hydroid Systems Blueprint",
+    "name": "Hydroid Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -1460,7 +1635,64 @@
         "Gallium": 4,
         "Polymer Bundle": 500,
         "Alloy Plate": 220
-    }
+    },
+    "masterable": false
+},{
+    "name": "Hydroid Prime",
+    "type": [
+        "62d8682daeef469267d8084f"
+    ],
+    "credits": 25000,
+    "createTime": 259200.0,
+    "components": {
+        "Hydroid Prime Neuroptics": 1,
+        "Hydroid Prime Chassis": 1,
+        "Hydroid Prime Systems": 1,
+        "Orokin Cell": 5
+    },
+    "masterable": true
+},{
+    "name": "Hydroid Prime Neuroptics",
+    "type": [
+        "62ec19a030c80bbc44011faa"
+    ],
+    "credits": 15000,
+    "createTime": 43200.0,
+    "components": {
+        "Neural Sensors": 5,
+        "Alloy Plate": 8750,
+        "Plastids": 1100,
+        "Nano Spores": 12750
+    },
+    "masterable": false
+},{
+    "name": "Hydroid Prime Chassis",
+    "type": [
+        "62ec19a030c80bbc44011faa"
+    ],
+    "credits": 15000,
+    "createTime": 43200.0,
+    "components": {
+        "Argon Crystal": 2,
+        "Gallium": 5,
+        "Salvage": 10500,
+        "Ferrite": 6750
+    },
+    "masterable": false
+},{
+    "name": "Hydroid Prime Systems",
+    "type": [
+        "62ec19a030c80bbc44011faa"
+    ],
+    "credits": 15000,
+    "createTime": 43200.0,
+    "components": {
+        "Nitain Extract": 2,
+        "Control Module": 10,
+        "Circuits": 1300,
+        "Cryotic": 925
+    },
+    "masterable": false
 },{
     "name": "Inaros",
     "type": [
@@ -1469,13 +1701,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Inaros Neuroptics Blueprint": 1,
-        "Inaros Chassis Blueprint": 1,
-        "Inaros Systems Blueprint": 1,
+        "Inaros Neuroptics": 1,
+        "Inaros Chassis": 1,
+        "Inaros Systems": 1,
         "Orokin Cell": 1
-    }
+    },
+    "masterable": true
 },{
-    "name": "Inaros Neuroptics Blueprint",
+    "name": "Inaros Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -1486,9 +1719,10 @@
         "Nitain Extract": 2,
         "Polymer Bundle": 350,
         "Plastids": 500
-    }
+    },
+    "masterable": false
 },{
-    "name": "Inaros Chassis Blueprint",
+    "name": "Inaros Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -1499,9 +1733,10 @@
         "Nano Spores": 1000,
         "Plastids": 300,
         "Oxium": 100
-    }
+    },
+    "masterable": false
 },{
-    "name": "Inaros Systems Blueprint",
+    "name": "Inaros Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -1512,7 +1747,8 @@
         "Polymer Bundle": 300,
         "Nano Spores": 1600,
         "Circuits": 500
-    }
+    },
+    "masterable": false
 },{
     "name": "Inaros Prime",
     "type": [
@@ -1521,13 +1757,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Inaros Prime Neuroptics Blueprint": 1,
-        "Inaros Prime Chassis Blueprint": 1,
-        "Inaros Prime Systems Blueprint": 1,
+        "Inaros Prime Neuroptics": 1,
+        "Inaros Prime Chassis": 1,
+        "Inaros Prime Systems": 1,
         "Orokin Cell": 5
-    }
+    },
+    "masterable": true
 },{
-    "name": "Inaros Prime Neuroptics Blueprint",
+    "name": "Inaros Prime Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -1538,9 +1775,10 @@
         "Neural Sensors": 6,
         "Oxium": 225,
         "Argon Crystal": 2
-    }
+    },
+    "masterable": false
 },{
-    "name": "Inaros Prime Chassis Blueprint",
+    "name": "Inaros Prime Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -1551,9 +1789,10 @@
         "Nano Spores": 4750,
         "Rubedo": 1400,
         "Morphics": 8
-    }
+    },
+    "masterable": false
 },{
-    "name": "Inaros Prime Systems Blueprint",
+    "name": "Inaros Prime Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -1564,59 +1803,8 @@
         "Tellurium": 3,
         "Ferrite": 4300,
         "Circuits": 1450
-    }
-},{
-    "name": "Ivara Prime",
-    "type": [
-        "62d8682daeef469267d8084f"
-    ],
-    "credits": 25000,
-    "createTime": 259200.0,
-    "components": {
-        "Ivara Prime Neuroptics Blueprint": 1,
-        "Ivara Prime Chassis Blueprint": 1,
-        "Ivara Prime Systems Blueprint": 1,
-        "Orokin Cell": 5
-    }
-},{
-    "name": "Ivara Prime Neuroptics Blueprint",
-    "type": [
-        "62ec19a030c80bbc44011faa"
-    ],
-    "credits": 15000,
-    "createTime": 43200.0,
-    "components": {
-        "Argon Crystal": 2,
-        "Cryotic": 600,
-        "Circuits": 750,
-        "Salvage": 4250
-    }
-},{
-    "name": "Ivara Prime Chassis Blueprint",
-    "type": [
-        "62ec19a030c80bbc44011faa"
-    ],
-    "credits": 15000,
-    "createTime": 43200.0,
-    "components": {
-        "Nitain Extract": 2,
-        "Control Module": 5,
-        "Plastids": 250,
-        "Nano Spores": 1800
-    }
-},{
-    "name": "Ivara Prime Systems Blueprint",
-    "type": [
-        "62ec19a030c80bbc44011faa"
-    ],
-    "credits": 15000,
-    "createTime": 43200.0,
-    "components": {
-        "Neurodes": 4,
-        "Morphics": 9,
-        "Oxium": 175,
-        "Ferrite": 3200
-    }
+    },
+    "masterable": false
 },{
     "name": "Ivara",
     "type": [
@@ -1625,13 +1813,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Ivara Neuroptics Blueprint": 1,
-        "Ivara Chassis Blueprint": 1,
-        "Ivara Systems Blueprint": 1,
+        "Ivara Neuroptics": 1,
+        "Ivara Chassis": 1,
+        "Ivara Systems": 1,
         "Orokin Cell": 1
-    }
+    },
+    "masterable": true
 },{
-    "name": "Ivara Neuroptics Blueprint",
+    "name": "Ivara Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -1642,9 +1831,10 @@
         "Plastids": 800,
         "Polymer Bundle": 2600,
         "Argon Crystal": 2
-    }
+    },
+    "masterable": false
 },{
-    "name": "Ivara Chassis Blueprint",
+    "name": "Ivara Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -1655,9 +1845,10 @@
         "Cryotic": 2000,
         "Rubedo": 700,
         "Nitain Extract": 4
-    }
+    },
+    "masterable": false
 },{
-    "name": "Ivara Systems Blueprint",
+    "name": "Ivara Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -1668,7 +1859,64 @@
         "Rubedo": 1000,
         "Nitain Extract": 5,
         "Argon Crystal": 1
-    }
+    },
+    "masterable": false
+},{
+    "name": "Ivara Prime",
+    "type": [
+        "62d8682daeef469267d8084f"
+    ],
+    "credits": 25000,
+    "createTime": 259200.0,
+    "components": {
+        "Ivara Prime Neuroptics": 1,
+        "Ivara Prime Chassis": 1,
+        "Ivara Prime Systems": 1,
+        "Orokin Cell": 5
+    },
+    "masterable": true
+},{
+    "name": "Ivara Prime Neuroptics",
+    "type": [
+        "62ec19a030c80bbc44011faa"
+    ],
+    "credits": 15000,
+    "createTime": 43200.0,
+    "components": {
+        "Argon Crystal": 2,
+        "Cryotic": 600,
+        "Circuits": 750,
+        "Salvage": 4250
+    },
+    "masterable": false
+},{
+    "name": "Ivara Prime Chassis",
+    "type": [
+        "62ec19a030c80bbc44011faa"
+    ],
+    "credits": 15000,
+    "createTime": 43200.0,
+    "components": {
+        "Nitain Extract": 2,
+        "Control Module": 5,
+        "Plastids": 250,
+        "Nano Spores": 1800
+    },
+    "masterable": false
+},{
+    "name": "Ivara Prime Systems",
+    "type": [
+        "62ec19a030c80bbc44011faa"
+    ],
+    "credits": 15000,
+    "createTime": 43200.0,
+    "components": {
+        "Neurodes": 4,
+        "Morphics": 9,
+        "Oxium": 175,
+        "Ferrite": 3200
+    },
+    "masterable": false
 },{
     "name": "Khora",
     "type": [
@@ -1677,13 +1925,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Khora Neuroptics Blueprint": 1,
-        "Khora Chassis Blueprint": 1,
-        "Khora Systems Blueprint": 1,
+        "Khora Neuroptics": 1,
+        "Khora Chassis": 1,
+        "Khora Systems": 1,
         "Orokin Cell": 3
-    }
+    },
+    "masterable": true
 },{
-    "name": "Khora Neuroptics Blueprint",
+    "name": "Khora Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -1694,9 +1943,10 @@
         "Kuaka Spinal Claw": 35,
         "Polymer Bundle": 1500,
         "Salvage": 16000
-    }
+    },
+    "masterable": false
 },{
-    "name": "Khora Chassis Blueprint",
+    "name": "Khora Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -1707,9 +1957,10 @@
         "Iradite": 65,
         "Alloy Plate": 12250,
         "Rubedo": 4300
-    }
+    },
+    "masterable": false
 },{
-    "name": "Khora Systems Blueprint",
+    "name": "Khora Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -1720,7 +1971,8 @@
         "Plastids": 1000,
         "Circuits": 2600,
         "Ferrite": 11500
-    }
+    },
+    "masterable": false
 },{
     "name": "Khora Prime",
     "type": [
@@ -1729,13 +1981,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Khora Prime Neuroptics Blueprint": 1,
-        "Khora Prime Chassis Blueprint": 1,
-        "Khora Prime Systems Blueprint": 1,
+        "Khora Prime Neuroptics": 1,
+        "Khora Prime Chassis": 1,
+        "Khora Prime Systems": 1,
         "Orokin Cell": 5
-    }
+    },
+    "masterable": true
 },{
-    "name": "Khora Prime Neuroptics Blueprint",
+    "name": "Khora Prime Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -1746,9 +1999,10 @@
         "Cryotic": 600,
         "Circuits": 1100,
         "Nano Spores": 4975
-    }
+    },
+    "masterable": false
 },{
-    "name": "Khora Prime Chassis Blueprint",
+    "name": "Khora Prime Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -1759,9 +2013,10 @@
         "Plastids": 450,
         "Polymer Bundle": 1425,
         "Alloy Plate": 5500
-    }
+    },
+    "masterable": false
 },{
-    "name": "Khora Prime Systems Blueprint",
+    "name": "Khora Prime Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -1772,7 +2027,8 @@
         "Neurodes": 3,
         "Rubedo": 1250,
         "Salvage": 3800
-    }
+    },
+    "masterable": false
 },{
     "name": "Lavos",
     "type": [
@@ -1781,13 +2037,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Lavos Neuroptics Blueprint": 1,
-        "Lavos Chassis Blueprint": 1,
-        "Lavos Systems Blueprint": 1,
+        "Lavos Neuroptics": 1,
+        "Lavos Chassis": 1,
+        "Lavos Systems": 1,
         "Orokin Cell": 3
-    }
+    },
+    "masterable": true
 },{
-    "name": "Lavos Neuroptics Blueprint",
+    "name": "Lavos Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -1798,9 +2055,10 @@
         "Titanium": 2000,
         "Oxium": 750,
         "Rubedo": 2750
-    }
+    },
+    "masterable": false
 },{
-    "name": "Lavos Chassis Blueprint",
+    "name": "Lavos Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -1811,9 +2069,10 @@
         "Nitain Extract": 5,
         "Cryotic": 1500,
         "Polymer Bundle": 5500
-    }
+    },
+    "masterable": false
 },{
-    "name": "Lavos Systems Blueprint",
+    "name": "Lavos Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -1824,7 +2083,8 @@
         "Nano Spores": 5500,
         "Hexenon": 550,
         "Circuits": 3000
-    }
+    },
+    "masterable": false
 },{
     "name": "Limbo Prime",
     "type": [
@@ -1833,13 +2093,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Limbo Prime Neuroptics Blueprint": 1,
-        "Limbo Prime Chassis Blueprint": 1,
-        "Limbo Prime Systems Blueprint": 1,
+        "Limbo Prime Neuroptics": 1,
+        "Limbo Prime Chassis": 1,
+        "Limbo Prime Systems": 1,
         "Orokin Cell": 5
-    }
+    },
+    "masterable": true
 },{
-    "name": "Limbo Prime Neuroptics Blueprint",
+    "name": "Limbo Prime Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -1850,9 +2111,10 @@
         "Cryotic": 300,
         "Rubedo": 450,
         "Nano Spores": 900
-    }
+    },
+    "masterable": false
 },{
-    "name": "Limbo Prime Chassis Blueprint",
+    "name": "Limbo Prime Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -1863,9 +2125,10 @@
         "Morphics": 6,
         "Alloy Plate": 1675,
         "Circuits": 550
-    }
+    },
+    "masterable": false
 },{
-    "name": "Limbo Prime Systems Blueprint",
+    "name": "Limbo Prime Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -1876,7 +2139,8 @@
         "Tellurium": 2,
         "Plastids": 100,
         "Salvage": 3000
-    }
+    },
+    "masterable": false
 },{
     "name": "Loki",
     "type": [
@@ -1885,13 +2149,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Loki Neuroptics Blueprint": 1,
-        "Loki Chassis Blueprint": 1,
-        "Loki Systems Blueprint": 1,
+        "Loki Neuroptics": 1,
+        "Loki Chassis": 1,
+        "Loki Systems": 1,
         "Orokin Cell": 1
-    }
+    },
+    "masterable": true
 },{
-    "name": "Loki Neuroptics Blueprint",
+    "name": "Loki Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -1902,9 +2167,10 @@
         "Neural Sensors": 1,
         "Polymer Bundle": 150,
         "Rubedo": 500
-    }
+    },
+    "masterable": false
 },{
-    "name": "Loki Chassis Blueprint",
+    "name": "Loki Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -1914,9 +2180,10 @@
         "Morphics": 1,
         "Ferrite": 1000,
         "Rubedo": 300
-    }
+    },
+    "masterable": false
 },{
-    "name": "Loki Systems Blueprint",
+    "name": "Loki Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -1927,7 +2194,8 @@
         "Morphics": 1,
         "Salvage": 500,
         "Plastids": 220
-    }
+    },
+    "masterable": false
 },{
     "name": "Limbo",
     "type": [
@@ -1936,13 +2204,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Limbo Neuroptics Blueprint": 1,
-        "Limbo Chassis Blueprint": 1,
-        "Limbo Systems Blueprint": 1,
+        "Limbo Neuroptics": 1,
+        "Limbo Chassis": 1,
+        "Limbo Systems": 1,
         "Orokin Cell": 3
-    }
+    },
+    "masterable": true
 },{
-    "name": "Limbo Neuroptics Blueprint",
+    "name": "Limbo Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -1953,9 +2222,10 @@
         "Neurodes": 2,
         "Polymer Bundle": 150,
         "Rubedo": 500
-    }
+    },
+    "masterable": false
 },{
-    "name": "Limbo Chassis Blueprint",
+    "name": "Limbo Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -1966,9 +2236,10 @@
         "Ferrite": 1000,
         "Rubedo": 300,
         "Argon Crystal": 1
-    }
+    },
+    "masterable": false
 },{
-    "name": "Limbo Systems Blueprint",
+    "name": "Limbo Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -1979,7 +2250,8 @@
         "Morphics": 3,
         "Salvage": 500,
         "Plastids": 220
-    }
+    },
+    "masterable": false
 },{
     "name": "Loki Prime",
     "type": [
@@ -1988,13 +2260,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Loki Prime Neuroptics Blueprint": 1,
-        "Loki Prime Chassis Blueprint": 1,
-        "Loki Prime Systems Blueprint": 1,
+        "Loki Prime Neuroptics": 1,
+        "Loki Prime Chassis": 1,
+        "Loki Prime Systems": 1,
         "Orokin Cell": 1
-    }
+    },
+    "masterable": true
 },{
-    "name": "Loki Prime Neuroptics Blueprint",
+    "name": "Loki Prime Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -2005,9 +2278,10 @@
         "Neural Sensors": 2,
         "Salvage": 1000,
         "Rubedo": 750
-    }
+    },
+    "masterable": false
 },{
-    "name": "Loki Prime Chassis Blueprint",
+    "name": "Loki Prime Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -2017,9 +2291,10 @@
         "Gallium": 3,
         "Nano Spores": 1000,
         "Rubedo": 400
-    }
+    },
+    "masterable": false
 },{
-    "name": "Loki Prime Systems Blueprint",
+    "name": "Loki Prime Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -2030,58 +2305,8 @@
         "Orokin Cell": 1,
         "Ferrite": 1000,
         "Circuits": 500
-    }
-},{
-    "name": "Mag Prime",
-    "type": [
-        "62d8682daeef469267d8084f"
-    ],
-    "credits": 25000,
-    "createTime": 259200.0,
-    "components": {
-        "Mag Prime Neuroptics Blueprint": 1,
-        "Mag Prime Chassis Blueprint": 1,
-        "Mag Prime Systems Blueprint": 1,
-        "Orokin Cell": 3
-    }
-},{
-    "name": "Mag Prime Neuroptics Blueprint",
-    "type": [
-        "62ec19a030c80bbc44011faa"
-    ],
-    "credits": 15000,
-    "createTime": 43200.0,
-    "components": {
-        "Alloy Plate": 150,
-        "Neural Sensors": 2,
-        "Polymer Bundle": 150,
-        "Rubedo": 750
-    }
-},{
-    "name": "Mag Prime Chassis Blueprint",
-    "type": [
-        "62ec19a030c80bbc44011faa"
-    ],
-    "credits": 15000,
-    "createTime": 43200.0,
-    "components": {
-        "Morphics": 3,
-        "Ferrite": 1000,
-        "Rubedo": 400
-    }
-},{
-    "name": "Mag Prime Systems Blueprint",
-    "type": [
-        "62ec19a030c80bbc44011faa"
-    ],
-    "credits": 15000,
-    "createTime": 43200.0,
-    "components": {
-        "Control Module": 3,
-        "Morphics": 1,
-        "Salvage": 500,
-        "Plastids": 500
-    }
+    },
+    "masterable": false
 },{
     "name": "Mag",
     "type": [
@@ -2090,13 +2315,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Mag Neuroptics Blueprint": 1,
-        "Mag Chassis Blueprint": 1,
-        "Mag Systems Blueprint": 1,
+        "Mag Neuroptics": 1,
+        "Mag Chassis": 1,
+        "Mag Systems": 1,
         "Orokin Cell": 1
-    }
+    },
+    "masterable": true
 },{
-    "name": "Mag Neuroptics Blueprint",
+    "name": "Mag Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -2107,9 +2333,10 @@
         "Neural Sensors": 1,
         "Polymer Bundle": 150,
         "Rubedo": 500
-    }
+    },
+    "masterable": false
 },{
-    "name": "Mag Chassis Blueprint",
+    "name": "Mag Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -2119,9 +2346,10 @@
         "Morphics": 1,
         "Ferrite": 1000,
         "Rubedo": 300
-    }
+    },
+    "masterable": false
 },{
-    "name": "Mag Systems Blueprint",
+    "name": "Mag Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -2132,7 +2360,63 @@
         "Morphics": 1,
         "Salvage": 500,
         "Plastids": 220
-    }
+    },
+    "masterable": false
+},{
+    "name": "Mag Prime",
+    "type": [
+        "62d8682daeef469267d8084f"
+    ],
+    "credits": 25000,
+    "createTime": 259200.0,
+    "components": {
+        "Mag Prime Neuroptics": 1,
+        "Mag Prime Chassis": 1,
+        "Mag Prime Systems": 1,
+        "Orokin Cell": 3
+    },
+    "masterable": true
+},{
+    "name": "Mag Prime Neuroptics",
+    "type": [
+        "62ec19a030c80bbc44011faa"
+    ],
+    "credits": 15000,
+    "createTime": 43200.0,
+    "components": {
+        "Alloy Plate": 150,
+        "Neural Sensors": 2,
+        "Polymer Bundle": 150,
+        "Rubedo": 750
+    },
+    "masterable": false
+},{
+    "name": "Mag Prime Chassis",
+    "type": [
+        "62ec19a030c80bbc44011faa"
+    ],
+    "credits": 15000,
+    "createTime": 43200.0,
+    "components": {
+        "Morphics": 3,
+        "Ferrite": 1000,
+        "Rubedo": 400
+    },
+    "masterable": false
+},{
+    "name": "Mag Prime Systems",
+    "type": [
+        "62ec19a030c80bbc44011faa"
+    ],
+    "credits": 15000,
+    "createTime": 43200.0,
+    "components": {
+        "Control Module": 3,
+        "Morphics": 1,
+        "Salvage": 500,
+        "Plastids": 500
+    },
+    "masterable": false
 },{
     "name": "Mesa",
     "type": [
@@ -2141,13 +2425,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Mesa Neuroptics Blueprint": 1,
-        "Mesa Chassis Blueprint": 1,
-        "Mesa Systems Blueprint": 1,
+        "Mesa Neuroptics": 1,
+        "Mesa Chassis": 1,
+        "Mesa Systems": 1,
         "Orokin Cell": 1
-    }
+    },
+    "masterable": true
 },{
-    "name": "Mesa Neuroptics Blueprint",
+    "name": "Mesa Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -2158,9 +2443,10 @@
         "Neural Sensors": 2,
         "Polymer Bundle": 350,
         "Plastids": 500
-    }
+    },
+    "masterable": false
 },{
-    "name": "Mesa Chassis Blueprint",
+    "name": "Mesa Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -2171,9 +2457,10 @@
         "Oxium": 50,
         "Plastids": 300,
         "Nano Spores": 1000
-    }
+    },
+    "masterable": false
 },{
-    "name": "Mesa Systems Blueprint",
+    "name": "Mesa Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -2184,7 +2471,8 @@
         "Nano Spores": 1600,
         "Polymer Bundle": 300,
         "Circuits": 500
-    }
+    },
+    "masterable": false
 },{
     "name": "Mesa Prime",
     "type": [
@@ -2193,13 +2481,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Mesa Prime Neuroptics Blueprint": 1,
-        "Mesa Prime Chassis Blueprint": 1,
-        "Mesa Prime Systems Blueprint": 1,
+        "Mesa Prime Neuroptics": 1,
+        "Mesa Prime Chassis": 1,
+        "Mesa Prime Systems": 1,
         "Orokin Cell": 5
-    }
+    },
+    "masterable": true
 },{
-    "name": "Mesa Prime Neuroptics Blueprint",
+    "name": "Mesa Prime Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -2210,9 +2499,10 @@
         "Neural Sensors": 2,
         "Rubedo": 350,
         "Ferrite": 1250
-    }
+    },
+    "masterable": false
 },{
-    "name": "Mesa Prime Chassis Blueprint",
+    "name": "Mesa Prime Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -2223,9 +2513,10 @@
         "Gallium": 3,
         "Nano Spores": 575,
         "Polymer Bundle": 450
-    }
+    },
+    "masterable": false
 },{
-    "name": "Mesa Prime Systems Blueprint",
+    "name": "Mesa Prime Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -2236,7 +2527,8 @@
         "Control Module": 3,
         "Circuits": 275,
         "Salvage": 625
-    }
+    },
+    "masterable": false
 },{
     "name": "Mirage",
     "type": [
@@ -2245,13 +2537,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Mirage Neuroptics Blueprint": 1,
-        "Mirage Chassis Blueprint": 1,
-        "Mirage Systems Blueprint": 1,
+        "Mirage Neuroptics": 1,
+        "Mirage Chassis": 1,
+        "Mirage Systems": 1,
         "Argon Crystal": 1
-    }
+    },
+    "masterable": true
 },{
-    "name": "Mirage Neuroptics Blueprint",
+    "name": "Mirage Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -2262,9 +2555,10 @@
         "Neurodes": 1,
         "Polymer Bundle": 400,
         "Orokin Cell": 1
-    }
+    },
+    "masterable": false
 },{
-    "name": "Mirage Chassis Blueprint",
+    "name": "Mirage Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -2275,9 +2569,10 @@
         "Ferrite": 2500,
         "Plastids": 450,
         "Gallium": 1
-    }
+    },
+    "masterable": false
 },{
-    "name": "Mirage Systems Blueprint",
+    "name": "Mirage Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -2288,7 +2583,8 @@
         "Circuits": 250,
         "Polymer Bundle": 650,
         "Orokin Cell": 1
-    }
+    },
+    "masterable": false
 },{
     "name": "Mirage Prime",
     "type": [
@@ -2297,13 +2593,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Mirage Prime Neuroptics Blueprint": 1,
-        "Mirage Prime Chassis Blueprint": 1,
-        "Mirage Prime Systems Blueprint": 1,
+        "Mirage Prime Neuroptics": 1,
+        "Mirage Prime Chassis": 1,
+        "Mirage Prime Systems": 1,
         "Orokin Cell": 5
-    }
+    },
+    "masterable": true
 },{
-    "name": "Mirage Prime Neuroptics Blueprint",
+    "name": "Mirage Prime Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -2314,9 +2611,10 @@
         "Cryotic": 2000,
         "Polymer Bundle": 2500,
         "Ferrite": 18000
-    }
+    },
+    "masterable": false
 },{
-    "name": "Mirage Prime Chassis Blueprint",
+    "name": "Mirage Prime Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -2327,9 +2625,10 @@
         "Morphics": 20,
         "Alloy Plate": 26000,
         "Oxium": 350
-    }
+    },
+    "masterable": false
 },{
-    "name": "Mirage Prime Systems Blueprint",
+    "name": "Mirage Prime Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -2340,7 +2639,8 @@
         "Control Module": 10,
         "Rubedo": 4500,
         "Salvage": 23000
-    }
+    },
+    "masterable": false
 },{
     "name": "Nekros",
     "type": [
@@ -2349,13 +2649,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Nekros Neuroptics Blueprint": 1,
-        "Nekros Chassis Blueprint": 1,
-        "Nekros Systems Blueprint": 1,
+        "Nekros Neuroptics": 1,
+        "Nekros Chassis": 1,
+        "Nekros Systems": 1,
         "Orokin Cell": 3
-    }
+    },
+    "masterable": true
 },{
-    "name": "Nekros Neuroptics Blueprint",
+    "name": "Nekros Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -2366,9 +2667,10 @@
         "Neural Sensors": 1,
         "Polymer Bundle": 150,
         "Rubedo": 500
-    }
+    },
+    "masterable": false
 },{
-    "name": "Nekros Chassis Blueprint",
+    "name": "Nekros Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -2378,9 +2680,10 @@
         "Morphics": 1,
         "Ferrite": 1000,
         "Rubedo": 300
-    }
+    },
+    "masterable": false
 },{
-    "name": "Nekros Systems Blueprint",
+    "name": "Nekros Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -2391,7 +2694,8 @@
         "Morphics": 1,
         "Salvage": 500,
         "Plastids": 220
-    }
+    },
+    "masterable": false
 },{
     "name": "Nekros Prime",
     "type": [
@@ -2400,13 +2704,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Nekros Prime Neuroptics Blueprint": 1,
-        "Nekros Prime Chassis Blueprint": 1,
-        "Nekros Prime Systems Blueprint": 1,
+        "Nekros Prime Neuroptics": 1,
+        "Nekros Prime Chassis": 1,
+        "Nekros Prime Systems": 1,
         "Orokin Cell": 3
-    }
+    },
+    "masterable": true
 },{
-    "name": "Nekros Prime Neuroptics Blueprint",
+    "name": "Nekros Prime Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -2417,9 +2722,10 @@
         "Neural Sensors": 3,
         "Polymer Bundle": 12000,
         "Nitain Extract": 5
-    }
+    },
+    "masterable": false
 },{
-    "name": "Nekros Prime Chassis Blueprint",
+    "name": "Nekros Prime Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -2430,9 +2736,10 @@
         "Ferrite": 18000,
         "Rubedo": 6000,
         "Argon Crystal": 2
-    }
+    },
+    "masterable": false
 },{
-    "name": "Nekros Prime Systems Blueprint",
+    "name": "Nekros Prime Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -2443,7 +2750,8 @@
         "Tellurium": 3,
         "Salvage": 15000,
         "Plastids": 500
-    }
+    },
+    "masterable": false
 },{
     "name": "Nezha",
     "type": [
@@ -2452,13 +2760,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Nezha Neuroptics Blueprint": 1,
-        "Nezha Chassis Blueprint": 1,
-        "Nezha Systems Blueprint": 1,
+        "Nezha Neuroptics": 1,
+        "Nezha Chassis": 1,
+        "Nezha Systems": 1,
         "Orokin Cell": 1
-    }
+    },
+    "masterable": true
 },{
-    "name": "Nezha Neuroptics Blueprint",
+    "name": "Nezha Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -2469,9 +2778,10 @@
         "Neural Sensors": 1,
         "Polymer Bundle": 2100,
         "Salvage": 4500
-    }
+    },
+    "masterable": false
 },{
-    "name": "Nezha Chassis Blueprint",
+    "name": "Nezha Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -2482,9 +2792,10 @@
         "Ferrite": 3200,
         "Rubedo": 600,
         "Argon Crystal": 1
-    }
+    },
+    "masterable": false
 },{
-    "name": "Nezha Systems Blueprint",
+    "name": "Nezha Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -2495,7 +2806,8 @@
         "Morphics": 1,
         "Ferrite": 5000,
         "Plastids": 4200
-    }
+    },
+    "masterable": false
 },{
     "name": "Nezha Prime",
     "type": [
@@ -2504,13 +2816,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Nezha Prime Neuroptics Blueprint": 1,
-        "Nezha Prime Chassis Blueprint": 1,
-        "Nezha Prime Systems Blueprint": 1,
+        "Nezha Prime Neuroptics": 1,
+        "Nezha Prime Chassis": 1,
+        "Nezha Prime Systems": 1,
         "Orokin Cell": 5
-    }
+    },
+    "masterable": true
 },{
-    "name": "Nezha Prime Neuroptics Blueprint",
+    "name": "Nezha Prime Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -2521,9 +2834,10 @@
         "Neural Sensors": 6,
         "Oxium": 225,
         "Argon Crystal": 2
-    }
+    },
+    "masterable": false
 },{
-    "name": "Nezha Prime Chassis Blueprint",
+    "name": "Nezha Prime Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -2534,9 +2848,10 @@
         "Nano Spores": 4750,
         "Rubedo": 1400,
         "Morphics": 8
-    }
+    },
+    "masterable": false
 },{
-    "name": "Nezha Prime Systems Blueprint",
+    "name": "Nezha Prime Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -2547,7 +2862,8 @@
         "Tellurium": 3,
         "Ferrite": 4300,
         "Circuits": 1450
-    }
+    },
+    "masterable": false
 },{
     "name": "Nidus Prime",
     "type": [
@@ -2556,13 +2872,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Nidus Prime Neuroptics Blueprint": 1,
-        "Nidus Prime Chassis Blueprint": 1,
-        "Nidus Prime Systems Blueprint": 1,
+        "Nidus Prime Neuroptics": 1,
+        "Nidus Prime Chassis": 1,
+        "Nidus Prime Systems": 1,
         "Orokin Cell": 5
-    }
+    },
+    "masterable": true
 },{
-    "name": "Nidus Prime Neuroptics Blueprint",
+    "name": "Nidus Prime Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -2573,9 +2890,10 @@
         "Cryotic": 600,
         "Circuits": 1100,
         "Nano Spores": 4975
-    }
+    },
+    "masterable": false
 },{
-    "name": "Nidus Prime Chassis Blueprint",
+    "name": "Nidus Prime Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -2586,9 +2904,10 @@
         "Plastids": 450,
         "Polymer Bundle": 1425,
         "Alloy Plate": 5500
-    }
+    },
+    "masterable": false
 },{
-    "name": "Nidus Prime Systems Blueprint",
+    "name": "Nidus Prime Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -2599,7 +2918,8 @@
         "Neurodes": 3,
         "Rubedo": 1250,
         "Salvage": 3800
-    }
+    },
+    "masterable": false
 },{
     "name": "Nidus",
     "type": [
@@ -2608,13 +2928,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Nidus Neuroptics Blueprint": 1,
-        "Nidus Chassis Blueprint": 1,
-        "Nidus Systems Blueprint": 1,
-        "Kuva (Resource)": 20000
-    }
+        "Nidus Neuroptics": 1,
+        "Nidus Chassis": 1,
+        "Nidus Systems": 1,
+        "Kuva (Resource)": 2000
+    },
+    "masterable": true
 },{
-    "name": "Nidus Neuroptics Blueprint",
+    "name": "Nidus Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -2625,9 +2946,10 @@
         "Polymer Bundle": 2600,
         "Plastids": 1000,
         "Neural Sensors": 3
-    }
+    },
+    "masterable": false
 },{
-    "name": "Nidus Chassis Blueprint",
+    "name": "Nidus Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -2638,9 +2960,10 @@
         "Nano Spores": 5000,
         "Plastids": 1400,
         "Neurodes": 3
-    }
+    },
+    "masterable": false
 },{
-    "name": "Nidus Systems Blueprint",
+    "name": "Nidus Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -2651,7 +2974,8 @@
         "Circuits": 3500,
         "Morphics": 14,
         "Orokin Cell": 6
-    }
+    },
+    "masterable": false
 },{
     "name": "Nova",
     "type": [
@@ -2660,13 +2984,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Nova Neuroptics Blueprint": 1,
-        "Nova Chassis Blueprint": 1,
-        "Nova Systems Blueprint": 1,
+        "Nova Neuroptics": 1,
+        "Nova Chassis": 1,
+        "Nova Systems": 1,
         "Orokin Cell": 1
-    }
+    },
+    "masterable": true
 },{
-    "name": "Nova Neuroptics Blueprint",
+    "name": "Nova Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -2677,9 +3002,10 @@
         "Neural Sensors": 1,
         "Polymer Bundle": 150,
         "Rubedo": 500
-    }
+    },
+    "masterable": false
 },{
-    "name": "Nova Chassis Blueprint",
+    "name": "Nova Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -2689,9 +3015,10 @@
         "Morphics": 1,
         "Ferrite": 1000,
         "Rubedo": 300
-    }
+    },
+    "masterable": false
 },{
-    "name": "Nova Systems Blueprint",
+    "name": "Nova Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -2702,7 +3029,8 @@
         "Morphics": 1,
         "Salvage": 500,
         "Plastids": 600
-    }
+    },
+    "masterable": false
 },{
     "name": "Nova Prime",
     "type": [
@@ -2711,13 +3039,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Nova Prime Neuroptics Blueprint": 1,
-        "Nova Prime Chassis Blueprint": 1,
-        "Nova Prime Systems Blueprint": 1,
+        "Nova Prime Neuroptics": 1,
+        "Nova Prime Chassis": 1,
+        "Nova Prime Systems": 1,
         "Orokin Cell": 1
-    }
+    },
+    "masterable": true
 },{
-    "name": "Nova Prime Neuroptics Blueprint",
+    "name": "Nova Prime Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -2728,9 +3057,10 @@
         "Neural Sensors": 1,
         "Nano Spores": 400,
         "Plastids": 500
-    }
+    },
+    "masterable": false
 },{
-    "name": "Nova Prime Chassis Blueprint",
+    "name": "Nova Prime Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -2740,9 +3070,10 @@
         "Morphics": 1,
         "Polymer Bundle": 1000,
         "Circuits": 300
-    }
+    },
+    "masterable": false
 },{
-    "name": "Nova Prime Systems Blueprint",
+    "name": "Nova Prime Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -2753,7 +3084,8 @@
         "Morphics": 1,
         "Ferrite": 600,
         "Circuits": 200
-    }
+    },
+    "masterable": false
 },{
     "name": "Nyx",
     "type": [
@@ -2762,13 +3094,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Nyx Neuroptics Blueprint": 1,
-        "Nyx Chassis Blueprint": 1,
-        "Nyx Systems Blueprint": 1,
+        "Nyx Neuroptics": 1,
+        "Nyx Chassis": 1,
+        "Nyx Systems": 1,
         "Orokin Cell": 1
-    }
+    },
+    "masterable": true
 },{
-    "name": "Nyx Neuroptics Blueprint",
+    "name": "Nyx Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -2779,9 +3112,10 @@
         "Neural Sensors": 1,
         "Polymer Bundle": 150,
         "Rubedo": 500
-    }
+    },
+    "masterable": false
 },{
-    "name": "Nyx Chassis Blueprint",
+    "name": "Nyx Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -2791,9 +3125,10 @@
         "Morphics": 1,
         "Ferrite": 1000,
         "Rubedo": 300
-    }
+    },
+    "masterable": false
 },{
-    "name": "Nyx Systems Blueprint",
+    "name": "Nyx Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -2804,7 +3139,8 @@
         "Morphics": 1,
         "Salvage": 500,
         "Plastids": 220
-    }
+    },
+    "masterable": false
 },{
     "name": "Nyx Prime",
     "type": [
@@ -2813,13 +3149,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Nyx Prime Neuroptics Blueprint": 1,
-        "Nyx Prime Chassis Blueprint": 1,
-        "Nyx Prime Systems Blueprint": 1,
+        "Nyx Prime Neuroptics": 1,
+        "Nyx Prime Chassis": 1,
+        "Nyx Prime Systems": 1,
         "Orokin Cell": 1
-    }
+    },
+    "masterable": true
 },{
-    "name": "Nyx Prime Neuroptics Blueprint",
+    "name": "Nyx Prime Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -2830,9 +3167,10 @@
         "Neural Sensors": 2,
         "Salvage": 1000,
         "Rubedo": 750
-    }
+    },
+    "masterable": false
 },{
-    "name": "Nyx Prime Chassis Blueprint",
+    "name": "Nyx Prime Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -2842,9 +3180,10 @@
         "Gallium": 3,
         "Nano Spores": 1000,
         "Rubedo": 400
-    }
+    },
+    "masterable": false
 },{
-    "name": "Nyx Prime Systems Blueprint",
+    "name": "Nyx Prime Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -2855,7 +3194,8 @@
         "Orokin Cell": 1,
         "Ferrite": 1000,
         "Circuits": 500
-    }
+    },
+    "masterable": false
 },{
     "name": "Oberon",
     "type": [
@@ -2864,13 +3204,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Oberon Neuroptics Blueprint": 1,
-        "Oberon Chassis Blueprint": 1,
-        "Oberon Systems Blueprint": 1,
+        "Oberon Neuroptics": 1,
+        "Oberon Chassis": 1,
+        "Oberon Systems": 1,
         "Orokin Cell": 1
-    }
+    },
+    "masterable": true
 },{
-    "name": "Oberon Neuroptics Blueprint",
+    "name": "Oberon Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -2881,9 +3222,10 @@
         "Control Module": 1,
         "Polymer Bundle": 150,
         "Circuits": 500
-    }
+    },
+    "masterable": false
 },{
-    "name": "Oberon Chassis Blueprint",
+    "name": "Oberon Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -2893,9 +3235,10 @@
         "Gallium": 1,
         "Polymer Bundle": 1000,
         "Rubedo": 300
-    }
+    },
+    "masterable": false
 },{
-    "name": "Oberon Systems Blueprint",
+    "name": "Oberon Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -2906,7 +3249,8 @@
         "Gallium": 1,
         "Polymer Bundle": 500,
         "Alloy Plate": 220
-    }
+    },
+    "masterable": false
 },{
     "name": "Oberon Prime",
     "type": [
@@ -2915,13 +3259,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Oberon Prime Neuroptics Blueprint": 1,
-        "Oberon Prime Chassis Blueprint": 1,
-        "Oberon Prime Systems Blueprint": 1,
+        "Oberon Prime Neuroptics": 1,
+        "Oberon Prime Chassis": 1,
+        "Oberon Prime Systems": 1,
         "Orokin Cell": 5
-    }
+    },
+    "masterable": true
 },{
-    "name": "Oberon Prime Neuroptics Blueprint",
+    "name": "Oberon Prime Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -2932,9 +3277,10 @@
         "Alloy Plate": 4000,
         "Circuits": 1500,
         "Nitain Extract": 2
-    }
+    },
+    "masterable": false
 },{
-    "name": "Oberon Prime Chassis Blueprint",
+    "name": "Oberon Prime Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -2945,9 +3291,10 @@
         "Oxium": 100,
         "Rubedo": 1250,
         "Salvage": 7500
-    }
+    },
+    "masterable": false
 },{
-    "name": "Oberon Prime Systems Blueprint",
+    "name": "Oberon Prime Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -2958,7 +3305,8 @@
         "Plastids": 250,
         "Nano Spores": 6000,
         "Polymer Bundle": 1250
-    }
+    },
+    "masterable": false
 },{
     "name": "Octavia",
     "type": [
@@ -2967,13 +3315,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Octavia Neuroptics Blueprint": 1,
-        "Octavia Chassis Blueprint": 1,
-        "Octavia Systems Blueprint": 1,
+        "Octavia Neuroptics": 1,
+        "Octavia Chassis": 1,
+        "Octavia Systems": 1,
         "Mandachord": 1
-    }
+    },
+    "masterable": true
 },{
-    "name": "Octavia Neuroptics Blueprint",
+    "name": "Octavia Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -2984,9 +3333,10 @@
         "Polymer Bundle": 4800,
         "Plastids": 2600,
         "Neural Sensors": 5
-    }
+    },
+    "masterable": false
 },{
-    "name": "Octavia Chassis Blueprint",
+    "name": "Octavia Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -2997,9 +3347,10 @@
         "Salvage": 25000,
         "Plastids": 1500,
         "Neurodes": 3
-    }
+    },
+    "masterable": false
 },{
-    "name": "Octavia Systems Blueprint",
+    "name": "Octavia Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -3010,7 +3361,8 @@
         "Circuits": 3000,
         "Morphics": 20,
         "Orokin Cell": 5
-    }
+    },
+    "masterable": false
 },{
     "name": "Octavia Prime",
     "type": [
@@ -3019,13 +3371,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Octavia Prime Neuroptics Blueprint": 1,
-        "Octavia Prime Chassis Blueprint": 1,
-        "Octavia Prime Systems Blueprint": 1,
+        "Octavia Prime Neuroptics": 1,
+        "Octavia Prime Chassis": 1,
+        "Octavia Prime Systems": 1,
         "Orokin Cell": 5
-    }
+    },
+    "masterable": true
 },{
-    "name": "Octavia Prime Neuroptics Blueprint",
+    "name": "Octavia Prime Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -3036,9 +3389,10 @@
         "Control Module": 10,
         "Oxium": 250,
         "Salvage": 3750
-    }
+    },
+    "masterable": false
 },{
-    "name": "Octavia Prime Chassis Blueprint",
+    "name": "Octavia Prime Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -3049,9 +3403,10 @@
         "Morphics": 8,
         "Rubedo": 1200,
         "Ferrite": 4250
-    }
+    },
+    "masterable": false
 },{
-    "name": "Octavia Prime Systems Blueprint",
+    "name": "Octavia Prime Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -3062,7 +3417,8 @@
         "Cryotic": 370,
         "Circuits": 875,
         "Nano Spores": 4800
-    }
+    },
+    "masterable": false
 },{
     "name": "Protea",
     "type": [
@@ -3071,13 +3427,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Protea Neuroptics Blueprint": 1,
-        "Protea Chassis Blueprint": 1,
-        "Protea Systems Blueprint": 1,
+        "Protea Neuroptics": 1,
+        "Protea Chassis": 1,
+        "Protea Systems": 1,
         "Orokin Cell": 3
-    }
+    },
+    "masterable": true
 },{
-    "name": "Protea Neuroptics Blueprint",
+    "name": "Protea Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -3088,9 +3445,10 @@
         "Polymer Bundle": 5150,
         "Cubic Diodes": 1250,
         "Neural Sensors": 5
-    }
+    },
+    "masterable": false
 },{
-    "name": "Protea Chassis Blueprint",
+    "name": "Protea Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -3101,9 +3459,10 @@
         "Carbides": 2750,
         "Oxium": 550,
         "Morphics": 12
-    }
+    },
+    "masterable": false
 },{
-    "name": "Protea Systems Blueprint",
+    "name": "Protea Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -3114,7 +3473,8 @@
         "Cryotic": 1000,
         "Titanium": 1750,
         "Control Module": 10
-    }
+    },
+    "masterable": false
 },{
     "name": "Revenant",
     "type": [
@@ -3123,13 +3483,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Revenant Neuroptics Blueprint": 1,
-        "Revenant Chassis Blueprint": 1,
-        "Revenant Systems Blueprint": 1,
+        "Revenant Neuroptics": 1,
+        "Revenant Chassis": 1,
+        "Revenant Systems": 1,
         "Orokin Cell": 1
-    }
+    },
+    "masterable": true
 },{
-    "name": "Revenant Neuroptics Blueprint",
+    "name": "Revenant Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -3140,9 +3501,10 @@
         "Intact Sentient Core": 15,
         "Polymer Bundle": 6000,
         "Rubedo": 2200
-    }
+    },
+    "masterable": false
 },{
-    "name": "Revenant Chassis Blueprint",
+    "name": "Revenant Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -3153,9 +3515,10 @@
         "Intact Sentient Core": 10,
         "Rubedo": 1500,
         "Iradite": 50
-    }
+    },
+    "masterable": false
 },{
-    "name": "Revenant Systems Blueprint",
+    "name": "Revenant Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -3166,58 +3529,8 @@
         "Cetus Wisp": 3,
         "Salvage": 8000,
         "Polymer Bundle": 3000
-    }
-},{
-    "name": "Rhino Prime",
-    "type": [
-        "62d8682daeef469267d8084f"
-    ],
-    "credits": 25000,
-    "createTime": 259200.0,
-    "components": {
-        "Rhino Prime Neuroptics Blueprint": 1,
-        "Rhino Prime Chassis Blueprint": 1,
-        "Rhino Prime Systems Blueprint": 1,
-        "Orokin Cell": 3
-    }
-},{
-    "name": "Rhino Prime Neuroptics Blueprint",
-    "type": [
-        "62ec19a030c80bbc44011faa"
-    ],
-    "credits": 15000,
-    "createTime": 43200.0,
-    "components": {
-        "Alloy Plate": 150,
-        "Neural Sensors": 2,
-        "Polymer Bundle": 150,
-        "Rubedo": 750
-    }
-},{
-    "name": "Rhino Prime Chassis Blueprint",
-    "type": [
-        "62ec19a030c80bbc44011faa"
-    ],
-    "credits": 15000,
-    "createTime": 43200.0,
-    "components": {
-        "Morphics": 3,
-        "Ferrite": 1000,
-        "Plastids": 400
-    }
-},{
-    "name": "Rhino Prime Systems Blueprint",
-    "type": [
-        "62ec19a030c80bbc44011faa"
-    ],
-    "credits": 15000,
-    "createTime": 43200.0,
-    "components": {
-        "Control Module": 3,
-        "Morphics": 1,
-        "Ferrite": 500,
-        "Plastids": 500
-    }
+    },
+    "masterable": false
 },{
     "name": "Rhino",
     "type": [
@@ -3226,13 +3539,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Rhino Neuroptics Blueprint": 1,
-        "Rhino Chassis Blueprint": 1,
-        "Rhino Systems Blueprint": 1,
+        "Rhino Neuroptics": 1,
+        "Rhino Chassis": 1,
+        "Rhino Systems": 1,
         "Gallium": 1
-    }
+    },
+    "masterable": true
 },{
-    "name": "Rhino Neuroptics Blueprint",
+    "name": "Rhino Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -3243,9 +3557,10 @@
         "Morphics": 1,
         "Polymer Bundle": 150,
         "Rubedo": 500
-    }
+    },
+    "masterable": false
 },{
-    "name": "Rhino Chassis Blueprint",
+    "name": "Rhino Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -3255,9 +3570,10 @@
         "Morphics": 1,
         "Ferrite": 1000,
         "Rubedo": 300
-    }
+    },
+    "masterable": false
 },{
-    "name": "Rhino Systems Blueprint",
+    "name": "Rhino Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -3268,7 +3584,63 @@
         "Morphics": 1,
         "Salvage": 500,
         "Plastids": 600
-    }
+    },
+    "masterable": false
+},{
+    "name": "Rhino Prime",
+    "type": [
+        "62d8682daeef469267d8084f"
+    ],
+    "credits": 25000,
+    "createTime": 259200.0,
+    "components": {
+        "Rhino Prime Neuroptics": 1,
+        "Rhino Prime Chassis": 1,
+        "Rhino Prime Systems": 1,
+        "Orokin Cell": 3
+    },
+    "masterable": true
+},{
+    "name": "Rhino Prime Neuroptics",
+    "type": [
+        "62ec19a030c80bbc44011faa"
+    ],
+    "credits": 15000,
+    "createTime": 43200.0,
+    "components": {
+        "Alloy Plate": 150,
+        "Neural Sensors": 2,
+        "Polymer Bundle": 150,
+        "Rubedo": 750
+    },
+    "masterable": false
+},{
+    "name": "Rhino Prime Chassis",
+    "type": [
+        "62ec19a030c80bbc44011faa"
+    ],
+    "credits": 15000,
+    "createTime": 43200.0,
+    "components": {
+        "Morphics": 3,
+        "Ferrite": 1000,
+        "Plastids": 400
+    },
+    "masterable": false
+},{
+    "name": "Rhino Prime Systems",
+    "type": [
+        "62ec19a030c80bbc44011faa"
+    ],
+    "credits": 15000,
+    "createTime": 43200.0,
+    "components": {
+        "Control Module": 3,
+        "Morphics": 1,
+        "Ferrite": 500,
+        "Plastids": 500
+    },
+    "masterable": false
 },{
     "name": "Saryn",
     "type": [
@@ -3277,13 +3649,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Saryn Neuroptics Blueprint": 1,
-        "Saryn Chassis Blueprint": 1,
-        "Saryn Systems Blueprint": 1,
+        "Saryn Neuroptics": 1,
+        "Saryn Chassis": 1,
+        "Saryn Systems": 1,
         "Orokin Cell": 1
-    }
+    },
+    "masterable": true
 },{
-    "name": "Saryn Neuroptics Blueprint",
+    "name": "Saryn Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -3294,9 +3667,10 @@
         "Neural Sensors": 1,
         "Polymer Bundle": 300,
         "Salvage": 400
-    }
+    },
+    "masterable": false
 },{
-    "name": "Saryn Chassis Blueprint",
+    "name": "Saryn Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -3306,9 +3680,10 @@
         "Morphics": 1,
         "Ferrite": 1000,
         "Rubedo": 50
-    }
+    },
+    "masterable": false
 },{
-    "name": "Saryn Systems Blueprint",
+    "name": "Saryn Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -3319,7 +3694,8 @@
         "Morphics": 1,
         "Salvage": 550,
         "Plastids": 350
-    }
+    },
+    "masterable": false
 },{
     "name": "Saryn Prime",
     "type": [
@@ -3328,13 +3704,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Saryn Prime Neuroptics Blueprint": 1,
-        "Saryn Prime Chassis Blueprint": 1,
-        "Saryn Prime Systems Blueprint": 1,
+        "Saryn Prime Neuroptics": 1,
+        "Saryn Prime Chassis": 1,
+        "Saryn Prime Systems": 1,
         "Orokin Cell": 1
-    }
+    },
+    "masterable": true
 },{
-    "name": "Saryn Prime Neuroptics Blueprint",
+    "name": "Saryn Prime Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -3345,9 +3722,10 @@
         "Neural Sensors": 2,
         "Salvage": 3500,
         "Rubedo": 750
-    }
+    },
+    "masterable": false
 },{
-    "name": "Saryn Prime Chassis Blueprint",
+    "name": "Saryn Prime Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -3357,9 +3735,10 @@
         "Nitain Extract": 3,
         "Nano Spores": 4000,
         "Rubedo": 1200
-    }
+    },
+    "masterable": false
 },{
-    "name": "Saryn Prime Systems Blueprint",
+    "name": "Saryn Prime Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -3370,7 +3749,8 @@
         "Orokin Cell": 1,
         "Ferrite": 4000,
         "Circuits": 500
-    }
+    },
+    "masterable": false
 },{
     "name": "Sevagoth",
     "type": [
@@ -3379,13 +3759,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Sevagoth Neuroptics Blueprint": 1,
-        "Sevagoth Chassis Blueprint": 1,
-        "Sevagoth Systems Blueprint": 1,
+        "Sevagoth Neuroptics": 1,
+        "Sevagoth Chassis": 1,
+        "Sevagoth Systems": 1,
         "Orokin Cell": 3
-    }
+    },
+    "masterable": true
 },{
-    "name": "Sevagoth Neuroptics Blueprint",
+    "name": "Sevagoth Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -3396,9 +3777,10 @@
         "Titanium": 1200,
         "Rubedo": 750,
         "Salvage": 2750
-    }
+    },
+    "masterable": false
 },{
-    "name": "Sevagoth Chassis Blueprint",
+    "name": "Sevagoth Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -3409,9 +3791,10 @@
         "Cryotic": 650,
         "Nullstones": 2,
         "Alloy Plate": 3300
-    }
+    },
+    "masterable": false
 },{
-    "name": "Sevagoth Systems Blueprint",
+    "name": "Sevagoth Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -3422,7 +3805,8 @@
         "Oxium": 250,
         "Asterite": 15,
         "Nano Spores": 2950
-    }
+    },
+    "masterable": false
 },{
     "name": "Titania Prime",
     "type": [
@@ -3431,13 +3815,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Titania Prime Neuroptics Blueprint": 1,
-        "Titania Prime Chassis Blueprint": 1,
-        "Titania Prime Systems Blueprint": 1,
+        "Titania Prime Neuroptics": 1,
+        "Titania Prime Chassis": 1,
+        "Titania Prime Systems": 1,
         "Orokin Cell": 5
-    }
+    },
+    "masterable": true
 },{
-    "name": "Titania Prime Neuroptics Blueprint",
+    "name": "Titania Prime Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -3448,9 +3833,10 @@
         "Neural Sensors": 6,
         "Oxium": 225,
         "Argon Crystal": 2
-    }
+    },
+    "masterable": false
 },{
-    "name": "Titania Prime Chassis Blueprint",
+    "name": "Titania Prime Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -3461,9 +3847,10 @@
         "Nano Spores": 4750,
         "Rubedo": 1400,
         "Morphics": 8
-    }
+    },
+    "masterable": false
 },{
-    "name": "Titania Prime Systems Blueprint",
+    "name": "Titania Prime Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -3474,7 +3861,8 @@
         "Tellurium": 3,
         "Ferrite": 4300,
         "Circuits": 1450
-    }
+    },
+    "masterable": false
 },{
     "name": "Titania",
     "type": [
@@ -3483,13 +3871,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Titania Neuroptics Blueprint": 1,
-        "Titania Chassis Blueprint": 1,
-        "Titania Systems Blueprint": 1,
+        "Titania Neuroptics": 1,
+        "Titania Chassis": 1,
+        "Titania Systems": 1,
         "Orokin Cell": 3
-    }
+    },
+    "masterable": true
 },{
-    "name": "Titania Neuroptics Blueprint",
+    "name": "Titania Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -3500,9 +3889,10 @@
         "Neurodes": 2,
         "Polymer Bundle": 2500,
         "Circuits": 700
-    }
+    },
+    "masterable": false
 },{
-    "name": "Titania Chassis Blueprint",
+    "name": "Titania Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -3513,9 +3903,10 @@
         "Ferrite": 3000,
         "Rubedo": 900,
         "Tellurium": 1
-    }
+    },
+    "masterable": false
 },{
-    "name": "Titania Systems Blueprint",
+    "name": "Titania Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -3526,7 +3917,63 @@
         "Plastids": 800,
         "Cryotic": 2200,
         "Tellurium": 1
-    }
+    },
+    "masterable": false
+},{
+    "name": "Trinity",
+    "type": [
+        "62d8682daeef469267d8084f"
+    ],
+    "credits": 25000,
+    "createTime": 259200.0,
+    "components": {
+        "Trinity Neuroptics": 1,
+        "Trinity Chassis": 1,
+        "Trinity Systems": 1,
+        "Orokin Cell": 1
+    },
+    "masterable": true
+},{
+    "name": "Trinity Neuroptics",
+    "type": [
+        "62ec19a030c80bbc44011faa"
+    ],
+    "credits": 15000,
+    "createTime": 43200.0,
+    "components": {
+        "Alloy Plate": 150,
+        "Neural Sensors": 1,
+        "Polymer Bundle": 150,
+        "Rubedo": 500
+    },
+    "masterable": false
+},{
+    "name": "Trinity Chassis",
+    "type": [
+        "62ec19a030c80bbc44011faa"
+    ],
+    "credits": 15000,
+    "createTime": 43200.0,
+    "components": {
+        "Morphics": 1,
+        "Ferrite": 1000,
+        "Rubedo": 300
+    },
+    "masterable": false
+},{
+    "name": "Trinity Systems",
+    "type": [
+        "62ec19a030c80bbc44011faa"
+    ],
+    "credits": 15000,
+    "createTime": 43200.0,
+    "components": {
+        "Control Module": 1,
+        "Morphics": 1,
+        "Salvage": 500,
+        "Plastids": 220
+    },
+    "masterable": false
 },{
     "name": "Trinity Prime",
     "type": [
@@ -3535,13 +3982,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Trinity Prime Neuroptics Blueprint": 1,
-        "Trinity Prime Chassis Blueprint": 1,
-        "Trinity Prime Systems Blueprint": 1,
+        "Trinity Prime Neuroptics": 1,
+        "Trinity Prime Chassis": 1,
+        "Trinity Prime Systems": 1,
         "Orokin Cell": 1
-    }
+    },
+    "masterable": true
 },{
-    "name": "Trinity Prime Neuroptics Blueprint",
+    "name": "Trinity Prime Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -3552,9 +4000,10 @@
         "Neural Sensors": 2,
         "Nano Spores": 9000,
         "Rubedo": 1100
-    }
+    },
+    "masterable": false
 },{
-    "name": "Trinity Prime Chassis Blueprint",
+    "name": "Trinity Prime Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -3564,9 +4013,10 @@
         "Argon Crystal": 1,
         "Oxium": 500,
         "Circuits": 1200
-    }
+    },
+    "masterable": false
 },{
-    "name": "Trinity Prime Systems Blueprint",
+    "name": "Trinity Prime Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -3577,58 +4027,8 @@
         "Orokin Cell": 1,
         "Cryotic": 9000,
         "Circuits": 1350
-    }
-},{
-    "name": "Trinity",
-    "type": [
-        "62d8682daeef469267d8084f"
-    ],
-    "credits": 25000,
-    "createTime": 259200.0,
-    "components": {
-        "Trinity Neuroptics Blueprint": 1,
-        "Trinity Chassis Blueprint": 1,
-        "Trinity Systems Blueprint": 1,
-        "Orokin Cell": 1
-    }
-},{
-    "name": "Trinity Neuroptics Blueprint",
-    "type": [
-        "62ec19a030c80bbc44011faa"
-    ],
-    "credits": 15000,
-    "createTime": 43200.0,
-    "components": {
-        "Alloy Plate": 150,
-        "Neural Sensors": 1,
-        "Polymer Bundle": 150,
-        "Rubedo": 500
-    }
-},{
-    "name": "Trinity Chassis Blueprint",
-    "type": [
-        "62ec19a030c80bbc44011faa"
-    ],
-    "credits": 15000,
-    "createTime": 43200.0,
-    "components": {
-        "Morphics": 1,
-        "Ferrite": 1000,
-        "Rubedo": 300
-    }
-},{
-    "name": "Trinity Systems Blueprint",
-    "type": [
-        "62ec19a030c80bbc44011faa"
-    ],
-    "credits": 15000,
-    "createTime": 43200.0,
-    "components": {
-        "Control Module": 1,
-        "Morphics": 1,
-        "Salvage": 500,
-        "Plastids": 220
-    }
+    },
+    "masterable": false
 },{
     "name": "Valkyr",
     "type": [
@@ -3637,13 +4037,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Valkyr Neuroptics Blueprint": 1,
-        "Valkyr Chassis Blueprint": 1,
-        "Valkyr Systems Blueprint": 1,
+        "Valkyr Neuroptics": 1,
+        "Valkyr Chassis": 1,
+        "Valkyr Systems": 1,
         "Orokin Cell": 1
-    }
+    },
+    "masterable": true
 },{
-    "name": "Valkyr Neuroptics Blueprint",
+    "name": "Valkyr Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -3654,9 +4055,10 @@
         "Neural Sensors": 1,
         "Polymer Bundle": 200,
         "Salvage": 500
-    }
+    },
+    "masterable": false
 },{
-    "name": "Valkyr Chassis Blueprint",
+    "name": "Valkyr Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -3666,9 +4068,10 @@
         "Morphics": 1,
         "Ferrite": 900,
         "Rubedo": 50
-    }
+    },
+    "masterable": false
 },{
-    "name": "Valkyr Systems Blueprint",
+    "name": "Valkyr Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -3679,7 +4082,8 @@
         "Morphics": 1,
         "Salvage": 500,
         "Plastids": 400
-    }
+    },
+    "masterable": false
 },{
     "name": "Valkyr Prime",
     "type": [
@@ -3688,13 +4092,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Valkyr Prime Neuroptics Blueprint": 1,
-        "Valkyr Prime Chassis Blueprint": 1,
-        "Valkyr Prime Systems Blueprint": 1,
+        "Valkyr Prime Neuroptics": 1,
+        "Valkyr Prime Chassis": 1,
+        "Valkyr Prime Systems": 1,
         "Orokin Cell": 3
-    }
+    },
+    "masterable": true
 },{
-    "name": "Valkyr Prime Neuroptics Blueprint",
+    "name": "Valkyr Prime Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -3705,9 +4110,10 @@
         "Neural Sensors": 3,
         "Circuits": 12000,
         "Nitain Extract": 5
-    }
+    },
+    "masterable": false
 },{
-    "name": "Valkyr Prime Chassis Blueprint",
+    "name": "Valkyr Prime Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -3718,9 +4124,10 @@
         "Ferrite": 18000,
         "Rubedo": 6000,
         "Argon Crystal": 2
-    }
+    },
+    "masterable": false
 },{
-    "name": "Valkyr Prime Systems Blueprint",
+    "name": "Valkyr Prime Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -3731,7 +4138,8 @@
         "Tellurium": 3,
         "Polymer Bundle": 15000,
         "Plastids": 500
-    }
+    },
+    "masterable": false
 },{
     "name": "Vauban",
     "type": [
@@ -3740,13 +4148,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Vauban Neuroptics Blueprint": 1,
-        "Vauban Chassis Blueprint": 1,
-        "Vauban Systems Blueprint": 1,
+        "Vauban Neuroptics": 1,
+        "Vauban Chassis": 1,
+        "Vauban Systems": 1,
         "Orokin Cell": 1
-    }
+    },
+    "masterable": true
 },{
-    "name": "Vauban Neuroptics Blueprint",
+    "name": "Vauban Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -3757,9 +4166,10 @@
         "Neural Sensors": 1,
         "Polymer Bundle": 150,
         "Rubedo": 500
-    }
+    },
+    "masterable": false
 },{
-    "name": "Vauban Chassis Blueprint",
+    "name": "Vauban Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -3769,9 +4179,10 @@
         "Morphics": 1,
         "Ferrite": 1000,
         "Rubedo": 300
-    }
+    },
+    "masterable": false
 },{
-    "name": "Vauban Systems Blueprint",
+    "name": "Vauban Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -3782,7 +4193,8 @@
         "Morphics": 1,
         "Salvage": 500,
         "Plastids": 220
-    }
+    },
+    "masterable": false
 },{
     "name": "Vauban Prime",
     "type": [
@@ -3791,13 +4203,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Vauban Prime Neuroptics Blueprint": 1,
-        "Vauban Prime Chassis Blueprint": 1,
-        "Vauban Prime Systems Blueprint": 1,
+        "Vauban Prime Neuroptics": 1,
+        "Vauban Prime Chassis": 1,
+        "Vauban Prime Systems": 1,
         "Nitain Extract": 5
-    }
+    },
+    "masterable": true
 },{
-    "name": "Vauban Prime Neuroptics Blueprint",
+    "name": "Vauban Prime Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -3808,9 +4221,10 @@
         "Rubedo": 8000,
         "Salvage": 16000,
         "Alloy Plate": 18000
-    }
+    },
+    "masterable": false
 },{
-    "name": "Vauban Prime Chassis Blueprint",
+    "name": "Vauban Prime Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -3821,9 +4235,10 @@
         "Oxium": 7000,
         "Nitain Extract": 5,
         "Alloy Plate": 13000
-    }
+    },
+    "masterable": false
 },{
-    "name": "Vauban Prime Systems Blueprint",
+    "name": "Vauban Prime Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -3834,7 +4249,8 @@
         "Orokin Cell": 1,
         "Cryotic": 9000,
         "Circuits": 5000
-    }
+    },
+    "masterable": false
 },{
     "name": "Volt",
     "type": [
@@ -3843,13 +4259,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Volt Neuroptics Blueprint": 1,
-        "Volt Chassis Blueprint": 1,
-        "Volt Systems Blueprint": 1,
+        "Volt Neuroptics": 1,
+        "Volt Chassis": 1,
+        "Volt Systems": 1,
         "Orokin Cell": 1
-    }
+    },
+    "masterable": true
 },{
-    "name": "Volt Neuroptics Blueprint",
+    "name": "Volt Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -3860,9 +4277,10 @@
         "Neural Sensors": 1,
         "Polymer Bundle": 150,
         "Rubedo": 500
-    }
+    },
+    "masterable": false
 },{
-    "name": "Volt Chassis Blueprint",
+    "name": "Volt Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -3872,9 +4290,10 @@
         "Morphics": 1,
         "Ferrite": 1000,
         "Rubedo": 300
-    }
+    },
+    "masterable": false
 },{
-    "name": "Volt Systems Blueprint",
+    "name": "Volt Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -3885,7 +4304,8 @@
         "Morphics": 1,
         "Salvage": 500,
         "Plastids": 220
-    }
+    },
+    "masterable": false
 },{
     "name": "Volt Prime",
     "type": [
@@ -3894,13 +4314,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Volt Prime Neuroptics Blueprint": 1,
-        "Volt Prime Chassis Blueprint": 1,
-        "Volt Prime Systems Blueprint": 1,
+        "Volt Prime Neuroptics": 1,
+        "Volt Prime Chassis": 1,
+        "Volt Prime Systems": 1,
         "Orokin Cell": 1
-    }
+    },
+    "masterable": true
 },{
-    "name": "Volt Prime Neuroptics Blueprint",
+    "name": "Volt Prime Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -3911,9 +4332,10 @@
         "Neurodes": 2,
         "Polymer Bundle": 1000,
         "Circuits": 750
-    }
+    },
+    "masterable": false
 },{
-    "name": "Volt Prime Chassis Blueprint",
+    "name": "Volt Prime Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -3923,9 +4345,10 @@
         "Neural Sensors": 3,
         "Alloy Plate": 1000,
         "Rubedo": 400
-    }
+    },
+    "masterable": false
 },{
-    "name": "Volt Prime Systems Blueprint",
+    "name": "Volt Prime Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -3936,7 +4359,8 @@
         "Orokin Cell": 1,
         "Salvage": 1000,
         "Circuits": 500
-    }
+    },
+    "masterable": false
 },{
     "name": "Wisp",
     "type": [
@@ -3945,13 +4369,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Wisp Neuroptics Blueprint": 1,
-        "Wisp Chassis Blueprint": 1,
-        "Wisp Systems Blueprint": 1,
+        "Wisp Neuroptics": 1,
+        "Wisp Chassis": 1,
+        "Wisp Systems": 1,
         "Orokin Cell": 3
-    }
+    },
+    "masterable": true
 },{
-    "name": "Wisp Neuroptics Blueprint",
+    "name": "Wisp Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -3962,9 +4387,10 @@
         "Tellurium": 2,
         "Plastids": 950,
         "Polymer Bundle": 2200
-    }
+    },
+    "masterable": false
 },{
-    "name": "Wisp Chassis Blueprint",
+    "name": "Wisp Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -3975,9 +4401,10 @@
         "Argon Crystal": 1,
         "Oxium": 700,
         "Alloy Plate": 2750
-    }
+    },
+    "masterable": false
 },{
-    "name": "Wisp Systems Blueprint",
+    "name": "Wisp Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -3988,7 +4415,8 @@
         "Nitain Extract": 2,
         "Rubedo": 950,
         "Salvage": 10000
-    }
+    },
+    "masterable": false
 },{
     "name": "Wukong Prime",
     "type": [
@@ -3997,13 +4425,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Wukong Prime Neuroptics Blueprint": 1,
-        "Wukong Prime Chassis Blueprint": 1,
-        "Wukong Prime Systems Blueprint": 1,
+        "Wukong Prime Neuroptics": 1,
+        "Wukong Prime Chassis": 1,
+        "Wukong Prime Systems": 1,
         "Orokin Cell": 5
-    }
+    },
+    "masterable": true
 },{
-    "name": "Wukong Prime Neuroptics Blueprint",
+    "name": "Wukong Prime Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -4014,9 +4443,10 @@
         "Rubedo": 750,
         "Plastids": 200,
         "Alloy Plate": 3550
-    }
+    },
+    "masterable": false
 },{
-    "name": "Wukong Prime Chassis Blueprint",
+    "name": "Wukong Prime Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -4027,9 +4457,10 @@
         "Control Module": 6,
         "Circuits": 825,
         "Nano Spores": 2200
-    }
+    },
+    "masterable": false
 },{
-    "name": "Wukong Prime Systems Blueprint",
+    "name": "Wukong Prime Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -4040,59 +4471,8 @@
         "Morphics": 7,
         "Polymer Bundle": 1150,
         "Ferrite": 3800
-    }
-},{
-    "name": "Xaku",
-    "type": [
-        "62d8682daeef469267d8084f"
-    ],
-    "credits": 25000,
-    "createTime": 259200.0,
-    "components": {
-        "Xaku Neuroptics Blueprint": 1,
-        "Xaku Chassis Blueprint": 1,
-        "Xaku Systems Blueprint": 1,
-        "Orokin Cell": 3
-    }
-},{
-    "name": "Xaku Neuroptics Blueprint",
-    "type": [
-        "62ec19a030c80bbc44011faa"
-    ],
-    "credits": 15000,
-    "createTime": 43200.0,
-    "components": {
-        "Neural Sensors": 10,
-        "Thaumic Distillate": 60,
-        "Sharrac Teeth": 20,
-        "Esher Devar": 40
-    }
-},{
-    "name": "Xaku Chassis Blueprint",
-    "type": [
-        "62ec19a030c80bbc44011faa"
-    ],
-    "credits": 15000,
-    "createTime": 43200.0,
-    "components": {
-        "Gyromag Systems": 5,
-        "Spinal Core Section": 3,
-        "Venerdo Alloy": 50,
-        "Lucent Teroglobe": 50
-    }
-},{
-    "name": "Xaku Systems Blueprint",
-    "type": [
-        "62ec19a030c80bbc44011faa"
-    ],
-    "credits": 15000,
-    "createTime": 43200.0,
-    "components": {
-        "Breath Of The Eidolon": 10,
-        "Scintillant": 5,
-        "Pustulite": 45,
-        "Ganglion": 60
-    }
+    },
+    "masterable": false
 },{
     "name": "Wukong",
     "type": [
@@ -4101,13 +4481,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Wukong Neuroptics Blueprint": 1,
-        "Wukong Chassis Blueprint": 1,
-        "Wukong Systems Blueprint": 1,
+        "Wukong Neuroptics": 1,
+        "Wukong Chassis": 1,
+        "Wukong Systems": 1,
         "Orokin Cell": 1
-    }
+    },
+    "masterable": true
 },{
-    "name": "Wukong Neuroptics Blueprint",
+    "name": "Wukong Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -4118,9 +4499,10 @@
         "Neural Sensors": 1,
         "Polymer Bundle": 2600,
         "Nitain Extract": 2
-    }
+    },
+    "masterable": false
 },{
-    "name": "Wukong Chassis Blueprint",
+    "name": "Wukong Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -4131,9 +4513,10 @@
         "Ferrite": 900,
         "Rubedo": 50,
         "Nitain Extract": 4
-    }
+    },
+    "masterable": false
 },{
-    "name": "Wukong Systems Blueprint",
+    "name": "Wukong Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -4144,7 +4527,64 @@
         "Neurodes": 2,
         "Salvage": 8000,
         "Plastids": 4000
-    }
+    },
+    "masterable": false
+},{
+    "name": "Xaku",
+    "type": [
+        "62d8682daeef469267d8084f"
+    ],
+    "credits": 25000,
+    "createTime": 259200.0,
+    "components": {
+        "Xaku Neuroptics": 1,
+        "Xaku Chassis": 1,
+        "Xaku Systems": 1,
+        "Orokin Cell": 3
+    },
+    "masterable": true
+},{
+    "name": "Xaku Neuroptics",
+    "type": [
+        "62ec19a030c80bbc44011faa"
+    ],
+    "credits": 15000,
+    "createTime": 43200.0,
+    "components": {
+        "Neural Sensors": 10,
+        "Thaumic Distillate": 60,
+        "Sharrac Teeth": 20,
+        "Esher Devar": 40
+    },
+    "masterable": false
+},{
+    "name": "Xaku Chassis",
+    "type": [
+        "62ec19a030c80bbc44011faa"
+    ],
+    "credits": 15000,
+    "createTime": 43200.0,
+    "components": {
+        "Gyromag Systems": 5,
+        "Spinal Core Section": 3,
+        "Venerdo Alloy": 50,
+        "Lucent Teroglobe": 50
+    },
+    "masterable": false
+},{
+    "name": "Xaku Systems",
+    "type": [
+        "62ec19a030c80bbc44011faa"
+    ],
+    "credits": 15000,
+    "createTime": 43200.0,
+    "components": {
+        "Breath Of The Eidolon": 10,
+        "Scintillant": 5,
+        "Pustulite": 45,
+        "Ganglion": 60
+    },
+    "masterable": false
 },{
     "name": "Yareli",
     "type": [
@@ -4153,13 +4593,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Yareli Neuroptics Blueprint": 1,
-        "Yareli Chassis Blueprint": 1,
-        "Yareli Systems Blueprint": 1,
+        "Yareli Neuroptics": 1,
+        "Yareli Chassis": 1,
+        "Yareli Systems": 1,
         "Orokin Cell": 3
-    }
+    },
+    "masterable": true
 },{
-    "name": "Yareli Neuroptics Blueprint",
+    "name": "Yareli Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -4170,9 +4611,10 @@
         "Plastids": 150,
         "Salvage": 875,
         "Heart Noctrul": 10
-    }
+    },
+    "masterable": false
 },{
-    "name": "Yareli Chassis Blueprint",
+    "name": "Yareli Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -4183,9 +4625,10 @@
         "Venerdo Alloy": 20,
         "Circuits": 350,
         "Nano Spores": 1500
-    }
+    },
+    "masterable": false
 },{
-    "name": "Yareli Systems Blueprint",
+    "name": "Yareli Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -4196,7 +4639,8 @@
         "Cryotic": 350,
         "Scrubber Exa Brain": 5,
         "Alloy Plate": 1750
-    }
+    },
+    "masterable": false
 },{
     "name": "Zephyr Prime",
     "type": [
@@ -4205,13 +4649,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Zephyr Prime Neuroptics Blueprint": 1,
-        "Zephyr Prime Chassis Blueprint": 1,
-        "Zephyr Prime Systems Blueprint": 1,
+        "Zephyr Prime Neuroptics": 1,
+        "Zephyr Prime Chassis": 1,
+        "Zephyr Prime Systems": 1,
         "Orokin Cell": 5
-    }
+    },
+    "masterable": true
 },{
-    "name": "Zephyr Prime Neuroptics Blueprint",
+    "name": "Zephyr Prime Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -4222,9 +4667,10 @@
         "Oxium": 250,
         "Plastids": 350,
         "Alloy Plate": 4250
-    }
+    },
+    "masterable": false
 },{
-    "name": "Zephyr Prime Chassis Blueprint",
+    "name": "Zephyr Prime Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -4235,9 +4681,10 @@
         "Tellurium": 2,
         "Ferrite": 3600,
         "Oxium": 300
-    }
+    },
+    "masterable": false
 },{
-    "name": "Zephyr Prime Systems Blueprint",
+    "name": "Zephyr Prime Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -4248,7 +4695,8 @@
         "Neurodes": 3,
         "Cryotic": 550,
         "Nano Spores": 3175
-    }
+    },
+    "masterable": false
 },{
     "name": "Zephyr",
     "type": [
@@ -4257,13 +4705,14 @@
     "credits": 25000,
     "createTime": 259200.0,
     "components": {
-        "Zephyr Neuroptics Blueprint": 1,
-        "Zephyr Chassis Blueprint": 1,
-        "Zephyr Systems Blueprint": 1,
+        "Zephyr Neuroptics": 1,
+        "Zephyr Chassis": 1,
+        "Zephyr Systems": 1,
         "Orokin Cell": 1
-    }
+    },
+    "masterable": true
 },{
-    "name": "Zephyr Neuroptics Blueprint",
+    "name": "Zephyr Neuroptics",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -4274,9 +4723,10 @@
         "Oxium": 200,
         "Polymer Bundle": 200,
         "Salvage": 500
-    }
+    },
+    "masterable": false
 },{
-    "name": "Zephyr Chassis Blueprint",
+    "name": "Zephyr Chassis",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -4286,9 +4736,10 @@
         "Oxium": 200,
         "Nano Spores": 900,
         "Rubedo": 50
-    }
+    },
+    "masterable": false
 },{
-    "name": "Zephyr Systems Blueprint",
+    "name": "Zephyr Systems",
     "type": [
         "62ec19a030c80bbc44011faa"
     ],
@@ -4299,5 +4750,6 @@
         "Oxium": 200,
         "Polymer Bundle": 500,
         "Plastids": 400
-    }
+    },
+    "masterable": false
 }]

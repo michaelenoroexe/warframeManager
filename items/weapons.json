@@ -13,43 +13,8 @@
         "Plastids": 700,
         "Polymer Bundle": 600,
         "Ferrite": 1750
-    }
-},{
-    "name": "Shedu",
-    "type": [
-        "62d8682daeef469267d8080c",
-        "62d8682daeef469267d80818",
-        "62d8682daeef469267d80817",
-        "62d8682daeef469267d8080b"
-    ],
-    "credits": 30000,
-    "createTime": 86400.0,
-    "components": {
-        "Shedu Barrel": 1,
-        "Shedu Gun Chassis": 1,
-        "Shedu Handle": 1,
-        "Shedu Receiver": 1
-    }
-},{
-    "name": "Shedu Barrel",
-    "type": [
-        "62eee58725a338ce7bc619dd"
-    ]
-},{
-    "name": "Shedu Gun Chassis",
-    "type": [
-        "62eee58725a338ce7bc619dd"
-    ]
-},{
-    "name": "Shedu Handle",
-    "type": [
-        "62eee58725a338ce7bc619dd"
-    ]
-},{
-    "name": "Shedu Receiver",
-    "type": [
-        "62eee58725a338ce7bc619dd"
-    ]
+    },
+    "masterable": true
 },{
     "name": "Bubonico",
     "type": [
@@ -65,7 +30,49 @@
         "Argon Crystal": 3,
         "Plastids": 1200,
         "Nano Spores": 22000
-    }
+    },
+    "masterable": true
+},{
+    "name": "Shedu",
+    "type": [
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d80818",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
+    ],
+    "credits": 30000,
+    "createTime": 86400.0,
+    "components": {
+        "Shedu Barrel": 1,
+        "Shedu Gun Chassis": 1,
+        "Shedu Handle": 1,
+        "Shedu Receiver": 1
+    },
+    "masterable": true
+},{
+    "name": "Shedu Barrel",
+    "type": [
+        "62eee58725a338ce7bc619dd"
+    ],
+    "masterable": false
+},{
+    "name": "Shedu Gun Chassis",
+    "type": [
+        "62eee58725a338ce7bc619dd"
+    ],
+    "masterable": false
+},{
+    "name": "Shedu Handle",
+    "type": [
+        "62eee58725a338ce7bc619dd"
+    ],
+    "masterable": false
+},{
+    "name": "Shedu Receiver",
+    "type": [
+        "62eee58725a338ce7bc619dd"
+    ],
+    "masterable": false
 },{
     "name": "Cernos Prime",
     "type": [
@@ -81,27 +88,32 @@
         "Cernos Prime Lower Limb": 1,
         "Cernos Prime Grip": 1,
         "Cernos Prime String": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Cernos Prime Upper Limb",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Cernos Prime Lower Limb",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Cernos Prime Grip",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Cernos Prime String",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Daikyu",
     "type": [
@@ -117,7 +129,8 @@
         "Forma": 1,
         "Rubedo": 300,
         "Salvage": 1200
-    }
+    },
+    "masterable": true
 },{
     "name": "Dread",
     "type": [
@@ -133,7 +146,8 @@
         "Circuits": 900,
         "Polymer Bundle": 750,
         "Plastids": 900
-    }
+    },
+    "masterable": true
 },{
     "name": "Kuva Bramma",
     "type": [
@@ -141,15 +155,8 @@
         "62d8682daeef469267d80819",
         "62d8682daeef469267d80817",
         "62d8682daeef469267d8080b"
-    ]
-},{
-    "name": "MK1-Paris",
-    "type": [
-        "62d8682daeef469267d8080d",
-        "62d8682daeef469267d80819",
-        "62d8682daeef469267d80817",
-        "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Lenz",
     "type": [
@@ -165,7 +172,17 @@
         "Alloy Plate": 8200,
         "Cryotic": 2400,
         "Nitain Extract": 3
-    }
+    },
+    "masterable": true
+},{
+    "name": "MK1-Paris",
+    "type": [
+        "62d8682daeef469267d8080d",
+        "62d8682daeef469267d80819",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
+    ],
+    "masterable": true
 },{
     "name": "Mutalist Cernos",
     "type": [
@@ -181,15 +198,8 @@
         "Plastids": 1400,
         "Cryotic": 1200,
         "Nano Spores": 2300
-    }
-},{
-    "name": "Nataruk",
-    "type": [
-        "62d8682daeef469267d8080d",
-        "62d8682daeef469267d80819",
-        "62d8682daeef469267d80817",
-        "62d8682daeef469267d8080b"
-    ]
+    },
+    "masterable": true
 },{
     "name": "Paris",
     "type": [
@@ -205,31 +215,17 @@
         "Plastids": 600,
         "Polymer Bundle": 700,
         "Nano Spores": 2000
-    }
+    },
+    "masterable": true
 },{
-    "name": "Proboscis Cernos",
+    "name": "Nataruk",
     "type": [
         "62d8682daeef469267d8080d",
         "62d8682daeef469267d80819",
         "62d8682daeef469267d80817",
         "62d8682daeef469267d8080b"
     ],
-    "credits": 15000,
-    "createTime": 43200.0,
-    "components": {
-        "Mutalist Cernos": 1,
-        "Polymer Bundle": 1600,
-        "Nitain Extract": 5,
-        "Nano Spores": 25000
-    }
-},{
-    "name": "Rakta Cernos",
-    "type": [
-        "62d8682daeef469267d8080d",
-        "62d8682daeef469267d80819",
-        "62d8682daeef469267d80817",
-        "62d8682daeef469267d8080b"
-    ]
+    "masterable": true
 },{
     "name": "Paris Prime",
     "type": [
@@ -245,27 +241,58 @@
         "Paris Prime Lower Limb": 1,
         "Paris Prime Grip": 1,
         "Paris Prime String": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Paris Prime Upper Limb",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Paris Prime Lower Limb",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Paris Prime Grip",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Paris Prime String",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
+},{
+    "name": "Proboscis Cernos",
+    "type": [
+        "62d8682daeef469267d8080d",
+        "62d8682daeef469267d80819",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
+    ],
+    "credits": 15000,
+    "createTime": 43200.0,
+    "components": {
+        "Mutalist Cernos": 1,
+        "Polymer Bundle": 1600,
+        "Nitain Extract": 5,
+        "Nano Spores": 25000
+    },
+    "masterable": true
+},{
+    "name": "Rakta Cernos",
+    "type": [
+        "62d8682daeef469267d8080d",
+        "62d8682daeef469267d80819",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
+    ],
+    "masterable": true
 },{
     "name": "Zhuge",
     "type": [
@@ -281,7 +308,8 @@
         "Polymer Bundle": 900,
         "Nitain Extract": 2,
         "Argon Crystal": 2
-    }
+    },
+    "masterable": true
 },{
     "name": "Attica",
     "type": [
@@ -297,7 +325,8 @@
         "Ferrite": 800,
         "Rubedo": 200,
         "Forma": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Zhuge Prime",
     "type": [
@@ -313,27 +342,32 @@
         "Zhuge Prime String": 1,
         "Zhuge Prime Barrel": 1,
         "Zhuge Prime Receiver": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Zhuge Prime Grip",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Zhuge Prime String",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Zhuge Prime Barrel",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Zhuge Prime Receiver",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Nagantaka",
     "type": [
@@ -350,7 +384,8 @@
         "Gallium": 4,
         "Nano Spores": 3000,
         "Rubedo": 1200
-    }
+    },
+    "masterable": true
 },{
     "name": "Nagantaka Prime",
     "type": [
@@ -367,38 +402,44 @@
         "Nagantaka Prime Receiver": 1,
         "Nagantaka Prime Stock": 1,
         "Orokin Cell": 10
-    }
+    },
+    "masterable": true
 },{
     "name": "Nagantaka Prime Barrel",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Nagantaka Prime Receiver",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Nagantaka Prime Stock",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
-    "name": "Artemis Bow (Weapon)",
+    "name": "Artemis Bow",
     "type": [
         "62d8682daeef469267d8080d",
         "62d8682daeef469267d8081b",
         "62d8682daeef469267d80817",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
-    "name": "Artemis Bow (Weapon)",
+    "name": "Artemis Bow Prime",
     "type": [
         "62d8682daeef469267d8080d",
         "62d8682daeef469267d8081b",
         "62d8682daeef469267d80817",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Carmine Penta",
     "type": [
@@ -410,25 +451,29 @@
     "credits": 20000,
     "createTime": 43200.0,
     "components": {
-        "Carmine Barrel": 1,
-        "Carmine Receiver": 1,
-        "Carmine Stock": 1
-    }
+        "Carmine Penta Barrel": 1,
+        "Carmine Penta Receiver": 1,
+        "Carmine Penta Stock": 1
+    },
+    "masterable": true
 },{
-    "name": "Carmine Barrel",
+    "name": "Carmine Penta Barrel",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
-    "name": "Carmine Receiver",
+    "name": "Carmine Penta Receiver",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
-    "name": "Carmine Stock",
+    "name": "Carmine Penta Stock",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Secura Penta",
     "type": [
@@ -436,7 +481,8 @@
         "62d8682daeef469267d8081c",
         "62d8682daeef469267d80817",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Penta",
     "type": [
@@ -452,7 +498,8 @@
         "Circuits": 1000,
         "Ferrite": 1200,
         "Alloy Plate": 400
-    }
+    },
+    "masterable": true
 },{
     "name": "Tenet Envoy",
     "type": [
@@ -460,7 +507,8 @@
         "62d8682daeef469267d8081c",
         "62d8682daeef469267d80817",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Ogris",
     "type": [
@@ -476,7 +524,8 @@
         "Salvage": 5000,
         "Alloy Plate": 600,
         "Forma": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Kuva Ogris",
     "type": [
@@ -484,7 +533,8 @@
         "62d8682daeef469267d8081c",
         "62d8682daeef469267d80817",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Kuva Tonkor",
     "type": [
@@ -492,7 +542,8 @@
         "62d8682daeef469267d8081c",
         "62d8682daeef469267d80817",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Kuva Zarr",
     "type": [
@@ -500,7 +551,8 @@
         "62d8682daeef469267d8081c",
         "62d8682daeef469267d80817",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Tonkor",
     "type": [
@@ -516,7 +568,8 @@
         "Oxium": 200,
         "Cryotic": 800,
         "Argon Crystal": 2
-    }
+    },
+    "masterable": true
 },{
     "name": "Torid",
     "type": [
@@ -532,7 +585,8 @@
         "Salvage": 4500,
         "Circuits": 600,
         "Forma": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Zarr",
     "type": [
@@ -548,7 +602,8 @@
         "Alloy Plate": 2400,
         "Salvage": 5500,
         "Drakgoon": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Simulor",
     "type": [
@@ -564,7 +619,8 @@
         "Polymer Bundle": 850,
         "Orokin Cell": 1,
         "Argon Crystal": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Synoid Simulor",
     "type": [
@@ -572,7 +628,8 @@
         "62d8682daeef469267d8081d",
         "62d8682daeef469267d80817",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Acceltra",
     "type": [
@@ -588,7 +645,8 @@
         "Hexenon": 200,
         "Plastids": 925,
         "Nano Spores": 8000
-    }
+    },
+    "masterable": true
 },{
     "name": "Basmu",
     "type": [
@@ -604,7 +662,8 @@
         "Carbides": 800,
         "Isos": 450,
         "Nullstones": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Baza",
     "type": [
@@ -620,7 +679,8 @@
         "Alloy Plate": 4300,
         "Cryotic": 575,
         "Forma": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Baza Prime",
     "type": [
@@ -636,22 +696,26 @@
         "Baza Prime Receiver": 1,
         "Baza Prime Stock": 1,
         "Orokin Cell": 10
-    }
+    },
+    "masterable": true
 },{
     "name": "Baza Prime Barrel",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Baza Prime Receiver",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Baza Prime Stock",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Boltor",
     "type": [
@@ -667,7 +731,17 @@
         "Alloy Plate": 100,
         "Salvage": 900,
         "Polymer Bundle": 600
-    }
+    },
+    "masterable": true
+},{
+    "name": "Braton",
+    "type": [
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
+    ],
+    "masterable": true
 },{
     "name": "Boltor Prime",
     "type": [
@@ -683,30 +757,26 @@
         "Boltor Prime Receiver": 1,
         "Boltor Prime Stock": 1,
         "Orokin Cell": 10
-    }
+    },
+    "masterable": true
 },{
     "name": "Boltor Prime Barrel",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Boltor Prime Receiver",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Boltor Prime Stock",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
-},{
-    "name": "Braton",
-    "type": [
-        "62d8682daeef469267d8080c",
-        "62d8682daeef469267d8081d",
-        "62d8682daeef469267d80817",
-        "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Braton Prime",
     "type": [
@@ -722,22 +792,26 @@
         "Braton Prime Receiver": 1,
         "Braton Prime Stock": 1,
         "Orokin Cell": 10
-    }
+    },
+    "masterable": true
 },{
     "name": "Braton Prime Barrel",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Braton Prime Receiver",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Braton Prime Stock",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Braton Vandal",
     "type": [
@@ -749,25 +823,29 @@
     "credits": 25000,
     "createTime": 43200.0,
     "components": {
-        "Braton Barrel": 1,
-        "Braton Receiver": 1,
-        "Braton Stock": 1
-    }
+        "Braton Vandal Barrel": 1,
+        "Braton Vandal Receiver": 1,
+        "Braton Vandal Stock": 1
+    },
+    "masterable": true
 },{
-    "name": "Braton Barrel",
+    "name": "Braton Vandal Barrel",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
-    "name": "Braton Receiver",
+    "name": "Braton Vandal Receiver",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
-    "name": "Braton Stock",
+    "name": "Braton Vandal Stock",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Buzlok",
     "type": [
@@ -783,7 +861,8 @@
         "Salvage": 5000,
         "Circuits": 600,
         "Forma": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Dera",
     "type": [
@@ -799,7 +878,8 @@
         "Circuits": 600,
         "Ferrite": 4500,
         "Forma": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Dera Vandal",
     "type": [
@@ -811,71 +891,29 @@
     "credits": 25000,
     "createTime": 43200.0,
     "components": {
-        "Dera Barrel": 1,
-        "Dera Receiver": 1,
-        "Dera Stock": 1
-    }
+        "Dera Vandal Barrel": 1,
+        "Dera Vandal Receiver": 1,
+        "Dera Vandal Stock": 1
+    },
+    "masterable": true
 },{
-    "name": "Dera Barrel",
+    "name": "Dera Vandal Barrel",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
-},{
-    "name": "Dera Receiver",
-    "type": [
-        "62eee58725a338ce7bc619dd"
-    ]
-},{
-    "name": "Dera Stock",
-    "type": [
-        "62eee58725a338ce7bc619dd"
-    ]
-},{
-    "name": "Karak",
-    "type": [
-        "62d8682daeef469267d8080c",
-        "62d8682daeef469267d8081d",
-        "62d8682daeef469267d80817",
-        "62d8682daeef469267d8080b"
     ],
-    "credits": 30000,
-    "createTime": 86400.0,
-    "components": {
-        "Neurodes": 2,
-        "Alloy Plate": 400,
-        "Salvage": 900,
-        "Polymer Bundle": 100
-    }
+    "masterable": false
 },{
-    "name": "Karak Wraith",
+    "name": "Dera Vandal Receiver",
     "type": [
-        "62d8682daeef469267d8080c",
-        "62d8682daeef469267d8081d",
-        "62d8682daeef469267d80817",
-        "62d8682daeef469267d8080b"
+        "62eee58725a338ce7bc619dd"
     ],
-    "credits": 25000,
-    "createTime": 43200.0,
-    "components": {
-        "Karak Barrel": 1,
-        "Karak Receiver": 1,
-        "Karak Stock": 1
-    }
+    "masterable": false
 },{
-    "name": "Karak Barrel",
+    "name": "Dera Vandal Stock",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
-},{
-    "name": "Karak Receiver",
-    "type": [
-        "62eee58725a338ce7bc619dd"
-    ]
-},{
-    "name": "Karak Stock",
-    "type": [
-        "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Grakata",
     "type": [
@@ -891,7 +929,59 @@
         "Alloy Plate": 400,
         "Salvage": 900,
         "Polymer Bundle": 100
-    }
+    },
+    "masterable": true
+},{
+    "name": "Karak",
+    "type": [
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
+    ],
+    "credits": 30000,
+    "createTime": 86400.0,
+    "components": {
+        "Neurodes": 2,
+        "Alloy Plate": 400,
+        "Salvage": 900,
+        "Polymer Bundle": 100
+    },
+    "masterable": true
+},{
+    "name": "Karak Wraith",
+    "type": [
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
+    ],
+    "credits": 25000,
+    "createTime": 43200.0,
+    "components": {
+        "Karak Wraith Barrel": 1,
+        "Karak Wraith Receiver": 1,
+        "Karak Wraith Stock": 1
+    },
+    "masterable": true
+},{
+    "name": "Karak Wraith Barrel",
+    "type": [
+        "62eee58725a338ce7bc619dd"
+    ],
+    "masterable": false
+},{
+    "name": "Karak Wraith Receiver",
+    "type": [
+        "62eee58725a338ce7bc619dd"
+    ],
+    "masterable": false
+},{
+    "name": "Karak Wraith Stock",
+    "type": [
+        "62eee58725a338ce7bc619dd"
+    ],
+    "masterable": false
 },{
     "name": "MK1-Braton",
     "type": [
@@ -899,7 +989,8 @@
         "62d8682daeef469267d8081d",
         "62d8682daeef469267d80817",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Kuva Karak",
     "type": [
@@ -907,7 +998,8 @@
         "62d8682daeef469267d8081d",
         "62d8682daeef469267d80817",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Mutalist Quanta",
     "type": [
@@ -923,7 +1015,8 @@
         "Nano Spores": 15000,
         "Circuits": 1200,
         "Forma": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Panthera",
     "type": [
@@ -939,7 +1032,17 @@
         "Polymer Bundle": 600,
         "Hikou": 1,
         "Miter": 1
-    }
+    },
+    "masterable": true
+},{
+    "name": "Prisma Grakata",
+    "type": [
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
+    ],
+    "masterable": true
 },{
     "name": "Panthera Prime",
     "type": [
@@ -955,30 +1058,26 @@
         "Panthera Prime Receiver": 1,
         "Panthera Prime Stock": 1,
         "Orokin Cell": 10
-    }
+    },
+    "masterable": true
 },{
     "name": "Panthera Prime Barrel",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Panthera Prime Receiver",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Panthera Prime Stock",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
-},{
-    "name": "Prisma Grakata",
-    "type": [
-        "62d8682daeef469267d8080c",
-        "62d8682daeef469267d8081d",
-        "62d8682daeef469267d80817",
-        "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Prisma Tetra",
     "type": [
@@ -986,7 +1085,8 @@
         "62d8682daeef469267d8081d",
         "62d8682daeef469267d80817",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Telos Boltor",
     "type": [
@@ -994,7 +1094,17 @@
         "62d8682daeef469267d8081d",
         "62d8682daeef469267d80817",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
+},{
+    "name": "Tenet Flux Rifle",
+    "type": [
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
+    ],
+    "masterable": true
 },{
     "name": "Tetra",
     "type": [
@@ -1010,15 +1120,8 @@
         "Alloy Plate": 400,
         "Ferrite": 900,
         "Polymer Bundle": 100
-    }
-},{
-    "name": "Tenet Flux Rifle",
-    "type": [
-        "62d8682daeef469267d8080c",
-        "62d8682daeef469267d8081d",
-        "62d8682daeef469267d80817",
-        "62d8682daeef469267d8080b"
-    ]
+    },
+    "masterable": true
 },{
     "name": "Alternox",
     "type": [
@@ -1035,7 +1138,8 @@
         "Thrax Plasm": 600,
         "Entrati Lanthorn": 16,
         "Argon Crystal": 2
-    }
+    },
+    "masterable": true
 },{
     "name": "Aeolak",
     "type": [
@@ -1052,16 +1156,50 @@
         "Aeolak Barrel": 1,
         "Aeolak Receiver": 1,
         "Aeolak Stock": 1
-    }
+    },
+    "masterable": true
 },{
-    "name": "Aeolak",
+    "name": "Aeolak Barrel",
     "type": [
-        "62d8682daeef469267d8080c",
-        "62d8682daeef469267d8080d",
-        "62d8682daeef469267d8081d",
-        "62d8682daeef469267d80817",
-        "62d8682daeef469267d8080b"
-    ]
+        "62eee58725a338ce7bc619dd"
+    ],
+    "credits": 15000,
+    "createTime": 43200.0,
+    "components": {
+        "Thrax Plasm": 40,
+        "Voidplume Quill": 5,
+        "Voidgel Orb": 5,
+        "Oxium": 2000
+    },
+    "masterable": false
+},{
+    "name": "Aeolak Receiver",
+    "type": [
+        "62eee58725a338ce7bc619dd"
+    ],
+    "credits": 15000,
+    "createTime": 43200.0,
+    "components": {
+        "Thrax Plasm": 30,
+        "Voidplume Quill": 5,
+        "Cryotic": 1800,
+        "Entrati Lanthorn": 5
+    },
+    "masterable": false
+},{
+    "name": "Aeolak Stock",
+    "type": [
+        "62eee58725a338ce7bc619dd"
+    ],
+    "credits": 15000,
+    "createTime": 43200.0,
+    "components": {
+        "Thrax Plasm": 30,
+        "Voidplume Quill": 10,
+        "Alloy Plate": 3000,
+        "Orokin Cell": 5
+    },
+    "masterable": false
 },{
     "name": "Ambassador",
     "type": [
@@ -1077,16 +1215,50 @@
         "Ambassador Barrel": 1,
         "Ambassador Receiver": 1,
         "Ambassador Stock": 1
-    }
+    },
+    "masterable": true
 },{
-    "name": "Ambassador",
+    "name": "Ambassador Barrel",
     "type": [
-        "62d8682daeef469267d8080c",
-        "62d8682daeef469267d8080d",
-        "62d8682daeef469267d8081d",
-        "62d8682daeef469267d80817",
-        "62d8682daeef469267d8080b"
-    ]
+        "62eee58725a338ce7bc619dd"
+    ],
+    "credits": 15000,
+    "createTime": 43200.0,
+    "components": {
+        "Cubic Diodes": 200,
+        "Isos": 5,
+        "Morphics": 1,
+        "Oxium": 500
+    },
+    "masterable": false
+},{
+    "name": "Ambassador Receiver",
+    "type": [
+        "62eee58725a338ce7bc619dd"
+    ],
+    "credits": 15000,
+    "createTime": 43200.0,
+    "components": {
+        "Carbides": 200,
+        "Gallos Rods": 5,
+        "Morphics": 1,
+        "Cryotic": 600
+    },
+    "masterable": false
+},{
+    "name": "Ambassador Stock",
+    "type": [
+        "62eee58725a338ce7bc619dd"
+    ],
+    "credits": 15000,
+    "createTime": 43200.0,
+    "components": {
+        "Morphics": 5,
+        "Ferrite": 200,
+        "Alloy Plate": 1100,
+        "Hexenon": 10
+    },
+    "masterable": false
 },{
     "name": "Quellor",
     "type": [
@@ -1103,7 +1275,8 @@
         "Rubedo": 6250,
         "Circuits": 3600,
         "Alloy Plate": 15350
-    }
+    },
+    "masterable": true
 },{
     "name": "Stahlta",
     "type": [
@@ -1119,39 +1292,26 @@
         "Stahlta Barrel": 1,
         "Stahlta Receiver": 1,
         "Stahlta Stock": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Stahlta Barrel",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Stahlta Receiver",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Stahlta Stock",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
-},{
-    "name": "Fulmin",
-    "type": [
-        "62d8682daeef469267d8080c",
-        "62d8682daeef469267d8080e",
-        "62d8682daeef469267d8081d",
-        "62d8682daeef469267d80817",
-        "62d8682daeef469267d8080b"
     ],
-    "credits": 25000,
-    "createTime": 86400.0,
-    "components": {
-        "Rubedo": 2100,
-        "Nano Spores": 7500,
-        "Argon Crystal": 2,
-        "Hexenon": 350
-    }
+    "masterable": false
 },{
     "name": "Argonak",
     "type": [
@@ -1168,7 +1328,26 @@
         "Plastids": 700,
         "Alloy Plate": 9950,
         "Forma": 1
-    }
+    },
+    "masterable": true
+},{
+    "name": "Fulmin",
+    "type": [
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8080e",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
+    ],
+    "credits": 25000,
+    "createTime": 86400.0,
+    "components": {
+        "Rubedo": 2100,
+        "Nano Spores": 7500,
+        "Argon Crystal": 2,
+        "Hexenon": 350
+    },
+    "masterable": true
 },{
     "name": "Phenmor",
     "type": [
@@ -1185,7 +1364,8 @@
         "Voidplume Quill": 20,
         "Alloy Plate": 6000,
         "Entrati Lanthorn": 15
-    }
+    },
+    "masterable": true
 },{
     "name": "Stradavar",
     "type": [
@@ -1202,7 +1382,8 @@
         "Polymer Bundle": 8000,
         "Neural Sensors": 3,
         "Argon Crystal": 2
-    }
+    },
+    "masterable": true
 },{
     "name": "Stradavar Prime",
     "type": [
@@ -1219,22 +1400,26 @@
         "Stradavar Prime Receiver": 1,
         "Stradavar Prime Stock": 1,
         "Orokin Cell": 10
-    }
+    },
+    "masterable": true
 },{
     "name": "Stradavar Prime Barrel",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Stradavar Prime Receiver",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Stradavar Prime Stock",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Trumna",
     "type": [
@@ -1251,16 +1436,50 @@
         "Barrel": 1,
         "Receiver": 1,
         "Stock": 1
-    }
+    },
+    "masterable": true
 },{
-    "name": "Trumna",
+    "name": "Trumna Barrel",
     "type": [
-        "62d8682daeef469267d8080c",
-        "62d8682daeef469267d8080e",
-        "62d8682daeef469267d8081d",
-        "62d8682daeef469267d80817",
-        "62d8682daeef469267d8080b"
-    ]
+        "62eee58725a338ce7bc619dd"
+    ],
+    "credits": 20000,
+    "createTime": 43200.0,
+    "components": {
+        "Adramal Alloy": 45,
+        "Marquise Veridos": 15,
+        "Sporulate Sac": 20,
+        "Orokin Cell": 5
+    },
+    "masterable": false
+},{
+    "name": "Trumna Receiver",
+    "type": [
+        "62eee58725a338ce7bc619dd"
+    ],
+    "credits": 20000,
+    "createTime": 43200.0,
+    "components": {
+        "Tempered Bapholite": 30,
+        "Purified Heciphron": 15,
+        "Waxen Sebum Deposit": 10,
+        "Argon Crystal": 1
+    },
+    "masterable": false
+},{
+    "name": "Trumna Stock",
+    "type": [
+        "62eee58725a338ce7bc619dd"
+    ],
+    "credits": 20000,
+    "createTime": 43200.0,
+    "components": {
+        "Auroxium Alloy": 45,
+        "Lucent Teroglobe": 30,
+        "Saturated Muscle Mass": 20,
+        "Cabochon Embolos": 2
+    },
+    "masterable": false
 },{
     "name": "Zenith",
     "type": [
@@ -1277,7 +1496,8 @@
         "Circuits": 450,
         "Polymer Bundle": 500,
         "Salvage": 2750
-    }
+    },
+    "masterable": true
 },{
     "name": "Tenet Tetra",
     "type": [
@@ -1286,7 +1506,8 @@
         "62d8682daeef469267d8081d",
         "62d8682daeef469267d80817",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Battacor",
     "type": [
@@ -1302,37 +1523,8 @@
         "Tepa Nodule": 40,
         "Heart Noctrul": 25,
         "Tromyzon Entroplasma": 20
-    }
-},{
-    "name": "Gorgon Wraith",
-    "type": [
-        "62d8682daeef469267d80812",
-        "62d8682daeef469267d8081d",
-        "62d8682daeef469267d80817",
-        "62d8682daeef469267d8080b"
-    ],
-    "credits": 25000,
-    "createTime": 43200.0,
-    "components": {
-        "Gorgon Barrel": 1,
-        "Gorgon Receiver": 1,
-        "Gorgon Stock": 1
-    }
-},{
-    "name": "Gorgon Barrel",
-    "type": [
-        "62eee58725a338ce7bc619dd"
-    ]
-},{
-    "name": "Gorgon Receiver",
-    "type": [
-        "62eee58725a338ce7bc619dd"
-    ]
-},{
-    "name": "Gorgon Stock",
-    "type": [
-        "62eee58725a338ce7bc619dd"
-    ]
+    },
+    "masterable": true
 },{
     "name": "Gorgon",
     "type": [
@@ -1348,7 +1540,42 @@
         "Ferrite": 5000,
         "Salvage": 6000,
         "Circuits": 1000
-    }
+    },
+    "masterable": true
+},{
+    "name": "Gorgon Wraith",
+    "type": [
+        "62d8682daeef469267d80812",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
+    ],
+    "credits": 25000,
+    "createTime": 43200.0,
+    "components": {
+        "Gorgon Wraith Barrel": 1,
+        "Gorgon Wraith Receiver": 1,
+        "Gorgon Wraith Stock": 1
+    },
+    "masterable": true
+},{
+    "name": "Gorgon Wraith Barrel",
+    "type": [
+        "62eee58725a338ce7bc619dd"
+    ],
+    "masterable": false
+},{
+    "name": "Gorgon Wraith Receiver",
+    "type": [
+        "62eee58725a338ce7bc619dd"
+    ],
+    "masterable": false
+},{
+    "name": "Gorgon Wraith Stock",
+    "type": [
+        "62eee58725a338ce7bc619dd"
+    ],
+    "masterable": false
 },{
     "name": "Prisma Gorgon",
     "type": [
@@ -1356,7 +1583,8 @@
         "62d8682daeef469267d8081d",
         "62d8682daeef469267d80817",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Soma",
     "type": [
@@ -1372,7 +1600,8 @@
         "Plastids": 850,
         "Rubedo": 1200,
         "Salvage": 8000
-    }
+    },
+    "masterable": true
 },{
     "name": "Soma Prime",
     "type": [
@@ -1388,22 +1617,26 @@
         "Soma Prime Receiver": 1,
         "Soma Prime Stock": 1,
         "Orokin Cell": 10
-    }
+    },
+    "masterable": true
 },{
     "name": "Soma Prime Barrel",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Soma Prime Receiver",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Soma Prime Stock",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Supra Vandal",
     "type": [
@@ -1411,7 +1644,8 @@
         "62d8682daeef469267d8081d",
         "62d8682daeef469267d80817",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Tenora",
     "type": [
@@ -1427,7 +1661,8 @@
         "Salvage": 15000,
         "Rubedo": 4000,
         "Forma": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Supra",
     "type": [
@@ -1443,7 +1678,8 @@
         "Alloy Plate": 1000,
         "Salvage": 7000,
         "Forma": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Tenora Prime",
     "type": [
@@ -1459,22 +1695,26 @@
         "Tenora Prime Receiver": 1,
         "Tenora Prime Stock": 1,
         "Orokin Cell": 10
-    }
+    },
+    "masterable": true
 },{
     "name": "Tenora Prime Barrel",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Tenora Prime Receiver",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Tenora Prime Stock",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Burston",
     "type": [
@@ -1490,7 +1730,8 @@
         "Polymer Bundle": 400,
         "Alloy Plate": 150,
         "Ferrite": 600
-    }
+    },
+    "masterable": true
 },{
     "name": "Burston Prime",
     "type": [
@@ -1506,22 +1747,26 @@
         "Burston Prime Receiver": 1,
         "Burston Prime Stock": 1,
         "Orokin Cell": 10
-    }
+    },
+    "masterable": true
 },{
     "name": "Burston Prime Barrel",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Burston Prime Receiver",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Burston Prime Stock",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Dex Sybaris",
     "type": [
@@ -1529,7 +1774,8 @@
         "62d8682daeef469267d8081d",
         "62d8682daeef469267d80817",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Harpak",
     "type": [
@@ -1545,7 +1791,8 @@
         "Gallium": 5,
         "Nano Spores": 6000,
         "Rubedo": 3600
-    }
+    },
+    "masterable": true
 },{
     "name": "Hema",
     "type": [
@@ -1561,7 +1808,8 @@
         "Salvage": 50000,
         "Circuits": 5000,
         "Forma": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Kuva Quartakk",
     "type": [
@@ -1569,7 +1817,8 @@
         "62d8682daeef469267d8081d",
         "62d8682daeef469267d80817",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Paracyst",
     "type": [
@@ -1585,7 +1834,8 @@
         "Nano Spores": 15000,
         "Circuits": 1200,
         "Forma": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Quartakk",
     "type": [
@@ -1601,7 +1851,8 @@
         "Fersteel Alloy": 15,
         "Salvage": 12450,
         "Neural Sensors": 5
-    }
+    },
+    "masterable": true
 },{
     "name": "Sybaris Prime",
     "type": [
@@ -1617,38 +1868,26 @@
         "Sybaris Prime Receiver": 1,
         "Sybaris Prime Stock": 1,
         "Orokin Cell": 10
-    }
+    },
+    "masterable": true
 },{
     "name": "Sybaris Prime Barrel",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Sybaris Prime Receiver",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Sybaris Prime Stock",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
-},{
-    "name": "Tiberon",
-    "type": [
-        "62d8682daeef469267d80813",
-        "62d8682daeef469267d8081d",
-        "62d8682daeef469267d80817",
-        "62d8682daeef469267d8080b"
     ],
-    "credits": 20000,
-    "createTime": 43200.0,
-    "components": {
-        "Latron": 1,
-        "Plastids": 650,
-        "Rubedo": 600,
-        "Forma": 1
-    }
+    "masterable": false
 },{
     "name": "Sybaris",
     "type": [
@@ -1664,7 +1903,25 @@
         "Salvage": 800,
         "Rubedo": 200,
         "Forma": 1
-    }
+    },
+    "masterable": true
+},{
+    "name": "Tiberon",
+    "type": [
+        "62d8682daeef469267d80813",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
+    ],
+    "credits": 20000,
+    "createTime": 43200.0,
+    "components": {
+        "Latron": 1,
+        "Plastids": 650,
+        "Rubedo": 600,
+        "Forma": 1
+    },
+    "masterable": true
 },{
     "name": "Hind",
     "type": [
@@ -1681,7 +1938,19 @@
         "Circuits": 700,
         "Salvage": 1000,
         "Rubedo": 1200
-    }
+    },
+    "masterable": true
+},{
+    "name": "Kuva Hind",
+    "type": [
+        "62d8682daeef469267d80813",
+        "62d8682daeef469267d8080e",
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
+    ],
+    "masterable": true
 },{
     "name": "Tiberon Prime",
     "type": [
@@ -1699,32 +1968,26 @@
         "Tiberon Prime Receiver": 1,
         "Tiberon Prime Stock": 1,
         "Orokin Cell": 10
-    }
+    },
+    "masterable": true
 },{
     "name": "Tiberon Prime Barrel",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Tiberon Prime Receiver",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Tiberon Prime Stock",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
-},{
-    "name": "Kuva Hind",
-    "type": [
-        "62d8682daeef469267d80813",
-        "62d8682daeef469267d8080e",
-        "62d8682daeef469267d8080c",
-        "62d8682daeef469267d8081d",
-        "62d8682daeef469267d80817",
-        "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Miter",
     "type": [
@@ -1740,27 +2003,32 @@
         "Miter Blade": 1,
         "Miter Handle": 1,
         "Miter Gun Chassis": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Miter Barrel",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Miter Blade",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Miter Handle",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Miter Gun Chassis",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Opticor",
     "type": [
@@ -1776,7 +2044,8 @@
         "Gallium": 20,
         "Cryotic": 600,
         "Forma": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Opticor Vandal",
     "type": [
@@ -1784,7 +2053,8 @@
         "62d8682daeef469267d8081d",
         "62d8682daeef469267d80817",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Amprex",
     "type": [
@@ -1800,7 +2070,8 @@
         "Plastids": 600,
         "Ferrite": 9000,
         "Argon Crystal": 3
-    }
+    },
+    "masterable": true
 },{
     "name": "Flux Rifle",
     "type": [
@@ -1816,7 +2087,8 @@
         "Circuits": 900,
         "Ferrite": 6000,
         "Forma": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Glaxion",
     "type": [
@@ -1832,7 +2104,8 @@
         "Circuits": 550,
         "Cryotic": 2500,
         "Forma": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Glaxion Vandal",
     "type": [
@@ -1840,7 +2113,8 @@
         "62d8682daeef469267d8081d",
         "62d8682daeef469267d80817",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Ignis",
     "type": [
@@ -1856,7 +2130,8 @@
         "Nano Spores": 5000,
         "Ferrite": 5000,
         "Forma": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Ignis Wraith",
     "type": [
@@ -1872,7 +2147,8 @@
         "Ferrite": 10000,
         "Rubedo": 5000,
         "Argon Crystal": 3
-    }
+    },
+    "masterable": true
 },{
     "name": "Quanta",
     "type": [
@@ -1888,7 +2164,8 @@
         "Circuits": 1000,
         "Salvage": 7000,
         "Forma": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Quanta Vandal",
     "type": [
@@ -1896,7 +2173,8 @@
         "62d8682daeef469267d8081d",
         "62d8682daeef469267d80817",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Synapse",
     "type": [
@@ -1912,7 +2190,8 @@
         "Salvage": 30000,
         "Circuits": 3500,
         "Forma": 2
-    }
+    },
+    "masterable": true
 },{
     "name": "Grinlok",
     "type": [
@@ -1928,7 +2207,8 @@
         "Polymer Bundle": 5000,
         "Ferrite": 5000,
         "Forma": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Latron",
     "type": [
@@ -1944,7 +2224,8 @@
         "Plastids": 800,
         "Alloy Plate": 1000,
         "Salvage": 900
-    }
+    },
+    "masterable": true
 },{
     "name": "Kuva Chakkhurr",
     "type": [
@@ -1952,7 +2233,8 @@
         "62d8682daeef469267d8081d",
         "62d8682daeef469267d80817",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Latron Prime",
     "type": [
@@ -1968,22 +2250,26 @@
         "Latron Prime Receiver": 1,
         "Latron Prime Stock": 1,
         "Orokin Cell": 10
-    }
+    },
+    "masterable": true
 },{
     "name": "Latron Prime Barrel",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Latron Prime Receiver",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Latron Prime Stock",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Latron Wraith",
     "type": [
@@ -1995,25 +2281,29 @@
     "credits": 25000,
     "createTime": 43200.0,
     "components": {
-        "Latron Barrel": 1,
-        "Latron Receiver": 1,
-        "Latron Stock": 1
-    }
+        "Latron Wraith Barrel": 1,
+        "Latron Wraith Receiver": 1,
+        "Latron Wraith Stock": 1
+    },
+    "masterable": true
 },{
-    "name": "Latron Barrel",
+    "name": "Latron Wraith Barrel",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
-    "name": "Latron Receiver",
+    "name": "Latron Wraith Receiver",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
-    "name": "Latron Stock",
+    "name": "Latron Wraith Stock",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Prisma Grinlok",
     "type": [
@@ -2021,7 +2311,8 @@
         "62d8682daeef469267d8081d",
         "62d8682daeef469267d80817",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Veldt",
     "type": [
@@ -2037,7 +2328,8 @@
         "Cryotic": 600,
         "Ferrite": 7250,
         "Forma": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Astilla",
     "type": [
@@ -2053,7 +2345,8 @@
         "Plastids": 875,
         "Oxium": 175,
         "Ferrite": 7500
-    }
+    },
+    "masterable": true
 },{
     "name": "Astilla Prime",
     "type": [
@@ -2069,22 +2362,26 @@
         "Astilla Prime Receiver": 1,
         "Astilla Prime Stock": 1,
         "Orokin Cell": 10
-    }
+    },
+    "masterable": true
 },{
     "name": "Astilla Prime Barrel",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Astilla Prime Receiver",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Astilla Prime Stock",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Boar",
     "type": [
@@ -2100,7 +2397,8 @@
         "Alloy Plate": 900,
         "Salvage": 750,
         "Plastids": 900
-    }
+    },
+    "masterable": true
 },{
     "name": "Boar Prime",
     "type": [
@@ -2116,22 +2414,26 @@
         "Boar Prime Receiver": 1,
         "Boar Prime Stock": 1,
         "Orokin Cell": 10
-    }
+    },
+    "masterable": true
 },{
     "name": "Boar Prime Barrel",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Boar Prime Receiver",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Boar Prime Stock",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Sobek",
     "type": [
@@ -2147,7 +2449,8 @@
         "Circuits": 500,
         "Salvage": 900,
         "Polymer Bundle": 400
-    }
+    },
+    "masterable": true
 },{
     "name": "Cedo",
     "type": [
@@ -2164,22 +2467,26 @@
         "Cedo Stock": 1,
         "Cedo Receiver": 1,
         "Forma": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Cedo Barrel",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Cedo Stock",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Cedo Receiver",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Felarx",
     "type": [
@@ -2196,7 +2503,8 @@
         "Voidplume Quill": 15,
         "Voidgel Orb": 30,
         "Alloy Plate": 8000
-    }
+    },
+    "masterable": true
 },{
     "name": "Kohm",
     "type": [
@@ -2212,7 +2520,8 @@
         "Oxium": 500,
         "Cryotic": 500,
         "Argon Crystal": 2
-    }
+    },
+    "masterable": true
 },{
     "name": "Kuva Kohm",
     "type": [
@@ -2220,7 +2529,8 @@
         "62d8682daeef469267d8081e",
         "62d8682daeef469267d80817",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Drakgoon",
     "type": [
@@ -2236,7 +2546,8 @@
         "Alloy Plate": 950,
         "Nano Spores": 5500,
         "Circuits": 1100
-    }
+    },
+    "masterable": true
 },{
     "name": "Kuva Drakgoon",
     "type": [
@@ -2244,7 +2555,8 @@
         "62d8682daeef469267d8081e",
         "62d8682daeef469267d80817",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Sancti Tigris",
     "type": [
@@ -2252,7 +2564,8 @@
         "62d8682daeef469267d8081e",
         "62d8682daeef469267d80817",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Tigris",
     "type": [
@@ -2268,7 +2581,8 @@
         "Circuits": 900,
         "Salvage": 1200,
         "Rubedo": 1200
-    }
+    },
+    "masterable": true
 },{
     "name": "Tigris Prime",
     "type": [
@@ -2284,22 +2598,26 @@
         "Tigris Prime Receiver": 1,
         "Tigris Prime Stock": 1,
         "Orokin Cell": 10
-    }
+    },
+    "masterable": true
 },{
     "name": "Tigris Prime Barrel",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Tigris Prime Receiver",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Tigris Prime Stock",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Convectrix",
     "type": [
@@ -2315,7 +2633,8 @@
         "Control Module": 10,
         "Oxium": 900,
         "Forma": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Phage",
     "type": [
@@ -2331,7 +2650,8 @@
         "Circuits": 1500,
         "Nano Spores": 6000,
         "Forma": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Phantasma",
     "type": [
@@ -2347,7 +2667,8 @@
         "Intact Sentient Core": 10,
         "Plastids": 650,
         "Nano Spores": 12500
-    }
+    },
+    "masterable": true
 },{
     "name": "Arca Plasmor",
     "type": [
@@ -2363,7 +2684,8 @@
         "Control Module": 25,
         "Cryotic": 925,
         "Forma": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Corinth",
     "type": [
@@ -2379,7 +2701,8 @@
         "Alloy Plate": 13000,
         "Gallium": 6,
         "Cryotic": 725
-    }
+    },
+    "masterable": true
 },{
     "name": "Corinth Prime",
     "type": [
@@ -2395,22 +2718,26 @@
         "Corinth Prime Barrel": 1,
         "Corinth Prime Stock": 1,
         "Orokin Cell": 10
-    }
+    },
+    "masterable": true
 },{
     "name": "Corinth Prime Receiver",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Corinth Prime Barrel",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Corinth Prime Stock",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Exergis",
     "type": [
@@ -2423,10 +2750,17 @@
     "createTime": 43200.0,
     "components": {
         "Argon Crystal": 2,
-        "Repeller Systems": 2,
+        "Exergis Repeller Systems": 2,
         "Oxium": 175,
         "Salvage": 8500
-    }
+    },
+    "masterable": true
+},{
+    "name": "Exergis Repeller Systems",
+    "type": [
+        "62eee58725a338ce7bc619dd"
+    ],
+    "masterable": false
 },{
     "name": "Hek",
     "type": [
@@ -2442,15 +2776,8 @@
         "Circuits": 900,
         "Salvage": 1200,
         "Rubedo": 1000
-    }
-},{
-    "name": "MK1-Strun",
-    "type": [
-        "62d99e3fbf2d1fd28552bbe6",
-        "62d8682daeef469267d8081e",
-        "62d8682daeef469267d80817",
-        "62d8682daeef469267d8080b"
-    ]
+    },
+    "masterable": true
 },{
     "name": "Kuva Hek",
     "type": [
@@ -2458,7 +2785,17 @@
         "62d8682daeef469267d8081e",
         "62d8682daeef469267d80817",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
+},{
+    "name": "MK1-Strun",
+    "type": [
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d8081e",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
+    ],
+    "masterable": true
 },{
     "name": "Strun",
     "type": [
@@ -2466,7 +2803,8 @@
         "62d8682daeef469267d8081e",
         "62d8682daeef469267d80817",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Strun Prime",
     "type": [
@@ -2482,22 +2820,26 @@
         "Strun Prime Receiver": 1,
         "Strun Prime Stock": 1,
         "Orokin Cell": 10
-    }
+    },
+    "masterable": true
 },{
     "name": "Strun Prime Barrel",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Strun Prime Receiver",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Strun Prime Stock",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Strun Wraith",
     "type": [
@@ -2509,33 +2851,29 @@
     "credits": 25000,
     "createTime": 43200.0,
     "components": {
-        "Strun Barrel": 1,
-        "Strun Receiver": 1,
-        "Strun Stock": 1
-    }
+        "Strun Wraith Barrel": 1,
+        "Strun Wraith Receiver": 1,
+        "Strun Wraith Stock": 1
+    },
+    "masterable": true
 },{
-    "name": "Strun Barrel",
+    "name": "Strun Wraith Barrel",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
-    "name": "Strun Receiver",
+    "name": "Strun Wraith Receiver",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
-    "name": "Strun Stock",
+    "name": "Strun Wraith Stock",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
-},{
-    "name": "Vaykor Hek",
-    "type": [
-        "62d99e3fbf2d1fd28552bbe6",
-        "62d8682daeef469267d8081e",
-        "62d8682daeef469267d80817",
-        "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Tenet Arca Plasmor",
     "type": [
@@ -2543,7 +2881,17 @@
         "62d8682daeef469267d8081e",
         "62d8682daeef469267d80817",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
+},{
+    "name": "Vaykor Hek",
+    "type": [
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d8081e",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
+    ],
+    "masterable": true
 },{
     "name": "Lanka",
     "type": [
@@ -2559,7 +2907,8 @@
         "Gallium": 20,
         "Alloy Plate": 600,
         "Forma": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Rubico",
     "type": [
@@ -2575,7 +2924,8 @@
         "Polymer Bundle": 1300,
         "Rubedo": 900,
         "Argon Crystal": 2
-    }
+    },
+    "masterable": true
 },{
     "name": "Komorex",
     "type": [
@@ -2591,7 +2941,8 @@
         "Ferrite": 6200,
         "Hexenon": 300,
         "Forma": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Rubico Prime",
     "type": [
@@ -2607,52 +2958,26 @@
         "Rubico Prime Receiver": 1,
         "Rubico Prime Barrel": 1,
         "Orokin Cell": 10
-    }
+    },
+    "masterable": true
 },{
     "name": "Rubico Prime Stock",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Rubico Prime Receiver",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Rubico Prime Barrel",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
-},{
-    "name": "Snipetron Vandal",
-    "type": [
-        "62d99e3fbf2d1fd28552bbe6",
-        "62d8682daeef469267d8081f",
-        "62d8682daeef469267d80817",
-        "62d8682daeef469267d8080b"
     ],
-    "credits": 25000,
-    "createTime": 43200.0,
-    "components": {
-        "Snipetron Barrel": 1,
-        "Snipetron Receiver": 1,
-        "Snipetron Stock": 1
-    }
-},{
-    "name": "Snipetron Barrel",
-    "type": [
-        "62eee58725a338ce7bc619dd"
-    ]
-},{
-    "name": "Snipetron Receiver",
-    "type": [
-        "62eee58725a338ce7bc619dd"
-    ]
-},{
-    "name": "Snipetron Stock",
-    "type": [
-        "62eee58725a338ce7bc619dd"
-    ]
+    "masterable": false
 },{
     "name": "Snipetron",
     "type": [
@@ -2668,7 +2993,8 @@
         "Plastids": 900,
         "Salvage": 1200,
         "Alloy Plate": 900
-    }
+    },
+    "masterable": true
 },{
     "name": "Sporothrix",
     "type": [
@@ -2684,22 +3010,60 @@
         "Sporothrix Receiver": 1,
         "Sporothrix Stock": 1,
         "Cranial Foremount": 2
-    }
+    },
+    "masterable": true
 },{
     "name": "Sporothrix Barrel",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Sporothrix Receiver",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Sporothrix Stock",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
+},{
+    "name": "Snipetron Vandal",
+    "type": [
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d8081f",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
+    ],
+    "credits": 25000,
+    "createTime": 43200.0,
+    "components": {
+        "Snipetron Vandal Barrel": 1,
+        "Snipetron Vandal Receiver": 1,
+        "Snipetron Vandal Stock": 1
+    },
+    "masterable": true
+},{
+    "name": "Snipetron Vandal Barrel",
+    "type": [
+        "62eee58725a338ce7bc619dd"
+    ],
+    "masterable": false
+},{
+    "name": "Snipetron Vandal Receiver",
+    "type": [
+        "62eee58725a338ce7bc619dd"
+    ],
+    "masterable": false
+},{
+    "name": "Snipetron Vandal Stock",
+    "type": [
+        "62eee58725a338ce7bc619dd"
+    ],
+    "masterable": false
 },{
     "name": "Vectis",
     "type": [
@@ -2715,7 +3079,8 @@
         "Orokin Cell": 4,
         "Nano Spores": 3000,
         "Rubedo": 2500
-    }
+    },
+    "masterable": true
 },{
     "name": "Vectis Prime",
     "type": [
@@ -2731,22 +3096,26 @@
         "Vectis Prime Receiver": 1,
         "Vectis Prime Stock": 1,
         "Orokin Cell": 10
-    }
+    },
+    "masterable": true
 },{
     "name": "Vectis Prime Barrel",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Vectis Prime Receiver",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Vectis Prime Stock",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Vulkar",
     "type": [
@@ -2762,7 +3131,8 @@
         "Circuits": 800,
         "Salvage": 1200,
         "Plastids": 800
-    }
+    },
+    "masterable": true
 },{
     "name": "Vulkar Wraith",
     "type": [
@@ -2770,38 +3140,8 @@
         "62d8682daeef469267d8081f",
         "62d8682daeef469267d80817",
         "62d8682daeef469267d8080b"
-    ]
-},{
-    "name": "Scourge Prime",
-    "type": [
-        "62d8682daeef469267d8080c",
-        "62d8682daeef469267d80820",
-        "62d8682daeef469267d80817",
-        "62d8682daeef469267d8080b"
     ],
-    "credits": 15000,
-    "createTime": 43200.0,
-    "components": {
-        "Scourge Prime Barrel": 1,
-        "Scourge Prime Blade": 1,
-        "Scourge Prime Handle": 1,
-        "Orokin Cell": 10
-    }
-},{
-    "name": "Scourge Prime Barrel",
-    "type": [
-        "62eee58725a338ce7bc619dd"
-    ]
-},{
-    "name": "Scourge Prime Blade",
-    "type": [
-        "62eee58725a338ce7bc619dd"
-    ]
-},{
-    "name": "Scourge Prime Handle",
-    "type": [
-        "62eee58725a338ce7bc619dd"
-    ]
+    "masterable": true
 },{
     "name": "Scourge",
     "type": [
@@ -2817,7 +3157,43 @@
         "Circuits": 2500,
         "Oxium": 350,
         "Polymer Bundle": 2500
-    }
+    },
+    "masterable": true
+},{
+    "name": "Scourge Prime",
+    "type": [
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d80820",
+        "62d8682daeef469267d80817",
+        "62d8682daeef469267d8080b"
+    ],
+    "credits": 15000,
+    "createTime": 43200.0,
+    "components": {
+        "Scourge Prime Barrel": 1,
+        "Scourge Prime Blade": 1,
+        "Scourge Prime Handle": 1,
+        "Orokin Cell": 10
+    },
+    "masterable": true
+},{
+    "name": "Scourge Prime Barrel",
+    "type": [
+        "62eee58725a338ce7bc619dd"
+    ],
+    "masterable": false
+},{
+    "name": "Scourge Prime Blade",
+    "type": [
+        "62eee58725a338ce7bc619dd"
+    ],
+    "masterable": false
+},{
+    "name": "Scourge Prime Handle",
+    "type": [
+        "62eee58725a338ce7bc619dd"
+    ],
+    "masterable": false
 },{
     "name": "Javlok",
     "type": [
@@ -2833,7 +3209,8 @@
         "Alloy Plate": 10000,
         "Nitain Extract": 5,
         "Javlok Capacitor": 6
-    }
+    },
+    "masterable": true
 },{
     "name": "Ferrox",
     "type": [
@@ -2849,7 +3226,8 @@
         "Alloy Plate": 30000,
         "Salvage": 35000,
         "Forma": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Ballistica",
     "type": [
@@ -2866,16 +3244,8 @@
         "Gallium": 4,
         "Nano Spores": 3000,
         "Rubedo": 1200
-    }
-},{
-    "name": "Rakta Ballistica",
-    "type": [
-        "62d8682daeef469267d80813",
-        "62d8682daeef469267d8080d",
-        "62d8682daeef469267d8081a",
-        "62d8682daeef469267d80821",
-        "62d8682daeef469267d8080b"
-    ]
+    },
+    "masterable": true
 },{
     "name": "Ballistica Prime",
     "type": [
@@ -2892,27 +3262,42 @@
         "Ballistica Prime Lower Limb": 1,
         "Ballistica Prime String": 1,
         "Ballistica Prime Receiver": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Ballistica Prime Upper Limb",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Ballistica Prime Lower Limb",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Ballistica Prime String",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Ballistica Prime Receiver",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
+},{
+    "name": "Rakta Ballistica",
+    "type": [
+        "62d8682daeef469267d80813",
+        "62d8682daeef469267d8080d",
+        "62d8682daeef469267d8081a",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
+    ],
+    "masterable": true
 },{
     "name": "Afuris",
     "type": [
@@ -2926,7 +3311,8 @@
     "components": {
         "Furis": 1,
         "Orokin Cell": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Akstiletto",
     "type": [
@@ -2942,7 +3328,42 @@
         "Salvage": 800,
         "Alloy Plate": 200,
         "Forma": 1
-    }
+    },
+    "masterable": true
+},{
+    "name": "Akstiletto Prime",
+    "type": [
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d80822",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
+    ],
+    "credits": 15000,
+    "createTime": 43200.0,
+    "components": {
+        "Akstiletto Prime Barrel": 2,
+        "Akstiletto Prime Receiver": 2,
+        "Akstiletto Prime Link": 1
+    },
+    "masterable": true
+},{
+    "name": "Akstiletto Prime Barrel",
+    "type": [
+        "62eee58725a338ce7bc619dd"
+    ],
+    "masterable": false
+},{
+    "name": "Akstiletto Prime Receiver",
+    "type": [
+        "62eee58725a338ce7bc619dd"
+    ],
+    "masterable": false
+},{
+    "name": "Akstiletto Prime Link",
+    "type": [
+        "62eee58725a338ce7bc619dd"
+    ],
+    "masterable": false
 },{
     "name": "Akzani",
     "type": [
@@ -2958,37 +3379,8 @@
         "Polymer Bundle": 1000,
         "Morphics": 2,
         "Argon Crystal": 2
-    }
-},{
-    "name": "Akstiletto Prime",
-    "type": [
-        "62d8682daeef469267d8080c",
-        "62d8682daeef469267d80822",
-        "62d8682daeef469267d80821",
-        "62d8682daeef469267d8080b"
-    ],
-    "credits": 15000,
-    "createTime": 43200.0,
-    "components": {
-        "Akstiletto Prime Barrel": 2,
-        "Akstiletto Prime Receiver": 2,
-        "Akstiletto Prime Link": 1
-    }
-},{
-    "name": "Akstiletto Prime Barrel",
-    "type": [
-        "62eee58725a338ce7bc619dd"
-    ]
-},{
-    "name": "Akstiletto Prime Receiver",
-    "type": [
-        "62eee58725a338ce7bc619dd"
-    ]
-},{
-    "name": "Akstiletto Prime Link",
-    "type": [
-        "62eee58725a338ce7bc619dd"
-    ]
+    },
+    "masterable": true
 },{
     "name": "Dex Furis",
     "type": [
@@ -2996,7 +3388,8 @@
         "62d8682daeef469267d80822",
         "62d8682daeef469267d80821",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Dual Cestra",
     "type": [
@@ -3011,7 +3404,8 @@
         "Cestra": 1,
         "Fieldron": 2,
         "Forma": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Kuva Twin Stubbas",
     "type": [
@@ -3019,7 +3413,8 @@
         "62d8682daeef469267d80822",
         "62d8682daeef469267d80821",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Prisma Twin Gremlins",
     "type": [
@@ -3027,7 +3422,8 @@
         "62d8682daeef469267d80822",
         "62d8682daeef469267d80821",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Twin Grakatas",
     "type": [
@@ -3041,7 +3437,8 @@
     "components": {
         "Grakata": 1,
         "Forma": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Tenet Diplos",
     "type": [
@@ -3049,7 +3446,8 @@
         "62d8682daeef469267d80822",
         "62d8682daeef469267d80821",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Twin Gremlins",
     "type": [
@@ -3065,7 +3463,8 @@
         "Circuits": 900,
         "Salvage": 1500,
         "Rubedo": 1200
-    }
+    },
+    "masterable": true
 },{
     "name": "Twin Vipers",
     "type": [
@@ -3079,7 +3478,8 @@
     "components": {
         "Viper": 1,
         "Orokin Cell": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Twin Vipers Wraith",
     "type": [
@@ -3091,25 +3491,29 @@
     "credits": 25000,
     "createTime": 43200.0,
     "components": {
-        "Twin Barrel": 1,
-        "Twin Receiver": 1,
-        "Twin Link": 1
-    }
+        "Twin Vipers Wraith Barrel": 1,
+        "Twin Vipers Wraith Receiver": 1,
+        "Twin Vipers Wraith Link": 1
+    },
+    "masterable": true
 },{
-    "name": "Twin Barrel",
+    "name": "Twin Vipers Wraith Barrel",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
-    "name": "Twin Receiver",
+    "name": "Twin Vipers Wraith Receiver",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
-    "name": "Twin Link",
+    "name": "Twin Vipers Wraith Link",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Aksomati",
     "type": [
@@ -3124,7 +3528,8 @@
         "Akstiletto": 1,
         "Cryotic": 200,
         "Orokin Cell": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Aksomati Prime",
     "type": [
@@ -3139,22 +3544,26 @@
         "Aksomati Prime Barrel": 2,
         "Aksomati Prime Receiver": 2,
         "Aksomati Prime Link": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Aksomati Prime Barrel",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Aksomati Prime Receiver",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Aksomati Prime Link",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Secura Dual Cestra",
     "type": [
@@ -3162,7 +3571,8 @@
         "62d8682daeef469267d80822",
         "62d8682daeef469267d80821",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Akarius",
     "type": [
@@ -3178,7 +3588,8 @@
         "Hexenon": 150,
         "Polymer Bundle": 1600,
         "Nano Spores": 7500
-    }
+    },
+    "masterable": true
 },{
     "name": "Akjagara",
     "type": [
@@ -3193,7 +3604,8 @@
         "Akbolto": 1,
         "Dual Skana": 1,
         "Orokin Cell": 2
-    }
+    },
+    "masterable": true
 },{
     "name": "Akjagara Prime",
     "type": [
@@ -3209,22 +3621,26 @@
         "Akjagara Prime Receiver": 2,
         "Akjagara Prime Link": 1,
         "Orokin Cell": 10
-    }
+    },
+    "masterable": true
 },{
     "name": "Akjagara Prime Barrel",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Akjagara Prime Receiver",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Akjagara Prime Link",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Akbolto",
     "type": [
@@ -3238,7 +3654,8 @@
     "components": {
         "Bolto": 1,
         "Orokin Cell": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Staticor",
     "type": [
@@ -3254,7 +3671,8 @@
         "Alloy Plate": 6000,
         "Ferrite": 9000,
         "Nitain Extract": 3
-    }
+    },
+    "masterable": true
 },{
     "name": "Akbolto Prime",
     "type": [
@@ -3269,22 +3687,26 @@
         "Akbolto Prime Barrel": 2,
         "Akbolto Prime Receiver": 2,
         "Akbolto Prime Link": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Akbolto Prime Barrel",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Akbolto Prime Receiver",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Akbolto Prime Link",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Aklato",
     "type": [
@@ -3292,7 +3714,8 @@
         "62d8682daeef469267d80822",
         "62d8682daeef469267d80821",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Aklex",
     "type": [
@@ -3306,7 +3729,8 @@
     "components": {
         "Lex": 1,
         "Orokin Cell": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Aklex Prime",
     "type": [
@@ -3320,12 +3744,14 @@
     "components": {
         "Lex Prime": 1,
         "Aklex Prime Link": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Aklex Prime Link",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Akmagnus",
     "type": [
@@ -3339,7 +3765,8 @@
     "components": {
         "Magnus": 1,
         "Orokin Cell": 2
-    }
+    },
+    "masterable": true
 },{
     "name": "Akvasto",
     "type": [
@@ -3353,7 +3780,8 @@
     "components": {
         "Vasto": 1,
         "Orokin Cell": 2
-    }
+    },
+    "masterable": true
 },{
     "name": "Akvasto Prime",
     "type": [
@@ -3367,34 +3795,14 @@
     "components": {
         "Vasto Prime": 1,
         "Akvasto Prime Link": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Akvasto Prime Link",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
-},{
-    "name": "Telos Akbolto",
-    "type": [
-        "62d99e3fbf2d1fd28552bbe6",
-        "62d8682daeef469267d80822",
-        "62d8682daeef469267d80821",
-        "62d8682daeef469267d8080b"
-    ]
-},{
-    "name": "Twin Kohmak",
-    "type": [
-        "62d8682daeef469267d80812",
-        "62d8682daeef469267d80823",
-        "62d8682daeef469267d80821",
-        "62d8682daeef469267d8080b"
     ],
-    "credits": 20000,
-    "createTime": 43200.0,
-    "components": {
-        "Kohmak": 1,
-        "Forma": 1
-    }
+    "masterable": false
 },{
     "name": "Dual Toxocyst",
     "type": [
@@ -3410,7 +3818,32 @@
         "Nano Spores": 6500,
         "Plastids": 1100,
         "Forma": 1
-    }
+    },
+    "masterable": true
+},{
+    "name": "Telos Akbolto",
+    "type": [
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d80822",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
+    ],
+    "masterable": true
+},{
+    "name": "Twin Kohmak",
+    "type": [
+        "62d8682daeef469267d80812",
+        "62d8682daeef469267d80823",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
+    ],
+    "credits": 20000,
+    "createTime": 43200.0,
+    "components": {
+        "Kohmak": 1,
+        "Forma": 1
+    },
+    "masterable": true
 },{
     "name": "Akbronco",
     "type": [
@@ -3424,7 +3857,8 @@
     "components": {
         "Bronco": 1,
         "Orokin Cell": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Akbronco Prime",
     "type": [
@@ -3438,12 +3872,14 @@
     "components": {
         "Bronco Prime": 1,
         "Akbronco Prime Link": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Akbronco Prime Link",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Twin Rogga",
     "type": [
@@ -3459,7 +3895,8 @@
         "Kuva": 1600,
         "Alloy Plate": 2600,
         "Ferrite": 15000
-    }
+    },
+    "masterable": true
 },{
     "name": "Dex Pixia",
     "type": [
@@ -3467,23 +3904,17 @@
         "62d8682daeef469267d8081b",
         "62d8682daeef469267d80821",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
-    "name": "Dex Pixia",
+    "name": "Dex Pixia Prime",
     "type": [
         "62d8682daeef469267d8080c",
         "62d8682daeef469267d8081b",
         "62d8682daeef469267d80821",
         "62d8682daeef469267d8080b"
-    ]
-},{
-    "name": "Regulators",
-    "type": [
-        "62d8682daeef469267d8080c",
-        "62d8682daeef469267d8081b",
-        "62d8682daeef469267d80821",
-        "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Regulators",
     "type": [
@@ -3491,7 +3922,17 @@
         "62d8682daeef469267d8081b",
         "62d8682daeef469267d80821",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
+},{
+    "name": "Regulators Prime",
+    "type": [
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8081b",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
+    ],
+    "masterable": true
 },{
     "name": "Balefire Charger",
     "type": [
@@ -3499,7 +3940,8 @@
         "62d8682daeef469267d8081b",
         "62d8682daeef469267d80821",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Azima",
     "type": [
@@ -3515,7 +3957,8 @@
         "Circuits": 450,
         "Polymer Bundle": 500,
         "Salvage": 2750
-    }
+    },
+    "masterable": true
 },{
     "name": "Cestra",
     "type": [
@@ -3531,7 +3974,8 @@
         "Rubedo": 1200,
         "Gallium": 4,
         "Neurodes": 2
-    }
+    },
+    "masterable": true
 },{
     "name": "Furis",
     "type": [
@@ -3547,7 +3991,8 @@
         "Alloy Plate": 300,
         "Salvage": 400,
         "Neurodes": 4
-    }
+    },
+    "masterable": true
 },{
     "name": "Hystrix",
     "type": [
@@ -3563,7 +4008,8 @@
         "Viper": 1,
         "Ferrite": 9750,
         "Control Module": 15
-    }
+    },
+    "masterable": true
 },{
     "name": "Hystrix Prime",
     "type": [
@@ -3578,42 +4024,20 @@
         "Hystrix Prime Barrel": 1,
         "Hystrix Prime Receiver": 1,
         "Orokin Cell": 10
-    }
+    },
+    "masterable": true
 },{
     "name": "Hystrix Prime Barrel",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Hystrix Prime Receiver",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
-},{
-    "name": "Knell Prime",
-    "type": [
-        "62d8682daeef469267d8080c",
-        "62d8682daeef469267d80824",
-        "62d8682daeef469267d80821",
-        "62d8682daeef469267d8080b"
     ],
-    "credits": 15000,
-    "createTime": 43200.0,
-    "components": {
-        "Knell Prime Barrel": 1,
-        "Knell Prime Receiver": 1,
-        "Orokin Cell": 5
-    }
-},{
-    "name": "Knell Prime Barrel",
-    "type": [
-        "62eee58725a338ce7bc619dd"
-    ]
-},{
-    "name": "Knell Prime Receiver",
-    "type": [
-        "62eee58725a338ce7bc619dd"
-    ]
+    "masterable": false
 },{
     "name": "Knell",
     "type": [
@@ -3629,7 +4053,36 @@
         "Rubedo": 5200,
         "Cryotic": 3800,
         "Salvage": 20000
-    }
+    },
+    "masterable": true
+},{
+    "name": "Knell Prime",
+    "type": [
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
+    ],
+    "credits": 15000,
+    "createTime": 43200.0,
+    "components": {
+        "Knell Prime Barrel": 1,
+        "Knell Prime Receiver": 1,
+        "Orokin Cell": 5
+    },
+    "masterable": true
+},{
+    "name": "Knell Prime Barrel",
+    "type": [
+        "62eee58725a338ce7bc619dd"
+    ],
+    "masterable": false
+},{
+    "name": "Knell Prime Receiver",
+    "type": [
+        "62eee58725a338ce7bc619dd"
+    ],
+    "masterable": false
 },{
     "name": "Kompressa",
     "type": [
@@ -3644,15 +4097,36 @@
         "Orokin Cell": 3,
         "Kompressa Barrel": 1,
         "Kompressa Receiver": 1
-    }
+    },
+    "masterable": true
 },{
-    "name": "Kompressa",
+    "name": "Kompressa Barrel",
     "type": [
-        "62d8682daeef469267d8080c",
-        "62d8682daeef469267d80824",
-        "62d8682daeef469267d80821",
-        "62d8682daeef469267d8080b"
-    ]
+        "62eee58725a338ce7bc619dd"
+    ],
+    "credits": 15000,
+    "createTime": 43200.0,
+    "components": {
+        "Hespazym Alloy": 10,
+        "Goblite Tears": 10,
+        "Longwinder Lathe Coagulant": 20,
+        "Tepa Nodule": 35
+    },
+    "masterable": false
+},{
+    "name": "Kompressa Receiver",
+    "type": [
+        "62eee58725a338ce7bc619dd"
+    ],
+    "credits": 15000,
+    "createTime": 43200.0,
+    "components": {
+        "Axidrol Alloy": 20,
+        "Star Amarast": 6,
+        "Tink Dissipator Coil": 10,
+        "Mytocardia Spore": 40
+    },
+    "masterable": false
 },{
     "name": "MK1-Furis",
     "type": [
@@ -3660,7 +4134,8 @@
         "62d8682daeef469267d80824",
         "62d8682daeef469267d80821",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Quatz",
     "type": [
@@ -3676,7 +4151,8 @@
         "Neurodes": 5,
         "Rubedo": 4200,
         "Salvage": 12750
-    }
+    },
+    "masterable": true
 },{
     "name": "Stubba",
     "type": [
@@ -3692,7 +4168,8 @@
         "Coprite Alloy": 25,
         "Ferrite": 4485,
         "Neurodes": 2
-    }
+    },
+    "masterable": true
 },{
     "name": "Velox",
     "type": [
@@ -3707,17 +4184,20 @@
         "Velox Barrel": 1,
         "Velox Receiver": 1,
         "Orokin Cell": 3
-    }
+    },
+    "masterable": true
 },{
     "name": "Velox Barrel",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Velox Receiver",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Viper",
     "type": [
@@ -3733,7 +4213,8 @@
         "Ferrite": 600,
         "Nano Spores": 900,
         "Morphics": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Viper Wraith",
     "type": [
@@ -3741,7 +4222,8 @@
         "62d8682daeef469267d80824",
         "62d8682daeef469267d80821",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Athodai",
     "type": [
@@ -3757,17 +4239,20 @@
         "Athodai Barrel": 1,
         "Athodai Receiver": 1,
         "Orokin Cell": 5
-    }
+    },
+    "masterable": true
 },{
     "name": "Athodai Barrel",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Athodai Receiver",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Cyanex",
     "type": [
@@ -3784,7 +4269,8 @@
         "Nano Spores": 8750,
         "Hexenon": 250,
         "Forma": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Kraken",
     "type": [
@@ -3800,7 +4286,26 @@
         "Alloy Plate": 200,
         "Salvage": 750,
         "Polymer Bundle": 120
-    }
+    },
+    "masterable": true
+},{
+    "name": "Sicarus",
+    "type": [
+        "62d8682daeef469267d80813",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
+    ],
+    "masterable": true
+},{
+    "name": "Kuva Kraken",
+    "type": [
+        "62d8682daeef469267d80813",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
+    ],
+    "masterable": true
 },{
     "name": "Sepulcrum",
     "type": [
@@ -3815,31 +4320,36 @@
         "Seriglass Shard": 1,
         "Barrel": 1,
         "Receiver": 1
-    }
+    },
+    "masterable": true
 },{
-    "name": "Sepulcrum",
+    "name": "Sepulcrum Barrel",
     "type": [
-        "62d8682daeef469267d80813",
-        "62d8682daeef469267d80824",
-        "62d8682daeef469267d80821",
-        "62d8682daeef469267d8080b"
-    ]
+        "62eee58725a338ce7bc619dd"
+    ],
+    "credits": 20000,
+    "createTime": 43200.0,
+    "components": {
+        "Travocyte Alloy": 30,
+        "Purified Heciphron": 5,
+        "Pustulent Cognitive Nodule": 20,
+        "Morphics": 5
+    },
+    "masterable": false
 },{
-    "name": "Sicarus",
+    "name": "Sepulcrum Receiver",
     "type": [
-        "62d8682daeef469267d80813",
-        "62d8682daeef469267d80824",
-        "62d8682daeef469267d80821",
-        "62d8682daeef469267d8080b"
-    ]
-},{
-    "name": "Kuva Kraken",
-    "type": [
-        "62d8682daeef469267d80813",
-        "62d8682daeef469267d80824",
-        "62d8682daeef469267d80821",
-        "62d8682daeef469267d8080b"
-    ]
+        "62eee58725a338ce7bc619dd"
+    ],
+    "credits": 20000,
+    "createTime": 43200.0,
+    "components": {
+        "Coprite Alloy": 40,
+        "Purified Heciphron": 5,
+        "Dendrite Blastoma": 20,
+        "Trapezium Xenorhast": 2
+    },
+    "masterable": false
 },{
     "name": "Sicarus Prime",
     "type": [
@@ -3854,17 +4364,20 @@
         "Sicarus Prime Barrel": 1,
         "Sicarus Prime Receiver": 1,
         "Orokin Cell": 10
-    }
+    },
+    "masterable": true
 },{
     "name": "Sicarus Prime Barrel",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Sicarus Prime Receiver",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Angstrum",
     "type": [
@@ -3880,7 +4393,8 @@
         "Circuits": 400,
         "Salvage": 900,
         "Argon Crystal": 2
-    }
+    },
+    "masterable": true
 },{
     "name": "Prisma Angstrum",
     "type": [
@@ -3888,7 +4402,8 @@
         "62d8682daeef469267d80824",
         "62d8682daeef469267d80821",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Stug",
     "type": [
@@ -3904,7 +4419,8 @@
         "Gallium": 4,
         "Salvage": 3000,
         "Alloy Plate": 1200
-    }
+    },
+    "masterable": true
 },{
     "name": "Zylok",
     "type": [
@@ -3912,7 +4428,8 @@
         "62d8682daeef469267d80824",
         "62d8682daeef469267d80821",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Atomos",
     "type": [
@@ -3928,7 +4445,8 @@
         "Polymer Bundle": 1300,
         "Rubedo": 800,
         "Argon Crystal": 2
-    }
+    },
+    "masterable": true
 },{
     "name": "Catabolyst",
     "type": [
@@ -3944,7 +4462,8 @@
         "Ocular Stem-Root": 4,
         "Mutagen Mass": 7,
         "Stellated Necrathene": 10
-    }
+    },
+    "masterable": true
 },{
     "name": "Cycron",
     "type": [
@@ -3960,7 +4479,8 @@
         "Ferrite": 9000,
         "Circuits": 1500,
         "Forma": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Embolist",
     "type": [
@@ -3976,7 +4496,8 @@
         "Salvage": 15000,
         "Circuits": 1200,
         "Forma": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Gammacor",
     "type": [
@@ -3992,7 +4513,8 @@
         "Plastids": 650,
         "Circuits": 400,
         "Argon Crystal": 2
-    }
+    },
+    "masterable": true
 },{
     "name": "Kuva Nukor",
     "type": [
@@ -4000,7 +4522,8 @@
         "62d8682daeef469267d80824",
         "62d8682daeef469267d80821",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Nukor",
     "type": [
@@ -4016,7 +4539,8 @@
         "Morphics": 2,
         "Salvage": 5500,
         "Forma": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Ocucor",
     "type": [
@@ -4032,7 +4556,8 @@
         "Thermal Sludge": 40,
         "Venerdo Alloy": 55,
         "Charamote Sagan Module": 20
-    }
+    },
+    "masterable": true
 },{
     "name": "Spectra",
     "type": [
@@ -4048,15 +4573,8 @@
         "Circuits": 700,
         "Ferrite": 5000,
         "Forma": 1
-    }
-},{
-    "name": "Synoid Gammacor",
-    "type": [
-        "62d8682daeef469267d80814",
-        "62d8682daeef469267d80824",
-        "62d8682daeef469267d80821",
-        "62d8682daeef469267d8080b"
-    ]
+    },
+    "masterable": true
 },{
     "name": "Spectra Vandal",
     "type": [
@@ -4068,33 +4586,38 @@
     "credits": 25000,
     "createTime": 43200.0,
     "components": {
-        "Spectra Barrel": 1,
-        "Spectra Handle": 1,
-        "Spectra Gun Chassis": 1
-    }
+        "Spectra Vandal Barrel": 1,
+        "Spectra Vandal Handle": 1,
+        "Spectra Vandal Gun Chassis": 1
+    },
+    "masterable": true
 },{
-    "name": "Spectra Barrel",
+    "name": "Spectra Vandal Barrel",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
-    "name": "Spectra Handle",
+    "name": "Spectra Vandal Handle",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
-    "name": "Spectra Gun Chassis",
+    "name": "Spectra Vandal Gun Chassis",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
-    "name": "Tenet Cycron",
+    "name": "Synoid Gammacor",
     "type": [
         "62d8682daeef469267d80814",
         "62d8682daeef469267d80824",
         "62d8682daeef469267d80821",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Epitaph",
     "type": [
@@ -4110,17 +4633,29 @@
         "Epitaph Barrel": 1,
         "Epitaph Receiver": 1,
         "Orokin Cell": 7
-    }
+    },
+    "masterable": true
 },{
     "name": "Epitaph Barrel",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Epitaph Receiver",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
+},{
+    "name": "Tenet Cycron",
+    "type": [
+        "62d8682daeef469267d80814",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
+    ],
+    "masterable": true
 },{
     "name": "Laetum",
     "type": [
@@ -4137,7 +4672,8 @@
         "Voidplume Quill": 5,
         "Voidgel Orb": 20,
         "Ferrite": 4000
-    }
+    },
+    "masterable": true
 },{
     "name": "Acrid",
     "type": [
@@ -4153,7 +4689,8 @@
         "Salvage": 6000,
         "Nano Spores": 5000,
         "Forma": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Bolto",
     "type": [
@@ -4169,7 +4706,8 @@
         "Polymer Bundle": 800,
         "Orokin Cell": 2,
         "Neurodes": 2
-    }
+    },
+    "masterable": true
 },{
     "name": "Arca Scisco",
     "type": [
@@ -4185,15 +4723,8 @@
         "Oxium": 250,
         "Salvage": 12500,
         "Forma": 1
-    }
-},{
-    "name": "Lato",
-    "type": [
-        "62d99e3fbf2d1fd28552bbe6",
-        "62d8682daeef469267d80824",
-        "62d8682daeef469267d80821",
-        "62d8682daeef469267d8080b"
-    ]
+    },
+    "masterable": true
 },{
     "name": "Kulstar",
     "type": [
@@ -4209,7 +4740,8 @@
         "Tellurium": 2,
         "Cryotic": 4800,
         "Plastids": 3600
-    }
+    },
+    "masterable": true
 },{
     "name": "Kuva Seer",
     "type": [
@@ -4217,7 +4749,17 @@
         "62d8682daeef469267d80824",
         "62d8682daeef469267d80821",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
+},{
+    "name": "Lato",
+    "type": [
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
+    ],
+    "masterable": true
 },{
     "name": "Lato Prime",
     "type": [
@@ -4225,7 +4767,8 @@
         "62d8682daeef469267d80824",
         "62d8682daeef469267d80821",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Lato Vandal",
     "type": [
@@ -4237,19 +4780,22 @@
     "credits": 25000,
     "createTime": 43200.0,
     "components": {
-        "Lato Barrel": 1,
-        "Lato Receiver": 1
-    }
+        "Lato Vandal Barrel": 1,
+        "Lato Vandal Receiver": 1
+    },
+    "masterable": true
 },{
-    "name": "Lato Barrel",
+    "name": "Lato Vandal Barrel",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
-    "name": "Lato Receiver",
+    "name": "Lato Vandal Receiver",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Lex",
     "type": [
@@ -4257,7 +4803,36 @@
         "62d8682daeef469267d80824",
         "62d8682daeef469267d80821",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
+},{
+    "name": "Lex Prime",
+    "type": [
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
+    ],
+    "credits": 15000,
+    "createTime": 43200.0,
+    "components": {
+        "Lex Prime Barrel": 1,
+        "Lex Prime Receiver": 1,
+        "Orokin Cell": 10
+    },
+    "masterable": true
+},{
+    "name": "Lex Prime Barrel",
+    "type": [
+        "62eee58725a338ce7bc619dd"
+    ],
+    "masterable": false
+},{
+    "name": "Lex Prime Receiver",
+    "type": [
+        "62eee58725a338ce7bc619dd"
+    ],
+    "masterable": false
 },{
     "name": "Magnus",
     "type": [
@@ -4273,7 +4848,8 @@
         "Alloy Plate": 400,
         "Salvage": 900,
         "Ferrite": 100
-    }
+    },
+    "masterable": true
 },{
     "name": "Magnus Prime",
     "type": [
@@ -4288,42 +4864,20 @@
         "Magnus Prime Barrel": 1,
         "Magnus Prime Receiver": 1,
         "Orokin Cell": 10
-    }
+    },
+    "masterable": true
 },{
     "name": "Magnus Prime Barrel",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Magnus Prime Receiver",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
-},{
-    "name": "Lex Prime",
-    "type": [
-        "62d99e3fbf2d1fd28552bbe6",
-        "62d8682daeef469267d80824",
-        "62d8682daeef469267d80821",
-        "62d8682daeef469267d8080b"
     ],
-    "credits": 15000,
-    "createTime": 43200.0,
-    "components": {
-        "Lex Prime Barrel": 1,
-        "Lex Prime Receiver": 1,
-        "Orokin Cell": 10
-    }
-},{
-    "name": "Lex Prime Barrel",
-    "type": [
-        "62eee58725a338ce7bc619dd"
-    ]
-},{
-    "name": "Lex Prime Receiver",
-    "type": [
-        "62eee58725a338ce7bc619dd"
-    ]
+    "masterable": false
 },{
     "name": "Pandero",
     "type": [
@@ -4339,7 +4893,8 @@
         "Circuits": 4500,
         "Cryotic": 5500,
         "Salvage": 25000
-    }
+    },
+    "masterable": true
 },{
     "name": "Pandero Prime",
     "type": [
@@ -4354,17 +4909,20 @@
         "Pandero Prime Barrel": 1,
         "Pandero Prime Receiver": 1,
         "Orokin Cell": 10
-    }
+    },
+    "masterable": true
 },{
     "name": "Pandero Prime Barrel",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Pandero Prime Receiver",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Marelok",
     "type": [
@@ -4380,7 +4938,8 @@
         "Polymer Bundle": 5000,
         "Salvage": 5000,
         "Forma": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Plinx",
     "type": [
@@ -4395,8 +4954,15 @@
         "Argon Crystal": 2,
         "Alloy Plate": 4375,
         "Cryotic": 575,
-        "Gyromag Systems": 10
-    }
+        "Plinx Gyromag Systems": 10
+    },
+    "masterable": true
+},{
+    "name": "Plinx Gyromag Systems",
+    "type": [
+        "62eee58725a338ce7bc619dd"
+    ],
+    "masterable": false
 },{
     "name": "Seer",
     "type": [
@@ -4411,17 +4977,20 @@
         "Seer Barrel": 1,
         "Seer Receiver": 1,
         "Orokin Cell": 2
-    }
+    },
+    "masterable": true
 },{
     "name": "Seer Barrel",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Seer Receiver",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Sonicor",
     "type": [
@@ -4437,7 +5006,8 @@
         "Oxium": 600,
         "Plastids": 2600,
         "Argon Crystal": 2
-    }
+    },
+    "masterable": true
 },{
     "name": "Tysis",
     "type": [
@@ -4453,7 +5023,8 @@
         "Plastids": 400,
         "Nano Spores": 900,
         "Polymer Bundle": 100
-    }
+    },
+    "masterable": true
 },{
     "name": "Tenet Spirex",
     "type": [
@@ -4461,7 +5032,8 @@
         "62d8682daeef469267d80824",
         "62d8682daeef469267d80821",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Vasto",
     "type": [
@@ -4477,15 +5049,8 @@
         "Alloy Plate": 1200,
         "Ferrite": 700,
         "Polymer Bundle": 1000
-    }
-},{
-    "name": "Vaykor Marelok",
-    "type": [
-        "62d99e3fbf2d1fd28552bbe6",
-        "62d8682daeef469267d80824",
-        "62d8682daeef469267d80821",
-        "62d8682daeef469267d8080b"
-    ]
+    },
+    "masterable": true
 },{
     "name": "Vasto Prime",
     "type": [
@@ -4500,17 +5065,29 @@
         "Vasto Prime Barrel": 1,
         "Vasto Prime Receiver": 1,
         "Orokin Cell": 10
-    }
+    },
+    "masterable": true
 },{
     "name": "Vasto Prime Barrel",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Vasto Prime Receiver",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
+},{
+    "name": "Vaykor Marelok",
+    "type": [
+        "62d99e3fbf2d1fd28552bbe6",
+        "62d8682daeef469267d80824",
+        "62d8682daeef469267d80821",
+        "62d8682daeef469267d8080b"
+    ],
+    "masterable": true
 },{
     "name": "Zakti",
     "type": [
@@ -4526,7 +5103,8 @@
         "Plastids": 350,
         "Alloy Plate": 6500,
         "Nano Spores": 5000
-    }
+    },
+    "masterable": true
 },{
     "name": "Zakti Prime",
     "type": [
@@ -4541,17 +5119,20 @@
         "Zakti Prime Barrel": 1,
         "Zakti Prime Receiver": 1,
         "Orokin Cell": 10
-    }
+    },
+    "masterable": true
 },{
     "name": "Zakti Prime Barrel",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Zakti Prime Receiver",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Zymos",
     "type": [
@@ -4565,15 +5146,36 @@
     "components": {
         "Barrel": 1,
         "Receiver": 1
-    }
+    },
+    "masterable": true
 },{
-    "name": "Zymos",
+    "name": "Zymos Barrel",
     "type": [
-        "62d99e3fbf2d1fd28552bbe6",
-        "62d8682daeef469267d80824",
-        "62d8682daeef469267d80821",
-        "62d8682daeef469267d8080b"
-    ]
+        "62eee58725a338ce7bc619dd"
+    ],
+    "credits": 20000,
+    "createTime": 43200.0,
+    "components": {
+        "Tempered Bapholite": 20,
+        "Purified Heciphron": 5,
+        "Dendrite Blastoma": 8,
+        "Neurodes": 4
+    },
+    "masterable": false
+},{
+    "name": "Zymos Receiver",
+    "type": [
+        "62eee58725a338ce7bc619dd"
+    ],
+    "credits": 20000,
+    "createTime": 43200.0,
+    "components": {
+        "Adramal Alloy": 20,
+        "Purified Heciphron": 5,
+        "Pustulent Cognitive Nodule": 8,
+        "Morphics": 5
+    },
+    "masterable": false
 },{
     "name": "Pyrana Prime",
     "type": [
@@ -4588,17 +5190,20 @@
         "Pyrana Prime Barrel": 1,
         "Pyrana Prime Receiver": 1,
         "Orokin Cell": 10
-    }
+    },
+    "masterable": true
 },{
     "name": "Pyrana Prime Barrel",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Pyrana Prime Receiver",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Pyrana",
     "type": [
@@ -4614,7 +5219,8 @@
         "Salvage": 800,
         "Alloy Plate": 200,
         "Forma": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Kohmak",
     "type": [
@@ -4630,7 +5236,8 @@
         "Ferrite": 5000,
         "Plastids": 5000,
         "Forma": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Brakk",
     "type": [
@@ -4645,17 +5252,20 @@
         "Brakk Barrel": 1,
         "Brakk Receiver": 1,
         "Orokin Cell": 10
-    }
+    },
+    "masterable": true
 },{
     "name": "Brakk Barrel",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Brakk Receiver",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Bronco",
     "type": [
@@ -4671,7 +5281,8 @@
         "Alloy Plate": 1200,
         "Ferrite": 700,
         "Polymer Bundle": 800
-    }
+    },
+    "masterable": true
 },{
     "name": "Bronco Prime",
     "type": [
@@ -4686,17 +5297,20 @@
         "Bronco Prime Barrel": 1,
         "Bronco Prime Receiver": 1,
         "Orokin Cell": 10
-    }
+    },
+    "masterable": true
 },{
     "name": "Bronco Prime Barrel",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Bronco Prime Receiver",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Detron",
     "type": [
@@ -4711,17 +5325,20 @@
         "Detron Barrel": 1,
         "Detron Receiver": 1,
         "Orokin Cell": 10
-    }
+    },
+    "masterable": true
 },{
     "name": "Detron Barrel",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Detron Receiver",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Euphona Prime",
     "type": [
@@ -4736,17 +5353,20 @@
         "Euphona Prime Barrel": 1,
         "Euphona Prime Receiver": 1,
         "Orokin Cell": 5
-    }
+    },
+    "masterable": true
 },{
     "name": "Euphona Prime Barrel",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Euphona Prime Receiver",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Kuva Brakk",
     "type": [
@@ -4754,7 +5374,8 @@
         "62d8682daeef469267d80825",
         "62d8682daeef469267d80821",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Mara Detron",
     "type": [
@@ -4762,7 +5383,8 @@
         "62d8682daeef469267d80825",
         "62d8682daeef469267d80821",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Tenet Detron",
     "type": [
@@ -4770,7 +5392,8 @@
         "62d8682daeef469267d80825",
         "62d8682daeef469267d80821",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Castanas",
     "type": [
@@ -4786,7 +5409,8 @@
         "Salvage": 800,
         "Circuits": 200,
         "Forma": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Sancti Castanas",
     "type": [
@@ -4794,7 +5418,8 @@
         "62d8682daeef469267d80826",
         "62d8682daeef469267d80821",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Talons",
     "type": [
@@ -4810,7 +5435,8 @@
         "Ferrite": 1500,
         "Oxium": 1200,
         "Forma": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Despair",
     "type": [
@@ -4826,7 +5452,8 @@
         "Ferrite": 5000,
         "Alloy Plate": 800,
         "Salvage": 4500
-    }
+    },
+    "masterable": true
 },{
     "name": "Hikou",
     "type": [
@@ -4842,7 +5469,8 @@
         "Plastids": 500,
         "Rubedo": 600,
         "Salvage": 4000
-    }
+    },
+    "masterable": true
 },{
     "name": "Hikou Prime",
     "type": [
@@ -4857,17 +5485,20 @@
         "Hikou Prime Pouch": 2,
         "Hikou Prime Stars": 2,
         "Orokin Cell": 8
-    }
+    },
+    "masterable": true
 },{
     "name": "Hikou Prime Pouch",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Hikou Prime Stars",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Kunai",
     "type": [
@@ -4883,7 +5514,8 @@
         "Ferrite": 3000,
         "Nano Spores": 4000,
         "Salvage": 4000
-    }
+    },
+    "masterable": true
 },{
     "name": "MK1-Kunai",
     "type": [
@@ -4891,7 +5523,8 @@
         "62d8682daeef469267d80826",
         "62d8682daeef469267d80821",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Spira",
     "type": [
@@ -4907,7 +5540,8 @@
         "Ferrite": 2500,
         "Plastids": 800,
         "Salvage": 4000
-    }
+    },
+    "masterable": true
 },{
     "name": "Pox",
     "type": [
@@ -4923,7 +5557,8 @@
         "Nano Spores": 6500,
         "Rubedo": 1200,
         "Nitain Extract": 2
-    }
+    },
+    "masterable": true
 },{
     "name": "Spira Prime",
     "type": [
@@ -4938,17 +5573,20 @@
         "Spira Prime Pouch": 2,
         "Spira Prime Blade": 2,
         "Orokin Cell": 8
-    }
+    },
+    "masterable": true
 },{
     "name": "Spira Prime Pouch",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Spira Prime Blade",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Fusilai",
     "type": [
@@ -4965,31 +5603,8 @@
         "Salvage": 10000,
         "Polymer Bundle": 1350,
         "Nitain Extract": 2
-    }
-},{
-    "name": "Ghoulsaw",
-    "type": [
-        "62d99edfbf2d1fd28552bbe9",
-        "62d8682daeef469267d80827",
-        "62d8682daeef469267d80827",
-        "62d8682daeef469267d8080b"
-    ],
-    "credits": 30000,
-    "createTime": 86400.0,
-    "components": {
-        "Ghoulsaw Blade": 1,
-        "Ghoulsaw Chassis": 1,
-        "Ghoulsaw Engine": 1,
-        "Ghoulsaw Grip": 1
-    }
-},{
-    "name": "Ghoulsaw",
-    "type": [
-        "62d99edfbf2d1fd28552bbe9",
-        "62d8682daeef469267d80827",
-        "62d8682daeef469267d80827",
-        "62d8682daeef469267d8080b"
-    ]
+    },
+    "masterable": true
 },{
     "name": "Ceti Lacera",
     "type": [
@@ -5005,7 +5620,81 @@
         "Oxium": 400,
         "Rubedo": 5950,
         "Morphics": 15
-    }
+    },
+    "masterable": true
+},{
+    "name": "Ghoulsaw",
+    "type": [
+        "62d99edfbf2d1fd28552bbe9",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
+    ],
+    "credits": 30000,
+    "createTime": 86400.0,
+    "components": {
+        "Ghoulsaw Blade": 1,
+        "Ghoulsaw Chassis": 1,
+        "Ghoulsaw Engine": 1,
+        "Ghoulsaw Grip": 1
+    },
+    "masterable": true
+},{
+    "name": "Ghoulsaw Blade",
+    "type": [
+        "62eee58725a338ce7bc619dd"
+    ],
+    "credits": 30000,
+    "createTime": 3600.0,
+    "components": {
+        "Tellurium": 1,
+        "Sharrac Teeth": 15,
+        "Rubedo": 675,
+        "Alloy Plate": 2875
+    },
+    "masterable": false
+},{
+    "name": "Ghoulsaw Chassis",
+    "type": [
+        "62eee58725a338ce7bc619dd"
+    ],
+    "credits": 30000,
+    "createTime": 3600.0,
+    "components": {
+        "Morphics": 5,
+        "Oxium": 120,
+        "Coprite Alloy": 40,
+        "Salvage": 1825
+    },
+    "masterable": false
+},{
+    "name": "Ghoulsaw Engine",
+    "type": [
+        "62eee58725a338ce7bc619dd"
+    ],
+    "credits": 30000,
+    "createTime": 3600.0,
+    "components": {
+        "Control Module": 5,
+        "Circuits": 450,
+        "Grokdrul": 55,
+        "Ferrite": 3150
+    },
+    "masterable": false
+},{
+    "name": "Ghoulsaw Grip",
+    "type": [
+        "62eee58725a338ce7bc619dd"
+    ],
+    "credits": 30000,
+    "createTime": 3600.0,
+    "components": {
+        "Gallium": 3,
+        "Kuaka Spinal Claw": 20,
+        "Polymer Bundle": 925,
+        "Nano Spores": 1700
+    },
+    "masterable": false
 },{
     "name": "Jat Kusar",
     "type": [
@@ -5021,7 +5710,8 @@
         "Salvage": 7500,
         "Rubedo": 2000,
         "Forma": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Lacera",
     "type": [
@@ -5037,7 +5727,8 @@
         "Polymer Bundle": 4200,
         "Rubedo": 1200,
         "Gallium": 20
-    }
+    },
+    "masterable": true
 },{
     "name": "Mios",
     "type": [
@@ -5053,7 +5744,8 @@
         "Nano Spores": 15000,
         "Plastids": 1200,
         "Forma": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Keratinos",
     "type": [
@@ -5067,17 +5759,20 @@
     "components": {
         "Keratinos Blade": 2,
         "Keratinos Gauntlet": 2
-    }
+    },
+    "masterable": true
 },{
     "name": "Keratinos Blade",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Keratinos Gauntlet",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Ripkas",
     "type": [
@@ -5093,7 +5788,36 @@
         "Dual Cleavers": 1,
         "Tellurium": 2,
         "Forma": 1
-    }
+    },
+    "masterable": true
+},{
+    "name": "Venka Prime",
+    "type": [
+        "62d9a0b9bf2d1fd28552bbeb",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
+    ],
+    "credits": 15000,
+    "createTime": 43200.0,
+    "components": {
+        "Venka Prime Blades": 2,
+        "Venka Prime Gauntlet": 2,
+        "Orokin Cell": 15
+    },
+    "masterable": true
+},{
+    "name": "Venka Prime Blades",
+    "type": [
+        "62eee58725a338ce7bc619dd"
+    ],
+    "masterable": false
+},{
+    "name": "Venka Prime Gauntlet",
+    "type": [
+        "62eee58725a338ce7bc619dd"
+    ],
+    "masterable": false
 },{
     "name": "Venka",
     "type": [
@@ -5109,32 +5833,8 @@
         "Salvage": 1000,
         "Plastids": 500,
         "Forma": 1
-    }
-},{
-    "name": "Venka Prime",
-    "type": [
-        "62d9a0b9bf2d1fd28552bbeb",
-        "62d8682daeef469267d80827",
-        "62d8682daeef469267d80827",
-        "62d8682daeef469267d8080b"
-    ],
-    "credits": 15000,
-    "createTime": 43200.0,
-    "components": {
-        "Venka Prime Blades": 2,
-        "Venka Prime Gauntlet": 2,
-        "Orokin Cell": 15
-    }
-},{
-    "name": "Venka Prime Blades",
-    "type": [
-        "62eee58725a338ce7bc619dd"
-    ]
-},{
-    "name": "Venka Prime Gauntlet",
-    "type": [
-        "62eee58725a338ce7bc619dd"
-    ]
+    },
+    "masterable": true
 },{
     "name": "Ceramic Dagger",
     "type": [
@@ -5150,7 +5850,8 @@
         "Ferrite": 500,
         "Alloy Plate": 500,
         "Polymer Bundle": 600
-    }
+    },
+    "masterable": true
 },{
     "name": "Dark Dagger",
     "type": [
@@ -5166,7 +5867,8 @@
         "Ferrite": 500,
         "Plastids": 500,
         "Polymer Bundle": 300
-    }
+    },
+    "masterable": true
 },{
     "name": "Heat Dagger",
     "type": [
@@ -5182,7 +5884,8 @@
         "Circuits": 150,
         "Polymer Bundle": 75,
         "Neural Sensors": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Innodem",
     "type": [
@@ -5198,7 +5901,8 @@
         "Voidplume Quill": 10,
         "Entrati Lanthorn": 15,
         "Thrax Plasm": 20
-    }
+    },
+    "masterable": true
 },{
     "name": "Karyst",
     "type": [
@@ -5214,7 +5918,8 @@
         "Polymer Bundle": 800,
         "Oxium": 100,
         "Argon Crystal": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Karyst Prime",
     "type": [
@@ -5229,17 +5934,20 @@
         "Karyst Prime Blade": 1,
         "Karyst Prime Handle": 1,
         "Orokin Cell": 15
-    }
+    },
+    "masterable": true
 },{
     "name": "Karyst Prime Blade",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Karyst Prime Handle",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Rakta Dark Dagger",
     "type": [
@@ -5247,7 +5955,8 @@
         "62d8682daeef469267d80827",
         "62d8682daeef469267d80827",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Rumblejack",
     "type": [
@@ -5255,7 +5964,8 @@
         "62d8682daeef469267d80827",
         "62d8682daeef469267d80827",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Sheev",
     "type": [
@@ -5270,12 +5980,14 @@
         "Sheev Blade": 1,
         "Heatsink": 1,
         "Hilt": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Sheev Blade",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Ether Daggers",
     "type": [
@@ -5291,7 +6003,8 @@
         "Polymer Bundle": 600,
         "Ferrite": 600,
         "Nano Spores": 1200
-    }
+    },
+    "masterable": true
 },{
     "name": "Fang",
     "type": [
@@ -5307,7 +6020,8 @@
         "Ferrite": 600,
         "Nano Spores": 900,
         "Morphics": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Fang Prime",
     "type": [
@@ -5321,17 +6035,20 @@
     "components": {
         "Fang Prime Blade": 2,
         "Fang Prime Handle": 2
-    }
+    },
+    "masterable": true
 },{
     "name": "Fang Prime Blade",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Fang Prime Handle",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Nepheri",
     "type": [
@@ -5347,7 +6064,8 @@
         "Tromyzon Entroplasma": 6,
         "Fersteel Alloy": 80,
         "Nitain Extract": 2
-    }
+    },
+    "masterable": true
 },{
     "name": "Okina",
     "type": [
@@ -5363,15 +6081,8 @@
         "Alloy Plate": 4200,
         "Polymer Bundle": 3400,
         "Oxium": 1800
-    }
-},{
-    "name": "Dex Dakra",
-    "type": [
-        "62d8682daeef469267d8082a",
-        "62d8682daeef469267d80827",
-        "62d8682daeef469267d80827",
-        "62d8682daeef469267d8080b"
-    ]
+    },
+    "masterable": true
 },{
     "name": "Dark Split-Sword",
     "type": [
@@ -5387,7 +6098,17 @@
         "Forma": 1,
         "Rubedo": 1200,
         "Mutagen Mass": 10
-    }
+    },
+    "masterable": true
+},{
+    "name": "Dex Dakra",
+    "type": [
+        "62d8682daeef469267d8082a",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
+    ],
+    "masterable": true
 },{
     "name": "Dual Cleavers",
     "type": [
@@ -5403,7 +6124,8 @@
         "Salvage": 1000,
         "Polymer Bundle": 800,
         "Alloy Plate": 1200
-    }
+    },
+    "masterable": true
 },{
     "name": "Dual Ether",
     "type": [
@@ -5419,7 +6141,8 @@
         "Salvage": 900,
         "Ferrite": 850,
         "Polymer Bundle": 800
-    }
+    },
+    "masterable": true
 },{
     "name": "Dual Heat Swords",
     "type": [
@@ -5435,7 +6158,8 @@
         "Salvage": 900,
         "Ferrite": 1000,
         "Polymer Bundle": 700
-    }
+    },
+    "masterable": true
 },{
     "name": "Dual Kamas",
     "type": [
@@ -5449,7 +6173,8 @@
     "components": {
         "Kama": 1,
         "Orokin Cell": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Dual Kamas Prime",
     "type": [
@@ -5461,19 +6186,22 @@
     "credits": 15000,
     "createTime": 43200.0,
     "components": {
-        "Dual Prime Blade": 2,
-        "Dual Prime Handle": 2
-    }
+        "Dual Kamas Prime Blade": 2,
+        "Dual Kamas Prime Handle": 2
+    },
+    "masterable": true
 },{
-    "name": "Dual Prime Blade",
+    "name": "Dual Kamas Prime Blade",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
-    "name": "Dual Prime Handle",
+    "name": "Dual Kamas Prime Handle",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Dual Ichor",
     "type": [
@@ -5489,7 +6217,8 @@
         "Circuits": 1200,
         "Salvage": 15000,
         "Forma": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Dual Keres",
     "type": [
@@ -5505,7 +6234,8 @@
         "Oxium": 230,
         "Salvage": 13250,
         "Tellurium": 3
-    }
+    },
+    "masterable": true
 },{
     "name": "Dual Keres Prime",
     "type": [
@@ -5517,19 +6247,22 @@
     "credits": 15000,
     "createTime": 43200.0,
     "components": {
-        "Dual Prime Blade": 2,
-        "Dual Prime Handle": 2
-    }
+        "Dual Keres Prime Blade": 2,
+        "Dual Keres Prime Handle": 2
+    },
+    "masterable": true
 },{
-    "name": "Dual Prime Blade",
+    "name": "Dual Keres Prime Blade",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
-    "name": "Dual Prime Handle",
+    "name": "Dual Keres Prime Handle",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Dual Raza",
     "type": [
@@ -5545,7 +6278,8 @@
         "Cryotic": 200,
         "Alloy Plate": 200,
         "Orokin Cell": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Dual Skana",
     "type": [
@@ -5561,7 +6295,8 @@
         "Polymer Bundle": 300,
         "Ferrite": 850,
         "Alloy Plate": 300
-    }
+    },
+    "masterable": true
 },{
     "name": "Dual Zoren",
     "type": [
@@ -5577,7 +6312,8 @@
         "Salvage": 900,
         "Ferrite": 1100,
         "Alloy Plate": 800
-    }
+    },
+    "masterable": true
 },{
     "name": "Nami Skyla Prime",
     "type": [
@@ -5589,20 +6325,23 @@
     "credits": 15000,
     "createTime": 43200.0,
     "components": {
-        "Nami Prime Blade": 2,
-        "Nami Prime Handle": 2,
+        "Nami Skyla Prime Blade": 2,
+        "Nami Skyla Prime Handle": 2,
         "Orokin Cell": 15
-    }
+    },
+    "masterable": true
 },{
-    "name": "Nami Prime Blade",
+    "name": "Nami Skyla Prime Blade",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
-    "name": "Nami Prime Handle",
+    "name": "Nami Skyla Prime Handle",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Nami Skyla",
     "type": [
@@ -5618,7 +6357,8 @@
         "Polymer Bundle": 800,
         "Rubedo": 200,
         "Gallium": 10
-    }
+    },
+    "masterable": true
 },{
     "name": "Prisma Dual Cleavers",
     "type": [
@@ -5626,7 +6366,8 @@
         "62d8682daeef469267d80827",
         "62d8682daeef469267d80827",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Twin Basolk",
     "type": [
@@ -5641,7 +6382,8 @@
         "Dual Zoren": 1,
         "Atomos": 1,
         "Control Module": 2
-    }
+    },
+    "masterable": true
 },{
     "name": "Desert Wind",
     "type": [
@@ -5649,7 +6391,8 @@
         "62d8682daeef469267d80827",
         "62d8682daeef469267d80827",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Twin Krohkur",
     "type": [
@@ -5664,7 +6407,8 @@
         "Detonite Injector": 5,
         "Forma": 1,
         "Krohkur": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Diwata",
     "type": [
@@ -5672,39 +6416,44 @@
         "62d8682daeef469267d80827",
         "62d8682daeef469267d80827",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
-    "name": "Diwata",
+    "name": "Diwata Prime",
     "type": [
         "62d8682daeef469267d8081b",
         "62d8682daeef469267d80827",
         "62d8682daeef469267d80827",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
-    "name": "Exalted Blade (Weapon)",
+    "name": "Exalted Blade",
     "type": [
         "62d8682daeef469267d8081b",
         "62d8682daeef469267d80827",
         "62d8682daeef469267d80827",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
-    "name": "Exalted Blade (Weapon)",
+    "name": "Exalted Prime Blade",
     "type": [
         "62d8682daeef469267d8081b",
         "62d8682daeef469267d80827",
         "62d8682daeef469267d80827",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
-    "name": "Exalted Blade (Weapon)",
+    "name": "Exalted Umbra Blade",
     "type": [
         "62d8682daeef469267d8081b",
         "62d8682daeef469267d80827",
         "62d8682daeef469267d80827",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Garuda Prime Talons",
     "type": [
@@ -5712,7 +6461,8 @@
         "62d8682daeef469267d80827",
         "62d8682daeef469267d80827",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Garuda Talons",
     "type": [
@@ -5720,7 +6470,8 @@
         "62d8682daeef469267d80827",
         "62d8682daeef469267d80827",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Iron Staff",
     "type": [
@@ -5728,15 +6479,17 @@
         "62d8682daeef469267d80827",
         "62d8682daeef469267d80827",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
-    "name": "Iron Staff",
+    "name": "Iron Staff Prime",
     "type": [
         "62d8682daeef469267d8081b",
         "62d8682daeef469267d80827",
         "62d8682daeef469267d80827",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Shadow Claws",
     "type": [
@@ -5744,7 +6497,17 @@
         "62d8682daeef469267d80827",
         "62d8682daeef469267d80827",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
+},{
+    "name": "Valkyr Prime Talons",
+    "type": [
+        "62d8682daeef469267d8081b",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
+    ],
+    "masterable": true
 },{
     "name": "Valkyr Talons",
     "type": [
@@ -5752,15 +6515,8 @@
         "62d8682daeef469267d80827",
         "62d8682daeef469267d80827",
         "62d8682daeef469267d8080b"
-    ]
-},{
-    "name": "Valkyr Talons",
-    "type": [
-        "62d8682daeef469267d8081b",
-        "62d8682daeef469267d80827",
-        "62d8682daeef469267d80827",
-        "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Ankyros",
     "type": [
@@ -5776,7 +6532,8 @@
         "Salvage": 900,
         "Ferrite": 600,
         "Alloy Plate": 450
-    }
+    },
+    "masterable": true
 },{
     "name": "Ankyros Prime",
     "type": [
@@ -5791,17 +6548,20 @@
         "Ankyros Prime Blade": 2,
         "Ankyros Prime Gauntlet": 2,
         "Orokin Cell": 10
-    }
+    },
+    "masterable": true
 },{
     "name": "Ankyros Prime Blade",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Ankyros Prime Gauntlet",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Furax",
     "type": [
@@ -5817,7 +6577,8 @@
         "Salvage": 900,
         "Ferrite": 600,
         "Alloy Plate": 500
-    }
+    },
+    "masterable": true
 },{
     "name": "Furax Wraith",
     "type": [
@@ -5829,19 +6590,22 @@
     "credits": 25000,
     "createTime": 43200.0,
     "components": {
-        "Furax Left Gauntlet": 1,
-        "Furax Right Gauntlet": 1
-    }
+        "Furax Wraith Left Gauntlet": 1,
+        "Furax Wraith Right Gauntlet": 1
+    },
+    "masterable": true
 },{
-    "name": "Furax Left Gauntlet",
+    "name": "Furax Wraith Left Gauntlet",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
-    "name": "Furax Right Gauntlet",
+    "name": "Furax Wraith Right Gauntlet",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "MK1-Furax",
     "type": [
@@ -5849,7 +6613,8 @@
         "62d8682daeef469267d80827",
         "62d8682daeef469267d80827",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Tekko",
     "type": [
@@ -5865,7 +6630,8 @@
         "Rubedo": 700,
         "Polymer Bundle": 3300,
         "Ankyros": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Tekko Prime",
     "type": [
@@ -5880,17 +6646,20 @@
         "Tekko Prime Blade": 2,
         "Tekko Prime Gauntlet": 2,
         "Orokin Cell": 15
-    }
+    },
+    "masterable": true
 },{
     "name": "Tekko Prime Blade",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Tekko Prime Gauntlet",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Cerata",
     "type": [
@@ -5906,7 +6675,8 @@
         "Cryotic": 2500,
         "Plastids": 1200,
         "Forma": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Falcor",
     "type": [
@@ -5922,7 +6692,8 @@
         "Alloy Plate": 8500,
         "Circuits": 1650,
         "Forma": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Glaive",
     "type": [
@@ -5938,7 +6709,8 @@
         "Ferrite": 5000,
         "Nano Spores": 6000,
         "Salvage": 4500
-    }
+    },
+    "masterable": true
 },{
     "name": "Glaive Prime",
     "type": [
@@ -5953,17 +6725,20 @@
         "Glaive Prime Blade": 2,
         "Glaive Prime Disc": 1,
         "Orokin Cell": 10
-    }
+    },
+    "masterable": true
 },{
     "name": "Glaive Prime Blade",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Glaive Prime Disc",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Halikar",
     "type": [
@@ -5979,7 +6754,8 @@
         "Ferrite": 4800,
         "Nano Spores": 5000,
         "Oxium": 500
-    }
+    },
+    "masterable": true
 },{
     "name": "Halikar Wraith",
     "type": [
@@ -5987,7 +6763,8 @@
         "62d8682daeef469267d80827",
         "62d8682daeef469267d80827",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Kestrel",
     "type": [
@@ -6003,7 +6780,8 @@
         "Ferrite": 4800,
         "Nano Spores": 5000,
         "Salvage": 4000
-    }
+    },
+    "masterable": true
 },{
     "name": "Orvius",
     "type": [
@@ -6019,17 +6797,20 @@
         "Orvius Disc": 1,
         "Orokin Cell": 10,
         "Kuva": 4000
-    }
+    },
+    "masterable": true
 },{
     "name": "Orvius Blade",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Orvius Disc",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Pathocyst",
     "type": [
@@ -6044,12 +6825,14 @@
         "Pathocyst Blade": 2,
         "Subcortex": 1,
         "Neurodes": 5
-    }
+    },
+    "masterable": true
 },{
     "name": "Pathocyst Blade",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Xoris",
     "type": [
@@ -6064,17 +6847,20 @@
         "Core": 1,
         "Xoris Handle": 1,
         "Xoris Blade": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Xoris Handle",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Xoris Blade",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Redeemer",
     "type": [
@@ -6089,7 +6875,8 @@
         "Vasto": 1,
         "Dual Skana": 1,
         "Argon Crystal": 2
-    }
+    },
+    "masterable": true
 },{
     "name": "Redeemer Prime",
     "type": [
@@ -6104,17 +6891,20 @@
         "Redeemer Prime Blade": 1,
         "Redeemer Prime Handle": 1,
         "Orokin Cell": 15
-    }
+    },
+    "masterable": true
 },{
     "name": "Redeemer Prime Blade",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Redeemer Prime Handle",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Sarpa",
     "type": [
@@ -6130,7 +6920,8 @@
         "Cryotic": 3300,
         "Plastids": 1000,
         "Control Module": 2
-    }
+    },
+    "masterable": true
 },{
     "name": "Stropha",
     "type": [
@@ -6146,27 +6937,32 @@
         "Stropha Blade": 1,
         "Stropha Receiver": 1,
         "Stropha Stock": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Stropha Barrel",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Stropha Blade",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Stropha Receiver",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Stropha Stock",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Vastilok",
     "type": [
@@ -6174,7 +6970,8 @@
         "62d8682daeef469267d80827",
         "62d8682daeef469267d80827",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Arca Titron",
     "type": [
@@ -6190,7 +6987,8 @@
         "Gallium": 6,
         "Circuits": 2150,
         "Polymer Bundle": 1200
-    }
+    },
+    "masterable": true
 },{
     "name": "Fragor",
     "type": [
@@ -6206,7 +7004,8 @@
         "Salvage": 750,
         "Rubedo": 300,
         "Alloy Plate": 80
-    }
+    },
+    "masterable": true
 },{
     "name": "Fragor Prime",
     "type": [
@@ -6218,15 +7017,23 @@
     "credits": 15000,
     "createTime": 43200.0,
     "components": {
-        "Prime Head": 1,
+        "Fragor Prime Head": 1,
         "Fragor Prime Handle": 1,
         "Orokin Cell": 10
-    }
+    },
+    "masterable": true
+},{
+    "name": "Fragor Prime Head",
+    "type": [
+        "62eee58725a338ce7bc619dd"
+    ],
+    "masterable": false
 },{
     "name": "Fragor Prime Handle",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Heliocor",
     "type": [
@@ -6242,7 +7049,8 @@
         "Polymer Bundle": 700,
         "Rubedo": 1200,
         "Morphics": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Magistar",
     "type": [
@@ -6258,7 +7066,8 @@
         "Ferrite": 750,
         "Rubedo": 300,
         "Alloy Plate": 80
-    }
+    },
+    "masterable": true
 },{
     "name": "Jat Kittag",
     "type": [
@@ -6274,7 +7083,8 @@
         "Salvage": 5000,
         "Rubedo": 600,
         "Forma": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Kuva Shildeg",
     "type": [
@@ -6282,7 +7092,8 @@
         "62d8682daeef469267d80827",
         "62d8682daeef469267d80827",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Sancti Magistar",
     "type": [
@@ -6290,7 +7101,8 @@
         "62d8682daeef469267d80827",
         "62d8682daeef469267d80827",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Sibear",
     "type": [
@@ -6305,7 +7117,8 @@
         "Magistar": 1,
         "Cryotic": 30000,
         "Alloy Plate": 50000
-    }
+    },
+    "masterable": true
 },{
     "name": "Synoid Heliocor",
     "type": [
@@ -6313,7 +7126,8 @@
         "62d8682daeef469267d80827",
         "62d8682daeef469267d80827",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Volnus",
     "type": [
@@ -6329,7 +7143,8 @@
         "Argon Crystal": 2,
         "Alloy Plate": 11000,
         "Cryotic": 875
-    }
+    },
+    "masterable": true
 },{
     "name": "Volnus Prime",
     "type": [
@@ -6341,15 +7156,23 @@
     "credits": 20000,
     "createTime": 43200.0,
     "components": {
-        "Prime Head": 1,
+        "Volnus Prime Head": 1,
         "Volnus Prime Handle": 1,
         "Orokin Cell": 15
-    }
+    },
+    "masterable": true
+},{
+    "name": "Volnus Prime Head",
+    "type": [
+        "62eee58725a338ce7bc619dd"
+    ],
+    "masterable": false
 },{
     "name": "Volnus Prime Handle",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Wolf Sledge",
     "type": [
@@ -6362,31 +7185,23 @@
     "createTime": 43200.0,
     "components": {
         "Nitain Extract": 5,
-        "Wolf Handle": 1,
-        "Head": 1,
+        "Wolf Sledge Handle": 1,
+        "Wolf Sledge Head": 1,
         "Motor": 1
-    }
+    },
+    "masterable": true
 },{
-    "name": "Wolf Handle",
+    "name": "Wolf Sledge Handle",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
-},{
-    "name": "Galatine",
-    "type": [
-        "62d8682daeef469267d8082f",
-        "62d8682daeef469267d80827",
-        "62d8682daeef469267d80827",
-        "62d8682daeef469267d8080b"
     ],
-    "credits": 30000,
-    "createTime": 43200.0,
-    "components": {
-        "Gallium": 4,
-        "Salvage": 750,
-        "Rubedo": 500,
-        "Alloy Plate": 200
-    }
+    "masterable": false
+},{
+    "name": "Wolf Sledge Head",
+    "type": [
+        "62eee58725a338ce7bc619dd"
+    ],
+    "masterable": false
 },{
     "name": "Dark Split-Sword",
     "type": [
@@ -6402,7 +7217,25 @@
         "Forma": 1,
         "Rubedo": 1200,
         "Mutagen Mass": 10
-    }
+    },
+    "masterable": true
+},{
+    "name": "Galatine",
+    "type": [
+        "62d8682daeef469267d8082f",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
+    ],
+    "credits": 30000,
+    "createTime": 43200.0,
+    "components": {
+        "Gallium": 4,
+        "Salvage": 750,
+        "Rubedo": 500,
+        "Alloy Plate": 200
+    },
+    "masterable": true
 },{
     "name": "Galatine Prime",
     "type": [
@@ -6417,17 +7250,20 @@
         "Galatine Prime Blade": 1,
         "Galatine Prime Handle": 1,
         "Orokin Cell": 15
-    }
+    },
+    "masterable": true
 },{
     "name": "Galatine Prime Blade",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Galatine Prime Handle",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Gram",
     "type": [
@@ -6443,7 +7279,8 @@
         "Salvage": 750,
         "Rubedo": 300,
         "Alloy Plate": 80
-    }
+    },
+    "masterable": true
 },{
     "name": "Gram Prime",
     "type": [
@@ -6458,17 +7295,20 @@
         "Gram Prime Blade": 1,
         "Gram Prime Handle": 1,
         "Orokin Cell": 15
-    }
+    },
+    "masterable": true
 },{
     "name": "Gram Prime Blade",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Gram Prime Handle",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Masseter",
     "type": [
@@ -6484,7 +7324,8 @@
         "Cryotic": 650,
         "Oxium": 225,
         "Salvage": 8600
-    }
+    },
+    "masterable": true
 },{
     "name": "Scindo",
     "type": [
@@ -6500,7 +7341,8 @@
         "Salvage": 750,
         "Circuits": 300,
         "Alloy Plate": 500
-    }
+    },
+    "masterable": true
 },{
     "name": "Paracesis",
     "type": [
@@ -6516,7 +7358,8 @@
         "Galatine": 1,
         "Eidolon Shard": 5,
         "Orokin Cell": 15
-    }
+    },
+    "masterable": true
 },{
     "name": "Scindo Prime",
     "type": [
@@ -6531,17 +7374,20 @@
         "Scindo Prime Blade": 1,
         "Scindo Prime Handle": 1,
         "Orokin Cell": 15
-    }
+    },
+    "masterable": true
 },{
     "name": "Scindo Prime Blade",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Scindo Prime Handle",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Tenet Exec",
     "type": [
@@ -6549,23 +7395,8 @@
         "62d8682daeef469267d80827",
         "62d8682daeef469267d80827",
         "62d8682daeef469267d8080b"
-    ]
-},{
-    "name": "Vitrica",
-    "type": [
-        "62d8682daeef469267d8082f",
-        "62d8682daeef469267d80827",
-        "62d8682daeef469267d80827",
-        "62d8682daeef469267d8080b"
     ],
-    "credits": 20000,
-    "createTime": 43200.0,
-    "components": {
-        "Orokin Cell": 15,
-        "Oxium": 925,
-        "Tempered Bapholite": 60,
-        "Purified Heciphron": 10
-    }
+    "masterable": true
 },{
     "name": "War",
     "type": [
@@ -6581,7 +7412,25 @@
         "Rubedo": 1400,
         "Nitain Extract": 5,
         "Broken War": 1
-    }
+    },
+    "masterable": true
+},{
+    "name": "Vitrica",
+    "type": [
+        "62d8682daeef469267d8082f",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
+    ],
+    "credits": 20000,
+    "createTime": 43200.0,
+    "components": {
+        "Orokin Cell": 15,
+        "Oxium": 925,
+        "Tempered Bapholite": 60,
+        "Purified Heciphron": 10
+    },
+    "masterable": true
 },{
     "name": "Hespar",
     "type": [
@@ -6596,33 +7445,20 @@
         "Hespar Blade": 1,
         "Hespar Handle": 1,
         "Thrax Plasm": 50
-    }
+    },
+    "masterable": true
 },{
     "name": "Hespar Blade",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Hespar Handle",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
-},{
-    "name": "Gazal Machete",
-    "type": [
-        "62d8682daeef469267d80831",
-        "62d8682daeef469267d80827",
-        "62d8682daeef469267d80827",
-        "62d8682daeef469267d8080b"
     ],
-    "credits": 20000,
-    "createTime": 43200.0,
-    "components": {
-        "Argon Crystal": 2,
-        "Salvage": 2600,
-        "Alloy Plate": 1900,
-        "Plastids": 1400
-    }
+    "masterable": false
 },{
     "name": "Zenistar",
     "type": [
@@ -6638,7 +7474,25 @@
         "Circuits": 450,
         "Polymer Bundle": 500,
         "Salvage": 2750
-    }
+    },
+    "masterable": true
+},{
+    "name": "Gazal Machete",
+    "type": [
+        "62d8682daeef469267d80831",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
+    ],
+    "credits": 20000,
+    "createTime": 43200.0,
+    "components": {
+        "Argon Crystal": 2,
+        "Salvage": 2600,
+        "Alloy Plate": 1900,
+        "Plastids": 1400
+    },
+    "masterable": true
 },{
     "name": "Kama",
     "type": [
@@ -6654,7 +7508,8 @@
         "Ferrite": 1200,
         "Circuits": 900,
         "Polymer Bundle": 1200
-    }
+    },
+    "masterable": true
 },{
     "name": "Machete",
     "type": [
@@ -6670,7 +7525,8 @@
         "Salvage": 750,
         "Plastids": 800,
         "Alloy Plate": 900
-    }
+    },
+    "masterable": true
 },{
     "name": "Kreska",
     "type": [
@@ -6686,7 +7542,8 @@
         "Mytocardia Spore": 40,
         "Star Amarast": 25,
         "Longwinder Lathe Coagulant": 20
-    }
+    },
+    "masterable": true
 },{
     "name": "Machete Wraith",
     "type": [
@@ -6694,15 +7551,8 @@
         "62d8682daeef469267d80827",
         "62d8682daeef469267d80827",
         "62d8682daeef469267d8080b"
-    ]
-},{
-    "name": "Prisma Machete",
-    "type": [
-        "62d8682daeef469267d80831",
-        "62d8682daeef469267d80827",
-        "62d8682daeef469267d80827",
-        "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Nami Solo",
     "type": [
@@ -6718,7 +7568,17 @@
         "Polymer Bundle": 800,
         "Rubedo": 200,
         "Argon Crystal": 2
-    }
+    },
+    "masterable": true
+},{
+    "name": "Prisma Machete",
+    "type": [
+        "62d8682daeef469267d80831",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
+    ],
+    "masterable": true
 },{
     "name": "Prova",
     "type": [
@@ -6734,7 +7594,8 @@
         "Alloy Plate": 300,
         "Salvage": 1000,
         "Forma": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Prova Vandal",
     "type": [
@@ -6742,7 +7603,8 @@
         "62d8682daeef469267d80827",
         "62d8682daeef469267d80827",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Dragon Nikana",
     "type": [
@@ -6757,7 +7619,8 @@
         "Argon Crystal": 1,
         "Oxium": 75,
         "Nikana": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Nikana Prime",
     "type": [
@@ -6772,20 +7635,14 @@
         "Nikana Prime Blade": 1,
         "Prime Hilt": 1,
         "Orokin Cell": 15
-    }
+    },
+    "masterable": true
 },{
     "name": "Nikana Prime Blade",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
-},{
-    "name": "Skiajati",
-    "type": [
-        "62d8682daeef469267d80832",
-        "62d8682daeef469267d80827",
-        "62d8682daeef469267d80827",
-        "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Nikana",
     "type": [
@@ -6801,7 +7658,17 @@
         "Oxium": 75,
         "Alloy Plate": 200,
         "Forma": 1
-    }
+    },
+    "masterable": true
+},{
+    "name": "Skiajati",
+    "type": [
+        "62d8682daeef469267d80832",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
+    ],
+    "masterable": true
 },{
     "name": "Ninkondi",
     "type": [
@@ -6817,7 +7684,8 @@
         "Polymer Bundle": 1200,
         "Plastids": 800,
         "Argon Crystal": 2
-    }
+    },
+    "masterable": true
 },{
     "name": "Ninkondi Prime",
     "type": [
@@ -6832,12 +7700,14 @@
         "Ninkondi Prime Handle": 2,
         "Prime Chain": 1,
         "Orokin Cell": 15
-    }
+    },
+    "masterable": true
 },{
     "name": "Ninkondi Prime Handle",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Pulmonars",
     "type": [
@@ -6853,7 +7723,8 @@
         "Parasitic Tethermaw": 24,
         "Devolved Namalon": 60,
         "Nano Spores": 24000
-    }
+    },
+    "masterable": true
 },{
     "name": "Shaku",
     "type": [
@@ -6869,7 +7740,8 @@
         "Forma": 1,
         "Plastids": 1100,
         "Morphics": 10
-    }
+    },
+    "masterable": true
 },{
     "name": "Cassowar",
     "type": [
@@ -6885,7 +7757,8 @@
         "Rubedo": 1000,
         "Salvage": 5700,
         "Oxium": 150
-    }
+    },
+    "masterable": true
 },{
     "name": "Guandao",
     "type": [
@@ -6901,7 +7774,8 @@
         "Oxium": 65,
         "Polymer Bundle": 750,
         "Ferrite": 2500
-    }
+    },
+    "masterable": true
 },{
     "name": "Guandao Prime",
     "type": [
@@ -6916,33 +7790,20 @@
         "Guandao Prime Blade": 2,
         "Guandao Prime Handle": 1,
         "Orokin Cell": 15
-    }
+    },
+    "masterable": true
 },{
     "name": "Guandao Prime Blade",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Guandao Prime Handle",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
-},{
-    "name": "Korumm",
-    "type": [
-        "62d8682daeef469267d80834",
-        "62d8682daeef469267d80827",
-        "62d8682daeef469267d80827",
-        "62d8682daeef469267d8080b"
     ],
-    "credits": 20000,
-    "createTime": 43200.0,
-    "components": {
-        "Narmer Isoplast": 16,
-        "Radiant Zodian": 6,
-        "Coprite Alloy": 60,
-        "Rubedo": 3200
-    }
+    "masterable": false
 },{
     "name": "Kesheg",
     "type": [
@@ -6958,7 +7819,25 @@
         "Kuva": 1400,
         "Ferrite": 6000,
         "Alloy Plate": 8000
-    }
+    },
+    "masterable": true
+},{
+    "name": "Korumm",
+    "type": [
+        "62d8682daeef469267d80834",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
+    ],
+    "credits": 20000,
+    "createTime": 43200.0,
+    "components": {
+        "Narmer Isoplast": 16,
+        "Radiant Zodian": 6,
+        "Coprite Alloy": 60,
+        "Rubedo": 3200
+    },
+    "masterable": true
 },{
     "name": "Lesion",
     "type": [
@@ -6974,7 +7853,8 @@
         "Plastids": 1400,
         "Neurodes": 4,
         "Nano Spores": 2300
-    }
+    },
+    "masterable": true
 },{
     "name": "Orthos",
     "type": [
@@ -6990,7 +7870,8 @@
         "Polymer Bundle": 500,
         "Ferrite": 850,
         "Alloy Plate": 700
-    }
+    },
+    "masterable": true
 },{
     "name": "Orthos Prime",
     "type": [
@@ -7005,17 +7886,20 @@
         "Orthos Prime Blade": 2,
         "Orthos Prime Handle": 1,
         "Orokin Cell": 10
-    }
+    },
+    "masterable": true
 },{
     "name": "Orthos Prime Blade",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Orthos Prime Handle",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Pupacyst",
     "type": [
@@ -7031,7 +7915,8 @@
         "Salvage": 8750,
         "Rubedo": 2250,
         "Forma": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Serro",
     "type": [
@@ -7047,7 +7932,8 @@
         "Circuits": 400,
         "Salvage": 1000,
         "Neural Sensors": 3
-    }
+    },
+    "masterable": true
 },{
     "name": "Sydon",
     "type": [
@@ -7063,7 +7949,8 @@
         "Circuits": 1100,
         "Salvage": 4000,
         "Amphis": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Tonbo",
     "type": [
@@ -7079,7 +7966,8 @@
         "Plastids": 800,
         "Ferrite": 2000,
         "Oxium": 100
-    }
+    },
+    "masterable": true
 },{
     "name": "Vaykor Sydon",
     "type": [
@@ -7087,7 +7975,8 @@
         "62d8682daeef469267d80827",
         "62d8682daeef469267d80827",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Destreza",
     "type": [
@@ -7103,7 +7992,8 @@
         "Plastids": 1700,
         "Nitain Extract": 5,
         "Argon Crystal": 2
-    }
+    },
+    "masterable": true
 },{
     "name": "Destreza Prime",
     "type": [
@@ -7118,17 +8008,20 @@
         "Destreza Prime Blade": 1,
         "Destreza Prime Handle": 1,
         "Orokin Cell": 10
-    }
+    },
+    "masterable": true
 },{
     "name": "Destreza Prime Blade",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Destreza Prime Handle",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Endura",
     "type": [
@@ -7144,7 +8037,8 @@
         "Plastids": 1200,
         "Gallium": 2,
         "Argon Crystal": 2
-    }
+    },
+    "masterable": true
 },{
     "name": "Anku",
     "type": [
@@ -7160,7 +8054,8 @@
         "Salvage": 800,
         "Circuits": 200,
         "Morphics": 4
-    }
+    },
+    "masterable": true
 },{
     "name": "Caustacyst",
     "type": [
@@ -7176,7 +8071,8 @@
         "Ferrite": 15000,
         "Plastids": 4000,
         "Nitain Extract": 5
-    }
+    },
+    "masterable": true
 },{
     "name": "Ether Reaper",
     "type": [
@@ -7192,7 +8088,8 @@
         "Rubedo": 1000,
         "Morphics": 10,
         "Ferrite": 1000
-    }
+    },
+    "masterable": true
 },{
     "name": "Hate",
     "type": [
@@ -7208,7 +8105,8 @@
         "Ferrite": 5000,
         "Nano Spores": 6000,
         "Salvage": 4500
-    }
+    },
+    "masterable": true
 },{
     "name": "Reaper Prime",
     "type": [
@@ -7223,17 +8121,20 @@
         "Reaper Prime Blade": 1,
         "Reaper Prime Handle": 1,
         "Orokin Cell": 10
-    }
+    },
+    "masterable": true
 },{
     "name": "Reaper Prime Blade",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Reaper Prime Handle",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Tenet Grigori",
     "type": [
@@ -7241,7 +8142,8 @@
         "62d8682daeef469267d80827",
         "62d8682daeef469267d80827",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Venato",
     "type": [
@@ -7257,7 +8159,8 @@
         "Anomaly Shard": 5,
         "Exceptional Sentient Core": 5,
         "Iradite": 60
-    }
+    },
+    "masterable": true
 },{
     "name": "Hirudo",
     "type": [
@@ -7273,7 +8176,8 @@
         "Nitain Extract": 3,
         "Plastids": 1100,
         "Nano Spores": 4600
-    }
+    },
+    "masterable": true
 },{
     "name": "Kogake",
     "type": [
@@ -7289,7 +8193,8 @@
         "Morphics": 3,
         "Ferrite": 1200,
         "Alloy Plate": 500
-    }
+    },
+    "masterable": true
 },{
     "name": "Kogake Prime",
     "type": [
@@ -7304,12 +8209,14 @@
         "Kogake Prime Gauntlet": 2,
         "Prime Boot": 2,
         "Orokin Cell": 15
-    }
+    },
+    "masterable": true
 },{
     "name": "Kogake Prime Gauntlet",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Korrudo",
     "type": [
@@ -7325,7 +8232,8 @@
         "Esher Devar": 15,
         "Breath Of The Eidolon": 5,
         "Mawfish Bones": 20
-    }
+    },
+    "masterable": true
 },{
     "name": "Obex",
     "type": [
@@ -7341,7 +8249,17 @@
         "Salvage": 900,
         "Ferrite": 700,
         "Alloy Plate": 300
-    }
+    },
+    "masterable": true
+},{
+    "name": "Prisma Obex",
+    "type": [
+        "62d8682daeef469267d80837",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
+    ],
+    "masterable": true
 },{
     "name": "Amphis",
     "type": [
@@ -7357,15 +8275,8 @@
         "Salvage": 500,
         "Circuits": 600,
         "Alloy Plate": 600
-    }
-},{
-    "name": "Prisma Obex",
-    "type": [
-        "62d8682daeef469267d80837",
-        "62d8682daeef469267d80827",
-        "62d8682daeef469267d80827",
-        "62d8682daeef469267d8080b"
-    ]
+    },
+    "masterable": true
 },{
     "name": "Bo",
     "type": [
@@ -7381,7 +8292,8 @@
         "Salvage": 900,
         "Ferrite": 600,
         "Alloy Plate": 150
-    }
+    },
+    "masterable": true
 },{
     "name": "Bo Prime",
     "type": [
@@ -7396,12 +8308,14 @@
         "Prime Ornament": 2,
         "Bo Prime Handle": 1,
         "Orokin Cell": 10
-    }
+    },
+    "masterable": true
 },{
     "name": "Bo Prime Handle",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Broken Scepter",
     "type": [
@@ -7417,7 +8331,8 @@
         "Morphics": 2,
         "Rubedo": 300,
         "Salvage": 2500
-    }
+    },
+    "masterable": true
 },{
     "name": "Cadus",
     "type": [
@@ -7433,15 +8348,8 @@
         "Polymer Bundle": 3000,
         "Circuits": 1600,
         "Bo": 1
-    }
-},{
-    "name": "MK1-Bo",
-    "type": [
-        "62d8682daeef469267d80838",
-        "62d8682daeef469267d80827",
-        "62d8682daeef469267d80827",
-        "62d8682daeef469267d8080b"
-    ]
+    },
+    "masterable": true
 },{
     "name": "Tipedo",
     "type": [
@@ -7457,7 +8365,17 @@
         "Polymer Bundle": 1600,
         "Kunai": 1,
         "Bo": 1
-    }
+    },
+    "masterable": true
+},{
+    "name": "MK1-Bo",
+    "type": [
+        "62d8682daeef469267d80838",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
+    ],
+    "masterable": true
 },{
     "name": "Tipedo Prime",
     "type": [
@@ -7472,12 +8390,14 @@
         "Tipedo Prime Handle": 1,
         "Prime Ornament": 2,
         "Orokin Cell": 15
-    }
+    },
+    "masterable": true
 },{
     "name": "Tipedo Prime Handle",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Sigma & Octantis",
     "type": [
@@ -7485,7 +8405,17 @@
         "62d8682daeef469267d80827",
         "62d8682daeef469267d80827",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": false
+},{
+    "name": "Ack & Brunt",
+    "type": [
+        "62d8682daeef469267d80839",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
+    ],
+    "masterable": false
 },{
     "name": "Cobra & Crane",
     "type": [
@@ -7493,7 +8423,8 @@
         "62d8682daeef469267d80827",
         "62d8682daeef469267d80827",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Tenet Agendus",
     "type": [
@@ -7501,7 +8432,8 @@
         "62d8682daeef469267d80827",
         "62d8682daeef469267d80827",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Broken War",
     "type": [
@@ -7516,13 +8448,15 @@
         "Forma": 1,
         "Nitain Extract": 2,
         "Hilt": 1,
-        "Broken Blade": 2
-    }
+        "Broken War Blade": 2
+    },
+    "masterable": true
 },{
-    "name": "Broken Blade",
+    "name": "Broken War Blade",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Cronus",
     "type": [
@@ -7537,23 +8471,8 @@
         "Morphics": 1,
         "Ferrite": 500,
         "Polymer Bundle": 75
-    }
-},{
-    "name": "Ack & Brunt",
-    "type": [
-        "62d8682daeef469267d80839",
-        "62d8682daeef469267d80827",
-        "62d8682daeef469267d80827",
-        "62d8682daeef469267d8080b"
-    ]
-},{
-    "name": "Silva & Aegis",
-    "type": [
-        "62d8682daeef469267d80839",
-        "62d8682daeef469267d80827",
-        "62d8682daeef469267d80827",
-        "62d8682daeef469267d8080b"
-    ]
+    },
+    "masterable": true
 },{
     "name": "Dakra Prime",
     "type": [
@@ -7568,33 +8487,29 @@
         "Dakra Prime Blade": 1,
         "Dakra Prime Handle": 1,
         "Orokin Cell": 15
-    }
+    },
+    "masterable": true
 },{
     "name": "Dakra Prime Blade",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Dakra Prime Handle",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
-    "name": "Ether Sword",
+    "name": "Silva & Aegis",
     "type": [
-        "62d8682daeef469267d8083a",
+        "62d8682daeef469267d80839",
         "62d8682daeef469267d80827",
         "62d8682daeef469267d80827",
         "62d8682daeef469267d8080b"
     ],
-    "credits": 20000,
-    "createTime": 43200.0,
-    "components": {
-        "Morphics": 4,
-        "Rubedo": 700,
-        "Ferrite": 900,
-        "Alloy Plate": 700
-    }
+    "masterable": false
 },{
     "name": "Dark Sword",
     "type": [
@@ -7610,7 +8525,25 @@
         "Ferrite": 800,
         "Plastids": 200,
         "Polymer Bundle": 75
-    }
+    },
+    "masterable": true
+},{
+    "name": "Ether Sword",
+    "type": [
+        "62d8682daeef469267d8083a",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
+    ],
+    "credits": 20000,
+    "createTime": 43200.0,
+    "components": {
+        "Morphics": 4,
+        "Rubedo": 700,
+        "Ferrite": 900,
+        "Alloy Plate": 700
+    },
+    "masterable": true
 },{
     "name": "Heat Sword",
     "type": [
@@ -7626,7 +8559,8 @@
         "Ferrite": 500,
         "Circuits": 300,
         "Polymer Bundle": 300
-    }
+    },
+    "masterable": true
 },{
     "name": "Jaw Sword",
     "type": [
@@ -7642,7 +8576,8 @@
         "Morphics": 1,
         "Polymer Bundle": 75,
         "Rubedo": 300
-    }
+    },
+    "masterable": true
 },{
     "name": "Krohkur",
     "type": [
@@ -7658,7 +8593,8 @@
         "Morphics": 8,
         "Oxium": 125,
         "Alloy Plate": 4375
-    }
+    },
+    "masterable": true
 },{
     "name": "Mire",
     "type": [
@@ -7674,7 +8610,8 @@
         "Ferrite": 1000,
         "Nano Spores": 1500,
         "Alloy Plate": 2000
-    }
+    },
+    "masterable": true
 },{
     "name": "Pangolin Prime",
     "type": [
@@ -7689,17 +8626,29 @@
         "Pangolin Prime Blade": 1,
         "Pangolin Prime Handle": 1,
         "Orokin Cell": 15
-    }
+    },
+    "masterable": true
 },{
     "name": "Pangolin Prime Blade",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Pangolin Prime Handle",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
+},{
+    "name": "Silva & Aegis Prime",
+    "type": [
+        "62d8682daeef469267d80839",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
+    ],
+    "masterable": false
 },{
     "name": "Pangolin Sword",
     "type": [
@@ -7715,7 +8664,8 @@
         "Ferrite": 750,
         "Circuits": 300,
         "Alloy Plate": 80
-    }
+    },
+    "masterable": true
 },{
     "name": "Plasma Sword",
     "type": [
@@ -7731,7 +8681,17 @@
         "Ferrite": 500,
         "Salvage": 450,
         "Polymer Bundle": 50
-    }
+    },
+    "masterable": true
+},{
+    "name": "Prisma Skana",
+    "type": [
+        "62d8682daeef469267d8083a",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
+    ],
+    "masterable": true
 },{
     "name": "Skana",
     "type": [
@@ -7747,23 +8707,8 @@
         "Plastids": 500,
         "Alloy Plate": 1100,
         "Morphics": 3
-    }
-},{
-    "name": "Prisma Skana",
-    "type": [
-        "62d8682daeef469267d8083a",
-        "62d8682daeef469267d80827",
-        "62d8682daeef469267d80827",
-        "62d8682daeef469267d8080b"
-    ]
-},{
-    "name": "Silva & Aegis Prime",
-    "type": [
-        "62d8682daeef469267d80839",
-        "62d8682daeef469267d80827",
-        "62d8682daeef469267d80827",
-        "62d8682daeef469267d8080b"
-    ]
+    },
+    "masterable": true
 },{
     "name": "Skana Prime",
     "type": [
@@ -7771,7 +8716,8 @@
         "62d8682daeef469267d80827",
         "62d8682daeef469267d80827",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Boltace",
     "type": [
@@ -7786,7 +8732,8 @@
         "Boltor": 1,
         "Kronen": 1,
         "Gallium": 2
-    }
+    },
+    "masterable": true
 },{
     "name": "Kronen",
     "type": [
@@ -7802,7 +8749,36 @@
         "Nano Spores": 2000,
         "Plastids": 1000,
         "Argon Crystal": 2
-    }
+    },
+    "masterable": true
+},{
+    "name": "Kronen Prime",
+    "type": [
+        "62d8682daeef469267d8083b",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
+    ],
+    "credits": 20000,
+    "createTime": 43200.0,
+    "components": {
+        "Kronen Prime Blade": 2,
+        "Kronen Prime Handle": 2,
+        "Orokin Cell": 15
+    },
+    "masterable": true
+},{
+    "name": "Kronen Prime Blade",
+    "type": [
+        "62eee58725a338ce7bc619dd"
+    ],
+    "masterable": false
+},{
+    "name": "Kronen Prime Handle",
+    "type": [
+        "62eee58725a338ce7bc619dd"
+    ],
+    "masterable": false
 },{
     "name": "Ohma",
     "type": [
@@ -7818,32 +8794,8 @@
         "Ferrite": 15000,
         "Plastids": 1400,
         "Argon Crystal": 2
-    }
-},{
-    "name": "Kronen Prime",
-    "type": [
-        "62d8682daeef469267d8083b",
-        "62d8682daeef469267d80827",
-        "62d8682daeef469267d80827",
-        "62d8682daeef469267d8080b"
-    ],
-    "credits": 20000,
-    "createTime": 43200.0,
-    "components": {
-        "Kronen Prime Blade": 2,
-        "Kronen Prime Handle": 2,
-        "Orokin Cell": 15
-    }
-},{
-    "name": "Kronen Prime Blade",
-    "type": [
-        "62eee58725a338ce7bc619dd"
-    ]
-},{
-    "name": "Kronen Prime Handle",
-    "type": [
-        "62eee58725a338ce7bc619dd"
-    ]
+    },
+    "masterable": true
 },{
     "name": "Praedos",
     "type": [
@@ -7859,7 +8811,17 @@
         "Voidplume Quill": 30,
         "Ferrite": 8000,
         "Thrax Plasm": 100
-    }
+    },
+    "masterable": true
+},{
+    "name": "Telos Boltace",
+    "type": [
+        "62d8682daeef469267d8083b",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
+    ],
+    "masterable": true
 },{
     "name": "Pennant",
     "type": [
@@ -7875,15 +8837,8 @@
         "Rubedo": 2100,
         "Polymer Bundle": 1550,
         "Ferrite": 5300
-    }
-},{
-    "name": "Telos Boltace",
-    "type": [
-        "62d8682daeef469267d8083b",
-        "62d8682daeef469267d80827",
-        "62d8682daeef469267d80827",
-        "62d8682daeef469267d8080b"
-    ]
+    },
+    "masterable": true
 },{
     "name": "Tatsu",
     "type": [
@@ -7899,7 +8854,8 @@
         "Kuva": 1200,
         "Auroxium Alloy": 100,
         "Hespazym Alloy": 100
-    }
+    },
+    "masterable": true
 },{
     "name": "Tenet Livia",
     "type": [
@@ -7907,7 +8863,8 @@
         "62d8682daeef469267d80827",
         "62d8682daeef469267d80827",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Arum Spinosa",
     "type": [
@@ -7923,7 +8880,8 @@
         "Rivet": 1,
         "Trapezium Xenorhast": 1,
         "Cabochon Embolos": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Quassus",
     "type": [
@@ -7939,15 +8897,8 @@
         "Spinal Core Section": 15,
         "Scintillant": 5,
         "Seriglass Shard": 1
-    }
-},{
-    "name": "Vericres",
-    "type": [
-        "62d8682daeef469267d8083d",
-        "62d8682daeef469267d80827",
-        "62d8682daeef469267d80827",
-        "62d8682daeef469267d8080b"
-    ]
+    },
+    "masterable": true
 },{
     "name": "Gunsen",
     "type": [
@@ -7963,7 +8914,17 @@
         "Tellurium": 3,
         "Plastids": 1150,
         "Nano Spores": 19750
-    }
+    },
+    "masterable": true
+},{
+    "name": "Vericres",
+    "type": [
+        "62d8682daeef469267d8083d",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
+    ],
+    "masterable": true
 },{
     "name": "Atterax",
     "type": [
@@ -7979,7 +8940,8 @@
         "Polymer Bundle": 800,
         "Rubedo": 200,
         "Argon Crystal": 2
-    }
+    },
+    "masterable": true
 },{
     "name": "Galvacord",
     "type": [
@@ -7992,10 +8954,17 @@
     "createTime": 43200.0,
     "components": {
         "Argon Crystal": 2,
-        "Atmo Systems": 5,
+        "Galvacord Atmo Systems": 5,
         "Ferrite": 3600,
         "Circuits": 1000
-    }
+    },
+    "masterable": true
+},{
+    "name": "Galvacord Atmo Systems",
+    "type": [
+        "62eee58725a338ce7bc619dd"
+    ],
+    "masterable": false
 },{
     "name": "Lecta",
     "type": [
@@ -8011,15 +8980,8 @@
         "Salvage": 900,
         "Ferrite": 1000,
         "Neural Sensors": 3
-    }
-},{
-    "name": "Secura Lecta",
-    "type": [
-        "62d8682daeef469267d8083e",
-        "62d8682daeef469267d80827",
-        "62d8682daeef469267d80827",
-        "62d8682daeef469267d8080b"
-    ]
+    },
+    "masterable": true
 },{
     "name": "Scoliac",
     "type": [
@@ -8035,7 +8997,17 @@
         "Nano Spores": 15000,
         "Plastids": 1200,
         "Forma": 1
-    }
+    },
+    "masterable": true
+},{
+    "name": "Secura Lecta",
+    "type": [
+        "62d8682daeef469267d8083e",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8080b"
+    ],
+    "masterable": true
 },{
     "name": "Verdilac",
     "type": [
@@ -8051,7 +9023,8 @@
         "Mortus Horn": 20,
         "Intact Sentient Core": 10,
         "Star Amarast": 6
-    }
+    },
+    "masterable": true
 },{
     "name": "Dual Decurion",
     "type": [
@@ -8063,20 +9036,23 @@
     "credits": 45000,
     "createTime": 43200.0,
     "components": {
-        "Dual Barrel": 2,
-        "Dual Receiver": 2,
+        "Dual Decurion Barrel": 2,
+        "Dual Decurion Receiver": 2,
         "Control Module": 2
-    }
+    },
+    "masterable": true
 },{
-    "name": "Dual Barrel",
+    "name": "Dual Decurion Barrel",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
-    "name": "Dual Receiver",
+    "name": "Dual Decurion Receiver",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Imperator",
     "type": [
@@ -8092,7 +9068,8 @@
         "Ferrite": 1500,
         "Polymer Bundle": 150,
         "Circuits": 300
-    }
+    },
+    "masterable": true
 },{
     "name": "Kuva Ayanga",
     "type": [
@@ -8100,7 +9077,8 @@
         "62d8682daeef469267d80840",
         "62d8682daeef469267d8083f",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Prisma Dual Decurions",
     "type": [
@@ -8108,7 +9086,8 @@
         "62d8682daeef469267d80840",
         "62d8682daeef469267d8083f",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Kuva Grattler",
     "type": [
@@ -8116,7 +9095,8 @@
         "62d8682daeef469267d80840",
         "62d8682daeef469267d8083f",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Mausolon",
     "type": [
@@ -8125,7 +9105,8 @@
         "62d8682daeef469267d80840",
         "62d8682daeef469267d8083f",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Cyngas",
     "type": [
@@ -8141,22 +9122,26 @@
         "Cyngas Receiver": 1,
         "Cyngas Stock": 1,
         "Tellurium": 2
-    }
+    },
+    "masterable": true
 },{
     "name": "Cyngas Barrel",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Cyngas Receiver",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Cyngas Stock",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Morgha",
     "type": [
@@ -8171,15 +9156,50 @@
         "Barrel": 1,
         "Receiver": 1,
         "Stock": 1
-    }
+    },
+    "masterable": true
 },{
-    "name": "Morgha",
+    "name": "Morgha Barrel",
     "type": [
-        "62d8682daeef469267d80811",
-        "62d8682daeef469267d80840",
-        "62d8682daeef469267d8083f",
-        "62d8682daeef469267d8080b"
-    ]
+        "62eee58725a338ce7bc619dd"
+    ],
+    "credits": 1000,
+    "createTime": 3600.0,
+    "components": {
+        "Damaged Necramech Weapon Barrel": 1,
+        "Adramal Alloy": 80,
+        "Spinal Core Section": 20,
+        "Fersteel Alloy": 20
+    },
+    "masterable": false
+},{
+    "name": "Morgha Receiver",
+    "type": [
+        "62eee58725a338ce7bc619dd"
+    ],
+    "credits": 1000,
+    "createTime": 3600.0,
+    "components": {
+        "Damaged Necramech Weapon Receiver": 1,
+        "Devolved Namalon": 80,
+        "Trapezium Xenorhast": 10,
+        "Tink Dissipator Coil": 15
+    },
+    "masterable": false
+},{
+    "name": "Morgha Stock",
+    "type": [
+        "62eee58725a338ce7bc619dd"
+    ],
+    "credits": 1000,
+    "createTime": 3600.0,
+    "components": {
+        "Damaged Necramech Weapon Stock": 1,
+        "Tempered Bapholite": 80,
+        "Cabochon Embolos": 10,
+        "Hexenon": 250
+    },
+    "masterable": false
 },{
     "name": "Grattler",
     "type": [
@@ -8195,7 +9215,8 @@
         "Salvage": 6000,
         "Oxium": 3500,
         "Forma": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Imperator Vandal",
     "type": [
@@ -8207,20 +9228,23 @@
     "credits": 25000,
     "createTime": 43200.0,
     "components": {
-        "Imperator Barrel": 1,
-        "Imperator Receiver": 1,
+        "Imperator Vandal Barrel": 1,
+        "Imperator Vandal Receiver": 1,
         "Tellurium": 10
-    }
+    },
+    "masterable": true
 },{
-    "name": "Imperator Barrel",
+    "name": "Imperator Vandal Barrel",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
-    "name": "Imperator Receiver",
+    "name": "Imperator Vandal Receiver",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Phaedra",
     "type": [
@@ -8236,53 +9260,26 @@
         "Phaedra Receiver": 1,
         "Phaedra Stock": 1,
         "Tellurium": 2
-    }
+    },
+    "masterable": true
 },{
     "name": "Phaedra Barrel",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Phaedra Receiver",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Phaedra Stock",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
-},{
-    "name": "Corvas",
-    "type": [
-        "62d8682daeef469267d8080d",
-        "62d8682daeef469267d80840",
-        "62d8682daeef469267d8083f",
-        "62d8682daeef469267d8080b"
     ],
-    "credits": 45000,
-    "createTime": 43200.0,
-    "components": {
-        "Corvas Barrel": 1,
-        "Corvas Receiver": 1,
-        "Corvas Stock": 1,
-        "Argon Crystal": 2
-    }
-},{
-    "name": "Corvas Barrel",
-    "type": [
-        "62eee58725a338ce7bc619dd"
-    ]
-},{
-    "name": "Corvas Receiver",
-    "type": [
-        "62eee58725a338ce7bc619dd"
-    ]
-},{
-    "name": "Corvas Stock",
-    "type": [
-        "62eee58725a338ce7bc619dd"
-    ]
+    "masterable": false
 },{
     "name": "Corvas Prime",
     "type": [
@@ -8298,22 +9295,61 @@
         "Corvas Prime Receiver": 1,
         "Corvas Prime Stock": 1,
         "Orokin Cell": 10
-    }
+    },
+    "masterable": true
 },{
     "name": "Corvas Prime Barrel",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Corvas Prime Receiver",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Corvas Prime Stock",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
+},{
+    "name": "Corvas",
+    "type": [
+        "62d8682daeef469267d8080d",
+        "62d8682daeef469267d80840",
+        "62d8682daeef469267d8083f",
+        "62d8682daeef469267d8080b"
+    ],
+    "credits": 45000,
+    "createTime": 43200.0,
+    "components": {
+        "Corvas Barrel": 1,
+        "Corvas Receiver": 1,
+        "Corvas Stock": 1,
+        "Argon Crystal": 2
+    },
+    "masterable": true
+},{
+    "name": "Corvas Barrel",
+    "type": [
+        "62eee58725a338ce7bc619dd"
+    ],
+    "masterable": false
+},{
+    "name": "Corvas Receiver",
+    "type": [
+        "62eee58725a338ce7bc619dd"
+    ],
+    "masterable": false
+},{
+    "name": "Corvas Stock",
+    "type": [
+        "62eee58725a338ce7bc619dd"
+    ],
+    "masterable": false
 },{
     "name": "Velocitus",
     "type": [
@@ -8329,22 +9365,26 @@
         "Velocitus Receiver": 1,
         "Velocitus Stock": 1,
         "Control Module": 2
-    }
+    },
+    "masterable": true
 },{
     "name": "Velocitus Barrel",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Velocitus Receiver",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Velocitus Stock",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Cortege",
     "type": [
@@ -8359,15 +9399,50 @@
         "Barrel": 1,
         "Receiver": 1,
         "Stock": 1
-    }
+    },
+    "masterable": true
 },{
-    "name": "Cortege",
+    "name": "Cortege Barrel",
     "type": [
-        "62d8682daeef469267d80814",
-        "62d8682daeef469267d80840",
-        "62d8682daeef469267d8083f",
-        "62d8682daeef469267d8080b"
-    ]
+        "62eee58725a338ce7bc619dd"
+    ],
+    "credits": 1000,
+    "createTime": 60.0,
+    "components": {
+        "Damaged Necramech Weapon Barrel": 1,
+        "Adramal Alloy": 80,
+        "Spinal Core Section": 20,
+        "Fersteel Alloy": 20
+    },
+    "masterable": false
+},{
+    "name": "Cortege Receiver",
+    "type": [
+        "62eee58725a338ce7bc619dd"
+    ],
+    "credits": 1000,
+    "createTime": 60.0,
+    "components": {
+        "Damaged Necramech Weapon Receiver": 1,
+        "Devolved Namalon": 80,
+        "Trapezium Xenorhast": 10,
+        "Tink Dissipator Coil": 15
+    },
+    "masterable": false
+},{
+    "name": "Cortege Stock",
+    "type": [
+        "62eee58725a338ce7bc619dd"
+    ],
+    "credits": 1000,
+    "createTime": 60.0,
+    "components": {
+        "Damaged Necramech Weapon Stock": 1,
+        "Tempered Bapholite": 80,
+        "Cabochon Embolos": 10,
+        "Hexenon": 250
+    },
+    "masterable": false
 },{
     "name": "Larkspur",
     "type": [
@@ -8383,7 +9458,8 @@
         "Venerdo Alloy": 80,
         "Radiant Zodian": 5,
         "Synathid Ecosynth Analyzer": 5
-    }
+    },
+    "masterable": true
 },{
     "name": "Fluctus",
     "type": [
@@ -8399,30 +9475,26 @@
         "Fluctus Limbs": 1,
         "Fluctus Stock": 1,
         "Argon Crystal": 2
-    }
+    },
+    "masterable": true
 },{
     "name": "Fluctus Barrel",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Fluctus Limbs",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Fluctus Stock",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
-},{
-    "name": "Prisma Dual Decurions",
-    "type": [
-        "62d8682daeef469267d8080c",
-        "62d8682daeef469267d80822",
-        "62d8682daeef469267d8083f",
-        "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Dual Decurion",
     "type": [
@@ -8434,20 +9506,32 @@
     "credits": 45000,
     "createTime": 43200.0,
     "components": {
-        "Dual Barrel": 2,
-        "Dual Receiver": 2,
+        "Dual Decurion Barrel": 2,
+        "Dual Decurion Receiver": 2,
         "Control Module": 2
-    }
+    },
+    "masterable": true
 },{
-    "name": "Dual Barrel",
+    "name": "Dual Decurion Barrel",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
-    "name": "Dual Receiver",
+    "name": "Dual Decurion Receiver",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
+},{
+    "name": "Prisma Dual Decurions",
+    "type": [
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d80822",
+        "62d8682daeef469267d8083f",
+        "62d8682daeef469267d8080b"
+    ],
+    "masterable": true
 },{
     "name": "Arquebex",
     "type": [
@@ -8455,7 +9539,8 @@
         "62d8682daeef469267d8081b",
         "62d8682daeef469267d8083f",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Kuva Ayanga",
     "type": [
@@ -8463,7 +9548,17 @@
         "62d8682daeef469267d8081c",
         "62d8682daeef469267d8083f",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
+},{
+    "name": "Kuva Grattler",
+    "type": [
+        "62d8682daeef469267d8080c",
+        "62d8682daeef469267d8081c",
+        "62d8682daeef469267d8083f",
+        "62d8682daeef469267d8080b"
+    ],
+    "masterable": true
 },{
     "name": "Morgha",
     "type": [
@@ -8478,23 +9573,50 @@
         "Barrel": 1,
         "Receiver": 1,
         "Stock": 1
-    }
+    },
+    "masterable": true
 },{
-    "name": "Morgha",
+    "name": "Morgha Barrel",
     "type": [
-        "62d8682daeef469267d80811",
-        "62d8682daeef469267d8081c",
-        "62d8682daeef469267d8083f",
-        "62d8682daeef469267d8080b"
-    ]
+        "62eee58725a338ce7bc619dd"
+    ],
+    "credits": 1000,
+    "createTime": 3600.0,
+    "components": {
+        "Damaged Necramech Weapon Barrel": 1,
+        "Adramal Alloy": 80,
+        "Spinal Core Section": 20,
+        "Fersteel Alloy": 20
+    },
+    "masterable": false
 },{
-    "name": "Kuva Grattler",
+    "name": "Morgha Receiver",
     "type": [
-        "62d8682daeef469267d8080c",
-        "62d8682daeef469267d8081c",
-        "62d8682daeef469267d8083f",
-        "62d8682daeef469267d8080b"
-    ]
+        "62eee58725a338ce7bc619dd"
+    ],
+    "credits": 1000,
+    "createTime": 3600.0,
+    "components": {
+        "Damaged Necramech Weapon Receiver": 1,
+        "Devolved Namalon": 80,
+        "Trapezium Xenorhast": 10,
+        "Tink Dissipator Coil": 15
+    },
+    "masterable": false
+},{
+    "name": "Morgha Stock",
+    "type": [
+        "62eee58725a338ce7bc619dd"
+    ],
+    "credits": 1000,
+    "createTime": 3600.0,
+    "components": {
+        "Damaged Necramech Weapon Stock": 1,
+        "Tempered Bapholite": 80,
+        "Cabochon Embolos": 10,
+        "Hexenon": 250
+    },
+    "masterable": false
 },{
     "name": "Agkuza",
     "type": [
@@ -8509,17 +9631,48 @@
         "Agkuza Blade": 1,
         "Agkuza Handle": 1,
         "Guard": 1
-    }
+    },
+    "masterable": true
 },{
     "name": "Agkuza Blade",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Agkuza Handle",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
+},{
+    "name": "Centaur",
+    "type": [
+        "62d8682daeef469267d80841",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8083f",
+        "62d8682daeef469267d8080b"
+    ],
+    "credits": 25000,
+    "createTime": 43200.0,
+    "components": {
+        "Centaur Blade": 1,
+        "Centaur Handle": 1,
+        "Aegis": 1
+    },
+    "masterable": true
+},{
+    "name": "Centaur Blade",
+    "type": [
+        "62eee58725a338ce7bc619dd"
+    ],
+    "masterable": false
+},{
+    "name": "Centaur Handle",
+    "type": [
+        "62eee58725a338ce7bc619dd"
+    ],
+    "masterable": false
 },{
     "name": "Grattler",
     "type": [
@@ -8535,32 +9688,8 @@
         "Salvage": 6000,
         "Oxium": 3500,
         "Forma": 1
-    }
-},{
-    "name": "Centaur",
-    "type": [
-        "62d8682daeef469267d80841",
-        "62d8682daeef469267d80827",
-        "62d8682daeef469267d8083f",
-        "62d8682daeef469267d8080b"
-    ],
-    "credits": 25000,
-    "createTime": 43200.0,
-    "components": {
-        "Centaur Blade": 1,
-        "Centaur Handle": 1,
-        "Aegis": 1
-    }
-},{
-    "name": "Centaur Blade",
-    "type": [
-        "62eee58725a338ce7bc619dd"
-    ]
-},{
-    "name": "Centaur Handle",
-    "type": [
-        "62eee58725a338ce7bc619dd"
-    ]
+    },
+    "masterable": true
 },{
     "name": "Kaszas",
     "type": [
@@ -8575,42 +9704,20 @@
         "Kaszas Blade": 1,
         "Kaszas Handle": 1,
         "Tellurium": 3
-    }
+    },
+    "masterable": true
 },{
     "name": "Kaszas Blade",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Kaszas Handle",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
-},{
-    "name": "Onorix",
-    "type": [
-        "62d8682daeef469267d80841",
-        "62d8682daeef469267d80827",
-        "62d8682daeef469267d8083f",
-        "62d8682daeef469267d8080b"
     ],
-    "credits": 25000,
-    "createTime": 43200.0,
-    "components": {
-        "Onorix Blade": 2,
-        "Onorix Handle": 1,
-        "Neurodes": 3
-    }
-},{
-    "name": "Onorix Blade",
-    "type": [
-        "62eee58725a338ce7bc619dd"
-    ]
-},{
-    "name": "Onorix Handle",
-    "type": [
-        "62eee58725a338ce7bc619dd"
-    ]
+    "masterable": false
 },{
     "name": "Knux",
     "type": [
@@ -8626,7 +9733,36 @@
         "Gallium": 10,
         "Forma": 1,
         "Furax": 1
-    }
+    },
+    "masterable": true
+},{
+    "name": "Onorix",
+    "type": [
+        "62d8682daeef469267d80841",
+        "62d8682daeef469267d80827",
+        "62d8682daeef469267d8083f",
+        "62d8682daeef469267d8080b"
+    ],
+    "credits": 25000,
+    "createTime": 43200.0,
+    "components": {
+        "Onorix Blade": 2,
+        "Onorix Handle": 1,
+        "Neurodes": 3
+    },
+    "masterable": true
+},{
+    "name": "Onorix Blade",
+    "type": [
+        "62eee58725a338ce7bc619dd"
+    ],
+    "masterable": false
+},{
+    "name": "Onorix Handle",
+    "type": [
+        "62eee58725a338ce7bc619dd"
+    ],
+    "masterable": false
 },{
     "name": "Prisma Veritux",
     "type": [
@@ -8634,7 +9770,8 @@
         "62d8682daeef469267d80827",
         "62d8682daeef469267d8083f",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Rathbone",
     "type": [
@@ -8646,16 +9783,24 @@
     "credits": 25000,
     "createTime": 43200.0,
     "components": {
-        "Head": 1,
+        "Rathbone Head": 1,
         "Rathbone Handle": 1,
         "Circuits": 300,
         "Control Module": 1
-    }
+    },
+    "masterable": true
+},{
+    "name": "Rathbone Head",
+    "type": [
+        "62eee58725a338ce7bc619dd"
+    ],
+    "masterable": false
 },{
     "name": "Rathbone Handle",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Veritux",
     "type": [
@@ -8671,7 +9816,8 @@
         "Salvage": 1000,
         "Neurodes": 2,
         "Circuits": 500
-    }
+    },
+    "masterable": true
 },{
     "name": "Ironbride",
     "type": [
@@ -8679,7 +9825,8 @@
         "62d8682daeef469267d80827",
         "62d8682daeef469267d8083f",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Imperator",
     "type": [
@@ -8695,7 +9842,8 @@
         "Ferrite": 1500,
         "Polymer Bundle": 150,
         "Circuits": 300
-    }
+    },
+    "masterable": true
 },{
     "name": "Mausolon",
     "type": [
@@ -8704,7 +9852,8 @@
         "62d8682daeef469267d8081d",
         "62d8682daeef469267d8083f",
         "62d8682daeef469267d8080b"
-    ]
+    ],
+    "masterable": true
 },{
     "name": "Imperator Vandal",
     "type": [
@@ -8716,51 +9865,23 @@
     "credits": 25000,
     "createTime": 43200.0,
     "components": {
-        "Imperator Barrel": 1,
-        "Imperator Receiver": 1,
+        "Imperator Vandal Barrel": 1,
+        "Imperator Vandal Receiver": 1,
         "Tellurium": 10
-    }
+    },
+    "masterable": true
 },{
-    "name": "Imperator Barrel",
+    "name": "Imperator Vandal Barrel",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
-},{
-    "name": "Imperator Receiver",
-    "type": [
-        "62eee58725a338ce7bc619dd"
-    ]
-},{
-    "name": "Phaedra",
-    "type": [
-        "62d8682daeef469267d80812",
-        "62d8682daeef469267d8081d",
-        "62d8682daeef469267d8083f",
-        "62d8682daeef469267d8080b"
     ],
-    "credits": 45000,
-    "createTime": 43200.0,
-    "components": {
-        "Phaedra Barrel": 1,
-        "Phaedra Receiver": 1,
-        "Phaedra Stock": 1,
-        "Tellurium": 2
-    }
+    "masterable": false
 },{
-    "name": "Phaedra Barrel",
+    "name": "Imperator Vandal Receiver",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
-},{
-    "name": "Phaedra Receiver",
-    "type": [
-        "62eee58725a338ce7bc619dd"
-    ]
-},{
-    "name": "Phaedra Stock",
-    "type": [
-        "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Cyngas",
     "type": [
@@ -8776,22 +9897,61 @@
         "Cyngas Receiver": 1,
         "Cyngas Stock": 1,
         "Tellurium": 2
-    }
+    },
+    "masterable": true
 },{
     "name": "Cyngas Barrel",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Cyngas Receiver",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Cyngas Stock",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
+},{
+    "name": "Phaedra",
+    "type": [
+        "62d8682daeef469267d80812",
+        "62d8682daeef469267d8081d",
+        "62d8682daeef469267d8083f",
+        "62d8682daeef469267d8080b"
+    ],
+    "credits": 45000,
+    "createTime": 43200.0,
+    "components": {
+        "Phaedra Barrel": 1,
+        "Phaedra Receiver": 1,
+        "Phaedra Stock": 1,
+        "Tellurium": 2
+    },
+    "masterable": true
+},{
+    "name": "Phaedra Barrel",
+    "type": [
+        "62eee58725a338ce7bc619dd"
+    ],
+    "masterable": false
+},{
+    "name": "Phaedra Receiver",
+    "type": [
+        "62eee58725a338ce7bc619dd"
+    ],
+    "masterable": false
+},{
+    "name": "Phaedra Stock",
+    "type": [
+        "62eee58725a338ce7bc619dd"
+    ],
+    "masterable": false
 },{
     "name": "Velocitus",
     "type": [
@@ -8807,22 +9967,26 @@
         "Velocitus Receiver": 1,
         "Velocitus Stock": 1,
         "Control Module": 2
-    }
+    },
+    "masterable": true
 },{
     "name": "Velocitus Barrel",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Velocitus Receiver",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Velocitus Stock",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Cortege",
     "type": [
@@ -8837,15 +10001,50 @@
         "Barrel": 1,
         "Receiver": 1,
         "Stock": 1
-    }
+    },
+    "masterable": true
 },{
-    "name": "Cortege",
+    "name": "Cortege Barrel",
     "type": [
-        "62d8682daeef469267d80814",
-        "62d8682daeef469267d8081d",
-        "62d8682daeef469267d8083f",
-        "62d8682daeef469267d8080b"
-    ]
+        "62eee58725a338ce7bc619dd"
+    ],
+    "credits": 1000,
+    "createTime": 60.0,
+    "components": {
+        "Damaged Necramech Weapon Barrel": 1,
+        "Adramal Alloy": 80,
+        "Spinal Core Section": 20,
+        "Fersteel Alloy": 20
+    },
+    "masterable": false
+},{
+    "name": "Cortege Receiver",
+    "type": [
+        "62eee58725a338ce7bc619dd"
+    ],
+    "credits": 1000,
+    "createTime": 60.0,
+    "components": {
+        "Damaged Necramech Weapon Receiver": 1,
+        "Devolved Namalon": 80,
+        "Trapezium Xenorhast": 10,
+        "Tink Dissipator Coil": 15
+    },
+    "masterable": false
+},{
+    "name": "Cortege Stock",
+    "type": [
+        "62eee58725a338ce7bc619dd"
+    ],
+    "credits": 1000,
+    "createTime": 60.0,
+    "components": {
+        "Damaged Necramech Weapon Stock": 1,
+        "Tempered Bapholite": 80,
+        "Cabochon Embolos": 10,
+        "Hexenon": 250
+    },
+    "masterable": false
 },{
     "name": "Larkspur",
     "type": [
@@ -8861,7 +10060,8 @@
         "Venerdo Alloy": 80,
         "Radiant Zodian": 5,
         "Synathid Ecosynth Analyzer": 5
-    }
+    },
+    "masterable": true
 },{
     "name": "Fluctus",
     "type": [
@@ -8877,53 +10077,26 @@
         "Fluctus Limbs": 1,
         "Fluctus Stock": 1,
         "Argon Crystal": 2
-    }
+    },
+    "masterable": true
 },{
     "name": "Fluctus Barrel",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Fluctus Limbs",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Fluctus Stock",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
-},{
-    "name": "Corvas Prime",
-    "type": [
-        "62d8682daeef469267d8080d",
-        "62d8682daeef469267d8081e",
-        "62d8682daeef469267d8083f",
-        "62d8682daeef469267d8080b"
     ],
-    "credits": 45000,
-    "createTime": 86400.0,
-    "components": {
-        "Corvas Prime Barrel": 1,
-        "Corvas Prime Receiver": 1,
-        "Corvas Prime Stock": 1,
-        "Orokin Cell": 10
-    }
-},{
-    "name": "Corvas Prime Barrel",
-    "type": [
-        "62eee58725a338ce7bc619dd"
-    ]
-},{
-    "name": "Corvas Prime Receiver",
-    "type": [
-        "62eee58725a338ce7bc619dd"
-    ]
-},{
-    "name": "Corvas Prime Stock",
-    "type": [
-        "62eee58725a338ce7bc619dd"
-    ]
+    "masterable": false
 },{
     "name": "Corvas",
     "type": [
@@ -8939,20 +10112,59 @@
         "Corvas Receiver": 1,
         "Corvas Stock": 1,
         "Argon Crystal": 2
-    }
+    },
+    "masterable": true
 },{
     "name": "Corvas Barrel",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Corvas Receiver",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Corvas Stock",
     "type": [
         "62eee58725a338ce7bc619dd"
-    ]
+    ],
+    "masterable": false
+},{
+    "name": "Corvas Prime",
+    "type": [
+        "62d8682daeef469267d8080d",
+        "62d8682daeef469267d8081e",
+        "62d8682daeef469267d8083f",
+        "62d8682daeef469267d8080b"
+    ],
+    "credits": 45000,
+    "createTime": 86400.0,
+    "components": {
+        "Corvas Prime Barrel": 1,
+        "Corvas Prime Receiver": 1,
+        "Corvas Prime Stock": 1,
+        "Orokin Cell": 10
+    },
+    "masterable": true
+},{
+    "name": "Corvas Prime Barrel",
+    "type": [
+        "62eee58725a338ce7bc619dd"
+    ],
+    "masterable": false
+},{
+    "name": "Corvas Prime Receiver",
+    "type": [
+        "62eee58725a338ce7bc619dd"
+    ],
+    "masterable": false
+},{
+    "name": "Corvas Prime Stock",
+    "type": [
+        "62eee58725a338ce7bc619dd"
+    ],
+    "masterable": false
 }]

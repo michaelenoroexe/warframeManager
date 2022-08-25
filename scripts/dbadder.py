@@ -11,24 +11,32 @@ warf_db = mongo_client["WarframeManager"]
 # Get the list of all files and directories
 path = "./items/"
 dir_list = os.listdir(path)
+res_list = list()
+componet_list = list()
+
+
+def Save_To_Db(name, item_list):
+    curr_col = warf_db.create_collection(name)
+    for item in item_list:
+        curr_col.insert_one(item)
 
 
 # prints all files
 for file in dir_list:
-    if (not file.endswith('archwings.json')): continue
+    if (not file.endswith('.json')): continue
             # opening the JSON file
     data = open(path + file)
     # deserializing the data
     data = json.load(data)
-    curr_col = warf_db.create_collection(file.split('.')[0])
-    for item in data:
-        curr_col.insert_one(item)
 
-def Save_To_File(name, item_list):
-    with open('../items/' + name, 'r') as outp:
-        outp.write('[')
-        for ite in item_list:
-            outp.writelines(ite.toJSON());
-            outp.write(',')
-        outp.write(']')
+    #
+    for item in data:
+        componet_list.append(item)
+        #if 'credits' in item:
+        #    componet_list.append(item)
+        #else:
+        #    res_list.append(item)  
+
+#Save_To_Db('Resources', res_list)
+Save_To_Db('Components', componet_list)
 

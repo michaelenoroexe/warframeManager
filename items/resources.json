@@ -10,19 +10,21 @@
         "62d726559d9900d653666f1f",
         "62d726559d9900d653666f28",
         "62d726559d9900d653666f2d"
-    ]
+    ],
+    "masterable": false
 },{
-    "name": "Nano Spores",
+    "name": "Salvage",
     "type": [
         "62d8682daeef469267d80801",
         "62d8682daeef469267d807ff"
     ],
     "locations": [
-        "62d726559d9900d653666f21",
-        "62d726559d9900d653666f26",
-        "62d726559d9900d653666f28",
-        "62d726559d9900d653666f2b"
-    ]
+        "62d726559d9900d653666f20",
+        "62d726559d9900d653666f24",
+        "62d726559d9900d653666f2a",
+        "62d726559d9900d653666f2c"
+    ],
+    "masterable": false
 },{
     "name": "Alloy Plate",
     "type": [
@@ -36,25 +38,28 @@
         "62d726559d9900d653666f24",
         "62d726559d9900d653666f29",
         "62d726559d9900d653666f2a"
-    ]
+    ],
+    "masterable": false
 },{
-    "name": "Salvage",
+    "name": "Nano Spores",
     "type": [
         "62d8682daeef469267d80801",
         "62d8682daeef469267d807ff"
     ],
     "locations": [
-        "62d726559d9900d653666f20",
-        "62d726559d9900d653666f24",
-        "62d726559d9900d653666f2a",
-        "62d726559d9900d653666f2c"
-    ]
+        "62d726559d9900d653666f21",
+        "62d726559d9900d653666f26",
+        "62d726559d9900d653666f28",
+        "62d726559d9900d653666f2b"
+    ],
+    "masterable": false
 },{
     "name": "Carbides",
     "type": [
         "62d8682daeef469267d80802",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Circuits",
     "type": [
@@ -65,7 +70,8 @@
         "62d726559d9900d653666f1d",
         "62d726559d9900d653666f23",
         "62d726559d9900d653666f2c"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Cryotic",
     "type": [
@@ -79,13 +85,15 @@
         "62d726559d9900d653666f25",
         "62d726559d9900d653666f28",
         "62d726559d9900d653666f29"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Cubic Diodes",
     "type": [
         "62d8682daeef469267d80802",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Hexenon",
     "type": [
@@ -94,13 +102,15 @@
     ],
     "locations": [
         "62d726559d9900d653666f24"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Oxium",
     "type": [
         "62d8682daeef469267d80802",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Plastids",
     "type": [
@@ -113,7 +123,8 @@
         "62d726559d9900d653666f27",
         "62d726559d9900d653666f29",
         "62d726559d9900d653666f2b"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Polymer Bundle",
     "type": [
@@ -124,7 +135,8 @@
         "62d726559d9900d653666f1c",
         "62d726559d9900d653666f1d",
         "62d726559d9900d653666f27"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Rubedo",
     "type": [
@@ -139,7 +151,8 @@
         "62d726559d9900d653666f29",
         "62d726559d9900d653666f2a",
         "62d726559d9900d653666f2d"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Argon Crystal",
     "type": [
@@ -148,7 +161,8 @@
     ],
     "locations": [
         "62d726559d9900d653666f2d"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Control Module",
     "type": [
@@ -159,7 +173,8 @@
         "62d726559d9900d653666f25",
         "62d726559d9900d653666f28",
         "62d726559d9900d653666f2d"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Gallium",
     "type": [
@@ -169,7 +184,8 @@
     "locations": [
         "62d726559d9900d653666f20",
         "62d726559d9900d653666f27"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Morphics",
     "type": [
@@ -182,7 +198,8 @@
         "62d726559d9900d653666f22",
         "62d726559d9900d653666f25",
         "62d726559d9900d653666f29"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Neural Sensors",
     "type": [
@@ -195,7 +212,8 @@
         "Alloy Plate": 50000,
         "Nano Spores": 50000,
         "Salvage": 25000
-    }
+    },
+    "masterable": false
 },{
     "name": "Neurodes",
     "type": [
@@ -208,7 +226,8 @@
         "Alloy Plate": 50000,
         "Nano Spores": 50000,
         "Salvage": 25000
-    }
+    },
+    "masterable": false
 },{
     "name": "Orokin Cell",
     "type": [
@@ -221,7 +240,8 @@
         "Alloy Plate": 50000,
         "Nano Spores": 50000,
         "Salvage": 25000
-    }
+    },
+    "masterable": false
 },{
     "name": "Tellurium",
     "type": [
@@ -231,13 +251,15 @@
     "locations": [
         "62d726559d9900d653666f27",
         "62d726559d9900d653666f2c"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Antiserum Injector Fragment",
     "type": [
         "62d8682daeef469267d80806",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Detonite Ampule",
     "type": [
@@ -253,7 +275,8 @@
         "62d726559d9900d653666f27",
         "62d726559d9900d653666f2a",
         "62d726559d9900d653666f2c"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Detonite Injector",
     "type": [
@@ -267,7 +290,8 @@
         "Control Module": 1,
         "Salvage": 500,
         "Plastids": 250
-    }
+    },
+    "masterable": false
 },{
     "name": "Fieldron Sample",
     "type": [
@@ -280,7 +304,8 @@
         "62d726559d9900d653666f25",
         "62d726559d9900d653666f28",
         "62d726559d9900d653666f29"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Fieldron",
     "type": [
@@ -294,7 +319,8 @@
         "Control Module": 1,
         "Salvage": 500,
         "Plastids": 250
-    }
+    },
+    "masterable": false
 },{
     "name": "Mutagen Sample",
     "type": [
@@ -304,7 +330,8 @@
     "locations": [
         "62d726559d9900d653666f21",
         "62d726559d9900d653666f2b"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Mutagen Mass",
     "type": [
@@ -318,13 +345,15 @@
         "Control Module": 1,
         "Salvage": 500,
         "Plastids": 250
-    }
+    },
+    "masterable": false
 },{
     "name": "Pigment",
     "type": [
         "62d8682daeef469267d80806",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Synthula",
     "type": [
@@ -337,37 +366,43 @@
         "Morphics": 1,
         "Neurodes": 1,
         "Gallium": 1
-    }
+    },
+    "masterable": false
 },{
     "name": "Cryptographic ALU",
     "type": [
         "62d8682daeef469267d80807",
         "62d8682daeef469267d807ff"
-    ]
-},{
-    "name": "Animo Nav Beacon",
-    "type": [
-        "62d8682daeef469267d80807",
-        "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Judgement Points",
     "type": [
         "62d8682daeef469267d80807",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
+},{
+    "name": "Animo Nav Beacon",
+    "type": [
+        "62d8682daeef469267d80807",
+        "62d8682daeef469267d807ff"
+    ],
+    "masterable": false
 },{
     "name": "Nav Coordinate",
     "type": [
         "62d8682daeef469267d80807",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Omega Isotope",
     "type": [
         "62d8682daeef469267d80807",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Ayatan Amber Star",
     "type": [
@@ -379,7 +414,8 @@
     "components": {
         "Ayatan Cyan Star": 2,
         "Vitus Essence": 1
-    }
+    },
+    "masterable": false
 },{
     "name": "Ayatan Cyan Star",
     "type": [
@@ -391,199 +427,232 @@
     "components": {
         "Ayatan Cyan Star": 2,
         "Vitus Essence": 1
-    }
+    },
+    "masterable": false
 },{
     "name": "Endo",
     "type": [
         "62d8682daeef469267d80804",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Granum Crown",
     "type": [
         "62d8682daeef469267d80804",
         "62d8682daeef469267d807ff"
-    ]
-},{
-    "name": "Intact Sentient Core",
-    "type": [
-        "62d8682daeef469267d80804",
-        "62d8682daeef469267d807ff"
-    ]
-},{
-    "name": "Javlok Capacitor",
-    "type": [
-        "62d8682daeef469267d80804",
-        "62d8682daeef469267d807ff"
-    ]
-},{
-    "name": "Exemplar Granum Crown",
-    "type": [
-        "62d8682daeef469267d80804",
-        "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Zenith Granum Crown",
     "type": [
         "62d8682daeef469267d80804",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
+},{
+    "name": "Exemplar Granum Crown",
+    "type": [
+        "62d8682daeef469267d80804",
+        "62d8682daeef469267d807ff"
+    ],
+    "masterable": false
+},{
+    "name": "Intact Sentient Core",
+    "type": [
+        "62d8682daeef469267d80804",
+        "62d8682daeef469267d807ff"
+    ],
+    "masterable": false
+},{
+    "name": "Javlok Capacitor",
+    "type": [
+        "62d8682daeef469267d80804",
+        "62d8682daeef469267d807ff"
+    ],
+    "masterable": false
 },{
     "name": "Kavat Genetic Code",
     "type": [
         "62d8682daeef469267d80804",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Nitain Extract",
     "type": [
         "62d8682daeef469267d80804",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Orokin Cipher",
     "type": [
         "62d8682daeef469267d80804",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Kuva",
     "type": [
         "62d8682daeef469267d80804",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Riven Sliver",
     "type": [
         "62d8682daeef469267d80804",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Somatic Fibers",
     "type": [
         "62d8682daeef469267d80804",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Steel Essence",
     "type": [
         "62d8682daeef469267d80804",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Synthetic Eidolon Shard",
     "type": [
         "62d8682daeef469267d80804",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Vitus Essence",
     "type": [
         "62d8682daeef469267d80804",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Void Traces",
     "type": [
         "62d8682daeef469267d80804",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Spectral Debris",
     "type": [
         "62d8682daeef469267d80804",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Carbides",
     "type": [
         "62d8682daeef469267d80801",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Cubic Diodes",
     "type": [
         "62d8682daeef469267d80801",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Titanium",
     "type": [
         "62d8682daeef469267d80801",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Ticor Plate",
     "type": [
         "62d8682daeef469267d80801",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Asterite",
     "type": [
         "62d8682daeef469267d80802",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Gallos Rods",
     "type": [
         "62d8682daeef469267d80802",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Isos",
     "type": [
         "62d8682daeef469267d80802",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Aucrux Capacitors",
     "type": [
         "62d8682daeef469267d80803",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Komms",
     "type": [
         "62d8682daeef469267d80803",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Nullstones",
     "type": [
         "62d8682daeef469267d80803",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Anomaly Shard",
     "type": [
         "62d8682daeef469267d80804",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Corrupted Holokey",
     "type": [
         "62d8682daeef469267d80804",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Kuva",
     "type": [
         "62d8682daeef469267d80804",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Riven Sliver",
     "type": [
         "62d8682daeef469267d80804",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Void Traces",
     "type": [
         "62d8682daeef469267d80804",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Mandachord",
     "type": [
@@ -596,12 +665,14 @@
         "Mandachord Body": 1,
         "Mandachord Bridge": 1,
         "Mandachord Fret": 1
-    }
+    },
+    "masterable": false
 },{
     "name": "Orokin Archive",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Pherliac Pods",
     "type": [
@@ -614,7 +685,8 @@
         "Infected Palpators": 1,
         "Chitinous Husk": 1,
         "Severed Bile Sac": 1
-    }
+    },
+    "masterable": false
 },{
     "name": "Chitinous Husk",
     "type": [
@@ -627,7 +699,8 @@
         "Infected Palpators": 1,
         "Chitinous Husk": 1,
         "Severed Bile Sac": 1
-    }
+    },
+    "masterable": false
 },{
     "name": "Infected Palpators",
     "type": [
@@ -640,7 +713,8 @@
         "Infected Palpators": 1,
         "Chitinous Husk": 1,
         "Severed Bile Sac": 1
-    }
+    },
+    "masterable": false
 },{
     "name": "Pulsating Tubercles",
     "type": [
@@ -653,7 +727,8 @@
         "Infected Palpators": 1,
         "Chitinous Husk": 1,
         "Severed Bile Sac": 1
-    }
+    },
+    "masterable": false
 },{
     "name": "Severed Bile Sac",
     "type": [
@@ -666,7 +741,19 @@
         "Infected Palpators": 1,
         "Chitinous Husk": 1,
         "Severed Bile Sac": 1
-    }
+    },
+    "masterable": false
+},{
+    "name": "Proof Fragment",
+    "type": [
+        "62d8682daeef469267d807ff"
+    ],
+    "credits": 6500,
+    "createTime": 60.0,
+    "components": {
+        "Proof Fragment": 3
+    },
+    "masterable": false
 },{
     "name": "Chroma Mark",
     "type": [
@@ -679,7 +766,8 @@
         "Circuits": 100,
         "Scorched Beacon": 1,
         "Chroma Signal": 1
-    }
+    },
+    "masterable": false
 },{
     "name": "Chroma Signal",
     "type": [
@@ -692,7 +780,8 @@
         "Rubedo": 100,
         "Salvage": 1000,
         "Nav Coordinate": 10
-    }
+    },
+    "masterable": false
 },{
     "name": "Scorched Beacon",
     "type": [
@@ -705,225 +794,256 @@
         "Polymer Bundle": 100,
         "Salvage": 1000,
         "Nav Coordinate": 10
-    }
+    },
+    "masterable": false
 },{
     "name": "Frostleaf",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Vestan Moss",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Sunlight Dragonlily",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Sunlight Jadeleaf",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Sunlight Threshcone",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
-},{
-    "name": "Proof Fragment",
-    "type": [
-        "62d8682daeef469267d807ff"
     ],
-    "credits": 6500,
-    "createTime": 60.0,
-    "components": {
-        "Proof Fragment": 3
-    }
+    "masterable": false
 },{
     "name": "Moonlight Dragonlily",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Moonlight Jadeleaf",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Moonlight Threshcone",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
-},{
-    "name": "Dusklight Sarracenia",
-    "type": [
-        "62d8682daeef469267d807ff"
-    ]
-},{
-    "name": "Lunar Pitcher",
-    "type": [
-        "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Ruk's Claw",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
+},{
+    "name": "Dusklight Sarracenia",
+    "type": [
+        "62d8682daeef469267d807ff"
+    ],
+    "masterable": false
+},{
+    "name": "Lunar Pitcher",
+    "type": [
+        "62d8682daeef469267d807ff"
+    ],
+    "masterable": false
 },{
     "name": "Corpus Cipher",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Corpus Datamass",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Alpha Corruptor",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Beta Corruptor",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Stable Corruptor",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Pyrus Essence",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Trembera Essence",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Tethra Data Fragments",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Cephalite Resonance",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Zealot Derelict Code",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Aya",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Regal Aya",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Grokdrul",
     "type": [
         "62d8682daeef469267d80801",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Iradite",
     "type": [
         "62d8682daeef469267d80801",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Maprico",
     "type": [
         "62d8682daeef469267d80801",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Nistlepod",
     "type": [
         "62d8682daeef469267d80801",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Condroc Wing",
     "type": [
         "62d8682daeef469267d80802",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Kuaka Spinal Claw",
     "type": [
         "62d8682daeef469267d80802",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Cetus Wisp",
     "type": [
         "62d8682daeef469267d80803",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Breath Of The Eidolon",
     "type": [
         "62d8682daeef469267d80803",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Eidolon Shard",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Brilliant Eidolon Shard",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Radiant Eidolon Shard",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Exceptional Sentient Core",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Flawless Sentient Core",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Intact Sentient Core",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Narmer Isoplast",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Hemocyte Cystolith",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Auron",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Auroxium Alloy",
     "type": [
@@ -935,12 +1055,14 @@
         "Auron": 20,
         "Oxium": 600,
         "Morphics": 5
-    }
+    },
+    "masterable": false
 },{
     "name": "Coprun",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Coprite Alloy",
     "type": [
@@ -952,12 +1074,14 @@
         "Coprun": 20,
         "Ferrite": 400,
         "Rubedo": 50
-    }
+    },
+    "masterable": false
 },{
     "name": "Ferros",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Fersteel Alloy",
     "type": [
@@ -969,12 +1093,14 @@
         "Ferros": 20,
         "Plastids": 400,
         "Rubedo": 200
-    }
+    },
+    "masterable": false
 },{
     "name": "Pyrol",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Pyrotic Alloy",
     "type": [
@@ -986,12 +1112,14 @@
         "Pyrol": 20,
         "Cryotic": 200,
         "Rubedo": 50
-    }
+    },
+    "masterable": false
 },{
     "name": "Azurite",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Tear Azurite",
     "type": [
@@ -1001,12 +1129,14 @@
     "createTime": 60.0,
     "components": {
         "Azurite": 10
-    }
+    },
+    "masterable": false
 },{
     "name": "Crimzian",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Star Crimzian",
     "type": [
@@ -1016,12 +1146,14 @@
     "createTime": 60.0,
     "components": {
         "Crimzian": 6
-    }
+    },
+    "masterable": false
 },{
     "name": "Devar",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Esher Devar",
     "type": [
@@ -1031,12 +1163,14 @@
     "createTime": 60.0,
     "components": {
         "Devar": 10
-    }
+    },
+    "masterable": false
 },{
     "name": "Nyth",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Heart Nyth",
     "type": [
@@ -1046,12 +1180,14 @@
     "createTime": 60.0,
     "components": {
         "Nyth": 3
-    }
+    },
+    "masterable": false
 },{
     "name": "Sentirum",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Radian Sentirum",
     "type": [
@@ -1061,12 +1197,14 @@
     "createTime": 60.0,
     "components": {
         "Sentirum": 3
-    }
+    },
+    "masterable": false
 },{
     "name": "Veridos",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Marquise Veridos",
     "type": [
@@ -1076,90 +1214,124 @@
     "createTime": 60.0,
     "components": {
         "Veridos": 10
-    }
+    },
+    "masterable": false
 },{
     "name": "Fish Meat",
     "type": [
+        "62fe86e02f3579299e390c36",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Fish Oil",
     "type": [
+        "62fe86e02f3579299e390c36",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Fish Scales",
     "type": [
+        "62fe86e02f3579299e390c36",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Charc Electroplax",
     "type": [
+        "62fe86c62f3579299e390c35",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Cuthol Tendrils",
     "type": [
+        "62fe86c62f3579299e390c35",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Goopolla Spleen",
     "type": [
+        "62fe86c62f3579299e390c35",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Karkina Antenna",
     "type": [
+        "62fe86c62f3579299e390c35",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Khut-Khut Venom Sac",
     "type": [
+        "62fe86c62f3579299e390c35",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Mawfish Bones",
     "type": [
+        "62fe86c62f3579299e390c35",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Mortus Horn",
     "type": [
+        "62fe86c62f3579299e390c35",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Murkray Liver",
     "type": [
+        "62fe86c62f3579299e390c35",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Norg Brain",
     "type": [
+        "62fe86c62f3579299e390c35",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Seram Beetle Shell",
     "type": [
+        "62fe86c62f3579299e390c35",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Sharrac Teeth",
     "type": [
+        "62fe86c62f3579299e390c35",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Tralok Eyes",
     "type": [
+        "62fe86c62f3579299e390c35",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Yogwun Stomach",
     "type": [
+        "62fe86c62f3579299e390c35",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Boot",
     "type": [
+        "62fe871e2f3579299e390c38",
         "62d8682daeef469267d807ff"
     ],
     "credits": 5000,
@@ -1169,111 +1341,142 @@
         "Iradite": 25,
         "Grokdrul": 25,
         "Morphics": 5
-    }
+    },
+    "masterable": false
 },{
     "name": "Gorgaricus Spore",
     "type": [
         "62d8682daeef469267d80801",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Mytocardia Spore",
     "type": [
         "62d8682daeef469267d80801",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Tepa Nodule",
     "type": [
         "62d8682daeef469267d80801",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Thermal Sludge",
     "type": [
         "62d8682daeef469267d80801",
         "62d8682daeef469267d807ff"
-    ]
-},{
-    "name": "Familial Debt-Bond",
-    "type": [
-        "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Advances Debt-Bond",
     "type": [
+        "62fe87092f3579299e390c37",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
+},{
+    "name": "Familial Debt-Bond",
+    "type": [
+        "62fe87092f3579299e390c37",
+        "62d8682daeef469267d807ff"
+    ],
+    "masterable": false
 },{
     "name": "Medical Debt-Bond",
     "type": [
+        "62fe87092f3579299e390c37",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
+},{
+    "name": "Shelter Debt-Bond",
+    "type": [
+        "62fe87092f3579299e390c37",
+        "62d8682daeef469267d807ff"
+    ],
+    "masterable": false
 },{
     "name": "Atmo Systems",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
-},{
-    "name": "Shelter Debt-Bond",
-    "type": [
-        "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Training Debt-Bond",
     "type": [
+        "62fe87092f3579299e390c37",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Gyromag Systems",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Repeller Systems",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Calda Toroid",
     "type": [
+        "62fe87322f3579299e390c39",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Sola Toroid",
     "type": [
+        "62fe87322f3579299e390c39",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Vega Toroid",
     "type": [
+        "62fe87322f3579299e390c39",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Crisma Toroid",
     "type": [
+        "62fe87322f3579299e390c39",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Lazulite Toroid",
     "type": [
+        "62fe87322f3579299e390c39",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Narmer Isoplast",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Diluted Thermia",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Axidite",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Axidrol Alloy",
     "type": [
@@ -1285,12 +1488,14 @@
         "Axidite": 20,
         "Ferrite": 500,
         "Rubedo": 10
-    }
+    },
+    "masterable": false
 },{
     "name": "Hesperon",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Hespazym Alloy",
     "type": [
@@ -1302,12 +1507,14 @@
         "Hesperon": 20,
         "Plastids": 300,
         "Morphics": 2
-    }
+    },
+    "masterable": false
 },{
     "name": "Travoride",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Travocyte Alloy",
     "type": [
@@ -1319,12 +1526,14 @@
         "Travoride": 20,
         "Salvage": 500,
         "Plastids": 100
-    }
+    },
+    "masterable": false
 },{
     "name": "Venerol",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Venerdo Alloy",
     "type": [
@@ -1336,12 +1545,14 @@
         "Venerol": 20,
         "Rubedo": 300,
         "Gallium": 2
-    }
+    },
+    "masterable": false
 },{
     "name": "Amarast",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Star Amarast",
     "type": [
@@ -1351,12 +1562,14 @@
     "createTime": 60.0,
     "components": {
         "Amarast": 6
-    }
+    },
+    "masterable": false
 },{
     "name": "Goblite",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Goblite Tears",
     "type": [
@@ -1366,12 +1579,14 @@
     "createTime": 60.0,
     "components": {
         "Goblite": 10
-    }
+    },
+    "masterable": false
 },{
     "name": "Noctrul",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Heart Noctrul",
     "type": [
@@ -1381,12 +1596,14 @@
     "createTime": 60.0,
     "components": {
         "Noctrul": 10
-    }
+    },
+    "masterable": false
 },{
     "name": "Phasmin",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Smooth Phasmin",
     "type": [
@@ -1396,12 +1613,14 @@
     "createTime": 60.0,
     "components": {
         "Phasmin": 10
-    }
+    },
+    "masterable": false
 },{
     "name": "Thyst",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Marquise Thyst",
     "type": [
@@ -1411,12 +1630,14 @@
     "createTime": 60.0,
     "components": {
         "Thyst": 3
-    }
+    },
+    "masterable": false
 },{
     "name": "Zodian",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Radiant Zodian",
     "type": [
@@ -1426,80 +1647,110 @@
     "createTime": 60.0,
     "components": {
         "Zodian": 3
-    }
+    },
+    "masterable": false
 },{
     "name": "Scrap",
     "type": [
+        "62fe86e02f3579299e390c36",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Echowinder Anoscopic Sensor",
     "type": [
+        "62fe86c62f3579299e390c35",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Tink Dissipator Coil",
     "type": [
+        "62fe86c62f3579299e390c35",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Synathid Ecosynth Analyzer",
     "type": [
+        "62fe86c62f3579299e390c35",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Tromyzon Entroplasma",
     "type": [
+        "62fe86c62f3579299e390c35",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Scrubber Exa Brain",
     "type": [
+        "62fe86c62f3579299e390c35",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Longwinder Lathe Coagulant",
     "type": [
+        "62fe86c62f3579299e390c35",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Brickie Muon Battery",
     "type": [
+        "62fe86c62f3579299e390c35",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Recaster Neural Relay",
     "type": [
+        "62fe86c62f3579299e390c35",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Mirewinder Parallel Biode",
     "type": [
+        "62fe86c62f3579299e390c35",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Eye-Eye Rotoblade",
     "type": [
+        "62fe86c62f3579299e390c35",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Charamote Sagan Module",
     "type": [
+        "62fe86c62f3579299e390c35",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Kriller Thermal Laser",
     "type": [
+        "62fe86c62f3579299e390c35",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Sapcaddy Venedo Case",
     "type": [
+        "62fe86c62f3579299e390c35",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Crewman's Boot",
     "type": [
+        "62fe871e2f3579299e390c38",
         "62d8682daeef469267d807ff"
     ],
     "credits": 5000,
@@ -1509,132 +1760,167 @@
         "Thermal Sludge": 25,
         "Mytocardia Spore": 25,
         "Morphics": 5
-    }
+    },
+    "masterable": false
 },{
     "name": "Ganglion",
     "type": [
         "62d8682daeef469267d80801",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Lucent Teroglobe",
     "type": [
         "62d8682daeef469267d80801",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Pustulite",
     "type": [
         "62d8682daeef469267d80801",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Scintillant",
     "type": [
         "62d8682daeef469267d80803",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Seriglass Shard",
     "type": [
         "62d8682daeef469267d80803",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Fass Residue",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Vome Residue",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Daughter Token",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Father Token",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Grandmother Token",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Mother Token",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Otak Token",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Son Token",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Orokin Animus Matrix",
     "type": [
+        "62fe87912f3579299e390c3b",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Orokin Ballistics Matrix",
     "type": [
+        "62fe87912f3579299e390c3b",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Orokin Orientation Matrix",
     "type": [
+        "62fe87912f3579299e390c3b",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Damaged Necramech Casing",
     "type": [
+        "62fe87822f3579299e390c3a",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Damaged Necramech Engine",
     "type": [
+        "62fe87822f3579299e390c3a",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Damaged Necramech Pod",
     "type": [
+        "62fe87822f3579299e390c3a",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Damaged Necramech Weapon Barrel",
     "type": [
+        "62fe87822f3579299e390c3a",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Damaged Necramech Weapon Pod",
     "type": [
+        "62fe87822f3579299e390c3a",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Damaged Necramech Weapon Receiver",
     "type": [
+        "62fe87822f3579299e390c3a",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Damaged Necramech Weapon Stock",
     "type": [
+        "62fe87822f3579299e390c3a",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Adramalium",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Adramal Alloy",
     "type": [
@@ -1647,12 +1933,14 @@
         "Travoride": 20,
         "Plastids": 600,
         "Lucent Teroglobe": 15
-    }
+    },
+    "masterable": false
 },{
     "name": "Bapholite",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Tempered Bapholite",
     "type": [
@@ -1665,12 +1953,14 @@
         "Pyrol": 20,
         "Nano Spores": 1600,
         "Lucent Teroglobe": 15
-    }
+    },
+    "masterable": false
 },{
     "name": "Namalon",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Devolved Namalon",
     "type": [
@@ -1683,12 +1973,14 @@
         "Ferros": 20,
         "Rubedo": 160,
         "Lucent Teroglobe": 15
-    }
+    },
+    "masterable": false
 },{
     "name": "Thaumica",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Thaumic Distillate",
     "type": [
@@ -1701,12 +1993,14 @@
         "Venerol": 20,
         "Gallium": 4,
         "Lucent Teroglobe": 15
-    }
+    },
+    "masterable": false
 },{
     "name": "Dagonic",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Purged Dagonic",
     "type": [
@@ -1716,12 +2010,14 @@
     "createTime": 60.0,
     "components": {
         "Dagonic": 10
-    }
+    },
+    "masterable": false
 },{
     "name": "Embolos",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Cabochon Embolos",
     "type": [
@@ -1731,12 +2027,14 @@
     "createTime": 60.0,
     "components": {
         "Embolos": 3
-    }
+    },
+    "masterable": false
 },{
     "name": "Heciphron",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Purified Heciphron",
     "type": [
@@ -1746,12 +2044,14 @@
     "createTime": 60.0,
     "components": {
         "Heciphron": 10
-    }
+    },
+    "masterable": false
 },{
     "name": "Necrathene",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Stellated Necrathene",
     "type": [
@@ -1761,12 +2061,14 @@
     "createTime": 60.0,
     "components": {
         "Necrathene": 6
-    }
+    },
+    "masterable": false
 },{
     "name": "Tiametrite",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Faceted Tiametrite",
     "type": [
@@ -1776,12 +2078,14 @@
     "createTime": 60.0,
     "components": {
         "Tiametrite": 10
-    }
+    },
+    "masterable": false
 },{
     "name": "Xenorhast",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Trapezium Xenorhast",
     "type": [
@@ -1791,72 +2095,99 @@
     "createTime": 60.0,
     "components": {
         "Xenorhast": 3
-    }
+    },
+    "masterable": false
 },{
     "name": "Benign Infested Tumor",
     "type": [
+        "62fe86e02f3579299e390c36",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Ferment Bladder",
     "type": [
+        "62fe86e02f3579299e390c36",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Tubercular Gill System",
     "type": [
+        "62fe86e02f3579299e390c36",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Biotic Filter",
     "type": [
+        "62fe86c62f3579299e390c35",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Cranial Foremount",
     "type": [
+        "62fe86c62f3579299e390c35",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Dendrite Blastoma",
     "type": [
+        "62fe86c62f3579299e390c35",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Ocular Stem-Root",
     "type": [
+        "62fe86c62f3579299e390c35",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Parasitic Tethermaw",
     "type": [
+        "62fe86c62f3579299e390c35",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Pustulent Cognitive Nodule",
     "type": [
+        "62fe86c62f3579299e390c35",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Saturated Muscle Mass",
     "type": [
+        "62fe86c62f3579299e390c35",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Spinal Core Section",
     "type": [
+        "62fe86c62f3579299e390c35",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Sporulate Sac",
     "type": [
+        "62fe86c62f3579299e390c35",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Waxen Sebum Deposit",
     "type": [
+        "62fe86c62f3579299e390c35",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Alloy Plate",
     "type": [
@@ -1870,7 +2201,8 @@
         "62d726559d9900d653666f24",
         "62d726559d9900d653666f29",
         "62d726559d9900d653666f2a"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Ferrite",
     "type": [
@@ -1883,53 +2215,68 @@
         "62d726559d9900d653666f1f",
         "62d726559d9900d653666f28",
         "62d726559d9900d653666f2d"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Thrax Plasm",
     "type": [
         "62d8682daeef469267d80802",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Voidgel Orb",
     "type": [
         "62d8682daeef469267d80802",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Entrati Lanthorn",
     "type": [
         "62d8682daeef469267d80803",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Voidplume Down",
     "type": [
+        "62fe87bc2f3579299e390c3c",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Voidplume Vane",
     "type": [
+        "62fe87bc2f3579299e390c3c",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Voidplume Crest",
     "type": [
+        "62fe87bc2f3579299e390c3c",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Voidplume Quill",
     "type": [
+        "62fe87bc2f3579299e390c3c",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Voidplume Pinion",
     "type": [
+        "62fe87bc2f3579299e390c3c",
         "62d8682daeef469267d807ff"
-    ]
+    ],
+    "masterable": false
 },{
     "name": "Argozene",
     "type": [
         "62d8682daeef469267d807ff"
-    ]
-}]
+    ],
+    "masterable": false
+},]

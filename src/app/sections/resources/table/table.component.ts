@@ -1,5 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
+import { environment } from 'src/environments/environment';
 import {Md5} from 'ts-md5/dist/md5';
 
 @Component({
@@ -33,6 +34,28 @@ export class ResTableComponent implements OnInit {
 
   ngOnInit(): void {
     const md5 = new Md5();
+    var resListGet = this.http.get(environment.apiURL+"GetData/ResourcesList");
+    var resList: any
+    this.elmass = []
+    var cuur = this
+    resListGet.subscribe({
+      next(res) {
+        resList = res
+        resList.forEach(
+          (item: { name: string; mastery: boolean | undefined; }) => {
+            cuur.elmass.push(new Resource(item.name, Math.floor(Math.random() * (1000 - 1 + 1) + 1), item.mastery))
+          })
+        cuur.DisplayAllItems()
+      },
+      error(err) {
+        alert(err.message)
+      },
+      complete() {
+      },
+    })
+    
+  }
+  DisplayAllItems() {
     this.elmass.forEach(
       item => {
         let splitStr = item.name.toLowerCase().split(' ');
@@ -43,18 +66,31 @@ export class ResTableComponent implements OnInit {
         }
         // Directly return the joined string
         let resName = splitStr.join('');
-        let add = resName.includes('Prime')? 'Prime' : '';
-        if (resName.includes('Neuroptics')) resName = add+'Helmet';
-        if (resName.includes('Chassis')) resName = add+'Chassis';
-        if (resName.includes('Systems')) resName = add+'Systems';
-        if (resName.includes('Barrel')) resName = add+'Barrel';
-        if (resName.includes('Receiver')) resName = add+'Receiver';
-        if (resName.includes('Link')) resName = add+'Link';
-        if (resName.includes('Blade')) resName = add+'Blade';
+        resName = this.FormName(resName)
         let hash = Md5.hashStr(resName+'.png');
         let patturl = `https://static.wikia.nocookie.net/warframe/images/${hash[0]}/${hash[0]+hash[1]}/${resName}.png`;
         item.icon = patturl;
       })
+  }
+  FormName(nam:string) {
+    var res = nam.split(/(?=[A-Z])/)
+    var add = res.find(x => x == 'Prime')? 'Prime' : ''
+    const nameLen = res.length
+    if (res.length == 1) return nam
+    if (res.length > 2) {
+      if (['Gun', 'Upper', 'Lower'].find(x => x == res[nameLen-2])) 
+        return add + res[nameLen-2]+res[nameLen-1]
+    }
+    if (['Amesha', 'Elytron', 'Itzal', 'Odonata'].some(item=>{
+      if (res[0].includes(item)) return true
+      return false
+    })) return 'GenericArchwing' + res[nameLen-1]
+    if (res[nameLen-1] == 'Neuroptics') return add + 'Helmet'
+    const exc = ['Chassis', 'Systems', 'Barrel', 'Receiver', 'Link', 
+                  'Blade', 'Stock', 'Grip', 'String', 'Handle', 'Head', 'Pouch', 
+                  'Stars', 'Gauntlet', 'Disc', 'Limbs', 'Carapace', 'Cerebrum'] 
+    if ( exc.find(x => x == res[nameLen-1])) return add + res[nameLen-1]
+    return nam
   }
 }
 class Resource {

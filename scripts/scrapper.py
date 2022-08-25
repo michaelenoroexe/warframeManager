@@ -24,30 +24,33 @@ planets_Col = warf_db["Planets"]
 class item:
     """Base item which dont need craft"""
     # item constructor
-    def __init__(self, name, type, href, location = NULL):
+    def __init__(self, name, type, href, location = NULL, masterable = False):
         self.name = name
         self.type = type
         self.location = location
         self.href = href
+        self.masterable = masterable
     # item json serializing
     def toJSON(self):
         obj = dict()
         obj['name'] = self.name
         obj['type'] = FindAndReturnTypesID(self.type)
         if (self.location != NULL and len(self.location) > 0): obj['locations'] = self.location
+        obj['masterable'] = self.masterable
         return json.dumps(obj, indent=4)
     # item data
     name = str()
     type = list()
     location = list()
     href = str()
+    masterable = bool()
 
 
 class complex_Item(item):
     """Complex item what crafted from different materials"""
     # constructor
-    def __init__(self, name = "", type = "", href = "", credits = 0, creation_Time = 0 , components = dict(), location=NULL):
-        super().__init__(name, type, href, location)
+    def __init__(self, name = "", type = "", href = "", credits = 0, creation_Time = 0 , components = dict(), location=NULL, masterable = True):
+        super().__init__(name, type, href, location, masterable)
         self.credits = credits
         self.creation_Time = creation_Time
         self.components = components
@@ -71,11 +74,13 @@ class complex_Item(item):
             obj['createTime'] = self.creation_Time.total_seconds()
         if len(self.components) > 0:
             obj['components'] = self.components
+        obj['masterable'] = self.masterable
         return json.dumps(obj, indent=4)
     # data
     credits = int()
     creation_Time = timedelta()
     components = dict()
+    masterable = bool
 
 
 def FindAndReturnTypesID(types):
@@ -86,7 +91,6 @@ def FindAndReturnTypesID(types):
         if res != None:
             type_list.append(str(res["_id"]))
         else:
-            pass
             print(type)
     return type_list
 
@@ -119,7 +123,10 @@ def GetWeaponsList():
                         tag_list.append(categs_Names[category].lower())
                         tag_list.append('weapon')
                         # Append item to list
-                        item_list.append(item(element.contents[2].attrs['title'], tag_list, element.contents[2].attrs['href']) )
+                        res_name = element.contents[2].text.replace('''\xa0''', ' ')
+                        foun_par = re.findall(' \(.*\)', res_name)
+                        if len(foun_par) > 0: res_name = res_name.replace(foun_par[0], '')
+                        item_list.append(item(res_name, tag_list, element.contents[2].attrs['href']) )
                     else:
                         pass
     return item_list
@@ -260,36 +267,41 @@ async def task(name, work_queue, out, typ):
                     # Get warframe from queue, get components, and append to output
                     if typ == 'warframe':
                         ress = Get_Warframe_Components(await response.text())
-                        if ress == None: out.append(curr_Item)
+                        if ress == None: 
+                            curr_Item.masterable = True
+                            out.append(curr_Item)
                         else:
                             out.append(complex_Item().form(curr_Item, ress[0]['credits'], ress[0]['time'], ress[0]['resources']))
                             for ind in range(1, len(ress)): 
-                                out.append(complex_Item(ress[ind]['name'], ['warframe part'], '', ress[ind]['credits'], ress[ind]['time'], ress[ind]['resources']))
+                                out.append(complex_Item(ress[ind]['name'], ['warframe part'], '', ress[ind]['credits'], ress[ind]['time'], ress[ind]['resources'], masterable = False))
                     # Get weapon from queue, get components, and append to output
                     if typ == 'weapon':
                         ress = Get_Weapon_Components(await response.text())
-                        if ress == None: out.append(curr_Item)
+                        if ress == None: 
+                            curr_Item.masterable = True
+                            out.append(curr_Item)
                         else:
                             if type(ress) is list:
                                 out.append(complex_Item().form(curr_Item, ress[0]['credits'], ress[0]['time'], ress[0]['resources']))
                                 for ind in range(1, len(ress)):
-                                    if ress[ind].credits == 0:
-                                        ress[ind].type = ['weapon part']
-                                        out.append(ress[ind])
-                                    else:
-                                        out.append(complex_Item(ress[ind]['name'], ['weapon part'], '', ress[ind]['credits'], ress[ind]['time'], ress[ind]['resources']))
+                                    ress[ind].type = ['weapon part']
+                                    ress[ind].masterable = False
+                                    out.append(ress[ind])
                             else:
                                 out.append(complex_Item().form(curr_Item, ress['credits'], ress['time'], ress['resources']))
                     #Get companion from, get components, and append to output
                     if typ == 'companion':
                         ress = Get_Companion_Components(await response.text(), curr_Item.name)
-                        if ress == None: out.append(curr_Item)
+                        if ress == None: 
+                            curr_Item.masterable = True
+                            out.append(curr_Item)
                         else:
                             if type(ress) is list:
                                 out.append(complex_Item().form(curr_Item, ress[0]['credits'], ress[0]['time'], ress[0]['resources']))
                                 for ind in range(1, len(ress)):
                                     if ress[ind].credits == 0:
                                         ress[ind].type = ['companion part']
+                                        ress[ind].masterable = False
                                         out.append(ress[ind])
                                     else:
                                         out.append(complex_Item(ress[ind]['name'], ['companion part'], '', ress[ind]['credits'], ress[ind]['time'], ress[ind]['resources']))
@@ -297,16 +309,20 @@ async def task(name, work_queue, out, typ):
                                 out.append(complex_Item().form(curr_Item, ress['credits'], ress['time'], ress['resources']))
                     if typ == 'archwing':
                         ress = Get_Archwing_Components(await response.text())
-                        if ress == None: out.append(curr_Item)
+                        if ress == None: 
+                            curr_Item.masterable = True
+                            out.append(curr_Item)
                         else:
                             out.append(complex_Item().form(curr_Item, ress[0]['credits'], ress[0]['time'], ress[0]['resources']))
                             for ind in range(1, len(ress)): 
-                                out.append(complex_Item(ress[ind]['name'], ['archwing part'], '', ress[ind]['credits'], ress[ind]['time'], ress[ind]['resources']))
+                                out.append(complex_Item(ress[ind]['name'], ['archwing part'], '', ress[ind]['credits'], ress[ind]['time'], ress[ind]['resources'], masterable = False))
                     if typ == 'resource':
                         ress = Get_Resource_Components(await response.text())
-                        if ress == None: out.append(curr_Item)
+                        if ress == None: 
+                            curr_Item.masterable = False
+                            out.append(curr_Item)
                         else:
-                            out.append(complex_Item().form(curr_Item, ress['credits'], ress['time'], ress['resources']))
+                            out.append(complex_Item(masterable = False).form(curr_Item, ress['credits'], ress['time'], ress['resources']))
             except:
                 out.append(curr_Item)
 
@@ -326,15 +342,17 @@ def Get_Ress(res, name = None, ext_Name = None):
             comp_Name = res.contents[ind].contents[0].attrs['title']
         elif 'data-param' in res.contents[ind].contents[0].attrs:
             comp_Name = res.contents[ind].contents[0].attrs['data-param']
+        elif (len(res.contents[ind].contents) < 3):
+            break
         elif (res.contents[ind].contents[2].name == 'a'):
             comp_Name = res.contents[ind].contents[2].contents[0]
         else: comp_Name = "Err"
         # If item has aditional items in it
         if ext_Name != None: 
-            spec_List = {'Barrel', 'Receiver', 'Stock', 'Upper Limb', 'Lower Limb', 'Grip', 'String', 'Gun Chassis', 'Handle', 'Blade', 'Link', 'Pouch', 'Stars', 'Gauntlet', 'Disc', 'Limbs', 'Carapace', 'Cerebrum', 'Systems'}
+            spec_List = {'Barrel', 'Receiver', 'Stock', 'Upper Limb', 'Lower Limb', 'Grip', 'String', 'Gun Chassis', 'Handle', 'Blade', 'Head', 'Link', 'Pouch', 'Stars', 'Gauntlet', 'Disc', 'Limbs', 'Carapace', 'Cerebrum', 'Systems'}
             for spec in spec_List:
-                if spec in comp_Name: 
-                    comp_Name = ext_Name.split(' ')[0] + ' ' + comp_Name
+                if spec in comp_Name:
+                    comp_Name = (' '.join(ext_Name.split(' ')[0:-1]) if ext_Name.endswith('Prime') else ext_Name) + ' ' + comp_Name
                     li.append(complex_Item(name = comp_Name))
                     break
         comp_Num = int()
@@ -361,20 +379,48 @@ def Get_Time(str_Time):
     if (time[2].startswith('Second')): return timedelta( seconds = int(time[1]))
 
 
+def Get_Equinox_Components(page):
+    foundary_Tables = BeautifulSoup(page, 'html.parser').find_all('table',{'class':'foundrytable'})
+    res = list()
+    res.append(Get_Ress(res = foundary_Tables[0].contents[1].contents[2]))
+    res.append(Get_Ress(res = foundary_Tables[1].contents[1].contents[2], name = 'Equinox Day Aspect'))
+    res.append(Get_Ress(res = foundary_Tables[1].contents[1].contents[20], name = 'Equinox Day Neuroptics'))
+    res.append(Get_Ress(res = foundary_Tables[1].contents[1].contents[12], name = 'Equinox Day Chassis'))
+    res.append(Get_Ress(res = foundary_Tables[1].contents[1].contents[28], name = 'Equinox Day Systems'))
+    res.append(Get_Ress(res = foundary_Tables[2].contents[1].contents[2], name = 'Equinox Night Aspect'))
+    res.append(Get_Ress(res = foundary_Tables[2].contents[1].contents[20], name = 'Equinox Night Neuroptics'))
+    res.append(Get_Ress(res = foundary_Tables[2].contents[1].contents[12], name = 'Equinox Night Chassis'))
+    res.append(Get_Ress(res = foundary_Tables[2].contents[1].contents[28], name = 'Equinox Night Systems'))
+    res[1]['resources'] = {"Equinox Day Neuroptics": 1,
+                        "Equinox Day Chassis": 1,
+                        "Equinox Day Systems": 1,
+                        "Orokin Cell": 1}
+    res[5]['resources'] = {"Equinox Night Neuroptics": 1,
+                        "Equinox Night Chassis": 1,
+                        "Equinox Night Systems": 1,
+                        "Orokin Cell": 1}
+    return res
+
+
 def Get_Warframe_Components(warf_page):
     # Full table of crafting
     foundary_Table = BeautifulSoup(warf_page, 'html.parser').find('table',{'class':'foundrytable'})
     # Resources needed to produce warframe
     curr_warf = BeautifulSoup(warf_page, 'html.parser').find('title').text
-    exc = ['Equinox | WARFRAME Wiki | Fandom', 'Excalibur Umbra | WARFRAME Wiki | Fandom', 'Excalibur Prime | WARFRAME Wiki | Fandom']
+    exc = ['Excalibur Umbra | WARFRAME Wiki | Fandom', 'Excalibur Prime | WARFRAME Wiki | Fandom']
+    if (curr_warf.startswith('Equinox | WARFRAME Wiki')): return Get_Equinox_Components(warf_page)
     if (curr_warf in exc): return None
     warf_Res = foundary_Table.contents[1].contents[2]
-    neuro_Name = foundary_Table.contents[1].contents[10].text.split('''\n''')[1]
+    neuro_Name = foundary_Table.contents[1].contents[10].text.split('''\n''')[1].replace(' Blueprint', '')
     neuro_Res = foundary_Table.contents[1].contents[12]
-    chass_Name = foundary_Table.contents[1].contents[18].text.split('''\n''')[1]
+    chass_Name = foundary_Table.contents[1].contents[18].text.split('''\n''')[1].replace(' Blueprint', '')
     chass_Res = foundary_Table.contents[1].contents[20]
-    syst_Name = foundary_Table.contents[1].contents[26].text.split('''\n''')[1]
+    syst_Name = foundary_Table.contents[1].contents[26].text.split('''\n''')[1].replace(' Blueprint', '')
     syst_Res = foundary_Table.contents[1].contents[28]
+    if (curr_warf.startswith('Garuda Prime')): 
+        neuro_Name = "Garuda Prime Neuroptics"
+        chass_Name = "Garuda Prime Chassis"
+        syst_Name = "Garuda Prime Systems"
     warf_Components_Names = [neuro_Name, chass_Name, syst_Name, warf_Res.contents[9].contents[2].contents[0] if (warf_Res.contents[9].contents[2].name == 'a') else warf_Res.contents[9].contents[0].contents[0].attrs['title']]
     main_Ress = dict()
     # Gathering all components of main warframe receipe
@@ -400,12 +446,12 @@ def Get_Weapon_Components(weapon_page):
     if (len(foundary_Table.contents[1].contents) <= 15):
         if foundary_Table.text.startswith('\nDefault Combos'): return None
         weap_Res = foundary_Table.contents[1].contents[2]
-        return Get_Ress(weap_Res, None, weapon_Name = weap_Name)
+        return Get_Ress(weap_Res, None, ext_Name = weap_Name)
     # If parts of weapon are craftable and reciepe in same table
     else:
         weap_Res = foundary_Table.contents[1].contents[2]
         main_Weap = dict()
-        compl_Components = { weap_Name +' ' + foundary_Table.contents[1].contents[ind-2].contents[1].contents[0].split('''\n''')[0]:foundary_Table.contents[1].contents[ind] for ind in range(10, len(foundary_Table.contents[1].contents), 6)}
+        compl_Components = { weap_Name +' ' + foundary_Table.contents[1].contents[ind-2].contents[1].contents[0].split('''\n''')[0].replace(''' \u2022 ''', ''):foundary_Table.contents[1].contents[ind] for ind in range(10, len(foundary_Table.contents[1].contents), 6)}
         compl_Components_Info = list()
         for comp in compl_Components:
             compl_Components_Info.append(Get_Ress(compl_Components[comp] ,comp))
@@ -418,7 +464,10 @@ def Get_Weapon_Components(weapon_page):
                     break
             ress[weap_Res.contents[ind].contents[0].attrs['data-param'] if (weap_Res.contents[ind].contents[0].name == 'span') else weap_Name + ' ' + weap_Res.contents[ind].contents[0].attrs['title']] = int(weap_Res.contents[ind].contents[2].split('''\n''')[0].replace(",", "")) if (type(weap_Res.contents[ind].contents[2]) is NavigableString) else 1
         main_Weap['resources'] = ress
-        return [main_Weap] + [ite for ite in compl_Components_Info]
+        add_comps_list = list()
+        for ite in compl_Components_Info:
+            add_comps_list.append(complex_Item(ite['name'], credits = ite['credits'], creation_Time = ite['time'], components = ite['resources']))
+        return [main_Weap] + add_comps_list
 
 
 def Get_Companion_Components(comp_page, name):
@@ -495,9 +544,10 @@ async def Get_Full_Info(item_List, type):
 def Save_To_File(name, item_list):
     with open('./items/' + name, 'w') as outp:
         outp.write('[')
-        for ite in item_list:
-            outp.writelines(ite.toJSON());
-            outp.write(',')
+        for ite in range(len(item_list)):
+            outp.writelines(item_list[ite].toJSON());
+            if ite != len(item_list)-1:
+                outp.write(',')
         outp.write(']')
 
 
@@ -505,14 +555,14 @@ async def main():
     list_With_All_Info = dict()
     #print(Get_Warframe_Components(requests.get('https://warframe.fandom.com/wiki/Ash')))
     #list_With_All_Info['warframes'] = await Get_Full_Info(GetWarframesList(), 'warframe')
-    #list_With_All_Info['weapons'] = await Get_Full_Info(GetWeaponsList(), 'weapon')
+    list_With_All_Info['weapons'] = await Get_Full_Info(GetWeaponsList(), 'weapon')
     #list_With_All_Info['companions'] = await Get_Full_Info(GetCompanionsList(), 'companion')
-    list_With_All_Info['archwings'] = await Get_Full_Info(GetArchwingsList(), 'archwing')
+    #list_With_All_Info['archwings'] = await Get_Full_Info(GetArchwingsList(), 'archwing')
     #list_With_All_Info['resources'] = await Get_Full_Info(GetResourcesList(), 'resource')
     #Save_To_File('warframes.json', list_With_All_Info['warframes'])
-    #Save_To_File('weapons.json', list_With_All_Info['weapons'])
+    Save_To_File('weapons.json', list_With_All_Info['weapons'])
     #Save_To_File('companions.json', list_With_All_Info['companions'])
-    Save_To_File('archwings.json', list_With_All_Info['archwings'])
+    #Save_To_File('archwings.json', list_With_All_Info['archwings'])
     #Save_To_File('resources.json', list_With_All_Info['resources'])
     print('ar')
 
