@@ -39,11 +39,14 @@ export class ImageGettingService {
     if (this.IsInList(res[nameLen-1], ['Neuroptics', 'Cerebrum'])) return add + 'Helmet'
     if (name.endsWith('Systems')) {
       if (this.IsInList(res[0], ['Atmo', 'Gyromag', 'Repeller'])) return res[0] + '_' + 'Systems'
+      if (this.IsInList(res[0], ['Amesha', 'Elytron', 'Itzal', 'Odonata'])) return 'GenericArchwing' + res[nameLen-1]
       return add + 'Systems'
     }
+    //Get Gun Chassis
+    if (name.endsWith('GunChassis')) return 'Stock'
     if (this.IsInList(res[nameLen-1], ['Chassis', 'Carapace'])) return add + 'Chassis'
     //Archwing components 
-    if (this.IsInList(res[nameLen-1], ['Harness', 'Systems', 'Wings'])) return 'GenericArchwing' + res[nameLen-1]
+    if (this.IsInList(res[nameLen-1], ['Harness', 'Wings'])) return 'GenericArchwing' + res[nameLen-1]
     // Excalibur swords
     if (name.startsWith('Exalted')) {
       if (res[1] == 'Umbra') return 'ExaltedUmbraBlade'
@@ -89,8 +92,6 @@ export class ImageGettingService {
     }
     // Specific for common items
     if (add == '') {
-      //Get Gun Chassis
-      if (name.endsWith('GunChassis')) return 'Stock'
       // Mecha
       if (this.IsInList(res[1], ['Moa', 'Hound'])) return res[0]
       // Kubrow

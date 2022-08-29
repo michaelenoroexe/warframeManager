@@ -7,7 +7,7 @@
   <div class="itemInfo">
     <h1 class="name">{{name}}</h1>
     <h1 class="misc">owned:</h1>
-    <input type="text" inputmode="numeric" (keypress)="keyPressNumbers($event)" (change)="setZero($event)"  [(ngModel)]="ownedNumber">
+    <input type="text" inputmode="numeric" (focusout)="saveNewResNum()" (keypress)="keyPressNumbers($event)" (change)="setZero($event)"  [(ngModel)]="ownedNumber">
   </div>
   <div class="mastered" *ngIf="mastered">
     mastered

@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { ResourceInfoChangeService } from 'src/app/sections/resource-info-changing-request.service';
 
 @Component({
   selector: 'app-res-table-item',
@@ -15,7 +16,7 @@ export class ResTableItemComponent implements OnInit {
   @Input()
   mastered:boolean = false;
   blueprint:boolean = false;
-  constructor() { }
+  constructor(private save: ResourceInfoChangeService) { }
 
   ngOnInit(): void {
     if (this.name.toLowerCase().includes('blueprint')) this.blueprint = true;
@@ -30,6 +31,18 @@ export class ResTableItemComponent implements OnInit {
     } else {
       return true;
     }
+  }
+  //Changed Resource number save
+  saveNewResNum()
+  {
+    this.save.ResourceNumberChange({Resource: this.name, Number: this.ownedNumber}).subscribe({
+      next(value) {
+        alert(value)
+      },
+      error(err) {
+        alert(err)
+      }
+    })
   }
   // Set zero if field is null
   setZero(event:any)
