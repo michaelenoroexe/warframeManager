@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { Resource } from 'src/app/sections/items.service';
 import { ResourceInfoChangeService } from 'src/app/sections/resource-info-changing-request.service';
 
 @Component({
@@ -8,18 +9,13 @@ import { ResourceInfoChangeService } from 'src/app/sections/resource-info-changi
 })
 export class ResTableItemComponent implements OnInit {
   @Input()
-  icon:string| undefined = "../../../../../assets/resources/95x95.png";
-  @Input()
-  name:string = "ERR";
-  @Input()
-  ownedNumber:number = 0;
-  @Input()
-  mastered:boolean = false;
+  item:Resource = new Resource("", "",[""]);
+
   blueprint:boolean = false;
   constructor(private save: ResourceInfoChangeService) { }
 
   ngOnInit(): void {
-    if (this.name.toLowerCase().includes('blueprint')) this.blueprint = true;
+    if (this.item.name.toLowerCase().includes('blueprint')) this.blueprint = true;
   }
    // Only Integer Numbers
   keyPressNumbers(event:any) {
@@ -35,9 +31,8 @@ export class ResTableItemComponent implements OnInit {
   //Changed Resource number save
   saveNewResNum()
   {
-    this.save.ResourceNumberChange({Resource: this.name, Number: this.ownedNumber}).subscribe({
+    this.save.ResourceNumberChange({Resource: this.item.id, Number: this.item.owned}).subscribe({
       next(value) {
-        alert(value)
       },
       error(err) {
         alert(err)

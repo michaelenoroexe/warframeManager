@@ -1,15 +1,14 @@
 <div class="item">
   <img 
-  [src]="icon" 
+  [src]="item.img" 
   alt="Img" 
-  (click)="mastered = !mastered"
   [ngClass]="{'blueprint': blueprint}">
   <div class="itemInfo">
-    <h1 class="name">{{name}}</h1>
+    <h1 class="name">{{item.name}}</h1>
     <h1 class="misc">owned:</h1>
-    <input type="text" inputmode="numeric" (focusout)="saveNewResNum()" (keypress)="keyPressNumbers($event)" (change)="setZero($event)"  [(ngModel)]="ownedNumber">
+    <input type="text" inputmode="numeric" (focusout)="saveNewResNum()" (keypress)="keyPressNumbers($event)" (change)="setZero($event)"  [(ngModel)]="item.owned">
   </div>
-  <div class="mastered" *ngIf="mastered">
+  <div class="mastered" *ngIf="item.masterable && item.owned > 0">
     mastered
   </div>
 </div>

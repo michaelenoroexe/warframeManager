@@ -1,6 +1,7 @@
 import { HttpClient } from '@angular/common/http';
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { environment } from './../environments/environment';
+import { AllItemsService } from './sections/all-items.service';
 
 @Component({
   selector: 'app-root',
@@ -10,7 +11,7 @@ import { environment } from './../environments/environment';
 export class AppComponent {
   title = 'warframeManager';
 
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient, public items:AllItemsService) {}
   // Test request for checking performance of jwt tokens 
   testReq(){
     let tok = localStorage.getItem("accessToken");
