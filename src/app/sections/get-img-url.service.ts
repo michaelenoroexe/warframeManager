@@ -183,6 +183,11 @@ export class ImageGettingService {
     if (name.startsWith('Valkyr') && name.endsWith('Talons')) return 'ValkyrTalons'
         return name
   }
+  // Get Planet img url
+  public static GetPlanetImgUrl(pl:string) {
+    if (pl == 'Zariman') return 'New_Zariman'
+    return pl
+  }
   // Check if some string in list
   private static IsInList(item:string, list:Array<string>):boolean {
     return list.find(x => x == item) != undefined

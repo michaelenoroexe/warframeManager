@@ -13,6 +13,7 @@ import { UserinfoComponent } from './navbar/userinfo/userinfo.component';
 import { MenuComponent } from './navbar/menu/menu.component';
 import { ResTableComponent } from './sections/resources/table/table.component';
 import { ResTableItemComponent } from './sections/resources/table/res-table-item/res-table-item.component';
+import { LocationComponent } from './sections/resources/location/location.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { ResTableItemComponent } from './sections/resources/table/res-table-item
     UserinfoComponent,
     MenuComponent,
     ResTableComponent,
-    ResTableItemComponent
+    ResTableItemComponent,
+    LocationComponent
   ],
   imports: [
     BrowserModule,

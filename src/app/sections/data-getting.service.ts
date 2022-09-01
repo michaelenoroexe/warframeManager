@@ -22,4 +22,7 @@ export class DataGetterService {
     }
     return this.http.get(environment.apiURL+end, he)
   }
+  public GetPlanets() {
+    return this.http.get(environment.apiURL+'GetData/Planets')
+  }
 }

@@ -1,0 +1,31 @@
+div {
+  margin: 1vh 2vw;
+  color: #E4E4E4;
+  h1 {
+    margin-left: 12vw;
+    display: inline-block;
+    width: auto;
+  }
+  .planetInfoContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    img {
+      display: inline-block;
+      object-fit: contain;
+      max-width: fit-content;
+      min-width: 5vw;
+    }
+    div {
+      font-size: larger;
+      img {
+        max-height: fit-content;
+        min-width: 4vw;
+        max-width: fit-content;
+        width: 4vw;
+        margin-right: 0.3vw;
+      }
+
+    }
+  }
+}
