@@ -1,0 +1,28 @@
+.itemInfoContainer {
+  color: #E4E4E4;
+  .itemBox {
+    display: inline-block;
+    width: 200px;
+    .targetRess {
+      border: 2px black;
+      a {
+        text-decoration: none;
+        display: block;
+        color: inherit;
+        img {
+          display: inline-block;
+          object-fit: contain;
+          width: 40px;
+          height: 40px;
+        }
+        p {
+          display: inline-block;
+        }
+      }
+    }
+  }
+  .planets {
+    
+    float: right;
+  }
+}

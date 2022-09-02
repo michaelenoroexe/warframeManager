@@ -18,14 +18,18 @@ div {
     }
     div {
       font-size: larger;
-      img {
-        max-height: fit-content;
-        min-width: 4vw;
-        max-width: fit-content;
-        width: 4vw;
-        margin-right: 0.3vw;
+      a {
+        color: #E4E4E4;
+        text-decoration: none;
+        display: block;
+        img {
+          max-height: fit-content;
+          min-width: 4vw;
+          max-width: fit-content;
+          width: 4vw;
+          margin-right: 0.3vw;
+        }
       }
-
     }
   }
 }

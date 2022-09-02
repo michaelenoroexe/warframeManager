@@ -14,6 +14,7 @@ import { MenuComponent } from './navbar/menu/menu.component';
 import { ResTableComponent } from './sections/resources/table/table.component';
 import { ResTableItemComponent } from './sections/resources/table/res-table-item/res-table-item.component';
 import { LocationComponent } from './sections/resources/location/location.component';
+import { ItemdisComponent } from './sections/resources/location/itemdis/itemdis.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { LocationComponent } from './sections/resources/location/location.compon
     MenuComponent,
     ResTableComponent,
     ResTableItemComponent,
-    LocationComponent
+    LocationComponent,
+    ItemdisComponent
   ],
   imports: [
     BrowserModule,

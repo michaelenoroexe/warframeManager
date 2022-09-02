@@ -1,0 +1,21 @@
+<div class="itemInfoContainer">
+  <div class="itemBox">
+    <div class="item">
+      <img [src]="item.img" alt="Resource">
+      <p>{{item.name}}</p>
+    </div>
+    <div class="targetRess">
+      <a *ngFor="let res of targetRes" [routerLink]="['../', res.name]" (click)="DisplayItemInfo(res.name)">
+        <img [src]="res.img" alt="Res">
+        <p>{{res.name}}</p>
+      </a>
+    </div>
+  </div>
+  <div class="planets">
+    <div *ngFor="let planet of targetPlanets">
+      <img [src]="planet.img" alt="planet">
+      {{planet.name}}
+    </div>
+  </div>
+</div>
+

@@ -4,12 +4,12 @@
       {{planet.name}}
     </h1>
     <div class="planetInfoContainer">
-      <img [src]="planet.img" />
+      <img [src]="planet.img" alt="Planet"/>
       <div>
-        <div *ngFor="let res of planet.resources">
-          <img [src]="res.img">
+        <a *ngFor="let res of planet.resources" [routerLink]="['./',res.name]">
+          <img [src]="res.img" alt="Res">
           {{res.name}}
-        </div>
+        </a>
       </div>
     </div>
   </div>
