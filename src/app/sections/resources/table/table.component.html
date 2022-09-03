@@ -13,12 +13,12 @@
     <button><img src="../../../../assets/resources/categ/miscellaneous.png" alt="All"></button>
   </div>
   <div class="searchControl">
-    <button>search</button>
+    <input alt="search" (input)="keyPressNumbers($event)"/>
     <button>filter</button>
   </div>
   <div class="resTable">
     <app-res-table-item 
-    *ngFor="let item of elmass"
+    *ngFor="let item of cutedMass"
     [item]=item></app-res-table-item>
   </div>
 </div>

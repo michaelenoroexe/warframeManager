@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ElementRef, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { firstValueFrom } from 'rxjs';
 import { Resource } from 'src/app/sections/items.service';
@@ -16,6 +16,9 @@ export class ItemdisComponent implements OnInit {
   plan:Planet[] = [];
   targetPlanets:Planet[] = []
   targetRes:Resource[] =[]
+  private myPopup:any;
+  private timer:any;
+  delay? = 1;
   constructor(private route: ActivatedRoute, private planets: PlanetService) { }
 
   ngOnInit(): void {
@@ -44,6 +47,38 @@ export class ItemdisComponent implements OnInit {
       }
     }
   }
-
-  ngOnDestroy() {}
+  // Display popup with planet where you can find resource current hover and main
+  DisplayPlanet(curr:string, targ:MouseEvent) {
+    this.timer = setTimeout(() => {
+      let x = targ.clientX;
+      let y = targ.clientY;
+      this.CreatePlanetPopup(curr, x, y);
+    }, this.delay)
+  }
+  // Create Popup with planet
+  CreatePlanetPopup(curr:string, x:number, y:number) {
+    let popup = document.createElement('div');
+    let pl = this.GetPlanet(curr);
+    popup.innerHTML = `<h2>${pl!.name}</h2> <img src = ${pl?.img} alt = "Planet"/>`;
+    popup.setAttribute("class", "tooltip-container");
+    popup.style.top = (y-20).toString() + "px";
+    popup.style.left = (x+90).toString() + "px";
+    document.body.appendChild(popup);
+    this.myPopup = popup;
+    //setTimeout(() => {
+    //  if (this.myPopup) this.myPopup.remove();
+    //}, 5000); // Remove tooltip after 5 seconds
+  }
+  GetPlanet(curr:string) {
+    return this.targetPlanets.find(sinPlan =>
+      sinPlan.resources.some(re => re.name == curr)
+    )
+  }
+  // Clear popup
+  ClearPopUp() {
+    this.myPopup.remove();
+  }
+  ngOnDestroy() {
+    if (this.myPopup) { this.myPopup.remove() }
+  }
 }

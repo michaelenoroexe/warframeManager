@@ -5,7 +5,10 @@
       <p>{{item.name}}</p>
     </div>
     <div class="targetRess">
-      <a *ngFor="let res of targetRes" [routerLink]="['../', res.name]" (click)="DisplayItemInfo(res.name)">
+      <a *ngFor="let res of targetRes" [routerLink]="['../', res.name]" 
+        (click)="DisplayItemInfo(res.name)"
+        (mouseenter) = "DisplayPlanet(res.name, $event)"
+        (mouseleave) = "ClearPopUp()">
         <img [src]="res.img" alt="Res">
         <p>{{res.name}}</p>
       </a>
