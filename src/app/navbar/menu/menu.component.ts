@@ -12,9 +12,13 @@ export class MenuComponent implements OnInit {
   constructor(private router: Router) { }
 
   ngOnInit(): void {
-    let urlmass = window.location.href.split('/');
-    let curr = urlmass[urlmass.length-1];
-    this.selected = curr;
+    let url = window.location.href;
+    if (url.includes('resources')) {
+      this.chosenSection = 'resources';
+      if (url.includes('location')) this.selected = 'location';
+      else if (url.includes('table')) this.selected = 'table';
+    }
+
   }
 
 }

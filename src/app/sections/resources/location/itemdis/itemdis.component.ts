@@ -26,6 +26,7 @@ export class ItemdisComponent implements OnInit {
   }
   // Get all info about resource in parameter
   async DisplayItemInfo(nam = "") {
+    if (this.myPopup) this.ClearPopUp();
     const resName = (nam == "")? (await firstValueFrom(this.route.params))['id']: nam;
     this.item = new Resource();
     this.targetPlanets = [];
@@ -57,6 +58,7 @@ export class ItemdisComponent implements OnInit {
   }
   // Create Popup with planet
   CreatePlanetPopup(curr:string, x:number, y:number) {
+    if (this.myPopup) this.ClearPopUp();
     let popup = document.createElement('div');
     let pl = this.GetPlanet(curr);
     popup.innerHTML = `<h2>${pl!.name}</h2> <img src = ${pl?.img} alt = "Planet"/>`;
@@ -65,9 +67,9 @@ export class ItemdisComponent implements OnInit {
     popup.style.left = (x+90).toString() + "px";
     document.body.appendChild(popup);
     this.myPopup = popup;
-    //setTimeout(() => {
-    //  if (this.myPopup) this.myPopup.remove();
-    //}, 5000); // Remove tooltip after 5 seconds
+    this.timer = setTimeout(() => {
+      if (this.myPopup) this.ClearPopUp()
+    }, 5000); // Remove tooltip after 5 seconds
   }
   GetPlanet(curr:string) {
     return this.targetPlanets.find(sinPlan =>
@@ -76,6 +78,7 @@ export class ItemdisComponent implements OnInit {
   }
   // Clear popup
   ClearPopUp() {
+    if (this.timer) clearTimeout(this.timer);
     this.myPopup.remove();
   }
   ngOnDestroy() {

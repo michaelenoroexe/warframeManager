@@ -22,6 +22,20 @@ export class DataGetterService {
     }
     return this.http.get(environment.apiURL+end, he)
   }
+  public GetAllComponents() {
+    let tok = localStorage.getItem("accessToken");
+    let end = ""
+    let he = {}
+    if (tok != null && tok != undefined) {
+      end = "GetData/UserComponentsList"
+      he = { 
+        headers: {
+        "Authorization": "Bearer " + tok
+        }
+      }
+    }
+    return this.http.get(environment.apiURL+end, he)
+  }
   public GetPlanets() {
     return this.http.get(environment.apiURL+'GetData/Planets')
   }

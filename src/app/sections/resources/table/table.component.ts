@@ -59,6 +59,10 @@ export class ResTableComponent implements OnInit {
   keyPressNumbers(event:any) {
     let full = event.target.value.toLocaleLowerCase();
     let chan = event.data;
+    if (full.length == 0) {
+      this.cutedMass = this.elmass;
+      return;
+    }
     if (chan == null) {
       this.Search(full, "new");
       return;
