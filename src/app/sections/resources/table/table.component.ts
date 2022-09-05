@@ -16,14 +16,11 @@ import { SearchService } from '../../search.service';
 export class ResTableComponent implements OnInit {
   elmass:Resource[] = []
   cutedMass:Resource[] = []
+  pvSearch:string = ""
   constructor(private data: DataGetterService, private items: AllItemsService, private search:SearchService) {}
 
   ngOnInit(): void {
-    const md5 = new Md5();
-    var resListGet = this.data.GetAllRess();
-    var resList: any
     this.elmass = []
-    var cuur = this
     this.GetItems()
     //resListGet.subscribe({
     //  next(res) {
@@ -43,10 +40,11 @@ export class ResTableComponent implements OnInit {
     
   }
   async GetItems() {
-    this.elmass = await this.items.GetAllItems()
+    this.elmass = await this.items.GetAllResources()
     this.cutedMass = this.elmass
   }
   async Search(st:any, type:string = "") {
+    this.pvSearch = st;
     if (type == "new") {
       this.search.Find(this.elmass, st).then(val => this.SetMass(val));
       return;
@@ -60,14 +58,15 @@ export class ResTableComponent implements OnInit {
     let full = event.target.value.toLocaleLowerCase();
     let chan = event.data;
     if (full.length == 0) {
+      this.pvSearch = "";
       this.cutedMass = this.elmass;
       return;
     }
-    if (chan == null) {
+    if (chan == null || full.length < this.pvSearch.length) {
       this.Search(full, "new");
       return;
     }
-    this.Search(full)
+    this.Search(full);
     return;
   }
   SetMass(val:Resource[]) {

@@ -11,14 +11,18 @@ import { Component, Resource } from './items.service';
 })
 export class AllItemsService {
   _itemBuffer:Resource[] | Component[] = []
-  tas:Promise<Object>
+  _resourceBuffer:Resource[] = []
+  Restas:Promise<Object>
+  Itetas:Promise<Object>
   private bufferRedy:boolean = false
   public get ItemBuffer() {
     return this._itemBuffer
   }
   constructor(private gett:DataGetterService) {
-    this.tas = firstValueFrom(gett.GetAllRess())
+    this.Itetas = firstValueFrom(gett.GetAllComponents())
+    this.Restas = firstValueFrom(gett.GetAllRess())
     this.GetAllItems()
+    this.GetAllResources()
     //this.tas = gett.GetAllRess().subscribe({
     //  next(value:any) {
     //    th._itemBuffer = Component.castArray(value)
@@ -28,28 +32,43 @@ export class AllItemsService {
   }
   async GetAllItems() {
     if (this.bufferRedy == false) {
-      let ress = await this.tas
+      let ress = await this.Itetas
       this._itemBuffer = Component.castArray(Object.values(ress))
-      await this.LoadAllItemsImages()
+      await this.LoadAllItemsImages(this._itemBuffer, ImageGettingService.GetItemImgUrl)
       this.bufferRedy = true
     }
     return this._itemBuffer
   }
-  async LoadAllItemsImages() {
-    this.ItemBuffer.forEach(
+
+  async GetAllResources() {
+    if (this.bufferRedy == false) {
+      let ress = await this.Restas
+      this._resourceBuffer = Component.castArray(Object.values(ress))
+      await this.LoadAllItemsImages(this._resourceBuffer, ImageGettingService.GetResImgUrl)
+      this.bufferRedy = true
+    }
+    return this._resourceBuffer
+  }
+  async LoadAllItemsImages(ar:Array<any>, imgGet:Function) {
+    ar.forEach(
       item => {
-        let splitStr = item.name.toLowerCase().split(' ');
-        for (var i = 0; i < splitStr.length; i++) {
-          // You do not need to check if i is larger than splitStr length, as your for does that for you
-          // Assign it back to the array
-          splitStr[i] = splitStr[i].charAt(0).toUpperCase() + splitStr[i].substring(1);     
+        try {
+          let splitStr = item.name.toLowerCase().split(' ');
+          for (var i = 0; i < splitStr.length; i++) {
+            // You do not need to check if i is larger than splitStr length, as your for does that for you
+            // Assign it back to the array
+            splitStr[i] = splitStr[i].charAt(0).toUpperCase() + splitStr[i].substring(1);     
+          }
+          // Directly return the joined string
+          let resName = splitStr.join('');
+          resName = imgGet(resName);
+          let hash = Md5.hashStr(resName+'.png');
+          let patturl = `https://static.wikia.nocookie.net/warframe/images/${hash[0]}/${hash[0]+hash[1]}/${resName}.png`;
+          item.img = patturl;
         }
-        // Directly return the joined string
-        let resName = splitStr.join('');
-        resName = ImageGettingService.GetImgUrl(resName);
-        let hash = Md5.hashStr(resName+'.png');
-        let patturl = `https://static.wikia.nocookie.net/warframe/images/${hash[0]}/${hash[0]+hash[1]}/${resName}.png`;
-        item.img = patturl;
+        catch (ar) {
+          alert(ar)
+        }
       })
   }
 }

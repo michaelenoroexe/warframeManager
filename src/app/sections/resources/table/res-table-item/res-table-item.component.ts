@@ -31,7 +31,7 @@ export class ResTableItemComponent implements OnInit {
   //Changed Resource number save
   saveNewResNum()
   {
-    this.save.ResourceNumberChange({Resource: this.item.id, Number: this.item.owned}).subscribe({
+    this.save.ResourceNumberChange({Resource: this.item.id, Number: this.item.owned, Type: "resource"}).subscribe({
       next(value) {
       },
       error(err) {

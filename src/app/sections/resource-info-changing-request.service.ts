@@ -8,7 +8,7 @@ import { environment } from 'src/environments/environment';
 export class ResourceInfoChangeService {
 
   constructor (private http: HttpClient){ }
-  public ResourceNumberChange(change: {Resource:string, Number:number}) {
+  public ResourceNumberChange(change: {Resource:string, Number:number, Type:string}) {
     let tok = localStorage.getItem("accessToken");
     return this.http.post(environment.apiURL+"ProfUp", change, {
       headers: {

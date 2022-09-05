@@ -27,7 +27,7 @@ export class DataGetterService {
     let end = ""
     let he = {}
     if (tok != null && tok != undefined) {
-      end = "GetData/UserComponentsList"
+      end = "GetData/UserItemsList"
       he = { 
         headers: {
         "Authorization": "Bearer " + tok
