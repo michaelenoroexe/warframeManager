@@ -3,17 +3,19 @@ import { Resource } from 'src/app/sections/items.service';
 import { ResourceInfoChangeService } from 'src/app/sections/resource-info-changing-request.service';
 
 @Component({
-  selector: 'app-res-table-item',
-  templateUrl: './res-table-item.component.html',
-  styleUrls: ['./res-table-item.component.scss']
+  selector: 'app-ars-table-item',
+  templateUrl: './arsres-table-item.component.html',
+  styleUrls: ['./arsres-table-item.component.scss']
 })
-export class ResTableItemComponent implements OnInit {
+export class ArsTableItemComponent implements OnInit {
   @Input()
   item:Resource = new Resource("", "",[""]);
 
+  blueprint:boolean = false;
   constructor(private save: ResourceInfoChangeService) { }
 
   ngOnInit(): void {
+    if (this.item.name.toLowerCase().includes('blueprint')) this.blueprint = true;
   }
    // Only Integer Numbers
   keyPressNumbers(event:any) {
@@ -29,7 +31,7 @@ export class ResTableItemComponent implements OnInit {
   //Changed Resource number save
   saveNewResNum()
   {
-    this.save.ResourceNumberChange({Resource: this.item.id, Number: this.item.owned, Type: "resource"}).subscribe({
+    this.save.ResourceNumberChange({Resource: this.item.id, Number: this.item.owned, Type: "item"}).subscribe({
       next(value) {
       },
       error(err) {

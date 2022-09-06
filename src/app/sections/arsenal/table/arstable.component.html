@@ -1,0 +1,24 @@
+<div class="tableContainer">
+  <h1>resources</h1>
+  <div class="categFilter">
+    <button><img src="../../../../assets/resources/categ/all.png" alt="All"></button>
+    <button><img src="../../../../assets/resources/categ/warframe.png" alt="All"></button>
+    <button><img src="../../../../assets/resources/categ/weapon.png" alt="All"></button>
+    <button><img src="../../../../assets/resources/categ/robotic.png" alt="All"></button>
+    <button><img src="../../../../assets/resources/categ/appearance.png" alt="All"></button>
+    <button><img src="../../../../assets/resources/categ/resource.png" alt="All"></button>
+    <button><img src="../../../../assets/resources/categ/primepart.png" alt="All"></button>
+    <button><img src="../../../../assets/resources/categ/vehicle.png" alt="All"></button>
+    <button><img src="../../../../assets/resources/categ/archweapon.png" alt="All"></button>
+    <button><img src="../../../../assets/resources/categ/miscellaneous.png" alt="All"></button>
+  </div>
+  <div class="searchControl">
+    <input alt="search" (input)="keyPressNumbers($event)"/>
+    <button>filter</button>
+  </div>
+  <div class="resTable">
+    <app-ars-table-item 
+    *ngFor="let item of cutedMass"
+    [item]=item></app-ars-table-item>
+  </div>
+</div>

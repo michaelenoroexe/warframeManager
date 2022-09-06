@@ -2,6 +2,20 @@
   <button (click)="chosenSection = 'arsenal'"
   [ngClass]="(chosenSection=='arsenal')?'selected':''"
   >arsenal</button>
+  <div id="recSec" *ngIf="chosenSection == 'arsenal'">
+    <a 
+      routerLink="./arsenal/arstable" 
+      routerLinkActive="active" 
+      [ngClass]="(selected=='arstable')?'selected':''" 
+      (click)="selected = 'arstable'">
+    <span>></span> table</a>
+    <a 
+      routerLink="#" 
+      routerLinkActive="active" 
+      [ngClass]="(selected=='location')?'selected':''"
+      (click)="selected = 'location'">
+    <span>></span> ...</a>
+  </div>
   <button (click)="chosenSection = 'resources'"
   [ngClass]="(chosenSection=='resources')?'selected':''"
   >resources</button>

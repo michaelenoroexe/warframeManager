@@ -22,6 +22,9 @@ export class ImageGettingService {
       if (res[0] == 'Diriga') return 'ArcDrone'
       if (res[0] == 'Helios') return 'PetCorpusMelee'
       if (res[0] == 'Nautilus') return 'EmpyreanSentinel'
+      if (name == 'Synthula') return 'Eventium'
+      if (name == 'Mandachord') return 'Mandochord'
+      if (name == 'Boot') return 'GrineerBoot'
       return name
     }
     // Checks for prime/notPrime items
@@ -69,6 +72,7 @@ export class ImageGettingService {
       if (add != '') return 'GenericWeaponPrimeHilt'
       return 'Handle' 
     }
+    if (name == "Crewman'sBoot") return 'CrewmensBoot'
     if (name.endsWith('Boot')) {
       if (add != '') return 'GenericWeaponPrimeGuard'
       return 'Boot' 
@@ -102,6 +106,10 @@ export class ImageGettingService {
       if (iGs.IsInList(res[0],['Detonite', 'Mutagen'])) return res[0]+'_'+res[1]
       // ---------------
       if (name.startsWith('DarkSplit')) return 'DarkSplitSwordDualSwords'
+      
+      if (res[nameLen-1] =='Fragment') return 'NavCoordinateNew'
+      
+      if (iGs.IsInList(res[0], ['Chroma', 'Scorched'])) return name +'64'
       
       if (res[1] == 'Umbra') return 'ExcaliburUmbraFull'
       if (name.endsWith('Aspect')) {
@@ -138,9 +146,6 @@ export class ImageGettingService {
       if (name == 'Frostleaf') return 'WildGingerB'
       if (name == 'Endo') return 'EndoIconRenderLarge'
       if (name == 'Pigment') return 'PigmentPickup2'
-      if (name == 'Synthula') return 'Eventium'
-      if (name == 'Mandachord') return 'Mandochord'
-      if (name == 'Boot') return 'GrineerBoot'
       return name
     }
     if (name.endsWith('Systems')) {
@@ -194,13 +199,11 @@ export class ImageGettingService {
     // ------------
     if (name.startsWith('Corpus')) return 'CorpusSuper' + res[nameLen-1]
     if (name.startsWith('Antiserum')) return 'Actuator'
-    if (iGs.IsInList(res[0], ['Judgement', 'Chroma', 'Scorched'])) return name +'64'
     if (name.startsWith('Ticor')) return 'Ticor_Plate'
-    if (iGs.IsInList(res[nameLen-1],['Coordinate', 'Archive', 'Fragment'])) return 'NavCoordinateNew'
+    if (res[0] == 'Judgement') return name +'64'
+    if (iGs.IsInList(res[nameLen-1],['Coordinate', 'Archive'])) return 'NavCoordinateNew'
     if (name.endsWith('Corruptor')) return 'Warframe_' + res[0] + '_Corruptor'
     if (name.endsWith('Alu')) return 'CryptographicALU'
-    
-    if (name == "Crewman'sBoot") return 'CrewmensBoot'
     return name
   }
   // Get Planet img url

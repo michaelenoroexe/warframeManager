@@ -46,7 +46,7 @@ export class PlanetService{
   }
   // Get all resources from total item buffer
   private async GetPlanetResources(id:string, li:Array<any>) {
-    await (await this.items.GetAllItems()).forEach(it => {
+    await (await this.items.GetAllResources()).forEach(it => {
       if ( it.location?.some(res => res == id))
         li.push(it);
     })

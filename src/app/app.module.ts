@@ -15,6 +15,8 @@ import { ResTableComponent } from './sections/resources/table/table.component';
 import { ResTableItemComponent } from './sections/resources/table/res-table-item/res-table-item.component';
 import { LocationComponent } from './sections/resources/location/location.component';
 import { ItemdisComponent } from './sections/resources/location/itemdis/itemdis.component';
+import { ArsTableComponent } from './sections/arsenal/table/arstable.component';
+import { ArsTableItemComponent } from './sections/arsenal/table/arsres-table-item/arsres-table-item.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { ItemdisComponent } from './sections/resources/location/itemdis/itemdis.
     ResTableComponent,
     ResTableItemComponent,
     LocationComponent,
-    ItemdisComponent
+    ItemdisComponent,
+    ArsTableComponent,
+    ArsTableItemComponent
   ],
   imports: [
     BrowserModule,

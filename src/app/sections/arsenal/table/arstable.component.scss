@@ -36,7 +36,7 @@
     margin-bottom: 1.74vw;
     display: flex;
     justify-content: space-between;
-    .filter {
+    button {
       height: 1.736vw;
       width: 11.53vw;
       padding: 0 1.53vw 0 1.53vw;
@@ -57,7 +57,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: left;
-    app-res-table-item {
+    app-ars-table-item {
       margin: 1.042vw 0.52vw;
       margin-top: 0px;
     }

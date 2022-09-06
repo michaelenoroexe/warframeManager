@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
+import { firstValueFrom } from 'rxjs';
 
 @Component({
   selector: 'app-menu',
@@ -9,10 +10,16 @@ import { Router } from '@angular/router';
 export class MenuComponent implements OnInit {
   chosenSection:string = "resources";
   selected:string = "";
-  constructor(private router: Router) { }
+  nam:string = "";
+  constructor(private route: ActivatedRoute) { }
 
   ngOnInit(): void {
     let url = window.location.href;
+    if (url.includes('arsenal')) {
+      this.chosenSection = 'arsenal';
+      if (url.includes('arstable')) this.selected = 'arstable';
+      else if (url.includes('loc')) this.selected = 'loc';
+    }
     if (url.includes('resources')) {
       this.chosenSection = 'resources';
       if (url.includes('location')) this.selected = 'location';

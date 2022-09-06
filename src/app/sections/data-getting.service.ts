@@ -10,7 +10,7 @@ export class DataGetterService {
   constructor(private http:HttpClient) {}
   public GetAllRess() {
     let tok = localStorage.getItem("accessToken");
-    let end = ""
+    let end = "GetData/ResourcesList"
     let he = {}
     if (tok != null && tok != undefined) {
       end = "GetData/UserResourcesList"
@@ -24,7 +24,7 @@ export class DataGetterService {
   }
   public GetAllComponents() {
     let tok = localStorage.getItem("accessToken");
-    let end = ""
+    let end = "GetData/ItemsList"
     let he = {}
     if (tok != null && tok != undefined) {
       end = "GetData/UserItemsList"
@@ -36,7 +36,10 @@ export class DataGetterService {
     }
     return this.http.get(environment.apiURL+end, he)
   }
+  public GetAllTypes() {
+    return this.http.get(environment.apiURL+"GetData/TypesList");
+  }
   public GetPlanets() {
-    return this.http.get(environment.apiURL+'GetData/Planets')
+    return this.http.get(environment.apiURL+'GetData/Planets');
   }
 }

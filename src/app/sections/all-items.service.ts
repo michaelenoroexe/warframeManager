@@ -14,41 +14,60 @@ export class AllItemsService {
   _resourceBuffer:Resource[] = []
   Restas:Promise<Object>
   Itetas:Promise<Object>
-  private bufferRedy:boolean = false
+  Types:{ id:Object, name:string, strId: string; }[] = [];
+  private resbufferRedy:boolean = false
+  private itembufferRedy:boolean = false
   public get ItemBuffer() {
     return this._itemBuffer
   }
   constructor(private gett:DataGetterService) {
+    let th = this
     this.Itetas = firstValueFrom(gett.GetAllComponents())
+    this.Itetas.
+      then(re => {
+        this._itemBuffer = Component.castArray(Object.values(re))
+        this.LoadAllItemsImages(this._itemBuffer, ImageGettingService.GetItemImgUrl);
+        this.GetAllTypes(this._itemBuffer);
+        this.itembufferRedy = true;
+      });
     this.Restas = firstValueFrom(gett.GetAllRess())
-    this.GetAllItems()
-    this.GetAllResources()
-    //this.tas = gett.GetAllRess().subscribe({
-    //  next(value:any) {
-    //    th._itemBuffer = Component.castArray(value)
-    //  },
-    //})
+    this.Restas.
+      then(re => {
+        this._resourceBuffer = Component.castArray(Object.values(re))
+        this.LoadAllItemsImages(this._resourceBuffer, ImageGettingService.GetResImgUrl);
+        this.GetAllTypes(this._resourceBuffer);
+        this.resbufferRedy = true;
+      });
+    //this.GetAllItems()
+    //this.GetAllResources()
     
   }
   async GetAllItems() {
-    if (this.bufferRedy == false) {
-      let ress = await this.Itetas
-      this._itemBuffer = Component.castArray(Object.values(ress))
-      await this.LoadAllItemsImages(this._itemBuffer, ImageGettingService.GetItemImgUrl)
-      this.bufferRedy = true
-    }
+    if (this.itembufferRedy == false)
+      await this.Itetas;
     return this._itemBuffer
   }
 
   async GetAllResources() {
-    if (this.bufferRedy == false) {
-      let ress = await this.Restas
-      this._resourceBuffer = Component.castArray(Object.values(ress))
-      await this.LoadAllItemsImages(this._resourceBuffer, ImageGettingService.GetResImgUrl)
-      this.bufferRedy = true
-    }
+    if (this.resbufferRedy == false) 
+      await this.Restas
     return this._resourceBuffer
   }
+
+  async GetAllTypes(an:any) {
+    let re = await firstValueFrom(this.gett.GetAllTypes());
+    Object.values(re).forEach(r => this.Types.push(r));
+    let th = this;
+    let ty: any[] = [];
+    an.forEach((res: { type: string[]; }) => {
+      ty = [];
+      res.type.forEach(typ => { 
+        ty.push(this.Types.find(x => x.strId == typ)?.name)
+      })
+      res.type = ty;
+    })
+  }
+
   async LoadAllItemsImages(ar:Array<any>, imgGet:Function) {
     ar.forEach(
       item => {
