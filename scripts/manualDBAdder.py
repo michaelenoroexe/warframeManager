@@ -10,9 +10,9 @@ Comps_col = warf_db["Components"]
 
 def Add(name, item_list, targ):
     for item in item_list:
-      it = Comps_col.find_one({"name":item})
-      it[targ].append(name)
-      Comps_col.update_one({"_id":it["_id"]}, {"$set":{targ:it[targ]}})
+        it = Comps_col.find_one({"name":item})
+        it[targ].append(name)
+        Comps_col.update_one({"_id":it["_id"]}, {"$set":{targ:it[targ]}})
 
 
 def AddLocation(name, item_list):
