@@ -14,7 +14,7 @@
       </a>
     </div>
   </div>
-  <div class="planets">
+  <div class="planets" #planetBox>
     <div *ngFor="let planet of targetPlanets">
       <img [src]="planet.img" alt="planet">
       {{planet.name}}

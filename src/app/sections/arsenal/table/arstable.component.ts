@@ -6,7 +6,7 @@ import { ImageGettingService } from '../../get-img-url.service';
 import { Resource } from '../../items.service';
 import { DataGetterService } from '../../data-getting.service';
 import { AllItemsService } from '../../all-items.service';
-import { SearchService } from '../../search.service';
+import { SearchPar, SearchService } from '../../search.service';
 
 @Component({
   selector: 'app-arstable',
@@ -17,6 +17,7 @@ export class ArsTableComponent implements OnInit {
   elmass:Resource[] = []
   cutedMass:Resource[] = []
   pvSearch:string = ""
+  currPar:SearchPar = {str:"", categ:"", or:[], and:[]};
   constructor(private data: DataGetterService, private items: AllItemsService, private search:SearchService) {}
 
   ngOnInit(): void {
@@ -28,30 +29,32 @@ export class ArsTableComponent implements OnInit {
     this.elmass = await this.items.GetAllItems()
     this.cutedMass = this.elmass
   }
-  async Search(st:any, type:string = "") {
-    this.pvSearch = st;
+  async Search(type:string = "") {
+    this.pvSearch = this.currPar.str;
     if (type == "new") {
-      this.search.Find(this.elmass, st).then(val => this.SetMass(val));
+      this.search.Find(this.elmass, this.currPar).then(val => this.SetMass(val));
       return;
     }
-    this.search.Find(this.cutedMass, st).then(val => this.SetMass(val));
+    this.search.Find(this.cutedMass, new SearchPar(this.currPar.str)).then(val => this.SetMass(val));
     return;
   }
-
+  CategSea(na:string = "", or:string[] = [], all:string[] = []) {
+    this.currPar.categ = na;
+    this.currPar.or = or;
+    this.currPar.and = all;
+    this.search.Find(this.elmass, this.currPar).then(val => this.SetMass(val));
+  }
   // Send string to search
   keyPressNumbers(event:any) {
     let full = event.target.value.toLocaleLowerCase();
     let chan = event.data;
-    if (full.length == 0) {
-      this.pvSearch = "";
-      this.cutedMass = this.elmass;
-      return;
-    }
     if (chan == null || full.length < this.pvSearch.length) {
-      this.Search(full, "new");
+      this.currPar.str = full
+      this.Search("new");
       return;
     }
-    this.Search(full);
+    this.currPar.str = full
+    this.Search();
     return;
   }
   SetMass(val:Resource[]) {

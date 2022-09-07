@@ -34,9 +34,6 @@ export class ResTableComponent implements OnInit {
       this.search.Find(this.elmass, this.currPar).then(val => this.SetMass(val));
       return;
     }
-    //this.currPar.categ = "";
-    //this.currPar.or = [];
-    //this.currPar.and = [];
     this.search.Find(this.cutedMass, new SearchPar(this.currPar.str)).then(val => this.SetMass(val));
     return;
   }

@@ -1,4 +1,4 @@
-import { Component, ElementRef, OnInit } from '@angular/core';
+import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { firstValueFrom } from 'rxjs';
 import { Resource } from 'src/app/sections/items.service';
@@ -11,10 +11,10 @@ import { PlanetService } from '../planet.service';
   styleUrls: ['./itemdis.component.scss']
 })
 export class ItemdisComponent implements OnInit {
-
+  @ViewChild('planetBox') d1:ElementRef | undefined;
   item:Resource = new Resource();
   plan:Planet[] = [];
-  targetPlanets:Planet[] = []
+  targetPlanets:Planet[] = [];
   targetRes:Resource[] =[]
   private myPopup:any;
   private timer:any;
@@ -23,6 +23,16 @@ export class ItemdisComponent implements OnInit {
 
   ngOnInit(): void {
     this.planets.GetPlanetBuffer().then(val => {this.plan = val; this.DisplayItemInfo()})
+  }
+  ngAfterViewInit() {
+    
+  }
+  PlanDisplay() {
+    let sty;
+    for(let planet of this.targetPlanets) {
+      sty = `display: block;position: absolute;top: ${Math.floor(Math.random() * 1000)}px;left: ${Math.floor(Math.random() * 5000)}px;pointer-events: none;color: color;`
+      this.d1!.nativeElement.insertAdjacentHTML('beforeend', `<div class="planet" style = "${sty}">${planet.name}<img src = "${planet.img}"></div>`);
+    }
   }
   // Get all info about resource in parameter
   async DisplayItemInfo(nam = "") {
@@ -47,6 +57,7 @@ export class ItemdisComponent implements OnInit {
         }
       }
     }
+    this.PlanDisplay();
   }
   // Display popup with planet where you can find resource current hover and main
   DisplayPlanet(curr:string, targ:MouseEvent) {

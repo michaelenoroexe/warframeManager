@@ -1,20 +1,20 @@
 <div class="tableContainer">
   <h1>resources</h1>
-  <div class="categFilter">
-    <button><img src="../../../../assets/resources/categ/all.png" alt="All"></button>
-    <button><img src="../../../../assets/resources/categ/warframe.png" alt="All"></button>
-    <button><img src="../../../../assets/resources/categ/weapon.png" alt="All"></button>
-    <button><img src="../../../../assets/resources/categ/robotic.png" alt="All"></button>
-    <button><img src="../../../../assets/resources/categ/appearance.png" alt="All"></button>
-    <button><img src="../../../../assets/resources/categ/resource.png" alt="All"></button>
-    <button><img src="../../../../assets/resources/categ/primepart.png" alt="All"></button>
-    <button><img src="../../../../assets/resources/categ/vehicle.png" alt="All"></button>
-    <button><img src="../../../../assets/resources/categ/archweapon.png" alt="All"></button>
-    <button><img src="../../../../assets/resources/categ/miscellaneous.png" alt="All"></button>
-  </div>
   <div class="searchControl">
     <input alt="search" (input)="keyPressNumbers($event)"/>
-    <button>filter</button>
+    <div class="categFilter">
+      <button (click)="CategSea('')"><img src="../../../../assets/resources/categ/all.png" alt="All"></button>
+      <button (click)="CategSea('',['warframe','warframe part'])"><img src="../../../../assets/resources/categ/warframe.png" alt="All"></button>
+      <button (click)="CategSea('',['weapon','weapon part'])"><img src="../../../../assets/resources/categ/weapon.png" alt="All"></button>
+      <button (click)="CategSea('',['companion','companion part'])"><img src="../../../../assets/resources/categ/robotic.png" alt="All"></button>
+      <button (click)="CategSea('appearance')"><img src="../../../../assets/resources/categ/appearance.png" alt="All"></button>
+      <button (click)="CategSea('resource')"><img src="../../../../assets/resources/categ/resource.png" alt="All"></button>
+      <button (click)="CategSea('primepart')"><img src="../../../../assets/resources/categ/primepart.png" alt="All"></button>
+      <button (click)="CategSea('',['archwing','archwing part'])"><img src="../../../../assets/resources/categ/vehicle.png" alt="All"></button>
+      <button (click)="CategSea('')"><img src="../../../../assets/resources/categ/archweapon.png" alt="All"></button>
+      <button (click)="CategSea('miscellaneous')"><img src="../../../../assets/resources/categ/miscellaneous.png" alt="All"></button>
+    </div>
+    <button class="filter">filter</button>
   </div>
   <div class="resTable">
     <app-ars-table-item 
