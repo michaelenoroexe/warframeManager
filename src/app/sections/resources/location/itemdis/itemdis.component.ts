@@ -1,4 +1,4 @@
-import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
+import { Component, ElementRef, OnInit, Renderer2, ViewChild } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { firstValueFrom } from 'rxjs';
 import { Resource } from 'src/app/sections/items.service';
@@ -11,15 +11,19 @@ import { PlanetService } from '../planet.service';
   styleUrls: ['./itemdis.component.scss']
 })
 export class ItemdisComponent implements OnInit {
-  @ViewChild('planetBox') d1:ElementRef | undefined;
+  @ViewChild('planetBox', { static: false }) d1:ElementRef | undefined;
   item:Resource = new Resource();
   plan:Planet[] = [];
   targetPlanets:Planet[] = [];
   targetRes:Resource[] =[]
   private myPopup:any;
   private timer:any;
+  private planHeight = 100;
+  private planWidth = 100;
+  planetCords:{y:number, x:number}[] = [];
+  planObj:any;
   delay? = 1;
-  constructor(private route: ActivatedRoute, private planets: PlanetService) { }
+  constructor(private route: ActivatedRoute, private planets: PlanetService, private renderer:Renderer2) { }
 
   ngOnInit(): void {
     this.planets.GetPlanetBuffer().then(val => {this.plan = val; this.DisplayItemInfo()})
@@ -28,15 +32,64 @@ export class ItemdisComponent implements OnInit {
     
   }
   PlanDisplay() {
-    let sty;
-    for(let planet of this.targetPlanets) {
-      sty = `display: block;position: absolute;top: ${Math.floor(Math.random() * 1000)}px;left: ${Math.floor(Math.random() * 5000)}px;pointer-events: none;color: color;`
-      this.d1!.nativeElement.insertAdjacentHTML('beforeend', `<div class="planet" style = "${sty}">${planet.name}<img src = "${planet.img}"></div>`);
+    //objects variable
+    let planetImg, planetPar, planetDiv;
+    //clear prev objects
+    this.planObj = this.renderer.createElement("div");
+    this.GeneratePlanetsPosition();
+    for(let ind = 0; ind < this.targetPlanets.length; ind++) {
+      // Create planet object
+      planetDiv = this.renderer.createElement("div");
+      planetImg = this.renderer.createElement("img");
+      planetPar = this.renderer.createElement("p");
+      this.renderer.appendChild(planetPar,this.renderer.createText(this.targetPlanets[ind].name));
+      this.renderer.addClass(planetPar, "par");
+      this.renderer.setProperty(planetImg,"src", this.targetPlanets[ind].img);
+      this.renderer.setStyle(planetImg, "width", `${this.planWidth}px`);
+      this.renderer.setStyle(planetImg, "height", `${this.planHeight}px`);
+      this.renderer.appendChild(planetDiv, planetPar);
+      this.renderer.appendChild(planetDiv, planetImg);
+      this.renderer.addClass(planetDiv, "planCont");
+      this.renderer.setStyle(planetDiv, "left", `${this.planetCords[ind].x}px`);
+      this.renderer.setStyle(planetDiv, "top", `${this.planetCords[ind].y}px`);
+      this.renderer.appendChild(this.planObj, planetDiv);
+      //this.renderer.appendChild(this.d1!.nativeElement, `<div class="planet" style = "${sty}"><p>${this.targetPlanets[ind].name}</p><img src = "${this.targetPlanets[ind].img}" style="${imgSty}"></div>`);
     }
+    this.renderer.appendChild(this.d1?.nativeElement, this.planObj);
+  }
+  GeneratePlanetsPosition() {
+    this.planetCords =[];
+    // Container for planets
+    let el = this.d1!.nativeElement;
+    let planNum = this.targetPlanets.length;
+    let ydif = (el.clientHeight-this.planHeight) / planNum;
+    this.planetCords.push({y:this.Random(el.offsetTop,el.offsetTop+ydif/2),x:this.Random(el.offsetLeft,el.clientWidth+el.offsetLeft-100)})
+    let yst:number;
+    let xst:number;
+    for (let i = 1; i < planNum; i++ ) {
+      yst = this.planetCords[i-1].y + this.Random(ydif/2,ydif*1.4)
+      if (yst+ this.planHeight > el.clientHeight + el.offsetTop) yst -= yst + this.planHeight - el.clientHeight + el.offsetTop;
+      xst = this.Random(el.offsetLeft,el.clientWidth+el.offsetLeft-100);
+      // if planet locates full below prev - ok
+      if (yst < this.planetCords[i-1].y+this.planHeight)
+      // generate values while collision of planet touch each other
+      while (this.FindCorForSomeFunc(xst, yst))
+      xst = this.Random(el.offsetLeft,el.clientWidth+el.offsetLeft-100);
+      this.planetCords.push({
+        y:yst,
+        x:xst
+      })
+    }
+  }
+  // Fucntion to find cross colisions of planets
+  FindCorForSomeFunc(xpos:number, ypos:number) {
+    return this.planetCords.find(cor => ypos-cor.y < this.planHeight && Math.abs(xpos-cor.x)<this.planWidth) != undefined;
   }
   // Get all info about resource in parameter
   async DisplayItemInfo(nam = "") {
     if (this.myPopup) this.ClearPopUp();
+    // Destroy object with planets images when reroute to anouther resource
+    if (this.planObj) this.renderer.removeChild(this.d1?.nativeElement, this.planObj);
     const resName = (nam == "")? (await firstValueFrom(this.route.params))['id']: nam;
     this.item = new Resource();
     this.targetPlanets = [];
@@ -59,6 +112,10 @@ export class ItemdisComponent implements OnInit {
     }
     this.PlanDisplay();
   }
+  Random(min:number, max:number) {
+    return Math.random() * (max - min) + min;
+  }
+  
   // Display popup with planet where you can find resource current hover and main
   DisplayPlanet(curr:string, targ:MouseEvent) {
     this.timer = setTimeout(() => {
@@ -94,5 +151,6 @@ export class ItemdisComponent implements OnInit {
   }
   ngOnDestroy() {
     if (this.myPopup) { this.myPopup.remove() }
+    if (this.planObj) this.renderer.removeChild(this.d1?.nativeElement, this.planObj);
   }
 }
