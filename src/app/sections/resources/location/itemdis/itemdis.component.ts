@@ -63,7 +63,8 @@ export class ItemdisComponent implements OnInit {
     let el = this.d1!.nativeElement;
     let planNum = this.targetPlanets.length;
     let ydif = (el.clientHeight-this.planHeight) / planNum;
-    this.planetCords.push({y:this.Random(el.offsetTop,el.offsetTop+ydif/2),x:this.Random(el.offsetLeft,el.clientWidth+el.offsetLeft-100)})
+    this.planetCords.push({y:this.Random(el.offsetTop,el.offsetTop+ydif/2),
+                          x:this.Random(el.offsetLeft,el.clientWidth+el.offsetLeft-100)})
     let yst:number;
     let xst:number;
     for (let i = 1; i < planNum; i++ ) {
