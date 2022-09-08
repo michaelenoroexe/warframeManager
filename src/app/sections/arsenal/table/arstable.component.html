@@ -17,8 +17,10 @@
     <button class="filter">filter</button>
   </div>
   <div class="resTable">
-    <app-ars-table-item 
-    *ngFor="let item of cutedMass"
-    [item]=item></app-ars-table-item>
+    <div #itemsContainer></div>
+    <ng-template #item let-item="item">
+      <app-ars-table-item
+      [item]=item></app-ars-table-item>
+    </ng-template>
   </div>
 </div>
