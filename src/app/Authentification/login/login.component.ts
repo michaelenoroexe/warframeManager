@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { LoginUserService } from './login-user.service';
-import { FormControl, FormGroup, Validators } from '@angular/forms';
+import { UntypedFormControl, UntypedFormGroup, Validators } from '@angular/forms';
 import { ErrorHandlerService } from '../Shared/error-handler.service'
 import { LogErrorsService } from './log-errors.service';
 
@@ -11,7 +11,7 @@ import { LogErrorsService } from './log-errors.service';
   providers: [LoginUserService],
 })
 export class LoginComponent implements OnInit {
-  form: FormGroup = new FormGroup({});
+  form: UntypedFormGroup = new UntypedFormGroup({});
   loginInvalid?: boolean = false;
   passwordInvalid: boolean = false;
   errorHandler: boolean = true;
@@ -24,9 +24,9 @@ export class LoginComponent implements OnInit {
   // Initialisation of login in system
   ngOnInit(): void {
     const valid =[Validators.required, Validators.minLength(4), Validators.maxLength(32),]
-    this.form = new FormGroup ({
-      login: new FormControl(null, valid),
-      password: new FormControl(null, valid) 
+    this.form = new UntypedFormGroup ({
+      login: new UntypedFormControl(null, valid),
+      password: new UntypedFormControl(null, valid) 
     })
   }
   // Validation of fields 

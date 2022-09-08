@@ -15,9 +15,13 @@
     </div>
     <button class="filter">filter</button>
   </div>
-  <div class="resTable">
+  <cdk-virtual-scroll-viewport itemSize="50">
+    <app-res-table-item *cdkVirtualFor="let item of cutedMass" [item]=item>
+    </app-res-table-item>
+  </cdk-virtual-scroll-viewport>
+  <!--<div class="resTable">
     <app-res-table-item 
     *ngFor="let item of cutedMass"
     [item]=item></app-res-table-item>
-  </div>
+  </div>-->
 </div>

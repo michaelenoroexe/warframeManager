@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { ReactiveFormsModule } from '@angular/forms';
 import { FormsModule, FormGroup } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { ScrollingModule } from '@angular/cdk/scrolling';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -39,6 +40,7 @@ import { ArsTableItemComponent } from './sections/arsenal/table/arsres-table-ite
     AppRoutingModule,
     ReactiveFormsModule,
     FormsModule,
+    ScrollingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

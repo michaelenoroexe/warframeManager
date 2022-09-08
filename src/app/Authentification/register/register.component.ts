@@ -1,6 +1,6 @@
 import { BoundElementProperty } from '@angular/compiler';
 import { Component, OnInit } from '@angular/core';
-import { FormControl, FormGroup, Validators } from '@angular/forms';
+import { UntypedFormControl, UntypedFormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import { RegUserService } from './reg-user.service';
 import { RegErrorsService } from './reg-errors.service';
@@ -13,7 +13,7 @@ import { ErrorHandlerService } from '../Shared/error-handler.service'
   providers: [RegUserService, RegErrorsService],
 })
 export class RegisterComponent implements OnInit {
-  form: FormGroup = new FormGroup({});
+  form: UntypedFormGroup = new UntypedFormGroup({});
   formvisible: boolean =  !true;
   loginInvalid: boolean = false;
   passwordInvalid: boolean = false;
@@ -28,10 +28,10 @@ export class RegisterComponent implements OnInit {
   // Initialisation register component
   ngOnInit(): void {
     const valid =[Validators.required, Validators.minLength(4), Validators.maxLength(32),]
-    this.form = new FormGroup ({
-      login: new FormControl(null, valid),
-      password: new FormControl(null, valid),
-      cPassword: new FormControl(null, valid),
+    this.form = new UntypedFormGroup ({
+      login: new UntypedFormControl(null, valid),
+      password: new UntypedFormControl(null, valid),
+      cPassword: new UntypedFormControl(null, valid),
     })
   }
 
