@@ -1,37 +1,41 @@
-import { HttpClient } from '@angular/common/http';
 import { Component, OnInit, TemplateRef, ViewChild, ViewContainerRef } from '@angular/core';
-import { environment } from 'src/environments/environment';
-import {Md5} from 'ts-md5/dist/md5';
-import { ImageGettingService } from '../../get-img-url.service';
-import { Resource } from '../../items.service';
-import { DataGetterService } from '../../data-getting.service';
 import { AllItemsService } from '../../all-items.service';
-import { SearchPar, SearchService } from '../../search.service';
 import { ItemDisplayService } from '../../item-display.service';
+import { Resource } from '../../items.service';
+import { SearchPar, SearchService } from '../../search.service';
 
 @Component({
-  selector: 'app-table',
-  templateUrl: './table.component.html',
-  styleUrls: ['./table.component.scss']
+  selector: 'app-crafting-table',
+  templateUrl: './crafting-table.component.html',
+  styleUrls: ['./crafting-table.component.scss']
 })
-export class ResTableComponent implements OnInit {
+export class CraftingTableComponent implements OnInit {
+  
   // variables for displaing items
   @ViewChild('itemsContainer', { read: ViewContainerRef }) container: ViewContainerRef | undefined;
   @ViewChild('item', { read: TemplateRef }) template: TemplateRef<any> | undefined;
-  elmass:Resource[] = [];
-  cutedMass:Resource[] = [];
-  pvSearch:string = "";
+  elmass:Resource[] = []
+  cutedMass:Component[] = []
+  pvSearch:string = ""
   currPar:SearchPar = {str:"", categ:"", or:[], and:[]};
-  constructor(private display:ItemDisplayService , private items: AllItemsService, private search:SearchService) {}
+  
+  constructor(private display: ItemDisplayService, private items: AllItemsService, private search:SearchService) {}
 
   ngOnInit(): void {
     this.elmass = []
     this.GetItems()
   }
   async GetItems() {
-    this.elmass = await this.items.GetAllResources()
-    this.cutedMass = this.elmass
-    this.display.buildData(this.cutedMass, this.container!, this.template!);
+    this.elmass = await this.items.GetAllItems();
+    this.cutedMass = this.GetCraftable(this.elmass);
+    this.display.buildData(this.cutedMass as Resource[], this.container!, this.template!);
+  }
+  GetCraftable(full:any[]) {
+    let res: Component[] = []
+    full.forEach(val =>{
+      if (val.neededResources != undefined) res.push(val as Component)
+    })
+    return res;
   }
   CategSea(na:string = "", or:string[] = [], all:string[] = []) {
     this.currPar.categ = na;
@@ -44,18 +48,19 @@ export class ResTableComponent implements OnInit {
     let full = event.target.value.toLocaleLowerCase();
     let chan = event.data;
     if (chan == null || full.length < this.pvSearch.length) {
-      this.currPar.str = full
+      this.currPar.str = full;
       this.pvSearch = this.currPar.str;
       this.search.Search("new", this.currPar, this.elmass).then((val: Resource[]) => this.SetMass(val));
       return;
     }
     this.currPar.str = full
     this.pvSearch = this.currPar.str;
-    this.search.Search("", this.currPar, this.cutedMass).then((val: Resource[]) => this.SetMass(val));
+    this.search.Search("", this.currPar, this.cutedMass as Resource[]).then((val: Resource[]) => this.SetMass(val));
     return;
   }
   SetMass(val:Resource[]) {
-    this.cutedMass = val;
-    this.display.buildData(this.cutedMass, this.container!, this.template!);
+    this.cutedMass = val as Component[];
+    this.display.buildData(this.cutedMass as Resource[], this.container!, this.template!);
   }
+
 }

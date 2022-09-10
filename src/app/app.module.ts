@@ -18,6 +18,8 @@ import { LocationComponent } from './sections/resources/location/location.compon
 import { ItemdisComponent } from './sections/resources/location/itemdis/itemdis.component';
 import { ArsTableComponent } from './sections/arsenal/table/arstable.component';
 import { ArsTableItemComponent } from './sections/arsenal/table/arsres-table-item/arsres-table-item.component';
+import { CraftingTableComponent } from './sections/arsenal/crafting-table/crafting-table.component';
+import { CraftItemComponent } from './sections/arsenal/crafting-table/craft-item/craft-item.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +34,9 @@ import { ArsTableItemComponent } from './sections/arsenal/table/arsres-table-ite
     LocationComponent,
     ItemdisComponent,
     ArsTableComponent,
-    ArsTableItemComponent
+    ArsTableItemComponent,
+    CraftingTableComponent,
+    CraftItemComponent
   ],
   imports: [
     BrowserModule,

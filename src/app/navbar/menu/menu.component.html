@@ -10,11 +10,11 @@
       (click)="selected = 'arstable'">
     <span>></span> table</a>
     <a 
-      routerLink="#" 
+      routerLink="./arsenal/crafting" 
       routerLinkActive="active" 
-      [ngClass]="(selected=='location')?'selected':''"
-      (click)="selected = 'location'">
-    <span>></span> ...</a>
+      [ngClass]="(selected=='crafting')?'selected':''"
+      (click)="selected = 'crafting'">
+    <span>></span>Crafting</a>
   </div>
   <button (click)="chosenSection = 'resources'"
   [ngClass]="(chosenSection=='resources')?'selected':''"

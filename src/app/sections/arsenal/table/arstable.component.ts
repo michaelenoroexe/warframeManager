@@ -15,10 +15,9 @@ import { ItemDisplayService } from '../../item-display.service';
   styleUrls: ['./arstable.component.scss']
 })
 export class ArsTableComponent implements OnInit {
-  
-    // variables for displaing items
-    @ViewChild('itemsContainer', { read: ViewContainerRef }) container: ViewContainerRef | undefined;
-    @ViewChild('item', { read: TemplateRef }) template: TemplateRef<any> | undefined;
+  // variables for displaing items
+  @ViewChild('itemsContainer', { read: ViewContainerRef }) container: ViewContainerRef | undefined;
+  @ViewChild('item', { read: TemplateRef }) template: TemplateRef<any> | undefined;
   elmass:Resource[] = []
   cutedMass:Resource[] = []
   pvSearch:string = ""
@@ -34,32 +33,26 @@ export class ArsTableComponent implements OnInit {
     this.cutedMass = this.elmass;
     this.display.buildData(this.cutedMass, this.container!, this.template!);
   }
-  async Search(type:string = "") {
-    this.pvSearch = this.currPar.str;
-    if (type == "new") {
-      this.search.Find(this.elmass, this.currPar).then(val => this.SetMass(val));
-      return;
-    }
-    this.search.Find(this.cutedMass, new SearchPar(this.currPar.str)).then(val => this.SetMass(val));
-    return;
-  }
+  
   CategSea(na:string = "", or:string[] = [], all:string[] = []) {
     this.currPar.categ = na;
     this.currPar.or = or;
     this.currPar.and = all;
-    this.search.Find(this.elmass, this.currPar).then(val => this.SetMass(val));
+    this.search.Search("new", this.currPar, this.elmass).then(val => this.SetMass(val));
   }
   // Send string to search
   keyPressNumbers(event:any) {
     let full = event.target.value.toLocaleLowerCase();
     let chan = event.data;
     if (chan == null || full.length < this.pvSearch.length) {
-      this.currPar.str = full
-      this.Search("new");
+      this.currPar.str = full;
+      this.pvSearch = this.currPar.str;
+      this.search.Search("new", this.currPar, this.elmass).then((val: Resource[]) => this.SetMass(val));
       return;
     }
     this.currPar.str = full
-    this.Search();
+    this.pvSearch = this.currPar.str;
+    this.search.Search("", this.currPar, this.cutedMass).then((val: Resource[]) => this.SetMass(val));
     return;
   }
   SetMass(val:Resource[]) {

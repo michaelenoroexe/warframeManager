@@ -18,7 +18,7 @@ export class MenuComponent implements OnInit {
     if (url.includes('arsenal')) {
       this.chosenSection = 'arsenal';
       if (url.includes('arstable')) this.selected = 'arstable';
-      else if (url.includes('loc')) this.selected = 'loc';
+      else if (url.includes('crafting')) this.selected = 'crafting';
     }
     if (url.includes('resources')) {
       this.chosenSection = 'resources';

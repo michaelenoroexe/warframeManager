@@ -16,6 +16,7 @@ export class ImageGettingService {
         let re = name.split('-')[1]
         return re.charAt(0).toUpperCase() + re.substring(1)
       }
+      if (res[0]=='Forma') return 'Forma2'
       //Not prime companions
       if (['Dethcube', 'Wyrm'].find(x => x == res[0])) return 'DEPet' + res[0]
       if (['Taxon', 'Carrier'].find(x => x == res[0])) return 'Pet' + res[0]
@@ -28,20 +29,14 @@ export class ImageGettingService {
       return name
     }
     // Checks for prime/notPrime items
-    if (name.startsWith('Ghoulsaw')) {
-      if (res[1] == 'Blade') return 'Blade'
-      if (res[1] == 'Chassis') return 'Stock'
-      if (nameLen == 2) return 'Handle'
-    }
     //Neuro+cerebrum return
-    if (iGs.IsInList(res[nameLen-1], ['Neuroptics', 'Cerebrum'])) return add + 'Helmet'
+    if (res[nameLen-1] == 'Neuroptics') return add + 'Helmet'
     if (name.endsWith('Systems')) {
       if (iGs.IsInList(res[0], ['Amesha', 'Elytron', 'Itzal', 'Odonata'])) return 'GenericArchwing' + res[nameLen-1]
       return add + 'Systems'
     }
     //Get Gun Chassis
-    if (name.endsWith('GunChassis')) return 'Stock'
-    if (iGs.IsInList(res[nameLen-1], ['Chassis', 'Carapace'])) return add + 'Chassis'
+    if (res[nameLen-1] == 'Chassis') return add + 'Chassis'
     //Archwing components 
     if (iGs.IsInList(res[nameLen-1], ['Harness', 'Wings'])) return 'GenericArchwing' + res[nameLen-1]
     // Excalibur swords
@@ -50,41 +45,19 @@ export class ImageGettingService {
       if (res[1] == 'Prime') return 'ExaltedPrimeBlade'
       return 'ExaltedBladeWeapon'
     }
-    //Get Standart gun parts Image
-    if (iGs.IsInList(res[nameLen-1], ['Barrel', 'Receiver', 'Stock'])) {
-      if (add != '') return 'GenericGunPrime'+res[nameLen-1]
-      return res[nameLen-1]
-    }
-    if (name.endsWith('Link')) {
-      if (add != '') return 'GenericComponentPrimePlug'
-      return 'Link'
-    }
-    if (res[nameLen-1].startsWith('Blade') || name.endsWith('Head')) {
-      if (add != '') return 'GenericWeaponPrimeBlade'
-      return 'Blade'
-    }
-    if (name.endsWith('Handle')) {
-      if (add != '') return 'GenericWeaponPrimeHilt'
-      return 'Handle'
-    }
-    if (name.startsWith('FuraxWraith') && name.endsWith('Gauntlet')) return 'Blade'
-    if (name.endsWith('Gauntlet')) {
-      if (add != '') return 'GenericWeaponPrimeHilt'
-      return 'Handle' 
-    }
     if (name == "Crewman'sBoot") return 'CrewmensBoot'
     if (name.endsWith('Boot')) {
       if (add != '') return 'GenericWeaponPrimeGuard'
       return 'Boot' 
     }
-    // Specific for prime items
-    if (add == 'Prime') {
-      //Get Upper and Lower Limbs
-      if (res[nameLen-1] == 'Limb') return 'GenericWeaponPrimeBlade'
-      if (iGs.IsInList(res[nameLen-1], ['Grip', 'Pouch'])) return 'GenericComponentPrimeLatch'
-      if (name.endsWith('String')) return 'GenericGunPrimeStock'
-      if (name.endsWith('Stars')) return 'GenericWeaponPrimeBlade'
+    //Weapon parts
+    if (name.startsWith('Ghoulsaw')) {
+      if (res[1] == 'Blade') return 'Blade'
+      if (res[1] == 'Chassis') return 'Stock'
+      if (nameLen == 2) return 'Handle'
     }
+    //Get Standart gun parts Image
+    if (iGs.IsInList(res[nameLen-1], ['Barrel', 'Receiver', 'Stock'])) return res[nameLen-1]
     // Specific for common items
     if (add == '') {
       // Mecha
@@ -124,13 +97,8 @@ export class ImageGettingService {
       
       if (name == 'PherliacPods') return 'BallSpawnerInfestedBait'
     }
-    if (name.endsWith('Disc')) {
-      if (add != '') return 'GenericWeaponPrimeBlade' 
-      return 'Link'
-    }
+    
     if (name.startsWith('Artemis')) return name + 'Weapon'
-    // Fluctus Limbs
-    if (name.endsWith('Limbs')) return 'Stock'
     if (name.startsWith('Valkyr') && name.endsWith('Talons')) return 'ValkyrTalons'
         return name
   }
@@ -150,8 +118,54 @@ export class ImageGettingService {
     }
     if (name.endsWith('Systems')) {
       if (iGs.IsInList(res[0], ['Atmo', 'Gyromag', 'Repeller'])) return res[0] + '_' + 'Systems'
-      return name
+      return add + 'Systems'
     }
+    if (res[nameLen-1] == 'Cerebrum') return add + 'Helmet'
+    //Get Gun Chassis
+    if (name.endsWith('GunChassis')) return 'Stock'
+    if (res[nameLen-1] == 'Carapace') return add + 'Chassis'
+    //Weapon part
+    //Get Standart gun parts Image
+    if (iGs.IsInList(res[nameLen-1], ['Barrel', 'Receiver', 'Stock'])) {
+      if (add != '') return 'GenericGunPrime'+res[nameLen-1]
+      return res[nameLen-1]
+    }
+    if (iGs.IsInList(res[nameLen-1], ['Link', 'Heatsink', 'Ornament', 'Core', 'Subcortex', 'Rivet'])) {
+      if (add != '') return 'GenericComponentPrimePlug'
+      return 'Link'
+    }
+    if (res[nameLen-1].startsWith('Blade') || name.endsWith('Head')) {
+      if (add != '') return 'GenericWeaponPrimeBlade'
+      return 'Blade'
+    }
+    if (iGs.IsInList(res[nameLen-1], ['Handle', 'Hilt'])) {
+      if (add != '') return 'GenericWeaponPrimeHilt'
+      return 'Handle'
+    }
+    if (name.startsWith('FuraxWraith') && name.endsWith('Gauntlet')) return 'Blade'
+    if (name.endsWith('Gauntlet')) {
+      if (add != '') return 'GenericWeaponPrimeHilt'
+      return 'Handle' 
+    }
+    if (name.endsWith('Disc')) {
+      if (add != '') return 'GenericWeaponPrimeBlade' 
+      return 'Link'
+    }
+    // Specific for prime items
+    if (add == 'Prime') {
+      //Get Upper and Lower Limbs
+      if (res[nameLen-1] == 'Limb') return 'GenericWeaponPrimeBlade'
+      if (iGs.IsInList(res[nameLen-1], ['Grip', 'Pouch'])) return 'GenericComponentPrimeLatch'
+      if (name.endsWith('String')) return 'GenericGunPrimeStock'
+      if (name.endsWith('Stars')) return 'GenericWeaponPrimeBlade'
+    }
+    // Fluctus Limbs
+    if (name.endsWith('Limbs')) return 'Stock'
+    if (name.endsWith('Boot')) return 'GenericWeaponPrimeGuard'
+    if (iGs.IsInList(res[nameLen-1],['Guard','Aegis'])) return 'Pouch'
+    if (name.endsWith('Chain')) return 'GenericGunPrimeStock'
+    if (name.endsWith('Motor')) return 'GenericGunStock'
+    if (name.endsWith('Ducats')) return 'PrimeBucks'
     // Components
     if (name.startsWith('Fish')) return 'Icon' + name
     if (iGs.IsInList(res[0], ['Echowinder', 'Synathid', 'Tromyzon', 'Scrubber', 'Longwinder', 'Brickie', 'Recaster', 'Mirewinder', 'Eye-eye', 'Charamote', 'Kriller', 'Sapcaddy'])) {
@@ -197,6 +211,11 @@ export class ImageGettingService {
     if (name == 'DusklightSarracenia') return 'CobraLotus'
     if (name == 'LunarPitcher') return 'ZenPitcher'
     // ------------
+    if (name.startsWith('Mandachord')) {
+      if (name.endsWith('Body')) return 'MandochordBridge'
+      if (name.endsWith('Bridge')) return 'MandochordStrum'
+      if (name.endsWith('Fret')) return 'MandochordResonator'
+    }
     if (name.startsWith('Corpus')) return 'CorpusSuper' + res[nameLen-1]
     if (name.startsWith('Antiserum')) return 'Actuator'
     if (name.startsWith('Ticor')) return 'Ticor_Plate'

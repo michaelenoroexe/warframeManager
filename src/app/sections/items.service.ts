@@ -1,3 +1,4 @@
+import { FullResPlusNum } from "./arsenal/crafting-table/craft-item/craft-Item-classes";
 
 export class Resource {
   public id:string = "";
@@ -30,7 +31,7 @@ export class Component extends Resource {
   public creationTime:number = 0;
   public credits:number = 0;
   public neededResources:{ [id: string]: string; } = {} ;
-
+  FullRes:FullResPlusNum[] | undefined;
   constructor(id:string = "", name:string = "", type:string[] = [], credits = 0) {
     super(id, name, type);
     this.credits = credits;

@@ -27,7 +27,7 @@ public buildData(mass:Resource[], container:ViewContainerRef, temp:TemplateRef<a
       container.createEmbeddedView(temp, context);
     }
 
-    currentIndex += ITEMS_RENDERED_AT_ONCE;
+    currentIndex += ITEMS_RENDERED_AT_ONCE+1;
   }, INTERVAL_IN_MS);
 }
   constructor() { }

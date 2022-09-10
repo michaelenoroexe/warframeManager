@@ -1,0 +1,32 @@
+
+<div class="craftItemContainer">
+  <div class="disp">
+    <img [src]="item.img" />
+    <p>
+      <img src="../../../../../assets/credits.png">
+      {{item.credits}}
+      Time:{{item.creationTime}}</p>
+  </div>
+  <div class="craftRes">
+    <p>{{item.name}}</p>
+    <div 
+    *ngFor="let res of item.FullRes" 
+    style="background-color: green;"
+    (mouseenter) = "DisplayRes(res.res.name, $event)"
+    (mouseleave) = "ClearPopUp()">
+      {{res.res.name}}:{{res.num}}
+    </div>
+
+    <div class="aaa" #itemsContainer></div>
+    <ng-template #ite let-item="item">
+      <app-craft-item [item]="item"></app-craft-item>
+    </ng-template>
+  </div>
+
+  {{item.owned}}
+  <br>
+  <div *ngFor="let type of item.type" style="background-color: green;">
+    {{type}}
+  </div>
+  
+</div>
