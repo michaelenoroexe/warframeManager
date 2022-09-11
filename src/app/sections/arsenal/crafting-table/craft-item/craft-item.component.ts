@@ -20,7 +20,7 @@ export class CraftItemComponent implements OnInit {
   @ViewChild('itemsContainer', { read: ViewContainerRef }) container: ViewContainerRef | undefined;
   @ViewChild('ite', { read: TemplateRef }) template: TemplateRef<any> | undefined;
   @ViewChild('popBox', { static: false }) popBox:ElementRef | undefined;
-  private timer:any;
+  ress:any[] = [];
   private myPopup:any;
   delay? = 1;
   constructor(private items:AllItemsService, private renderer:Renderer2) { }
@@ -43,12 +43,22 @@ export class CraftItemComponent implements OnInit {
     }
     if (ress == undefined) alert(`Final+ ${this.item.name}`);
     this.item.FullRes = ress;
+    this.GetFullResourcesList(this.item);
   }
   async GetFullItem(name:string) {
     let res: Resource|undefined = new Resource();
     let allIte = await this.items.GetAllItems();
     res = allIte.find(ite => ite.name == name);
     return res;
+  }
+  async GetFullResourcesList(resource:Comp) {
+    for (let resou of resource.FullRes!) {
+      if (resou.res.FullRes == undefined) {
+        this.ress.push(resou);
+        continue;
+      }
+      this.GetFullResourcesList(resou.res);
+    }
   }
   //Pop up
   // Display popup with planet where you can find resource current hover and main
@@ -69,25 +79,27 @@ export class CraftItemComponent implements OnInit {
     };
     if (cont.item.FullRes != undefined) {
       this.container!.createEmbeddedView(this.template!, cont);
-      this.myPopup = document.getElementsByClassName('popUp')[0];
+      let po = document.getElementsByClassName('popUp');
+      this.myPopup = po[po.length-1];
     }
   }
   @HostListener('mouseover', ['$event'])
   OnSkillMouseOver(event:any) {
-    let hoverComponent = event.target;
-    let inside = false;
-    do {
-      if (this.myPopup) {
-        if (hoverComponent === this.myPopup || hoverComponent === this.currentResElement) {
-          inside = true;
+    if (this.myPopup) {
+      let hoverComponent = event.target;
+      let inside = false;
+      do {
+        if (this.myPopup) {
+          if (hoverComponent === this.myPopup || hoverComponent === this.currentResElement) {
+            inside = true;
+          }
         }
+        hoverComponent = hoverComponent.parentNode;
+      } while (hoverComponent);
+      if (inside) {
+      } else {
+        this.ClearPopUp();
       }
-      hoverComponent = hoverComponent.parentNode;
-    } while (hoverComponent);
-    if (inside) {
-      console.log('inside');
-    } else {
-      this.ClearPopUp();
     }
   }
   // Clear popup
