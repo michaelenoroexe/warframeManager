@@ -47,6 +47,7 @@ export class ItemdisComponent implements OnInit {
       this.renderer.setProperty(planetImg,"src", this.targetPlanets[ind].img);
       this.renderer.setStyle(planetImg, "width", `${this.planWidth}px`);
       this.renderer.setStyle(planetImg, "height", `${this.planHeight}px`);
+      this.renderer.setStyle(planetImg, "object-fit", "contain");
       this.renderer.appendChild(planetDiv, planetPar);
       this.renderer.appendChild(planetDiv, planetImg);
       this.renderer.addClass(planetDiv, "planCont");

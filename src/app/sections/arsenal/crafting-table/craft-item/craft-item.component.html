@@ -3,23 +3,24 @@
   <div class="disp">
     <img [src]="item.img" />
     <p>
-      <img src="../../../../../assets/credits.png">
+      <img src="../../../../../assets/credits.png" alt="MImg">
       {{item.credits}}
       Time:{{item.creationTime}}</p>
   </div>
   <div class="craftRes">
     <p>{{item.name}}</p>
-    <div 
-    *ngFor="let res of item.FullRes" 
-    style="background-color: green;"
-    (mouseenter) = "DisplayRes(res.res.name, $event)"
-    (mouseleave) = "ClearPopUp()">
-      {{res.res.name}}:{{res.num}}
+    <div class="craftResContainer">
+      <div 
+      class="craftResource"
+      *ngFor="let res of item.FullRes" 
+      (mouseenter) = "DisplayRes($event, res.res.name)">
+      <img [src]="res.res.img" alt="Item"/>
+        {{res.res.name}}:{{res.num}}
+      </div>
     </div>
-
-    <div class="aaa" #itemsContainer></div>
-    <ng-template #ite let-item="item">
-      <app-craft-item [item]="item"></app-craft-item>
+    <div #itemsContainer ></div>
+    <ng-template #ite let-item="item" let-left="x" let-top="y">
+      <app-craft-item class="popUp" [item]="item" [zpos]="zpos+1" [style.top]="top" [style.left]="left" [style.z-index]="zpos+1"  style="position: absolute; border: 3px solid black;"></app-craft-item>
     </ng-template>
   </div>
 
