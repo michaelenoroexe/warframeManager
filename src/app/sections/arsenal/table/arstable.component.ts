@@ -8,6 +8,7 @@ import { DataGetterService } from '../../data-getting.service';
 import { AllItemsService } from '../../all-items.service';
 import { SearchPar, SearchService } from '../../search.service';
 import { ItemDisplayService } from '../../item-display.service';
+import { NumFieldChangeService } from '../../num-field-change.service';
 
 @Component({
   selector: 'app-arstable',
@@ -21,8 +22,8 @@ export class ArsTableComponent implements OnInit {
   elmass:Resource[] = []
   cutedMass:Resource[] = []
   pvSearch:string = ""
-  currPar:SearchPar = {str:"", categ:"", or:[], and:[]};
-  constructor(private display: ItemDisplayService, private items: AllItemsService, private search:SearchService) {}
+  currPar:SearchPar = {str:"", categ:"", or:[], and:[], notOr:false};
+  constructor(public ch:NumFieldChangeService, private display: ItemDisplayService, private items: AllItemsService, private search:SearchService) {}
 
   ngOnInit(): void {
     this.elmass = []

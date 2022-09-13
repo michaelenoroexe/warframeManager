@@ -14,10 +14,10 @@ export class CraftingTableComponent implements OnInit {
   // variables for displaing items
   @ViewChild('itemsContainer', { read: ViewContainerRef }) container: ViewContainerRef | undefined;
   @ViewChild('item', { read: TemplateRef }) template: TemplateRef<any> | undefined;
-  elmass:Resource[] = []
+  elmass:any[] = []
   cutedMass:Component[] = []
   pvSearch:string = ""
-  currPar:SearchPar = {str:"", categ:"", or:[], and:[]};
+  currPar:SearchPar = {str:"", categ:"", or:[], and:[], notOr:false};
   
   constructor(private display: ItemDisplayService, private items: AllItemsService, private search:SearchService) {}
 
@@ -27,7 +27,8 @@ export class CraftingTableComponent implements OnInit {
   }
   async GetItems() {
     this.elmass = await this.items.GetAllItems();
-    this.cutedMass = this.GetCraftable(this.elmass);
+    this.elmass = this.GetCraftable(this.elmass);
+    this.cutedMass = this.elmass;
     this.display.buildData(this.cutedMass as Resource[], this.container!, this.template!);
   }
   GetCraftable(full:any[]) {
@@ -37,10 +38,11 @@ export class CraftingTableComponent implements OnInit {
     })
     return res;
   }
-  CategSea(na:string = "", or:string[] = [], all:string[] = []) {
+  CategSea(na:string = "", or:string[] = [], all:string[] = [], notOr:boolean = false) {
     this.currPar.categ = na;
     this.currPar.or = or;
     this.currPar.and = all;
+    this.currPar.notOr = notOr;
     this.search.Search("new", this.currPar, this.elmass).then(val => this.SetMass(val));
   }
   // Send string to search

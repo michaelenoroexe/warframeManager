@@ -4,15 +4,16 @@
     <input alt="search" (input)="keyPressNumbers($event)"/>
     <div class="categFilter">
       <button (click)="CategSea('')"><img src="../../../../assets/resources/categ/all.png" alt="All"></button>
-      <button (click)="CategSea('',['warframe','warframe part'])"><img src="../../../../assets/resources/categ/warframe.png" alt="All"></button>
-      <button (click)="CategSea('',['weapon','weapon part'])"><img src="../../../../assets/resources/categ/weapon.png" alt="All"></button>
-      <button (click)="CategSea('',['companion','companion part'])"><img src="../../../../assets/resources/categ/robotic.png" alt="All"></button>
-      <button (click)="CategSea('appearance')"><img src="../../../../assets/resources/categ/appearance.png" alt="All"></button>
-      <button (click)="CategSea('resource')"><img src="../../../../assets/resources/categ/resource.png" alt="All"></button>
-      <button (click)="CategSea('primepart')"><img src="../../../../assets/resources/categ/primepart.png" alt="All"></button>
-      <button (click)="CategSea('',['archwing','archwing part'])"><img src="../../../../assets/resources/categ/vehicle.png" alt="All"></button>
-      <button (click)="CategSea('')"><img src="../../../../assets/resources/categ/archweapon.png" alt="All"></button>
-      <button (click)="CategSea('miscellaneous')"><img src="../../../../assets/resources/categ/miscellaneous.png" alt="All"></button>
+      <button (click)="CategSea('')">Ready to build</button>
+      <button (click)="CategSea('',['warframe','warframe part'])"><img src="../../../../assets/resources/categ/warframe.png" alt="Warframe"></button>
+      <button (click)="CategSea('primary')"><img src="../../../../assets/resources/categ/weapon.png" alt="Primary"></button>
+      <button (click)="CategSea('secondary')">Secondary</button>
+      <button (click)="CategSea('melee')">Melee</button>
+      <button (click)="CategSea('',['archwing','archwing part'])"><img src="../../../../assets/resources/categ/vehicle.png" alt="Archwing"></button>
+      <button (click)="CategSea('',['companion','companion part'])"><img src="../../../../assets/resources/categ/robotic.png" alt="Companions"></button>
+      <button (click)="CategSea('mining')">Mining</button>
+      <button (click)="CategSea('',['warframe','warframe part','weapon','archwing',
+        'archwing part','companion','companion part', 'mining'],[], true)"><img src="../../../../assets/resources/categ/miscellaneous.png" alt="Miscellaneous"></button>
     </div>
     <button class="filter">filter</button>
   </div>

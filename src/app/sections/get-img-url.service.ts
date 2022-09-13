@@ -130,6 +130,9 @@ export class ImageGettingService {
       if (add != '') return 'GenericGunPrime'+res[nameLen-1]
       return res[nameLen-1]
     }
+    // Eidolons cores
+    if (res.find(x=> x=='Sentient')) return 'QuillsUncommonPickup'
+
     if (iGs.IsInList(res[nameLen-1], ['Link', 'Heatsink', 'Ornament', 'Core', 'Subcortex', 'Rivet'])) {
       if (add != '') return 'GenericComponentPrimePlug'
       return 'Link'
@@ -180,8 +183,6 @@ export class ImageGettingService {
       if (res[0] == 'Radiant') return name
       return 'Sentient' + res[2] + res[0]
     }
-    // Eidolons cores
-    if (res.find(x=> x=='Sentient')) return 'QuillsUncommonPickup'
     
     if (name.startsWith('Ocular')) return 'OcularStem-Root'
     if (name.startsWith('Hemocyte')) return 'LephantisShard'

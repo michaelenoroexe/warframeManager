@@ -21,7 +21,7 @@ export class ResTableComponent implements OnInit {
   elmass:Resource[] = [];
   cutedMass:Resource[] = [];
   pvSearch:string = "";
-  currPar:SearchPar = {str:"", categ:"", or:[], and:[]};
+  currPar:SearchPar = {str:"", categ:"", or:[], and:[], notOr:false};
   constructor(private display:ItemDisplayService , private items: AllItemsService, private search:SearchService) {}
 
   ngOnInit(): void {

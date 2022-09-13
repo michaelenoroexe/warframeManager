@@ -2,6 +2,8 @@ import { Component, ElementRef, HostListener, Input, OnInit, Renderer2, Template
 import { AllItemsService } from 'src/app/sections/all-items.service';
 import { ItemDisplayService } from 'src/app/sections/item-display.service';
 import { Component as Comp, Resource } from 'src/app/sections/items.service';
+import { NumFieldChangeService } from 'src/app/sections/num-field-change.service';
+import { TimeDeserialService } from '../../time-deserial.service';
 import { FullResPlusNum } from './craft-Item-classes';
 
 @Component({
@@ -23,7 +25,7 @@ export class CraftItemComponent implements OnInit {
   ress:any[] = [];
   private myPopup:any;
   delay? = 1;
-  constructor(private items:AllItemsService, private renderer:Renderer2) { }
+  constructor(public ch:NumFieldChangeService ,private items:AllItemsService, public time: TimeDeserialService) { }
   ngOnInit(): void {
     this.GetFullResources();
   }
@@ -51,14 +53,27 @@ export class CraftItemComponent implements OnInit {
     res = allIte.find(ite => ite.name == name);
     return res;
   }
+  GetNum(name:string) {
+    return this.item.neededResources[Object.keys(this.item.neededResources).find(val => val == name)!];
+  }
   async GetFullResourcesList(resource:Comp) {
     for (let resou of resource.FullRes!) {
       if (resou.res.FullRes == undefined) {
-        this.ress.push(resou);
+        let havingRes = this.ress.findIndex(re => re.res == resou.res);
+        if (havingRes != -1) {
+          this.ress[havingRes].num = this.ress[havingRes].num + resou.num;
+          let t = this;
+          let th = this.ress;
+          continue;
+        }
+        this.ress.push({...resou});
         continue;
       }
       this.GetFullResourcesList(resou.res);
     }
+    let t = this;
+    let th = this.ress;
+    if (this.item.name == "Odonata Harness") console.log(`finish:${resource.name}`);
   }
   //Pop up
   // Display popup with planet where you can find resource current hover and main

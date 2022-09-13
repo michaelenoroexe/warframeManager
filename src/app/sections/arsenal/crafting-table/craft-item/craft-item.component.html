@@ -5,7 +5,7 @@
     <p>
       <img src="../../../../../assets/credits.png" alt="MImg">
       {{item.credits}}
-      Time:{{item.creationTime}}</p>
+      Time:{{time.GetTimeString(item.creationTime)}}</p>
   </div>
   <div class="craftRes">
     <p>{{item.name}}</p>
@@ -28,7 +28,9 @@
   <br>
   <div class="itemResourcesContainer">
     <div *ngFor="let res of ress" style="background-color: green;">
-      {{res.res.name}}:{{res.num}}
+      {{res.res.name}}:
+      <input type="text" inputmode="numeric" (focusout)="ch.saveNewResNum(res.res.id, res.res.owned, 'resource')" (keypress)="ch.keyPressNumbers($event)" (change)="ch.setZero($event)"  [(ngModel)]="res.res.owned">
+      /{{res.num}}
     </div>
   </div>
 </div>

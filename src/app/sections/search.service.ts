@@ -36,23 +36,31 @@ export class SearchService {
   // Filter for res dont work with lambda, or check
   private OR(el:any, nu:any, ar:any) {
     let th = this;
-    let arr = this.param.or.find(val => {
-      if (el.type.includes(val)) {
-        return true;
-      }
-      return false;
-    }) != undefined;
+    let arr;
+    if (this.param.notOr) {
+      arr = this.param.or.every(val => !el.type.includes(val));
+    } 
+    else {
+      arr = this.param.or.find(val => {
+        if (el.type.includes(val)) {
+          return true;
+        }
+        return false;
+      }) != undefined;
+    }
     return arr;
   }
   // Filter for res dont work with lambda, and check
   private AND(el:any, nu:any, ar:any) {
     let th = this;
-    let arr = this.param.or.find(val => {
+    let arr;
+    arr = this.param.or.find(val => {
       if (el.type.includes(val)) {
         return true;
       }
       return false;
     });
+    
     return arr != undefined && arr.length == this.param.or.length;
   }
 }
@@ -61,12 +69,13 @@ export class SearchPar {
   categ:string = ""; 
   or:string[] = []; 
   and:string[] = [];
-
-  constructor(st:string="",categ="",or:string[]=[],and:string[]=[]) {
+  notOr:boolean = false;
+  constructor(st:string="",categ="",or:string[]=[],and:string[]=[], notOr:boolean = false) {
     this.str = st;
     this.categ = categ;
     this.or = or;
     this.and = and;
+    this.notOr = notOr;
   }
 }
 
