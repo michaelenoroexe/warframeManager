@@ -18,7 +18,7 @@ export class SearchService {
     this.param = new SearchPar(this.param.str)
     return await this.Find(mass);
   }
-  private async Find(list:Resource[]) {
+  private Find(list:Resource[]) {
     let res:Resource[] = list
 
     if (this.param.str != null && this.param.str != "" )
@@ -31,6 +31,7 @@ export class SearchService {
     // If needed some tags included in item (any)
     if (this.param.or != null && this.param.or.length > 0)
     res = res.filter(this.OR, this);
+    this.Sort(res);
     return res;
   }
   // Filter for res dont work with lambda, or check
@@ -62,6 +63,10 @@ export class SearchService {
     });
     
     return arr != undefined && arr.length == this.param.or.length;
+  }
+  // Sort the list
+  public Sort(list:Resource[]) {
+    list.sort( (fr, sr) => (fr.name > sr.name)?1:-1)
   }
 }
 export class SearchPar {

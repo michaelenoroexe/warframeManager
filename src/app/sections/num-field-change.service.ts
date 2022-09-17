@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import { Resource } from './items.service';
 import { ResourceInfoChangeService } from './resource-info-changing-request.service';
 
 @Injectable({
@@ -19,34 +20,37 @@ export class NumFieldChangeService {
     }
   }
   //Changed Resource number save
-  saveNewResNum(id:any, num:number, type:string)
+  saveNewResNum(event:any, res:Resource, type:string)
   {
-    this.save.ResourceNumberChange({Resource: id, Number: num, Type: type}).subscribe({
+    this.setZero(event, res);
+    this.save.ResourceNumberChange({Resource: res.id, Number: res.owned, Type: type}).subscribe({
       next(value) {
       },
       error(err) {
-        alert(err)
+        alert(err.message)
       }
     })
   }
   // Set zero if field is null
-  setZero(event:any)
+  setZero(event:any, num:Resource = new Resource())
   {
     if (event.target.value == "" 
     || event.target.value == null 
     || event.target.value == undefined) {
       event.target.value = 0;
-      return true;
+      num.owned = 0;
+      return 0;
     }
     try {
       if (event.target.value.length > 1 ) {
-        event.target.value = (+event.target.value).toString();
-        return true;
+        event.target.value = (parseInt(event.target.value)).toString();
+        num.owned = event.target.value;
+        return +event.target.value;
       }
-      return false;
+      return 0;
     }
     catch (err) {
-      return false;
+      return 0;
     }
   }
 }

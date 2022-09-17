@@ -5,6 +5,7 @@ import { Md5 } from 'ts-md5';
 import { DataGetterService } from './data-getting.service';
 import { ImageGettingService } from './get-img-url.service';
 import { Component, Resource } from './items.service';
+import { SearchService } from './search.service';
 
 @Injectable({
   providedIn: 'root'
@@ -20,7 +21,7 @@ export class AllItemsService {
   public get ItemBuffer() {
     return this._itemBuffer
   }
-  constructor(private gett:DataGetterService) {
+  constructor(private find:SearchService, private gett:DataGetterService) {
     let th = this
     this.Itetas = firstValueFrom(gett.GetAllComponents())
     this.Itetas.
@@ -28,6 +29,7 @@ export class AllItemsService {
         this._itemBuffer = Component.castArray(Object.values(re))
         this.LoadAllItemsImages(this._itemBuffer, ImageGettingService.GetItemImgUrl);
         this.GetAllTypes(this._itemBuffer);
+        this.find.Sort(this._itemBuffer);
         this.itembufferRedy = true;
       });
     this.Restas = firstValueFrom(gett.GetAllRess())

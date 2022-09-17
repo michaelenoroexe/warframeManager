@@ -1,6 +1,6 @@
 import { Component, OnInit, TemplateRef, ViewChild, ViewContainerRef } from '@angular/core';
 import { AllItemsService } from '../../all-items.service';
-import { ItemDisplayService } from '../../item-display.service';
+import { CansToc, ItemDisplayService } from '../../item-display.service';
 import { Resource } from '../../items.service';
 import { SearchPar, SearchService } from '../../search.service';
 
@@ -15,8 +15,9 @@ export class CraftingTableComponent implements OnInit {
   @ViewChild('itemsContainer', { read: ViewContainerRef }) container: ViewContainerRef | undefined;
   @ViewChild('item', { read: TemplateRef }) template: TemplateRef<any> | undefined;
   elmass:any[] = []
-  cutedMass:Component[] = []
+  cutedMass:Component[] | Resource[] = []
   pvSearch:string = ""
+  displayCansToc:CansToc = new CansToc();
   currPar:SearchPar = {str:"", categ:"", or:[], and:[], notOr:false};
   
   constructor(private display: ItemDisplayService, private items: AllItemsService, private search:SearchService) {}
@@ -38,12 +39,12 @@ export class CraftingTableComponent implements OnInit {
     })
     return res;
   }
-  CategSea(na:string = "", or:string[] = [], all:string[] = [], notOr:boolean = false) {
+  async CategSea(na:string = "", or:string[] = [], all:string[] = [], notOr:boolean = false) {
     this.currPar.categ = na;
     this.currPar.or = or;
     this.currPar.and = all;
     this.currPar.notOr = notOr;
-    this.search.Search("new", this.currPar, this.elmass).then(val => this.SetMass(val));
+    this.SetMass(await this.search.Search("new", this.currPar, this.elmass));
   }
   // Send string to search
   keyPressNumbers(event:any) {
@@ -61,8 +62,9 @@ export class CraftingTableComponent implements OnInit {
     return;
   }
   SetMass(val:Resource[]) {
-    this.cutedMass = val as Component[];
-    this.display.buildData(this.cutedMass as Resource[], this.container!, this.template!);
+    this.cutedMass = val;
+
+    this.display.buildData(this.cutedMass, this.container!, this.template!);
   }
 
 }

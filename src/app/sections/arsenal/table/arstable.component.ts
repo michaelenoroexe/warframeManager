@@ -7,7 +7,7 @@ import { Resource } from '../../items.service';
 import { DataGetterService } from '../../data-getting.service';
 import { AllItemsService } from '../../all-items.service';
 import { SearchPar, SearchService } from '../../search.service';
-import { ItemDisplayService } from '../../item-display.service';
+import { CansToc, ItemDisplayService } from '../../item-display.service';
 import { NumFieldChangeService } from '../../num-field-change.service';
 
 @Component({
@@ -22,6 +22,7 @@ export class ArsTableComponent implements OnInit {
   elmass:Resource[] = []
   cutedMass:Resource[] = []
   pvSearch:string = ""
+  displayCansToc:CansToc = new CansToc();
   currPar:SearchPar = {str:"", categ:"", or:[], and:[], notOr:false};
   constructor(public ch:NumFieldChangeService, private display: ItemDisplayService, private items: AllItemsService, private search:SearchService) {}
 
@@ -35,11 +36,11 @@ export class ArsTableComponent implements OnInit {
     this.display.buildData(this.cutedMass, this.container!, this.template!);
   }
   
-  CategSea(na:string = "", or:string[] = [], all:string[] = []) {
+  async CategSea(na:string = "", or:string[] = [], all:string[] = []) {
     this.currPar.categ = na;
     this.currPar.or = or;
     this.currPar.and = all;
-    this.search.Search("new", this.currPar, this.elmass).then(val => this.SetMass(val));
+    this.SetMass(await this.search.Search("new", this.currPar, this.elmass));
   }
   // Send string to search
   keyPressNumbers(event:any) {

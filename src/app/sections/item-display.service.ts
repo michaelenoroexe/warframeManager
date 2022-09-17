@@ -5,20 +5,22 @@ import { Resource } from './items.service';
   providedIn: 'root'
 })
 export class ItemDisplayService {
+  interval:any;
 // Progressive display of elements 
 public buildData(mass:Resource[], container:ViewContainerRef, temp:TemplateRef<any>) {
+  clearInterval(this.interval);
   container.clear();
   const ITEMS_RENDERED_AT_ONCE = 30;
   const INTERVAL_IN_MS = 10;
 
   let currentIndex = 0;
 
-  const interval = setInterval(() => {
+  this.interval = setInterval(() => {
     const nextIndex = currentIndex + ITEMS_RENDERED_AT_ONCE;
 
     for (let n = currentIndex; n <= nextIndex ; n++) {
       if (n >= mass.length) {
-        clearInterval(interval);
+        clearInterval(this.interval);
         break;
       }
       const context = {
@@ -31,4 +33,8 @@ public buildData(mass:Resource[], container:ViewContainerRef, temp:TemplateRef<a
   }, INTERVAL_IN_MS);
 }
   constructor() { }
+}
+export class CansToc {
+  close:boolean = false;
+  working:boolean = false;
 }

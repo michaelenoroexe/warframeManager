@@ -16,6 +16,8 @@ export class CraftItemComponent implements OnInit {
   item: Comp = new Comp();
   @Input()
   zpos:number = 0;
+  @Input()
+  full:boolean = true;
   // Variables for pop up
   currentResElement: any;
   // variables for displaing items
@@ -43,7 +45,6 @@ export class CraftItemComponent implements OnInit {
         ress!.push(new FullResPlusNum(neededRes!, +res[re]));
       })
     }
-    if (ress == undefined) alert(`Final+ ${this.item.name}`);
     this.item.FullRes = ress;
     this.GetFullResourcesList(this.item);
   }
@@ -62,8 +63,6 @@ export class CraftItemComponent implements OnInit {
         let havingRes = this.ress.findIndex(re => re.res == resou.res);
         if (havingRes != -1) {
           this.ress[havingRes].num = this.ress[havingRes].num + resou.num;
-          let t = this;
-          let th = this.ress;
           continue;
         }
         this.ress.push({...resou});
@@ -71,9 +70,6 @@ export class CraftItemComponent implements OnInit {
       }
       this.GetFullResourcesList(resou.res);
     }
-    let t = this;
-    let th = this.ress;
-    if (this.item.name == "Odonata Harness") console.log(`finish:${resource.name}`);
   }
   //Pop up
   // Display popup with planet where you can find resource current hover and main
