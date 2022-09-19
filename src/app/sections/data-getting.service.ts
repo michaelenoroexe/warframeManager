@@ -8,10 +8,11 @@ import { environment } from 'src/environments/environment';
 })
 export class DataGetterService {
   constructor(private http:HttpClient) {}
+
   public GetAllRess() {
     let tok = localStorage.getItem("accessToken");
-    let end = "GetData/ResourcesList"
-    let he = {}
+    let end = "GetData/ResourcesList";
+    let he = {};
     if (tok != null && tok != undefined) {
       end = "GetData/UserResourcesList"
       he = { 
@@ -20,7 +21,7 @@ export class DataGetterService {
         }
       }
     }
-    return this.http.get(environment.apiURL+end, he)
+    return this.http.get(environment.apiURL+end, he);;
   }
   public GetAllComponents() {
     let tok = localStorage.getItem("accessToken");
@@ -34,12 +35,12 @@ export class DataGetterService {
         }
       }
     }
-    return this.http.get(environment.apiURL+end, he)
+    return this.http.get(environment.apiURL+end, he); 
   }
   public GetAllTypes() {
     return this.http.get(environment.apiURL+"GetData/TypesList");
   }
   public GetPlanets() {
-    return this.http.get(environment.apiURL+'GetData/Planets');
+    return this.http.get(environment.apiURL+'GetData/Planets'); 
   }
 }

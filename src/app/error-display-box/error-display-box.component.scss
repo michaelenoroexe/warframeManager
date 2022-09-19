@@ -1,0 +1,39 @@
+.interfaceBlocker {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: #bbbbbb77;
+  .error {
+    width: 500px;
+    height: 200px;
+    padding: 10px 20px;
+    margin: auto;
+    background-color: #DCDADA;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .name {
+      text-align: center;
+    }
+    .info {
+      img {
+        display: inline-block;
+        margin-left: 20px;
+        width: 45px;
+        height: 40px;
+      }
+      p {
+        display: inline-block;
+        margin-left: 50px;
+      }
+    }
+    .action {
+      text-align: end;
+      button {
+        width: 100px;
+      }
+    }
+  }
+}

@@ -29,31 +29,31 @@ export class CraftItemComponent implements OnInit {
   delay? = 1;
   constructor(public ch:NumFieldChangeService ,private items:AllItemsService, public time: TimeDeserialService) { }
   ngOnInit(): void {
-    this.GetFullResources();
+    //this.GetFullResources();
   }
   // Get ref to full resource/component
-  async GetFullResources() {
-    let res = this.item.neededResources;
-    let ress: FullResPlusNum[] | undefined = [];
-    if (res == undefined)
-      alert(this.item.name)
-    for (let re of Object.keys(res)) {
-      await this.items.GetAllResources().then(async allRess => {
-        //let neededRes
-        let neededRes = allRess.find(ress => ress.name == re)
-        if (neededRes == undefined) neededRes = await this.GetFullItem(re);
-        ress!.push(new FullResPlusNum(neededRes!, +res[re]));
-      })
-    }
-    this.item.FullRes = ress;
-    this.GetFullResourcesList(this.item);
-  }
-  async GetFullItem(name:string) {
-    let res: Resource|undefined = new Resource();
-    let allIte = await this.items.GetAllItems();
-    res = allIte.find(ite => ite.name == name);
-    return res;
-  }
+  //async GetFullResources() {
+  //  let res = this.item.neededResources;
+  //  let ress: FullResPlusNum[] | undefined = [];
+  //  if (res == undefined)
+  //    alert(this.item.name)
+  //  for (let re of Object.keys(res)) {
+  //    await this.items.GetAllResources().then(async allRess => {
+  //      //let neededRes
+  //      let neededRes = allRess.find(ress => ress.name == re)
+  //      if (neededRes == undefined) neededRes = await this.GetFullItem(re);
+  //      ress!.push(new FullResPlusNum(neededRes!, +res[re]));
+  //    })
+  //  }
+  //  this.item.FullRes = ress;
+  //  this.GetFullResourcesList(this.item);
+  //}
+  //async GetFullItem(name:string) {
+  //  let res: Resource|undefined = new Resource();
+  //  let allIte = await this.items.GetAllItems();
+  //  res = allIte.find(ite => ite.name == name);
+  //  return res;
+  //}
   GetNum(name:string) {
     return this.item.neededResources[Object.keys(this.item.neededResources).find(val => val == name)!];
   }

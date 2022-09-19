@@ -26,4 +26,14 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+  .errorBox {
+    position: absolute;
+    width: auto;
+    height: auto;
+    .error {
+      display: block;
+      width: auto;
+      height: auto;
+    }
+  }
 }

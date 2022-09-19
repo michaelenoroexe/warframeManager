@@ -1,6 +1,7 @@
 import { HttpClient } from '@angular/common/http';
-import { Component, OnInit } from '@angular/core';
+import { AfterViewInit, Component, OnInit, TemplateRef, ViewChild, ViewContainerRef } from '@angular/core';
 import { environment } from './../environments/environment';
+import { ErrorDisplayerService } from './error-display-box/error-displayer.service';
 import { AllItemsService } from './sections/all-items.service';
 
 @Component({
@@ -8,18 +9,18 @@ import { AllItemsService } from './sections/all-items.service';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
+export class AppComponent implements AfterViewInit {
   title = 'warframeManager';
 
-  constructor(private http: HttpClient, public items:AllItemsService) {}
-  // Test request for checking performance of jwt tokens 
-  testReq(){
-    let tok = localStorage.getItem("accessToken");
-    console.log(tok);
-    this.http.get(environment.apiURL+"weatherforecast/test", {
-      headers: {
-        "Authorization": "Bearer " + tok
-      }
-    }).subscribe((val)=>console.log(val)); 
+// variables for displaing errors
+@ViewChild('errContainer', { read: ViewContainerRef }) container: ViewContainerRef | undefined;
+@ViewChild('err', { read: TemplateRef }) template: TemplateRef<any> | undefined;
+
+  constructor(public errDisp:ErrorDisplayerService,public items:AllItemsService) {}
+  
+  ngAfterViewInit(): void {
+    //Called after the constructor, initializing input properties, and the first call to ngOnChanges.
+    this.errDisp.container = this.container;
+    this.errDisp.template = this.template;
   }
 }

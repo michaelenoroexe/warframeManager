@@ -4,5 +4,12 @@
     <router-outlet></router-outlet>
   </div>
   <div class="bg"></div>
+  <div class="errorBox">
+    <ng-container #errContainer>
+      <ng-template #err let-it="text">
+        <app-error-display-box class="error"></app-error-display-box>
+      </ng-template>
+    </ng-container>
+  </div>
   <!-- Test button   <button (click)="testReq()"></button> -->  
 </div>
