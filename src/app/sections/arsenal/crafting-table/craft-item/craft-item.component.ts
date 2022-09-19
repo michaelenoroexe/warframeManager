@@ -29,6 +29,7 @@ export class CraftItemComponent implements OnInit {
   delay? = 1;
   constructor(public ch:NumFieldChangeService ,private items:AllItemsService, public time: TimeDeserialService) { }
   ngOnInit(): void {
+    this.GetFullResourcesList(this.item);
     //this.GetFullResources();
   }
   // Get ref to full resource/component

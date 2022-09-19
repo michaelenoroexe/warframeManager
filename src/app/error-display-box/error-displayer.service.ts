@@ -14,7 +14,7 @@ export class ErrorDisplayerService {
     const th = this;
     prom.catch(err => {
         if (th.container != undefined && th.template != undefined) {
-          const context = { text: "Error"};
+          const context = { er: err};
           th.container?.clear();
           th.container.createEmbeddedView(th.template, context);
         }
@@ -25,22 +25,21 @@ export class ErrorDisplayerService {
     prom.subscribe({
       error(err) {
         if (th.container != undefined && th.template != undefined) {
-          const context = { text: "Error"};
+          const context = { er: err};
           th.container!.clear();
           th.container.createEmbeddedView(th.template, context);
         }
       }
     })
   }
-  DisplayWithParam() {
+  private DisplayWithParam() {
     if (this.container != undefined && this.template != undefined) {
       const context = { text: "Error"};
       this.container!.clear();
       this.container.createEmbeddedView(this.template, context);
     }
   }
-  //const context = {
-  //  item: mass[n]
-  //};
-  //container.createEmbeddedView(temp, context);
+  public Clear() {
+    this.container?.clear();
+  }
 }

@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { startWith } from 'rxjs';
+import { ErrorDisplayerService } from './error-displayer.service';
 
 @Component({
   selector: 'app-error-display-box',
@@ -7,9 +9,26 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ErrorDisplayBoxComponent implements OnInit {
 
-  constructor() { }
+  @Input()
+  err:any;
+
+  errName:string = "";
+  errInfo:string = "";
+
+  constructor(private errBox:ErrorDisplayerService) {}
 
   ngOnInit(): void {
+    this.DefineError();
   }
 
+  DefineError() {
+    if (this.err.message.startsWith("Http failure response for") && 
+      this.err.message.endsWith("0 Unknown Error")) {
+      this.errName = "Error to access server";
+      this.errInfo = "Server is not reachable try again next time";
+    }
+  }
+  Del() {
+    this.errBox.Clear();
+  }
 }

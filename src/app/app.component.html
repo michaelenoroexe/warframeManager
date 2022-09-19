@@ -6,8 +6,8 @@
   <div class="bg"></div>
   <div class="errorBox">
     <ng-container #errContainer>
-      <ng-template #err let-it="text">
-        <app-error-display-box class="error"></app-error-display-box>
+      <ng-template #err let-err="er">
+        <app-error-display-box [err]="err" class="error"></app-error-display-box>
       </ng-template>
     </ng-container>
   </div>

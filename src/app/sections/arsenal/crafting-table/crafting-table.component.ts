@@ -1,7 +1,7 @@
 import { Component, OnInit, TemplateRef, ViewChild, ViewContainerRef } from '@angular/core';
 import { AllItemsService } from '../../all-items.service';
 import { CansToc, ItemDisplayService } from '../../item-display.service';
-import { Resource } from '../../items.service';
+import { Resource, Component as Comp } from '../../items.service';
 import { SearchPar, SearchService } from '../../search.service';
 
 @Component({
@@ -15,10 +15,10 @@ export class CraftingTableComponent implements OnInit {
   @ViewChild('itemsContainer', { read: ViewContainerRef }) container: ViewContainerRef | undefined;
   @ViewChild('item', { read: TemplateRef }) template: TemplateRef<any> | undefined;
   elmass:any[] = []
-  cutedMass:Component[] | Resource[] = []
+  cutedMass:Comp[] | Resource[] = []
   pvSearch:string = ""
   displayCansToc:CansToc = new CansToc();
-  currPar:SearchPar = {str:"", categ:"", or:[], and:[], notOr:false};
+  currPar:SearchPar = new SearchPar();
   
   constructor(private display: ItemDisplayService, private items: AllItemsService, private search:SearchService) {}
 
@@ -33,9 +33,9 @@ export class CraftingTableComponent implements OnInit {
     this.display.buildData(this.cutedMass as Resource[], this.container!, this.template!);
   }
   GetCraftable(full:any[]) {
-    let res: Component[] = []
+    let res: Comp[] = []
     full.forEach(val =>{
-      if (val.neededResources != undefined) res.push(val as Component)
+      if (val.neededResources != undefined) res.push(val as Comp)
     })
     return res;
   }
@@ -63,8 +63,7 @@ export class CraftingTableComponent implements OnInit {
   }
   SetMass(val:Resource[]) {
     this.cutedMass = val;
-
     this.display.buildData(this.cutedMass, this.container!, this.template!);
   }
-
+  
 }

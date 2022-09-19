@@ -23,7 +23,7 @@ export class ArsTableComponent implements OnInit {
   cutedMass:Resource[] = []
   pvSearch:string = ""
   displayCansToc:CansToc = new CansToc();
-  currPar:SearchPar = {str:"", categ:"", or:[], and:[], notOr:false};
+  currPar:SearchPar = new SearchPar();
   constructor(public ch:NumFieldChangeService, private display: ItemDisplayService, private items: AllItemsService, private search:SearchService) {}
 
   ngOnInit(): void {
