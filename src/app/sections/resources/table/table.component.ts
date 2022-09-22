@@ -22,6 +22,7 @@ export class ResTableComponent implements OnInit {
   cutedMass:Resource[] = [];
   pvSearch:string = "";
   currPar:SearchPar = new SearchPar();
+  addPar:boolean = false;
   constructor(private display:ItemDisplayService , private items: AllItemsService, private search:SearchService) {}
 
   ngOnInit(): void {
@@ -57,5 +58,10 @@ export class ResTableComponent implements OnInit {
   SetMass(val:Resource[]) {
     this.cutedMass = val;
     this.display.buildData(this.cutedMass, this.container!, this.template!);
+  }
+  Display(par:string, res:any) {
+    if (par == "own")// Owned
+      this.currPar.own = res;
+    this.search.Search("new", this.currPar, this.elmass as Resource[]).then((val: Resource[]) => this.SetMass(val));
   }
 }

@@ -1,0 +1,21 @@
+.check {
+  width: 200px;
+  padding: 0px 5px;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  p {
+    display: inline-block;
+    margin: 0px;
+  }
+  button {
+    height: 15px;
+    width: 15px;
+    padding: 0px;
+    text-align: end;
+    background-position: center;
+    background-color: white;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}

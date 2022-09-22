@@ -4,7 +4,6 @@
     <input alt="search" (input)="keyPressNumbers($event)"/>
     <div class="categFilter">
       <button (click)="CategSea('')"><img src="../../../../assets/resources/categ/all.png" alt="All"></button>
-      <button (click)="CategSea('')">Ready to build</button>
       <button (click)="CategSea('',['warframe','warframe part'])"><img src="../../../../assets/resources/categ/warframe.png" alt="Warframe"></button>
       <button (click)="CategSea('primary')"><img src="../../../../assets/resources/categ/weapon.png" alt="Primary"></button>
       <button (click)="CategSea('secondary')">Secondary</button>
@@ -15,7 +14,13 @@
       <button (click)="CategSea('',['warframe','warframe part','weapon','archwing',
         'archwing part','companion','companion part', 'mining'],[], true)"><img src="../../../../assets/resources/categ/miscellaneous.png" alt="Miscellaneous"></button>
     </div>
-    <button class="filter">filter</button>
+    <div class="fil">
+      <button (click)="addPar = !addPar" class="filter">filter</button>
+      <div *ngIf="addPar" class="addInstr">
+        <app-check-three [text]="'Ready to build'" (ngModelChange)="Display('rtb', $event)" [(ngModel)]="currPar.readyToBuild"></app-check-three>
+        <app-check-three [text]="'Owned'" (ngModelChange)="Display('own', $event)" [(ngModel)]="currPar.own"></app-check-three>
+      </div>
+    </div>
   </div>
   <div class="resTable">
     <div #itemsContainer></div>

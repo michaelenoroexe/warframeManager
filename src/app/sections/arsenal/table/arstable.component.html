@@ -12,7 +12,13 @@
       <button (click)="CategSea('')"><img src="../../../../assets/resources/categ/archweapon.png" alt="All"></button>
       <button (click)="CategSea('miscellaneous')"><img src="../../../../assets/resources/categ/miscellaneous.png" alt="All"></button>
     </div>
-    <button class="filter">filter</button>
+    <div class="fil">
+      <button (click)="addPar = !addPar" class="filter">filter</button>
+      <div *ngIf="addPar" class="addInstr">
+        <app-check-three [text]="'Ready to build'" (ngModelChange)="Display('rtb', $event)" [(ngModel)]="currPar.readyToBuild"></app-check-three>
+        <app-check-three [text]="'Owned'" (ngModelChange)="Display('own', $event)" [(ngModel)]="currPar.own"></app-check-three>
+      </div>
+    </div>
   </div>
   <div class="resTable">
     <div #itemsContainer></div>

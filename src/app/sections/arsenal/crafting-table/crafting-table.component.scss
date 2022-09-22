@@ -1,7 +1,7 @@
 .tableContainer {
   .searchControl {
-    margin-top: 1.5vw;
-    margin-bottom: 1.74vw;
+    margin: 1.5vw 40px 1.74vw 40px;
+    height: 2.5vw;
     display: flex;
     justify-content: space-between;
     .categFilter {
@@ -22,8 +22,15 @@
         background-color: #acacac;
       }
     }
+    overflow: visible;
+    .addInstr {
+      display: block;
+      position: relative;
+      z-index: 20;
+      background-color: #C4C4C4;
+    }
     .filter {
-      height: 1.736vw;
+      height: 100%;
       width: 11.53vw;
       padding: 0 1.53vw 0 1.53vw;
       background-color: #C4C4C4;

@@ -17,6 +17,7 @@ export class AllItemsService {
   _resourceBuffer:Resource[] = []
   Restas:Promise<Object> | undefined
   Itetas:Promise<Object> | undefined
+  FulIt:Promise<void> | undefined
   Types:{ id:Object, name:string, strId: string; }[] = [];
   private resbufferRedy:boolean = false;
   private itembufferRedy:boolean = false;
@@ -29,7 +30,7 @@ export class AllItemsService {
         this.find.Sort(this._itemBuffer);
         this.LoadAllItemsImages(this._itemBuffer, ImageGettingService.GetItemImgUrl);
         this.GetAllTypes(this._itemBuffer);
-        this.GetFullResources(this._itemBuffer);
+        this.FulIt = this.GetFullResources(this._itemBuffer);
         this.itembufferRedy = true;
       });
     this.Restas = firstValueFrom(gett.GetAllRess())
@@ -46,9 +47,17 @@ export class AllItemsService {
     //this.GetAllResources()
     
   }
-  async GetAllItems() {
-    if (this.itembufferRedy == false)
+  async FullRess() {
+    if (this.itembufferRedy == false) {
       await this.Itetas;
+    }
+    await(this.FulIt);
+    return this._itemBuffer;
+  }
+  async GetAllItems() {
+    if (this.itembufferRedy == false) {
+      await this.Itetas;
+    }
     return this._itemBuffer
   }
 

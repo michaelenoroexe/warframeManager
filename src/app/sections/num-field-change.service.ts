@@ -31,20 +31,34 @@ export class NumFieldChangeService {
       }
     })
   }
+  //Changed Resource number save
+  saveNewCredNum(event:any)
+  {
+    this.setZero(event);
+    this.save.CreditsNumChange({Number:event.target.value}).subscribe({
+      next(value) {
+      },
+      error(err) {
+        alert(err.message)
+      }
+    })
+  }
   // Set zero if field is null
-  setZero(event:any, num:Resource = new Resource())
+  setZero(event:any, num:Resource | null = null)
   {
     if (event.target.value == "" 
     || event.target.value == null 
     || event.target.value == undefined) {
       event.target.value = 0;
-      num.owned = 0;
+      if (num != null)
+        num.owned = 0;
       return 0;
     }
     try {
       if (event.target.value.length > 1 ) {
         event.target.value = (parseInt(event.target.value)).toString();
-        num.owned = event.target.value;
+        if (num != null)
+          num.owned = event.target.value;
         return +event.target.value;
       }
       return 0;

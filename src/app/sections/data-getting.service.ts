@@ -43,4 +43,12 @@ export class DataGetterService {
   public GetPlanets() {
     return this.http.get(environment.apiURL+'GetData/Planets'); 
   }
+  public GetCredits() {
+    let tok = localStorage.getItem("accessToken");
+    let end = "GetData/UserCredits"
+    let he = {headers: {
+      "Authorization": "Bearer " + tok
+    }}
+    return this.http.get(environment.apiURL+end, he);
+  }
 }

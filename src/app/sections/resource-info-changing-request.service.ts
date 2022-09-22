@@ -16,4 +16,12 @@ export class ResourceInfoChangeService {
       }
     }) 
   }
+  public CreditsNumChange(cred:{Number:number}) {
+    let tok = localStorage.getItem("accessToken");
+    return this.http.post(environment.apiURL+"ProfUp/creds", cred, {
+      headers: {
+        "Authorization": "Bearer " + tok
+      }
+    })
+  }
 }

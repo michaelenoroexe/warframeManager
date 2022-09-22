@@ -31,8 +31,10 @@ export class SearchService {
     // If needed some tags included in item (any)
     if (this.param.or != null && this.param.or.length > 0)
     res = res.filter(this.OR, this);
-    if (this.param.redyToBuild != null)
-      res = this.ReadyToBuild(res, this.param.redyToBuild);
+    if (this.param.readyToBuild != null)
+      res = this.ReadyToBuild(res, this.param.readyToBuild);
+      if (this.param.own != null)
+      res = this.Owned(res, this.param.own);
     this.Sort(res);
     return res;
   }
@@ -70,12 +72,21 @@ export class SearchService {
   public Sort(list:Resource[]) {
     list.sort( (fr, sr) => (fr.name > sr.name)?1:-1)
   }
-  ReadyToBuild(list:Resource[], inv:boolean = false) {
+  private ReadyToBuild(list:Resource[], inv:boolean = false) {
     let fi
     if (inv)
       fi = (it:Component):Boolean => it.FullRes?.every(comp => comp.num <= comp.res.owned)!;
     else
       fi = (it:Component):Boolean => !it.FullRes?.every(comp => comp.num <= comp.res.owned)!;
+    let res = (list as Component[]).filter(fi);
+    return res;
+  }
+  private Owned(list:Resource[], inv:boolean = false) {
+    let fi
+    if (inv)
+      fi = (it:Component):Boolean => it.owned > 0;
+    else
+      fi = (it:Component):Boolean => it.owned <= 0;
     let res = (list as Component[]).filter(fi);
     return res;
   }
@@ -86,14 +97,16 @@ export class SearchPar {
   or:string[] = []; 
   and:string[] = [];
   notOr:boolean = false;
-  redyToBuild:boolean | null = null
-  constructor(st:string="",categ="",or:string[]=[],and:string[]=[], notOr:boolean = false, readyToBuild:boolean | null = null) {
+  readyToBuild:boolean | null = null
+  own:boolean | null = null
+  constructor(st:string="",categ="",or:string[]=[],and:string[]=[], notOr:boolean = false, readyToBuild:boolean | null = null, own:boolean | null = null) {
     this.str = st;
     this.categ = categ;
     this.or = or;
     this.and = and;
     this.notOr = notOr;
-    this.redyToBuild = readyToBuild;
+    this.readyToBuild = readyToBuild;
+    this.own = own;
   }
 }
 

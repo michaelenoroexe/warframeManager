@@ -13,7 +13,12 @@
       <button (click)="CategSea('mining')">Ores</button>
       <button (click)="CategSea('',['spoils','parts'])">Fish</button> 
     </div>
-    <button class="filter">filter</button>
+    <div class="fil">
+      <button (click)="addPar = !addPar" class="filter">filter</button>
+      <div *ngIf="addPar" class="addInstr">
+        <app-check-three [text]="'Owned'" (ngModelChange)="Display('own', $event)" [(ngModel)]="currPar.own"></app-check-three>
+      </div>
+    </div>
   </div>
   <!--<cdk-virtual-scroll-viewport class="virtualScroll" itemSize="5">
     <app-ars-table-item *cdkVirtualFor="let item of cutedMass" [item]=item>

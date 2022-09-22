@@ -21,6 +21,7 @@ import { ArsTableItemComponent } from './sections/arsenal/table/arsres-table-ite
 import { CraftingTableComponent } from './sections/arsenal/crafting-table/crafting-table.component';
 import { CraftItemComponent } from './sections/arsenal/crafting-table/craft-item/craft-item.component';
 import { ErrorDisplayBoxComponent } from './error-display-box/error-display-box.component';
+import { CheckThreeComponent } from './sections/add/input/check-three/check-three.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { ErrorDisplayBoxComponent } from './error-display-box/error-display-box.
     ArsTableItemComponent,
     CraftingTableComponent,
     CraftItemComponent,
-    ErrorDisplayBoxComponent
+    ErrorDisplayBoxComponent,
+    CheckThreeComponent
   ],
   imports: [
     BrowserModule,
