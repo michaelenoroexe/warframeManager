@@ -22,6 +22,7 @@ import { CraftingTableComponent } from './sections/arsenal/crafting-table/crafti
 import { CraftItemComponent } from './sections/arsenal/crafting-table/craft-item/craft-item.component';
 import { ErrorDisplayBoxComponent } from './error-display-box/error-display-box.component';
 import { CheckThreeComponent } from './sections/add/input/check-three/check-three.component';
+import { UserInfoPageComponent } from './sections/user-info-page/user-info-page.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { CheckThreeComponent } from './sections/add/input/check-three/check-thre
     CraftingTableComponent,
     CraftItemComponent,
     ErrorDisplayBoxComponent,
-    CheckThreeComponent
+    CheckThreeComponent,
+    UserInfoPageComponent
   ],
   imports: [
     BrowserModule,

@@ -1,12 +1,17 @@
 <div class="wrapper fadeInDown fixed-top logincontainer">
   <div id="formContent">
     <!-- Logo -->
-    <img
+    <a
+    [routerLink]="['../arsenal/crafting']"
+    class="logo"
+    >
+      <img
       src="assets/warframelogoblack.png"
       id="icon"
       alt="User Icon"
       class="logo"
-    />
+      />
+    </a>
     <div id="loginMessage" [ngClass]="{invisible: !formvisible}">
       Account successfully created! <br />
       Now all you need is just login in. <br /><br /><br /><br /><br />

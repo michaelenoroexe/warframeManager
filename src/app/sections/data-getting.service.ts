@@ -51,4 +51,13 @@ export class DataGetterService {
     }}
     return this.http.get(environment.apiURL+end, he);
   }
+  public GetUserInfo() {
+    let tok = localStorage.getItem("accessToken");
+    if (tok == null) return null;
+    let end = "GetData/UserInfo"
+    let he = {headers: {
+      "Authorization": "Bearer " + tok
+    }}
+    return this.http.get(environment.apiURL+end, he);
+  }
 }

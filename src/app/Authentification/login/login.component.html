@@ -4,13 +4,17 @@
     <!-- Tabs Titles -->
 
     <!-- Logo -->
-    <img
+    <a
+    [routerLink]="['../arsenal/crafting']"
+    class="logo"
+    >
+      <img
       src="assets/warframelogoblack.png"
       id="icon"
       alt="User Icon"
       class="logo"
-    />
-
+      />
+    </a>
     <!-- Login Form -->
 
     <form id="loginForm" [formGroup]="form" (submit)="userSignInClick()" >

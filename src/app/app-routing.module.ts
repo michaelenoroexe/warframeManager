@@ -7,10 +7,12 @@ import { ArsTableComponent } from './sections/arsenal/table/arstable.component';
 import { ItemdisComponent } from './sections/resources/location/itemdis/itemdis.component';
 import { LocationComponent } from './sections/resources/location/location.component';
 import { ResTableComponent } from './sections/resources/table/table.component';
+import { UserInfoPageComponent } from './sections/user-info-page/user-info-page.component';
 
 const routes: Routes = [
   {path: 'login', component: LoginComponent}, 
   {path: 'registration', component: RegisterComponent},
+  {path: 'userInfo', component: UserInfoPageComponent}, 
   {path: 'arsenal/arstable', component: ArsTableComponent},
   {path: 'arsenal/crafting', component: CraftingTableComponent},
   {path: 'resources/table', component: ResTableComponent},
