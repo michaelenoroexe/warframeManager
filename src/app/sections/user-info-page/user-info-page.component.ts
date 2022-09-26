@@ -1,7 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import { AfterViewInit, Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { UserInfoStorageService } from 'src/app/navbar/userinfo/user-info-storage.service';
+import { UserInfoStorage, UserInfoStorageService } from 'src/app/navbar/userinfo/user-info-storage.service';
 import { DataGetterService } from '../data-getting.service';
+import { ImageGettingService as img } from '../get-img-url.service';
+import { UserInfoChangeService } from './user-info-change.service';
 
 @Component({
   selector: 'app-user-info-page',
@@ -10,14 +12,37 @@ import { DataGetterService } from '../data-getting.service';
 })
 export class UserInfoPageComponent implements OnInit {
 
-  constructor(private userInf:UserInfoStorageService,private router:Router, private getter:DataGetterService) { }
-
-  ngOnInit(): void {
-    let res = this.getter.GetUserInfo();
-    if (this.userInf.anonymous) {
+  UserInfo:UserInfoStorage | undefined;
+  constructor(public userInf:UserInfoStorageService,private router:Router,private ch:UserInfoChangeService) {
+    userInf.GetUserInf().then(val => {
+      if (val.anonymous) {
+        this.router.navigate(['/login']);
+        return;
+      }
+      this.UserInfo = val;
+    }).catch(err => {
       this.router.navigate(['/login']);
-      return;
-    }
+    })
+  }
+  GetRankImg(name:string) {
+    return img.GetRankImgUrl(name);
+  }
+  SelectProfImg(num:number) {
+    this.UserInfo!.userImage = num;
+    this.Save();
+  }
+  SelectRank(num:number) {
+    this.UserInfo!.userRank = num;
+    this.Save()
+  }
+  Save() {
+    this.ch.ProfileInfoChange({Image:this.UserInfo!.userImage, 
+      Rank:this.UserInfo!.userRank}).subscribe({
+        next(value) {
+        },
+    });
+  }
+  ngOnInit(): void {
   }
 
 }

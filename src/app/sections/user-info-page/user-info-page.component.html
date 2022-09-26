@@ -1,1 +1,15 @@
-<p>user-info-page works!</p>
+<div>
+  <div class="profImgTable">
+    <div *ngFor="let img of UserInfo?.imgList; index as i" class="itemImg">
+      <img (click)="SelectProfImg(i+1)" [src]="'../../../assets/userInfo/portraiticons/'+img+'.png'" alt="profpic">
+    </div>
+  </div>
+  <div class="profRankTable">
+    <div *ngFor="let rank of UserInfo?.ranksList; index as i" class="itemRank">
+      <div (click)="SelectRank(i)" class="rank">
+        <p>{{rank}}</p>
+        <img *ngIf="rank != 'Unranked'" [src]="GetRankImg(rank)" alt="">
+      </div>
+    </div>
+  </div>
+</div>

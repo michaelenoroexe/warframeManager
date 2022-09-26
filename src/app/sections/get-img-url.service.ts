@@ -1,10 +1,16 @@
 import { Injectable } from '@angular/core';
+import { Md5 } from 'ts-md5';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ImageGettingService {
   static GetItemImgUrl(name:string):string {
+    let res = ImageGettingService.GetItemImg(name);
+    let hash = Md5.hashStr(res+'.png');
+    return `https://static.wikia.nocookie.net/warframe/images/${hash[0]}/${hash[0]+hash[1]}/${res}.png`
+  }
+  static GetItemImg(name:string):string {
     let iGs = ImageGettingService
     var res = name.split(/(?=[A-Z])/)
     var add = res.find(x => x == 'Prime')? 'Prime' : ''
@@ -90,10 +96,7 @@ export class ImageGettingService {
         return 'AnimaAspect'
       }
       // Low Priority
-      if (name.endsWith('Star')) {
-        if (res[1] == 'Amber') return 'OroFusexOrnamentB'
-        return 'OroFusexOrnamentA'
-      }
+      if (name == 'AyatanAmberStar') return 'OroFusexOrnamentB';
       
       if (name == 'PherliacPods') return 'BallSpawnerInfestedBait'
     }
@@ -104,6 +107,11 @@ export class ImageGettingService {
   }
   //Get urls for resources
   static GetResImgUrl(name:string):string {
+    let res = ImageGettingService.GetResImg(name);
+    let hash = Md5.hashStr(res+'.png');
+    return `https://static.wikia.nocookie.net/warframe/images/${hash[0]}/${hash[0]+hash[1]}/${res}.png`
+  }
+  static GetResImg(name:string):string {
     let iGs = ImageGettingService
     var res = name.split(/(?=[A-Z])/)
     var add = res.find(x => x == 'Prime')? 'Prime' : ''
@@ -154,6 +162,7 @@ export class ImageGettingService {
       if (add != '') return 'GenericWeaponPrimeBlade' 
       return 'Link'
     }
+    if (name == 'AyatanCyanStar') return 'OroFusexOrnamentA'
     // Specific for prime items
     if (add == 'Prime') {
       //Get Upper and Lower Limbs
@@ -234,5 +243,22 @@ export class ImageGettingService {
   // Check if some string in list
   private static IsInList(item:string, list:Array<string>):boolean {
     return list.find(x => x == item) != undefined
+  }
+  // Ger rank img
+  static GetRankImgUrl(name:string):string {
+    if (name == 'Unranked') return ""
+    let res = ImageGettingService.GetRankImg(name);
+    let hash = Md5.hashStr(res+'.png');
+    return `https://static.wikia.nocookie.net/warframe/images/${hash[0]}/${hash[0]+hash[1]}/${res}.png`
+  }
+  static GetRankImg(name:string):string {
+    let re = name.split(' ');
+    if (re[0] == 'Legendary') return `Rank${30+Number(re[1])}`;
+    let res = re.join('');
+    if (res.startsWith('Disciple')) return 'MRDisciple';
+    if (res.startsWith('Dragon')) return 'MRDragon';
+    if (res.startsWith('Middle')) return 'SilverMaster';
+    if (res.startsWith('True')) return 'GoldMaster';
+    return res;
   }
 }

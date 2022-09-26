@@ -53,7 +53,7 @@ export class DataGetterService {
   }
   public GetUserInfo() {
     let tok = localStorage.getItem("accessToken");
-    if (tok == null) return null;
+    //if (tok == null) return null;
     let end = "GetData/UserInfo"
     let he = {headers: {
       "Authorization": "Bearer " + tok

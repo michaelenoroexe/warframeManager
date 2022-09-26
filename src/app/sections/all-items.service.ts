@@ -1,7 +1,6 @@
 
 import { Injectable, OnInit } from '@angular/core';
 import { firstValueFrom, Observable, Subscription } from 'rxjs';
-import { Md5 } from 'ts-md5';
 import { ErrorDisplayerService } from '../error-display-box/error-displayer.service';
 import { FullResPlusNum } from './arsenal/crafting-table/craft-item/craft-Item-classes';
 import { DataGetterService } from './data-getting.service';
@@ -92,9 +91,7 @@ export class AllItemsService {
           }
           // Directly return the joined string
           let resName = splitStr.join('');
-          resName = imgGet(resName);
-          let hash = Md5.hashStr(resName+'.png');
-          let patturl = `https://static.wikia.nocookie.net/warframe/images/${hash[0]}/${hash[0]+hash[1]}/${resName}.png`;
+          let patturl = imgGet(resName);
           item.img = patturl;
         }
         catch (ar) {

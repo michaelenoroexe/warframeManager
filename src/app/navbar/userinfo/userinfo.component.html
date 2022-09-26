@@ -1,7 +1,7 @@
 <div class="userInfo">
   <a routerLink="./userInfo" routerLinkActive="active"> 
-  <img src="../../../assets/userInfo/portrait.png" alt="Icon"></a>
-  <h1 [innerText]="nickName" class="userNick"></h1>
-  <h1 [innerText]="rank" class="userRank"></h1>
+  <img [src]="'../../../assets/userInfo/portraiticons/'+GetImg()+'.png'" alt="Icon"></a>
+  <h1 [innerText]="UserInfo?.userLogin" class="userNick"></h1>
+  <h1 [innerText]="GetRank()" class="userRank"></h1>
   <input type="text" inputmode="numeric" (change)="ch.saveNewCredNum($event)" (keypress)="ch.keyPressNumbers($event)" [(ngModel)]="credits">
 </div>

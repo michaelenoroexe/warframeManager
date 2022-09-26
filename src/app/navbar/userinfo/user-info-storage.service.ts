@@ -1,14 +1,53 @@
-import { Injectable } from '@angular/core';
+import { Injectable, OnInit } from '@angular/core';
+import { firstValueFrom } from 'rxjs';
+import { DataGetterService } from 'src/app/sections/data-getting.service';
 
 @Injectable({
   providedIn: 'root'
 })
 export class UserInfoStorageService {
+  us:UserInfoStorage = new UserInfoStorage();
+  private ready:boolean = false;
+  private task:Promise<any>;
+  constructor(private ge:DataGetterService) {
+    let th = this;
+    this.task = firstValueFrom(this.ge.GetUserInfo());
+  }
 
+  async GetUserInf() {
+    if (this.ready == false) {
+      let re = await this.task;
+      if (re != undefined) {
+        this.us.GetDataFromRes(re);
+      }
+      this.ready = true;
+    }
+    return this.us;
+  }
+
+}
+export class UserInfoStorage {
   userLogin:string = "Username";
-  userImage:number = 0;
-  userRank:number = 0;
-  anonymous:boolean = true;
+  private _userImage:number = 0;
+  public get userImage():number {
+    return this._userImage;
+  }
+  public set userImage(val:number) {
+    this._userImage = val;
+  }
+  private _userRank:number = 0;
+  public get userRank():number {
+    return this._userRank;
+  }
+  public set userRank(val:number) {
+    this._userRank = val;
+  }
+  private _anonymous:boolean = true;
+  public get anonymous():boolean {
+    return this._anonymous;
+  }
+
+  imgList:string[] = Array.from({length: 16}, (_, i) => ""+(i + 1))
   ranksList:string[] = [
     "Unranked",
     "Initiate",
@@ -46,9 +85,11 @@ export class UserInfoStorageService {
     "Legendary 3"
   ];
 
-  constructor() { }
 
-  public GetDataFromRes(it:object) {
-
+  public GetDataFromRes(it:any) {
+    this.userLogin = it.login;
+    this._userRank = it.rank;
+    this._userImage = it.image;
+    this._anonymous = false;
   }
 }
