@@ -25,7 +25,7 @@ export class UserinfoComponent implements OnInit {
 
   ngOnInit(): void {
     let th = this;
-    this.ge.GetCredits().subscribe({
+    this.ge.GetCredits()?.subscribe({
       next(value) {
         th.credits = value as number
       },

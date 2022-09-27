@@ -32,4 +32,67 @@ div {
       }
     }
   }
+  .chPassContainer {
+    background-color: #817F7F;
+    h1 {
+      text-transform: capitalize;
+    }
+    .prevPassword {
+      background-color: #828282;
+      display: block;
+    }
+    .nextPassword {
+      background-color: #6e6e6e;
+      display: block;
+    }
+    button {
+      background-color: #45548B;
+    }
+  }
+  .logOut {
+    background-color: aqua;
+  }
+  .delete {
+    background-color: brown;
+    overflow: visible;
+  }
+}
+.warningMessageBox {
+  top: 0;
+  left: 0;
+  position: fixed;
+  background-color: #D9D9D980;
+  height: 100%;
+  width: 100%;
+  vertical-align: middle;
+  .warningMessage {
+    top: 50%;
+    left: 50%;
+    display: flex;
+    transform: translateX(-20%) translateY(-50%);
+    position: fixed;
+    width: 600px;
+    height: 250px;
+    background-color: #ACACAC;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-around;
+    .control {
+      margin: 0px auto;
+      display: flex;
+      justify-content: space-between;
+      width: 255px;
+      button {
+        width: 95px;
+      }
+      .cancel {
+        border: hidden;
+        background-color: #45548B;
+      }
+      .accept {
+        border: hidden;
+        background-color: #C3C3C3;
+      }
+    }
+  }
 }

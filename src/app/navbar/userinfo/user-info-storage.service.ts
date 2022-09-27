@@ -8,10 +8,13 @@ import { DataGetterService } from 'src/app/sections/data-getting.service';
 export class UserInfoStorageService {
   us:UserInfoStorage = new UserInfoStorage();
   private ready:boolean = false;
-  private task:Promise<any>;
+  private task:Promise<any> | null;
   constructor(private ge:DataGetterService) {
     let th = this;
-    this.task = firstValueFrom(this.ge.GetUserInfo());
+    let re = this.ge.GetUserInfo()
+    if (re != null)
+    this.task = firstValueFrom(re);
+    else this.task = null;
   }
 
   async GetUserInf() {

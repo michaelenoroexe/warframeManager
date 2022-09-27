@@ -3,5 +3,5 @@
   <img [src]="'../../../assets/userInfo/portraiticons/'+GetImg()+'.png'" alt="Icon"></a>
   <h1 [innerText]="UserInfo?.userLogin" class="userNick"></h1>
   <h1 [innerText]="GetRank()" class="userRank"></h1>
-  <input type="text" inputmode="numeric" (change)="ch.saveNewCredNum($event)" (keypress)="ch.keyPressNumbers($event)" [(ngModel)]="credits">
+  <input *ngIf="UserInfo?.anonymous == false" type="text" inputmode="numeric" (change)="ch.saveNewCredNum($event)" (keypress)="ch.keyPressNumbers($event)" [(ngModel)]="credits">
 </div>

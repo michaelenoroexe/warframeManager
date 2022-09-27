@@ -45,6 +45,7 @@ export class DataGetterService {
   }
   public GetCredits() {
     let tok = localStorage.getItem("accessToken");
+    if (tok == null) return null;
     let end = "GetData/UserCredits"
     let he = {headers: {
       "Authorization": "Bearer " + tok
@@ -53,7 +54,7 @@ export class DataGetterService {
   }
   public GetUserInfo() {
     let tok = localStorage.getItem("accessToken");
-    //if (tok == null) return null;
+    if (tok == null) return null;
     let end = "GetData/UserInfo"
     let he = {headers: {
       "Authorization": "Bearer " + tok

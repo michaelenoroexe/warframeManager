@@ -23,12 +23,7 @@ export class ImageGettingService {
         return re.charAt(0).toUpperCase() + re.substring(1)
       }
       if (res[0]=='Forma') return 'Forma2'
-      //Not prime companions
-      if (['Dethcube', 'Wyrm'].find(x => x == res[0])) return 'DEPet' + res[0]
-      if (['Taxon', 'Carrier'].find(x => x == res[0])) return 'Pet' + res[0]
-      if (res[0] == 'Diriga') return 'ArcDrone'
-      if (res[0] == 'Helios') return 'PetCorpusMelee'
-      if (res[0] == 'Nautilus') return 'EmpyreanSentinel'
+      
       if (name == 'Synthula') return 'Eventium'
       if (name == 'Mandachord') return 'Mandochord'
       if (name == 'Boot') return 'GrineerBoot'
@@ -68,19 +63,7 @@ export class ImageGettingService {
     if (add == '') {
       // Mecha
       if (iGs.IsInList(res[1], ['Moa', 'Hound'])) return res[0]
-      // Kubrow
-      if (res[1] == 'Kubrow') {
-        if (res[0] == 'Chesa') return 'KubrowBreedChesa'
-        return res[0] + 'KubrowCodex'
-      }
-      // Helmint
-      if (res[1] == 'Charger') return 'HelminthDefaultSkin'
-      // Kavat
-      if (res[1] == 'Kavat') {
-        if (res[0] == 'Adarza') return 'MirrorKavat'
-        if (res[0] == 'Smeeta') return 'CheshireKavat'
-        return name
-      }
+      
       // Components
       if (iGs.IsInList(res[0],['Detonite', 'Mutagen'])) return res[0]+'_'+res[1]
       // ---------------

@@ -42,7 +42,7 @@ export class LoginComponent implements OnInit {
     che.subscribe({
       next(value:any) {
         localStorage.setItem(th.tokenKey, value["successMessage"]);
-        th.router.navigate(['/arsenal/crafting']);
+        location.href = './arsenal/crafting';
       },
       error(err) {
         ErrorHandlerService.ErrorDispay(th, th.errorUser.errorHandler(err));

@@ -15,6 +15,23 @@ export class UserInfoChangeService {
         "Authorization": "Bearer " + tok
       }
     }) 
+  }
 
+  public UserPasswordChange(change: {OldPass:string, NewPass:string}) {
+    let tok = localStorage.getItem("accessToken");
+    return this.http.post(environment.apiURL+"passChange", change, {
+      headers: {
+        "Authorization": "Bearer " + tok
+      }
+    }) 
+  }
+
+  public UserDelete(change: {Pas:string}) {
+    let tok = localStorage.getItem("accessToken");
+    return this.http.post(environment.apiURL+"delUser", change, {
+      headers: {
+        "Authorization": "Bearer " + tok
+      }
+    }) 
   }
 }

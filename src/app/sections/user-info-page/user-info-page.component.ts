@@ -13,15 +13,20 @@ import { UserInfoChangeService } from './user-info-change.service';
 export class UserInfoPageComponent implements OnInit {
 
   UserInfo:UserInfoStorage | undefined;
+  del:boolean = false;
+  delPass:string = "";
+  ex:boolean = false;
+  oldPass:string = "";
+  newPass:string = "";
   constructor(public userInf:UserInfoStorageService,private router:Router,private ch:UserInfoChangeService) {
     userInf.GetUserInf().then(val => {
       if (val.anonymous) {
-        this.router.navigate(['/login']);
+        this.router.navigate(['/login'], { replaceUrl: true });
         return;
       }
       this.UserInfo = val;
     }).catch(err => {
-      this.router.navigate(['/login']);
+      this.router.navigate(['/login'], { replaceUrl: true });
     })
   }
   GetRankImg(name:string) {
@@ -33,7 +38,7 @@ export class UserInfoPageComponent implements OnInit {
   }
   SelectRank(num:number) {
     this.UserInfo!.userRank = num;
-    this.Save()
+    this.Save();
   }
   Save() {
     this.ch.ProfileInfoChange({Image:this.UserInfo!.userImage, 
@@ -41,6 +46,30 @@ export class UserInfoPageComponent implements OnInit {
         next(value) {
         },
     });
+  }
+  PassCh() {
+    this.ch.UserPasswordChange({OldPass:this.oldPass, NewPass:this.newPass})
+      .subscribe({
+        next(val) {}
+      })
+  }
+  LogOut() {
+    localStorage.removeItem('accessToken');
+    let ta = () => {
+      location.href ='./arsenal/crafting';
+    }
+    ta();
+  }
+  DelAcc() {
+    this.ch.UserDelete({Pas:this.delPass}).subscribe({
+      next(value) {
+        localStorage.removeItem('accessToken');
+        let ta = () => {
+          location.href ='./arsenal/crafting';
+        }
+        ta();
+      },
+    })
   }
   ngOnInit(): void {
   }
