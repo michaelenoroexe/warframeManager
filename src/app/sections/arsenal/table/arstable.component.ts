@@ -25,6 +25,7 @@ export class ArsTableComponent implements OnInit {
   displayCansToc:CansToc = new CansToc();
   currPar:SearchPar = new SearchPar();
   addPar:boolean = false;
+  currCateg:string = "all";
   constructor(public ch:NumFieldChangeService, private display: ItemDisplayService, private items: AllItemsService, private search:SearchService) {}
 
   ngOnInit(): void {

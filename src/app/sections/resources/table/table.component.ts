@@ -23,6 +23,7 @@ export class ResTableComponent implements OnInit {
   pvSearch:string = "";
   currPar:SearchPar = new SearchPar();
   addPar:boolean = false;
+  currCateg:string = "all";
   constructor(private display:ItemDisplayService , private items: AllItemsService, private search:SearchService) {}
 
   ngOnInit(): void {

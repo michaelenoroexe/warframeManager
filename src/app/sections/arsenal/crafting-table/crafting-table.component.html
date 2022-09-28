@@ -1,21 +1,50 @@
 <div class="tableContainer">
   <h1>resources</h1>
   <div class="searchControl">
-    <input alt="search" (input)="keyPressNumbers($event)"/>
+    <input 
+    [class.nval]="currPar.str == ''"
+    class="search" alt="search" placeholder="search" (input)="keyPressNumbers($event)"/>
     <div class="categFilter">
-      <button (click)="CategSea('')"><img src="../../../../assets/resources/categ/all.png" alt="All"></button>
-      <button (click)="CategSea('',['warframe','warframe part'])"><img src="../../../../assets/resources/categ/warframe.png" alt="Warframe"></button>
-      <button (click)="CategSea('primary')"><img src="../../../../assets/resources/categ/weapon.png" alt="Primary"></button>
-      <button (click)="CategSea('secondary')">Secondary</button>
-      <button (click)="CategSea('melee')">Melee</button>
-      <button (click)="CategSea('',['archwing','archwing part'])"><img src="../../../../assets/resources/categ/vehicle.png" alt="Archwing"></button>
-      <button (click)="CategSea('',['companion','companion part'])"><img src="../../../../assets/resources/categ/robotic.png" alt="Companions"></button>
-      <button (click)="CategSea('mining')">Mining</button>
-      <button (click)="CategSea('',['warframe','warframe part','weapon','archwing',
-        'archwing part','companion','companion part', 'mining'],[], true)"><img src="../../../../assets/resources/categ/miscellaneous.png" alt="Miscellaneous"></button>
+      <button 
+      [class.curr]="currCateg == 'all'"
+      (click)="currCateg = 'all'"
+      (click)="CategSea('')">all</button>
+      <button 
+      [class.curr]="currCateg == 'warframe'"
+      (click)="currCateg = 'warframe'"
+      (click)="CategSea('',['warframe','warframe part'])">warframes</button>
+      <button 
+      [class.curr]="currCateg == 'primary'"
+      (click)="currCateg = 'primary'"
+      (click)="CategSea('primary')">primary</button>
+      <button 
+      [class.curr]="currCateg == 'secondary'"
+      (click)="currCateg = 'secondary'"
+      (click)="CategSea('secondary')">secondary</button>
+      <button 
+      [class.curr]="currCateg == 'melee'"
+      (click)="currCateg = 'melee'"
+      (click)="CategSea('melee')">melee</button>
+      <button 
+      [class.curr]="currCateg == 'archwing'"
+      (click)="currCateg = 'archwing'"
+      (click)="CategSea('',['archwing','archwing part'])">archwing</button>
+      <button 
+      [class.curr]="currCateg == 'companion'"
+      (click)="currCateg = 'companion'"
+      (click)="CategSea('',['companion','companion part'])">companions</button>
+      <button 
+      [class.curr]="currCateg == 'mining'"
+      (click)="currCateg = 'mining'"
+      (click)="CategSea('mining')">Mining</button>
+      <button 
+      [class.curr]="currCateg == 'misc'"
+      (click)="currCateg = 'misc'"
+      (click)="CategSea('',['warframe','warframe part','weapon','archwing',
+        'archwing part','companion','companion part', 'mining'],[], true)">miscellaneous</button>
     </div>
     <div class="fil">
-      <button (click)="addPar = !addPar" class="filter">filter</button>
+      <button (click)="addPar = !addPar" class="filter">filter<img src="../../../../assets/filter.png"/></button>
       <div *ngIf="addPar" class="addInstr">
         <app-check-three [text]="'Ready to build'" (ngModelChange)="Display('rtb', $event)" [(ngModel)]="currPar.readyToBuild"></app-check-three>
         <app-check-three [text]="'Owned'" (ngModelChange)="Display('own', $event)" [(ngModel)]="currPar.own"></app-check-three>

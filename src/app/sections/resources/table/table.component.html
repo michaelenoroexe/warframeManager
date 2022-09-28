@@ -1,20 +1,49 @@
 <div class="tableContainer">
   <h1>resources</h1>
   <div class="searchControl">
-    <input alt="search" (input)="keyPressNumbers($event)"/>
+    <input 
+    [class.nval]="currPar.str == ''"
+    class="search" alt="search" placeholder="search" (input)="keyPressNumbers($event)"/>
     <div class="categFilter">
-      <button (click)="CategSea('')">All</button>
-      <button (click)="CategSea('common')">Common</button>
-      <button (click)="CategSea('uncommon')">Uncommon</button>
-      <button (click)="CategSea('rare')">Rare</button>
-      <button (click)="CategSea('special')">Special</button>
-      <button (click)="CategSea('empyrean')">Empyrean</button>
-      <button (click)="CategSea('miscellaneous')">Miscellaneous</button>
-      <button (click)="CategSea('mining')">Ores</button>
-      <button (click)="CategSea('',['spoils','parts'])">Fish</button> 
+      <button
+        [class.curr]="currCateg == 'all'"
+        (click)="currCateg = 'all'"
+        (click)="CategSea('')">All</button>
+      <button 
+        [class.curr]="currCateg == 'common'"
+        (click)="currCateg = 'common'"
+        (click)="CategSea('common')">Common</button>
+      <button 
+        [class.curr]="currCateg == 'uncommon'"
+        (click)="currCateg = 'uncommon'"
+        (click)="CategSea('uncommon')">Uncommon</button>
+      <button 
+        [class.curr]="currCateg == 'rare'"
+        (click)="currCateg = 'rare'"
+        (click)="CategSea('rare')">Rare</button>
+      <button 
+        [class.curr]="currCateg == 'special'"
+        (click)="currCateg = 'special'"
+        (click)="CategSea('special')">Special</button>
+      <button 
+        [class.curr]="currCateg == 'empyrean'"
+        (click)="currCateg = 'empyrean'"
+        (click)="CategSea('empyrean')">Empyrean</button>
+      <button 
+        [class.curr]="currCateg == 'miscellaneous'"
+        (click)="currCateg = 'miscellaneous'"
+        (click)="CategSea('miscellaneous')">Miscellaneous</button>
+      <button 
+        [class.curr]="currCateg == 'ores'"
+        (click)="currCateg = 'ores'"
+        (click)="CategSea('mining')">Ores</button>
+      <button 
+        [class.curr]="currCateg == 'fish'"
+        (click)="currCateg = 'fish'"
+        (click)="CategSea('',['spoils','parts'])">Fish</button> 
     </div>
     <div class="fil">
-      <button (click)="addPar = !addPar" class="filter">filter</button>
+      <button (click)="addPar = !addPar" class="filter">filter<img src="../../../../assets/filter.png"/></button>
       <div *ngIf="addPar" class="addInstr">
         <app-check-three [text]="'Owned'" (ngModelChange)="Display('own', $event)" [(ngModel)]="currPar.own"></app-check-three>
       </div>

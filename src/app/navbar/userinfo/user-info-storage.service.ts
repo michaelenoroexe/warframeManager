@@ -6,7 +6,7 @@ import { DataGetterService } from 'src/app/sections/data-getting.service';
   providedIn: 'root'
 })
 export class UserInfoStorageService {
-  us:UserInfoStorage = new UserInfoStorage();
+  private us:UserInfoStorage = new UserInfoStorage();
   private ready:boolean = false;
   private task:Promise<any> | null;
   constructor(private ge:DataGetterService) {

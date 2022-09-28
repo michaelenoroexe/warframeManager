@@ -1,17 +1,40 @@
 .tableContainer {
+  margin: 68px 2vw;
+  margin-bottom: 0px;
   .searchControl {
-    margin: 1.5vw 40px 1.74vw 40px;
-    height: 2.5vw;
+    height: 25px;
+    margin-top: 1.5vw;
+    margin-bottom: 1.74vw;
     display: flex;
     justify-content: space-between;
+    overflow: visible;
+    font-family: Sansation;
+    .search {
+      width: 165px;
+      font-family: Sansation;
+      text-transform: uppercase;
+      padding: 0px 0px 0px 0px;
+      
+    }
+    .nval {
+      padding: 0px 0px 0px 20px !important;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 55px center;
+      background-size: 15px;
+    }
     .categFilter {
-      width: 100%;
-      height: 2.5vw;
+      width: auto;
+      padding: 0px 10px;
       background-color: #ffffff;
+      .curr {
+        text-decoration: underline;
+      }
       button {
         height: 100%;
         border: none;
         background-color: #00000000;
+        text-transform: uppercase;
         img {
           object-fit: contain;
           height: 100%;
@@ -22,13 +45,6 @@
         background-color: #acacac;
       }
     }
-    overflow: visible;
-    .addInstr {
-      display: block;
-      position: relative;
-      z-index: 20;
-      background-color: #C4C4C4;
-    }
     .filter {
       height: 100%;
       width: 11.53vw;
@@ -36,12 +52,24 @@
       background-color: #C4C4C4;
       border: none;
       text-align: left;
-      font-family: 'Arial';
       font-style: italic;
       font-weight: 400;
       font-size: 1.11vw;
+      line-height: 18.4px;
       text-transform: uppercase;
       color: #817F7F;
+      img {
+        margin-left: 5px;
+        height: 20px;
+        width: 20px;
+      }
+    }
+    .addInstr {
+      width: 11.53vw;
+      display: block;
+      position: relative;
+      z-index: 20;
+      background-color: #C4C4C4;
     }
   }
 }

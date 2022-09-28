@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import { UserInfoStorage, UserInfoStorageService } from '../navbar/userinfo/user-info-storage.service';
 import { Resource } from './items.service';
 import { ResourceInfoChangeService } from './resource-info-changing-request.service';
 
@@ -7,7 +8,10 @@ import { ResourceInfoChangeService } from './resource-info-changing-request.serv
 })
 export class NumFieldChangeService {
 
-  constructor(private save: ResourceInfoChangeService) { }
+  user:UserInfoStorage  = new UserInfoStorage();
+  constructor(private save: ResourceInfoChangeService, private userInfo:UserInfoStorageService) { 
+    userInfo.GetUserInf().then(val => this.user = val);
+  }
    // Only Integer Numbers
   keyPressNumbers(event:any) {
     var charCode = (event.which) ? event.which : event.keyCode;
@@ -23,6 +27,10 @@ export class NumFieldChangeService {
   saveNewResNum(event:any, res:Resource, type:string)
   {
     this.setZero(event, res);
+    if (this.user.anonymous) {
+      event.target.value = 0;
+      return;
+    }
     this.save.ResourceNumberChange({Resource: res.id, Number: res.owned, Type: type}).subscribe({
       next(value) {
       },
@@ -35,6 +43,10 @@ export class NumFieldChangeService {
   saveNewCredNum(event:any)
   {
     this.setZero(event);
+    if (this.user.anonymous) {
+      event.target.value = 0;
+      return;
+    }
     this.save.CreditsNumChange({Number:event.target.value}).subscribe({
       next(value) {
       },

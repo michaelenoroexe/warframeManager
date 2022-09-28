@@ -1,7 +1,8 @@
-import { Component, ElementRef, OnInit, Renderer2, ViewChild } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { Component, ElementRef, HostListener, OnInit, Renderer2, ViewChild } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
 import { firstValueFrom } from 'rxjs';
 import { Resource } from 'src/app/sections/items.service';
+import { NumFieldChangeService } from 'src/app/sections/num-field-change.service';
 import { Planet } from '../planet-class';
 import { PlanetService } from '../planet.service';
 
@@ -23,13 +24,19 @@ export class ItemdisComponent implements OnInit {
   planetCords:{y:number, x:number}[] = [];
   planObj:any;
   delay? = 1;
-  constructor(private route: ActivatedRoute, private planets: PlanetService, private renderer:Renderer2) { }
+  constructor(private router:Router, private route: ActivatedRoute, private planets: PlanetService, private renderer:Renderer2, public ch:NumFieldChangeService) { 
+  //  this.router.routeReuseStrategy.shouldReuseRoute = function () {
+  //    return false;
+  //  };
+  }
 
   ngOnInit(): void {
     this.planets.GetPlanetBuffer().then(val => {this.plan = val; this.DisplayItemInfo()})
   }
-  ngAfterViewInit() {
-    
+  @HostListener('window:resize', ['$event'])
+  onResize() {
+    if (this.planObj) this.renderer.removeChild(this.d1?.nativeElement, this.planObj);
+    this.PlanDisplay();
   }
   PlanDisplay() {
     //objects variable
@@ -56,6 +63,8 @@ export class ItemdisComponent implements OnInit {
       this.renderer.appendChild(this.planObj, planetDiv);
       //this.renderer.appendChild(this.d1!.nativeElement, `<div class="planet" style = "${sty}"><p>${this.targetPlanets[ind].name}</p><img src = "${this.targetPlanets[ind].img}" style="${imgSty}"></div>`);
     }
+    this.planHeight = 100;
+    this.planWidth = 100;
     this.renderer.appendChild(this.d1?.nativeElement, this.planObj);
   }
   GeneratePlanetsPosition() {
@@ -63,7 +72,7 @@ export class ItemdisComponent implements OnInit {
     // Container for planets
     let el = this.d1!.nativeElement;
     let planNum = this.targetPlanets.length;
-    let ydif = (el.clientHeight-this.planHeight) / planNum;
+    let ydif = (el.clientHeight-2*this.planHeight) / planNum;
     this.planetCords.push({y:this.Random(el.offsetTop,el.offsetTop+ydif/2),
                           x:this.Random(el.offsetLeft,el.clientWidth+el.offsetLeft-100)})
     let yst:number;
@@ -75,8 +84,12 @@ export class ItemdisComponent implements OnInit {
       // if planet locates full below prev - ok
       if (yst < this.planetCords[i-1].y+this.planHeight)
       // generate values while collision of planet touch each other
-      while (this.FindCorForSomeFunc(xst, yst))
-      xst = this.Random(el.offsetLeft,el.clientWidth+el.offsetLeft-100);
+      while (this.FindCorForSomeFunc(xst, yst)){
+        this.planWidth -= 1;
+        this.planHeight -= 1;
+        xst = this.Random(el.offsetLeft,el.clientWidth+el.offsetLeft-100);
+      }
+      
       this.planetCords.push({
         y:yst,
         x:xst
@@ -152,6 +165,9 @@ export class ItemdisComponent implements OnInit {
     this.myPopup.remove();
   }
   ngOnDestroy() {
+    //this.router.routeReuseStrategy.shouldReuseRoute = function () {
+    //  return true;
+    //};
     if (this.myPopup) { this.myPopup.remove() }
     if (this.planObj) this.renderer.removeChild(this.d1?.nativeElement, this.planObj);
   }

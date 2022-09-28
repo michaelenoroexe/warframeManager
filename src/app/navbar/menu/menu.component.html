@@ -1,36 +1,43 @@
 <nav>
-  <button (click)="chosenSection = 'arsenal'"
-  [ngClass]="(chosenSection=='arsenal')?'selected':''"
+  <button (click)="set.sec.section= 'arsenal'"
+  [ngClass]="(set.sec.section=='arsenal')?'selected':''"
   >arsenal</button>
-  <div id="recSec" *ngIf="chosenSection == 'arsenal'">
+  <div id="recSec" *ngIf="set.sec.section == 'arsenal'">
     <a 
       routerLink="./arsenal/arstable" 
       routerLinkActive="active" 
-      [ngClass]="(selected=='arstable')?'selected':''" 
-      (click)="selected = 'arstable'">
+      [ngClass]="(set.sec.sel=='arstable')?'selected':''" 
+      (click)="set.sec.sel = 'arstable'">
     <span>></span> table</a>
     <a 
       routerLink="./arsenal/crafting" 
       routerLinkActive="active" 
-      [ngClass]="(selected=='crafting')?'selected':''"
-      (click)="selected = 'crafting'">
+      [ngClass]="(set.sec.sel=='crafting')?'selected':''"
+      (click)="set.sec.sel = 'crafting'">
     <span>></span>Crafting</a>
   </div>
-  <button (click)="chosenSection = 'resources'"
-  [ngClass]="(chosenSection=='resources')?'selected':''"
+  <button (click)="set.sec.section = 'resources'"
+  [ngClass]="(set.sec.section=='resources')?'selected':''"
   >resources</button>
-  <div id="recSec" *ngIf="chosenSection == 'resources'">
+  <div id="recSec" *ngIf="set.sec.section == 'resources'">
     <a 
       routerLink="./resources/table" 
       routerLinkActive="active" 
-      [ngClass]="(selected=='table')?'selected':''" 
-      (click)="selected = 'table'">
+      [ngClass]="(set.sec.sel=='table')?'selected':''" 
+      (click)="set.sec.sel = 'table'">
     <span>></span> table</a>
     <a 
       routerLink="./resources/location" 
       routerLinkActive="active" 
-      [ngClass]="(selected=='location')?'selected':''"
-      (click)="selected = 'location'">
+      [ngClass]="(set.sec.sel=='location')?'selected':''"
+      (click)="set.sec.sel = 'location'">
     <span>></span> location</a>
   </div>
+  <a 
+    routerLink="./userInfo" 
+    routerLinkActive="active" 
+  (click)="set.sec.section = ''"
+  (click)="set.sec.sel = 'account'"
+  [ngClass]="(set.sec.sel=='account')?'selected':''"
+  >account</a>
 </nav>

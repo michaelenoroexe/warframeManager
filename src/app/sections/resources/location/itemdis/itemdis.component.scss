@@ -1,10 +1,39 @@
 .itemInfoContainer {
   color: #E4E4E4;
-  margin: 155px 60px 300px 42px;
+  margin: 0px 60px 0px 42px;
+  .shadow {
+    color: transparent;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-background-clip: text;
+      -moz-background-clip: text;
+        background-clip: text;
+  }
+  h1 {
+    margin-top: 68px;
+    font-family: Sansation;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-transform: uppercase;
+  }
   .nav {
+    height: auto;
+    font-family: Sansation; 
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-transform: uppercase;
     a {
       text-decoration: none;
-      color: #E4E4E4;
+      background-color: #E4E4E4;
+    }
+    p {
+      margin-left: 10px;
+      background-color: #E4E4E4;
+      
     }
   }
   .itemBox {
@@ -14,33 +43,70 @@
     height: 500px;
     background-color: #CAC8C8;
     padding: 35px 40px 40px 35px;
+    justify-content: space-between;
     .itemTab {
-      width: 370px;
+      flex-shrink: 2;
+      margin-right: 7vw;
+      width: 23vw;
       .item {
+        width: auto;
         margin-bottom: 40px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
         img {
-          width: 110px;
+          width: 95px;
           height: 95px;
+          object-fit: contain;
           display: inline-block;
-          margin-right: 45px;
+          margin-right: 2.5vw;
         }
-        p {
-          display: inline-block;
-          font-family: 'Arial';
-          font-style: normal;
-          font-weight: 700;
-          font-size: 30px;
-          line-height: 34px;
+        .itInfo {
           text-transform: uppercase;
+          font-family: Sansation;
+          font-weight: 700;
+          line-height: 34px;
+          letter-spacing: 0em;
           color: #817F7F;
+          .name {
+            margin-bottom: 10px;
+            display: block;
+            font-size: 30px;
+            line-height: 34px;
+          }
+          .owned {
+            margin-bottom: 0px;
+            display: block;
+            font-size: 24px;
+            line-height: 34px;
+          }
+          input {
+            color: #817F7F;
+            font-size: 24px;
+            line-height: 0%;
+            border: hidden;
+            background-color: transparent;
+          }
         }
       }
+      h2 {
+        color: rgba(129, 127, 127, 1);
+        text-transform: uppercase;
+        font-family: Sansation;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 18px;
+        letter-spacing: 0em;
+      }
       .targetRess {
-        width: 320px;
-        border: 2px solid black;
+        width: 100%;
+        height: 250px;
+        overflow: auto;
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
+        justify-content: space-between;
         a {
           text-decoration: none;
           display: block;
@@ -70,7 +136,8 @@
     
   }
   .planets {
-    margin: 0px 0px 0px 110px;
+    margin: 0px 0px 0px 0px;
+    min-width: 200px;
     width: 100%;
     background-image: url("../../../../../assets/resources/starBG.png");
     .planCont {
