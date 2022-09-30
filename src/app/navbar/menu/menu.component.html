@@ -7,13 +7,13 @@
       routerLink="./arsenal/arstable" 
       routerLinkActive="active" 
       [ngClass]="(set.sec.sel=='arstable')?'selected':''" 
-      (click)="set.sec.sel = 'arstable'">
+      >
     <span>></span> table</a>
     <a 
       routerLink="./arsenal/crafting" 
       routerLinkActive="active" 
       [ngClass]="(set.sec.sel=='crafting')?'selected':''"
-      (click)="set.sec.sel = 'crafting'">
+      >
     <span>></span>Crafting</a>
   </div>
   <button (click)="set.sec.section = 'resources'"
@@ -24,20 +24,18 @@
       routerLink="./resources/table" 
       routerLinkActive="active" 
       [ngClass]="(set.sec.sel=='table')?'selected':''" 
-      (click)="set.sec.sel = 'table'">
+      >
     <span>></span> table</a>
     <a 
       routerLink="./resources/location" 
       routerLinkActive="active" 
       [ngClass]="(set.sec.sel=='location')?'selected':''"
-      (click)="set.sec.sel = 'location'">
+      >
     <span>></span> location</a>
   </div>
   <a 
     routerLink="./userInfo" 
     routerLinkActive="active" 
-  (click)="set.sec.section = ''"
-  (click)="set.sec.sel = 'account'"
   [ngClass]="(set.sec.sel=='account')?'selected':''"
   >account</a>
 </nav>

@@ -69,6 +69,7 @@ export class NumFieldChangeService {
     try {
       if (event.target.value.length > 1 ) {
         event.target.value = (parseInt(event.target.value)).toString();
+        if (event.target.value == 'NaN') event.target.value = '0';
         if (num != null)
           num.owned = event.target.value;
         return +event.target.value;

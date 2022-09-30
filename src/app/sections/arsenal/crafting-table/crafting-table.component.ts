@@ -1,4 +1,5 @@
 import { Component, OnInit, TemplateRef, ViewChild, ViewContainerRef } from '@angular/core';
+import { SecSetService } from 'src/app/navbar/menu/sec-ch.service';
 import { AllItemsService } from '../../all-items.service';
 import { CansToc, ItemDisplayService } from '../../item-display.service';
 import { Resource, Component as Comp } from '../../items.service';
@@ -21,9 +22,11 @@ export class CraftingTableComponent implements OnInit {
   currPar:SearchPar = new SearchPar();
   addPar:boolean = false;
   currCateg:string = "all";
-  constructor(private display: ItemDisplayService, private items: AllItemsService, private search:SearchService) {}
+  constructor(private set:SecSetService, private display: ItemDisplayService, private items: AllItemsService, private search:SearchService) {}
 
   ngOnInit(): void {
+    this.set.sec.section = "arsenal";
+    this.set.sec.sel = "crafting";
     this.elmass = []
     this.GetItems()
   }

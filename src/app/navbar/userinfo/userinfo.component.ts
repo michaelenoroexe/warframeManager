@@ -19,7 +19,7 @@ export class UserinfoComponent implements OnInit {
   rank:String = "Unranked"
   profPic:number = 0;
   credits:number = 0;
-  constructor(private set:SecSetService, public ch:NumFieldChangeService, private ge:DataGetterService, public userInfStorage:UserInfoStorageService) { 
+  constructor(public ch:NumFieldChangeService, private ge:DataGetterService, public userInfStorage:UserInfoStorageService) { 
     let th = this;
     userInfStorage.GetUserInf().then(val => {
       th.UserInfo = val;
@@ -47,9 +47,5 @@ export class UserinfoComponent implements OnInit {
   }
   GetRankImg(name:string) {
     return img.GetRankImgUrl(name);
-  }
-  SetCurrSec() {
-    this.set.sec.section = "";
-    this.set.sec.sel = "account";
   }
 }

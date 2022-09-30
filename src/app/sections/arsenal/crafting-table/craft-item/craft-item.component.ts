@@ -9,7 +9,7 @@ import { FullResPlusNum } from './craft-Item-classes';
 @Component({
   selector: 'app-craft-item',
   templateUrl: './craft-item.component.html',
-  styleUrls: ['./craft-item.component.scss']
+  styleUrls: ['./craft-item.component.scss','./craft-item-scales.scss']
 })
 export class CraftItemComponent implements OnInit {
   @Input()
@@ -94,9 +94,9 @@ export class CraftItemComponent implements OnInit {
   ClearPopUp() {
     //if (this.timer) clearTimeout(this.timer);
     if (this.myPopup) {
-      this.myPopup.remove();
-      this.myPopup = undefined;
+      //this.myPopup.remove();
+      //this.myPopup = undefined;
     }
-    this.container?.clear();
+    //this.container?.clear();
   }
 }

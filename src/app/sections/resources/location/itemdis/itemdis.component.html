@@ -19,7 +19,7 @@
       </div>
       <h2>intersect with:</h2>
       <div class="targetRess">
-        <a *ngFor="let res of targetRes" [routerLink]="['../', res.name, { replaceUrl: true }]" 
+        <a *ngFor="let res of targetRes" [routerLink]="['../', res.name]" 
           (click)="DisplayItemInfo(res.name)"
           (mouseenter) = "DisplayPlanet(res.name, $event)"
           (mouseleave) = "ClearPopUp()">

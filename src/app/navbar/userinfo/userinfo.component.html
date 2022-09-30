@@ -1,12 +1,11 @@
 <div class="userInfo">
   <a 
-  (click)="SetCurrSec()"
   routerLink="./userInfo" routerLinkActive="active"> 
   <img [src]="'../../../assets/userInfo/portraiticons/'+GetImg()+'.png'" alt="Icon"></a>
   <div class="inf">
     <h1 [innerText]="UserInfo?.userLogin" class="userNick"></h1>
     <div class="rank">
-      <img [src]="GetRankImg(GetRank())" alt="r">
+      <img [src]="GetRankImg(GetRank())" alt="">
       <h1 [innerText]="GetRank()" class="userRank"></h1>
     </div>
     <input class="userCred" *ngIf="UserInfo?.anonymous == false" type="text" inputmode="numeric" (change)="ch.saveNewCredNum($event)" (keypress)="ch.keyPressNumbers($event)" [(ngModel)]="credits">

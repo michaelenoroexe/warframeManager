@@ -13,22 +13,6 @@ export class MenuComponent implements OnInit {
   constructor(private route: ActivatedRoute, public set:SecSetService) {
   }
 
-  ngOnInit(): void {
-    let url = window.location.href;
-    if (url.includes('arsenal')) {
-      this.set.sec.section = 'arsenal';
-      if (url.includes('arstable')) this.set.sec.sel = 'arstable';
-      else if (url.includes('crafting')) this.set.sec.sel = 'crafting';
-    }
-    if (url.includes('resources')) {
-      this.set.sec.section = 'resources';
-      if (url.includes('location')) this.set.sec.sel = 'location';
-      else if (url.includes('table')) this.set.sec.sel = 'table';
-    }
-    if (url.includes('userInfo')) {
-      this.set.sec.section = '';
-      this.set.sec.sel = 'account';
-    }
-  }
+  ngOnInit(): void { }
 
 }

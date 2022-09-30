@@ -8,6 +8,7 @@ import { DataGetterService } from '../../data-getting.service';
 import { AllItemsService } from '../../all-items.service';
 import { SearchPar, SearchService } from '../../search.service';
 import { ItemDisplayService } from '../../item-display.service';
+import { SecSetService } from 'src/app/navbar/menu/sec-ch.service';
 
 @Component({
   selector: 'app-table',
@@ -24,9 +25,11 @@ export class ResTableComponent implements OnInit {
   currPar:SearchPar = new SearchPar();
   addPar:boolean = false;
   currCateg:string = "all";
-  constructor(private display:ItemDisplayService , private items: AllItemsService, private search:SearchService) {}
+  constructor(private set:SecSetService, private display:ItemDisplayService , private items: AllItemsService, private search:SearchService) {}
 
   ngOnInit(): void {
+    this.set.sec.section = "resources";
+    this.set.sec.sel = "table";
     this.elmass = []
     this.GetItems()
   }

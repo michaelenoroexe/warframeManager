@@ -1,5 +1,5 @@
 <div class="tableContainer">
-  <h1>resources</h1>
+  <h1>crafting</h1>
   <div class="searchControl">
     <input 
     [class.nval]="currPar.str == ''"
@@ -55,6 +55,7 @@
     <div #itemsContainer></div>
     <ng-template #item let-item="item">
       <app-craft-item
+      class="item"
       [item]="item"
       ></app-craft-item>
     </ng-template>

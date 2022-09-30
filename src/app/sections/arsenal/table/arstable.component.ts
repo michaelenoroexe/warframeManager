@@ -9,6 +9,7 @@ import { AllItemsService } from '../../all-items.service';
 import { SearchPar, SearchService } from '../../search.service';
 import { CansToc, ItemDisplayService } from '../../item-display.service';
 import { NumFieldChangeService } from '../../num-field-change.service';
+import { SecSetService } from 'src/app/navbar/menu/sec-ch.service';
 
 @Component({
   selector: 'app-arstable',
@@ -26,9 +27,11 @@ export class ArsTableComponent implements OnInit {
   currPar:SearchPar = new SearchPar();
   addPar:boolean = false;
   currCateg:string = "all";
-  constructor(public ch:NumFieldChangeService, private display: ItemDisplayService, private items: AllItemsService, private search:SearchService) {}
+  constructor(private set:SecSetService, public ch:NumFieldChangeService, private display: ItemDisplayService, private items: AllItemsService, private search:SearchService) {}
 
   ngOnInit(): void {
+    this.set.sec.section = "arsenal";
+    this.set.sec.sel = "arstable";
     this.elmass = []
     this.GetItems()
   }

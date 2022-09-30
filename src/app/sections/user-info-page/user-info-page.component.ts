@@ -1,5 +1,6 @@
 import { AfterViewInit, Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { SecSetService } from 'src/app/navbar/menu/sec-ch.service';
 import { UserInfoStorage, UserInfoStorageService } from 'src/app/navbar/userinfo/user-info-storage.service';
 import { DataGetterService } from '../data-getting.service';
 import { ImageGettingService as img } from '../get-img-url.service';
@@ -18,7 +19,7 @@ export class UserInfoPageComponent implements OnInit {
   ex:boolean = false;
   oldPass:string = "";
   newPass:string = "";
-  constructor(public userInf:UserInfoStorageService,private router:Router,private ch:UserInfoChangeService) {
+  constructor(private set:SecSetService, public userInf:UserInfoStorageService,private router:Router,private ch:UserInfoChangeService) {
     userInf.GetUserInf().then(val => {
       if (val.anonymous) {
         this.router.navigate(['/login'], { replaceUrl: true });
@@ -72,6 +73,8 @@ export class UserInfoPageComponent implements OnInit {
     })
   }
   ngOnInit(): void {
+    this.set.sec.section = "";
+    this.set.sec.sel = "account";
   }
 
 }

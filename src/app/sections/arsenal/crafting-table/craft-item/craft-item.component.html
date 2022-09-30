@@ -1,22 +1,34 @@
 
 <div class="craftItemContainer" (mouseleave)="ClearPopUp()">
   <div class="disp">
+    <div *ngIf="full" class="bigicon"></div>
     <img [src]="item.img" />
-    <p>
-      <img src="../../../../../assets/credits.png" alt="MImg">
-      {{item.credits}}
-      Time:{{time.GetTimeString(item.creationTime)}}
-    </p>
   </div>
   <div class="craftRes">
-    <p>{{item.name}}</p>
+    <h1>{{item.name}}</h1>
+    <div class="owned">
+      <h2>owned:</h2>
+      <input type="text">
+    </div>
+    <h2>
+      <img src="../../../../../assets/credits.png" alt="MImg">
+      {{item.credits}}
+    </h2>
+    <h2>
+      Time:{{time.GetTimeString(item.creationTime)}}
+    </h2>
     <div class="craftResContainer">
       <div 
       class="craftResource"
       *ngFor="let res of item.FullRes" 
       (mouseenter) = "DisplayRes($event, res.res.name)">
-      <img [src]="res.res.img" alt="Item"/>
-        {{res.res.name}}:{{res.num}}
+        <img [src]="res.res.img" alt="Item"/>
+        <div class="resInfo">
+          <h3>{{res.res.name}}</h3>
+          <h4>owned:</h4>
+          <input type="text">
+          <h4>{{res.num}}</h4>
+        </div>
       </div>
     </div>
     <div #itemsContainer ></div>
@@ -24,14 +36,14 @@
       <app-craft-item class="popUp" [item]="item" [zpos]="zpos+1" [full]="false" [style.top]="top" [style.left]="left" [style.z-index]="zpos+1"  style="position: absolute; border: 3px solid black;"></app-craft-item>
     </ng-template>
   </div>
-
-  {{item.owned}}
-  <br>
   <div *ngIf="full" class="itemResourcesContainer">
-    <div *ngFor="let res of ress" style="background-color: green;">
-      {{res.res.name}}:
-      <input type="text" inputmode="numeric" (change)="ch.saveNewResNum($event,res.res, 'resource')" (keypress)="ch.keyPressNumbers($event)" [(ngModel)]="res.res.owned">
-      /{{res.num}}
+    <h2>Needed</h2>
+    <div *ngFor="let res of ress">
+      <p>{{res.res.name}}</p>
+      <div class="num">
+        <input type="text" inputmode="numeric" (change)="ch.saveNewResNum($event,res.res, 'resource')" (keypress)="ch.keyPressNumbers($event)" [(ngModel)]="res.res.owned">
+        <p>/{{res.num}}</p>
+      </div>
     </div>
   </div>
 </div>

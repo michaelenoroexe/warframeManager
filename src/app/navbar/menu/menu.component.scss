@@ -21,6 +21,9 @@ nav {
     background-color: #ACACAC;
     color: inherit;
   }
+  button:hover, a:hover {
+    background-color: rgba(129, 129, 129, 1);
+  }
   button {
     font-family: inherit;
     width: 100%;

@@ -1,6 +1,16 @@
 .tableContainer {
   margin: 68px 2vw;
   margin-bottom: 0px;
+  h1 {
+    font-family: Sansation;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(228, 228, 228, 1);
+    text-transform: uppercase;
+  }
   .searchControl {
     height: 25px;
     margin-top: 1.5vw;
@@ -26,6 +36,7 @@
     .categFilter {
       width: auto;
       padding: 0px 10px;
+      font-size: 0.7vw;
       background-color: #ffffff;
       .curr {
         text-decoration: underline;
@@ -60,8 +71,8 @@
       color: #817F7F;
       img {
         margin-left: 5px;
-        height: 20px;
-        width: 20px;
+        height: 1.1vw;
+        width: 1.1vw;
       }
     }
     .addInstr {
@@ -71,5 +82,9 @@
       z-index: 20;
       background-color: #C4C4C4;
     }
+  }
+  .item {
+    display: block;
+    margin-bottom: 20px;
   }
 }
