@@ -94,9 +94,9 @@ export class CraftItemComponent implements OnInit {
   ClearPopUp() {
     //if (this.timer) clearTimeout(this.timer);
     if (this.myPopup) {
-      //this.myPopup.remove();
-      //this.myPopup = undefined;
+      this.myPopup.remove();
+      this.myPopup = undefined;
     }
-    //this.container?.clear();
+    this.container?.clear();
   }
 }

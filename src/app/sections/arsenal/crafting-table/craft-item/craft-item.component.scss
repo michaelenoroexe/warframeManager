@@ -70,21 +70,24 @@
       justify-content: space-between;
       width: 100%;
       .craftResource {
+        padding: 0.6vw 0px;
         width: 48%;
         min-width: 150px;
         height: 2.8vw;
         font-size: calc(7px + .3vw);
         background-color: #ACACAC;
+        align-content: center;
         display: flex;
         flex-direction: row;
         img {
+          margin: -0.6vw 0px;
           line-height: 0px;
           height: 2.65vw;
           width: 2.65vw;
           object-fit: contain;
         }
         .resInfo {
-          margin: 9px 0px 0px 5px;
+          margin: 0vw 0px 0px 5px;
           height: 2.8vw;
           h3, h4 {
             margin: 0px;
@@ -96,16 +99,19 @@
             color: #817F7F;
           }
           h3 {
-            font-size: calc(7px + .6vw);
+            font-size: calc(5px + .6vw);
           }
           h4 {
             display: inline-block;
-            font-size: 14px;
+            font-size: calc(9px + .4vw);
           }
           input {
             height: 10px;
+            font-size: calc(9px + .4vw);
             display: inline-block;
-            width: 20px;
+            min-width: 1.3vw;
+            max-width: 3vw;
+            text-align: right;
           }
         }
       }
@@ -143,7 +149,7 @@
         font-style: italic;
         font-weight: 700;
         letter-spacing: 0em;
-
+        color: #817F7F;
       }
       .num {
         padding: 0px;

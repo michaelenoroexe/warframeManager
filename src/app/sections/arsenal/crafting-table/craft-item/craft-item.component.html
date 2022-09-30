@@ -8,7 +8,7 @@
     <h1>{{item.name}}</h1>
     <div class="owned">
       <h2>owned:</h2>
-      <input type="text">
+      <input type="text" inputmode="numeric" (change)="ch.saveNewResNum($event,item, 'item')" (keypress)="ch.keyPressNumbers($event)" [(ngModel)]="item.owned">
     </div>
     <h2>
       <img src="../../../../../assets/credits.png" alt="MImg">
@@ -26,8 +26,8 @@
         <div class="resInfo">
           <h3>{{res.res.name}}</h3>
           <h4>owned:</h4>
-          <input type="text">
-          <h4>{{res.num}}</h4>
+          <input type="text" inputmode="numeric" (change)="ch.saveNewResNum($event,res.res,(res.res.FullRes != undefined)? 'item': 'resource')" (keypress)="ch.keyPressNumbers($event)" [(ngModel)]="res.res.owned">
+          <h4>/{{res.num}}</h4>
         </div>
       </div>
     </div>

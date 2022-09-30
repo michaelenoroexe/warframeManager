@@ -3,6 +3,28 @@
     display: none !important;
   }
 }
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1040px) {
+  .craftRes {
+    overflow: visible;
+    position: relative;
+  }
+  .craftResContainer {
+    width: min-content !important;
+    position: absolute;
+    right: 0px;
+    top: 34px;
+    height: 80%;
+    flex-direction: column !important;
+    justify-content: center !important;
+    
+    .craftResource {
+      height: fit-content !important;
+    }
+  } 
   
+  //.owned {
+  //  position: absolute;
+  //  left: -150px;
+  //  top: -200px
+  //}
 }
