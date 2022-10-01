@@ -14,7 +14,7 @@ import { SecSetService } from 'src/app/navbar/menu/sec-ch.service';
 @Component({
   selector: 'app-arstable',
   templateUrl: './arstable.component.html',
-  styleUrls: ['./arstable.component.scss']
+  styleUrls: ['./arstable.component.scss', '../../../sections/search.scss']
 })
 export class ArsTableComponent implements OnInit {
   // variables for displaing items
@@ -71,6 +71,9 @@ export class ArsTableComponent implements OnInit {
       this.currPar.readyToBuild = res;
     if (par == "own")// Owned
     this.currPar.own = res;
+    if (par == "mast")// Masterable
+    this.currPar.masterable = res;
+
     this.search.Search("new", this.currPar, this.elmass as Resource[]).then((val: Resource[]) => this.SetMass(val));
   }
 }

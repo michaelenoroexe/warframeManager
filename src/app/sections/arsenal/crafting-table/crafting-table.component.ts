@@ -8,7 +8,7 @@ import { SearchPar, SearchService } from '../../search.service';
 @Component({
   selector: 'app-crafting-table',
   templateUrl: './crafting-table.component.html',
-  styleUrls: ['./crafting-table.component.scss']
+  styleUrls: ['./crafting-table.component.scss', '../../../sections/search.scss' ]
 })
 export class CraftingTableComponent implements OnInit {
   
@@ -74,6 +74,9 @@ export class CraftingTableComponent implements OnInit {
       this.currPar.readyToBuild = res;
     if (par == "own")// Owned
     this.currPar.own = res;
+    if (par == "mast")// Masterable
+    this.currPar.masterable = res;
+    
     this.search.Search("new", this.currPar, this.elmass as Resource[]).then((val: Resource[]) => this.SetMass(val));
   }
 }

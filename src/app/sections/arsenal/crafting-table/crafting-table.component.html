@@ -48,6 +48,7 @@
       <div *ngIf="addPar" class="addInstr">
         <app-check-three [text]="'Ready to build'" (ngModelChange)="Display('rtb', $event)" [(ngModel)]="currPar.readyToBuild"></app-check-three>
         <app-check-three [text]="'Owned'" (ngModelChange)="Display('own', $event)" [(ngModel)]="currPar.own"></app-check-three>
+        <app-check-three [text]="'Masterable'" (ngModelChange)="Display('mast', $event)" [(ngModel)]="currPar.masterable"></app-check-three>
       </div>
     </div>
   </div>

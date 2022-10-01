@@ -9,7 +9,7 @@ import { FullResPlusNum } from './craft-Item-classes';
 @Component({
   selector: 'app-craft-item',
   templateUrl: './craft-item.component.html',
-  styleUrls: ['./craft-item.component.scss','./craft-item-scales.scss']
+  styleUrls: ['./craft-item.component.scss', './craft-item-scales.scss']
 })
 export class CraftItemComponent implements OnInit {
   @Input()
@@ -54,7 +54,7 @@ export class CraftItemComponent implements OnInit {
     if (!this.myPopup)
     {
       this.currentResElement = targ.target;
-      this.CreateResPopup(curr, targ.layerX-200, targ.layerY+5);
+      this.CreateResPopup(curr, targ.layerX-450, targ.layerY+5);
     }
   }
   // Create Popup with planet
@@ -62,7 +62,7 @@ export class CraftItemComponent implements OnInit {
     if (this.myPopup) this.ClearPopUp();
     const cont = {
       item: this.item.FullRes?.find(val => val.res.name == curr)?.res,
-      x: x+"px",
+      x: x/19+"vw",
       y: y+"px"
     };
     if (cont.item.FullRes != undefined) {

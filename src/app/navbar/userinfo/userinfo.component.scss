@@ -44,11 +44,25 @@
         margin-bottom: 2.083vw;  
       }
     }
-    .userCred {
-      width: 90px;
-      text-align: right;
-      border: hidden;
-      background-color: transparent;
+    .credBox {
+      img {
+        float: none;
+        margin-right: 0px;
+        margin-left: 5px;
+        width: 20px;
+        height: 20px;
+      }
+      .userCred {
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+        font-size: 16px;
+        font-weight: 700;
+        width: 90px;
+        text-align: right;
+        border: hidden;
+        background-color: transparent;
+        color: rgba(228, 228, 228, 1);
+      }
     }
     .userPlat {
       text-align: right;

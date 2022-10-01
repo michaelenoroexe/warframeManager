@@ -33,8 +33,10 @@ export class SearchService {
     res = res.filter(this.OR, this);
     if (this.param.readyToBuild != null)
       res = this.ReadyToBuild(res, this.param.readyToBuild);
-      if (this.param.own != null)
-      res = this.Owned(res, this.param.own);
+    if (this.param.own != null)
+    res = this.Owned(res, this.param.own);
+    if (this.param.masterable != null)
+    res = this.Masterable(res, this.param.masterable);
     this.Sort(res);
     return res;
   }
@@ -90,6 +92,15 @@ export class SearchService {
     let res = (list as Component[]).filter(fi);
     return res;
   }
+  private Masterable(list:Resource[], inv:boolean = false) {
+    let fi
+    if (inv)
+      fi = (it:Component):Boolean => it.masterable == true;
+    else
+      fi = (it:Component):Boolean => it.masterable == false;
+    let res = (list as Component[]).filter(fi);
+    return res;
+  }
 }
 export class SearchPar {
   str:string = "";
@@ -99,7 +110,8 @@ export class SearchPar {
   notOr:boolean = false;
   readyToBuild:boolean | null = null
   own:boolean | null = null
-  constructor(st:string="",categ="",or:string[]=[],and:string[]=[], notOr:boolean = false, readyToBuild:boolean | null = null, own:boolean | null = null) {
+  masterable:boolean | null = null
+  constructor(st:string="",categ="",or:string[]=[],and:string[]=[], notOr:boolean = false, readyToBuild:boolean | null = null, own:boolean | null = null, mast:boolean | null = null) {
     this.str = st;
     this.categ = categ;
     this.or = or;
@@ -107,6 +119,7 @@ export class SearchPar {
     this.notOr = notOr;
     this.readyToBuild = readyToBuild;
     this.own = own;
+    this.masterable = mast;
   }
 }
 

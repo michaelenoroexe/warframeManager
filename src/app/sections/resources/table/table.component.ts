@@ -13,7 +13,7 @@ import { SecSetService } from 'src/app/navbar/menu/sec-ch.service';
 @Component({
   selector: 'app-table',
   templateUrl: './table.component.html',
-  styleUrls: ['./table.component.scss']
+  styleUrls: ['./table.component.scss', '../../../sections/search.scss']
 })
 export class ResTableComponent implements OnInit {
   // variables for displaing items
