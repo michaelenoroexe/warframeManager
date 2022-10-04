@@ -35,7 +35,10 @@ export class DataGetterService {
         }
       }
     }
-    return this.http.get(environment.apiURL+end, he); 
+    const re = this.http.get(environment.apiURL+end, he);
+    const th = this;
+    re.subscribe( {error(err){th.ClearIncorrectUser(err)}})
+    return re;
   }
   public GetAllTypes() {
     return this.http.get(environment.apiURL+"GetData/TypesList");
@@ -50,7 +53,10 @@ export class DataGetterService {
     let he = {headers: {
       "Authorization": "Bearer " + tok
     }}
-    return this.http.get(environment.apiURL+end, he);
+    const re = this.http.get(environment.apiURL+end, he);
+    const th = this;
+    re.subscribe( {error(err){th.ClearIncorrectUser(err)}})
+    return re;
   }
   public GetUserInfo() {
     let tok = localStorage.getItem("accessToken");
@@ -59,6 +65,16 @@ export class DataGetterService {
     let he = {headers: {
       "Authorization": "Bearer " + tok
     }}
-    return this.http.get(environment.apiURL+end, he);
+    const re = this.http.get(environment.apiURL+end, he);
+    const th = this;
+    re.subscribe( {error(err){th.ClearIncorrectUser(err)}})
+    return re;
+  }
+
+  private ClearIncorrectUser(er:any) {
+    if (er.status == 404) {
+      if (er.error == "User not found" )
+        localStorage.removeItem("accessToken");
+    }
   }
 }

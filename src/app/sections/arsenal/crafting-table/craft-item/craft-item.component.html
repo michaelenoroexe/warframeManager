@@ -2,7 +2,12 @@
 <div class="craftItemContainer" (mouseleave)="ClearPopUp()">
   <div class="disp">
     <div *ngIf="full" class="bigicon"></div>
-    <img [src]="item.img" />
+    <div class="img">
+      <img [src]="item.img">
+      <div *ngIf="item.masterable == true && item.owned > 0" class="mast">
+        <p>mastered</p>
+      </div>
+    </div>
   </div>
   <div class="craftRes">
     <h1>{{item.name}}</h1>
