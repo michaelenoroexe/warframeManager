@@ -41,7 +41,7 @@ export class LoginComponent implements OnInit {
     const che = this.logUser.PostData(this.form.value);
     che.subscribe({
       next(value:any) {
-        localStorage.setItem(th.tokenKey, value["successMessage"]);
+        localStorage.setItem(th.tokenKey, value["token"]);
         location.href = './arsenal/crafting';
       },
       error(err) {

@@ -10,6 +10,6 @@ export class SecSetService {
   constructor() { }
 }
 export class Sect {
-  public section:string = "arsenal";
-  public sel:string = "arstable";
+  public section:string = "";
+  public sel:string = "";
 }

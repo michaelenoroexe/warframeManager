@@ -9,12 +9,15 @@ export class LogErrorsService {
   constructor(){ }
   // Handling server errors
   errorHandler(err:any){
-    if(err["status"]==400 && err["error"]!="Wrong Login or Password!") {
-      return "sLogin or password contain ivalid characters";
+    if(err["status"]==400 && err["error"]=="User with this login is not created") {
+      return "sUser with this login is not created";
     }
-    if(err["status"]==400 && err["error"]=="Wrong Login or Password!") {
+    if(err["status"]==400 && err["error"]=="Password don't match.") {
       return "sWrong login or password";
-    }  
+    } 
+    if(err["status"]==400 && err["error"]!="Password don't match.") {
+      return "sLogin or password contain ivalid characters";
+    } 
     return "sUnknown error";
   }
 }

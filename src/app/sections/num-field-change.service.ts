@@ -29,6 +29,7 @@ export class NumFieldChangeService {
     this.setZero(event, res);
     if (this.user.anonymous) {
       event.target.value = 0;
+      res.owned = 0;
       return;
     }
     this.save.ResourceNumberChange({Resource: res.id, Number: res.owned, Type: type}).subscribe({

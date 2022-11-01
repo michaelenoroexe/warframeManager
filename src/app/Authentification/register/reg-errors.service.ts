@@ -9,6 +9,9 @@ export class RegErrorsService {
   constructor(){ }
   // Handling server errors
   errorHandler(err:any){
+    if(err["status"]==400 && err["error"]=="User already in DB") {
+      return "sUser with this login was already created";
+    }
     if(err["status"]==400) {
       return "sLogin or password contain ivalid characters";
     } 

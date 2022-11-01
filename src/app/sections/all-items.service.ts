@@ -17,7 +17,7 @@ export class AllItemsService {
   Restas:Promise<Object> | undefined
   Itetas:Promise<Object> | undefined
   FulIt:Promise<void> | undefined
-  Types:{ id:Object, name:string, strId: string; }[] = [];
+  Types:{ id:Object, name:string, stringID: string; }[] = [];
   private resbufferRedy:boolean = false;
   private itembufferRedy:boolean = false;
   constructor(private find:SearchService, private gett:DataGetterService, private displayErr:ErrorDisplayerService) {
@@ -73,7 +73,7 @@ export class AllItemsService {
     an.forEach((res: { type: string[]; }) => {
       ty = [];
       res.type.forEach(typ => { 
-        ty.push(this.Types.find(x => x.strId == typ)?.name)
+        ty.push(this.Types.find(x => x.stringID == typ)?.name)
       })
       res.type = ty;
     })

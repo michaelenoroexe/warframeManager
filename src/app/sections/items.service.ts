@@ -16,7 +16,7 @@ export class Resource {
   }
   static cast(res:any) {
     let re = new Resource();
-    re.id = res.strId;
+    re.id = res.stringID;
     re.name = res.name;
     re.type = res.type;
     if (res.location != null) re.location = res.location;
@@ -36,10 +36,10 @@ export class Component extends Resource {
     super(id, name, type);
     this.credits = credits;
   }
-  static override cast(res:{strId:string, name:string, type:string[], mastery:boolean, credits:number,
+  static override cast(res:{stringID:string, name:string, type:string[], mastery:boolean, credits:number,
                     creationTime:number, neededResources:{ [id: string]: string; }, owned:number}) {
     let re = new Component();
-    re.id = res.strId;
+    re.id = res.stringID;
     re.name = res.name;
     re.type = res.type;
     re.masterable = res.mastery;

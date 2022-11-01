@@ -17,7 +17,7 @@ export class UserInfoChangeService {
     }) 
   }
 
-  public UserPasswordChange(change: {OldPass:string, NewPass:string}) {
+  public UserPasswordChange(change: {OldPassword:string, NewPassword:string}) {
     let tok = localStorage.getItem("accessToken");
     return this.http.post(environment.apiURL+"passChange", change, {
       headers: {
@@ -26,7 +26,7 @@ export class UserInfoChangeService {
     }) 
   }
 
-  public UserDelete(change: {Pas:string}) {
+  public UserDelete(change: {Password:string}) {
     let tok = localStorage.getItem("accessToken");
     return this.http.post(environment.apiURL+"delUser", change, {
       headers: {

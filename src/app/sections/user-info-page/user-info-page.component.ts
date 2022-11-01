@@ -49,7 +49,7 @@ export class UserInfoPageComponent implements OnInit {
     });
   }
   PassCh() {
-    this.ch.UserPasswordChange({OldPass:this.oldPass, NewPass:this.newPass})
+    this.ch.UserPasswordChange({OldPassword:this.oldPass, NewPassword:this.newPass})
       .subscribe({
         next(val) {}
       })
@@ -62,7 +62,7 @@ export class UserInfoPageComponent implements OnInit {
     ta();
   }
   DelAcc() {
-    this.ch.UserDelete({Pas:this.delPass}).subscribe({
+    this.ch.UserDelete({Password:this.delPass}).subscribe({
       next(value) {
         localStorage.removeItem('accessToken');
         let ta = () => {
