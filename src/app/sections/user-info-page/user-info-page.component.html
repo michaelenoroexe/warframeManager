@@ -1,46 +1,65 @@
-<div>
-  <div class="profImgTable">
-    <div *ngFor="let img of UserInfo?.imgList; index as i" class="itemImg">
-      <img (click)="SelectProfImg(i+1)" [src]="'../../../assets/userInfo/portraiticons/'+img+'.png'" alt="profpic">
-    </div>
-  </div>
-  <div class="profRankTable">
-    <div *ngFor="let rank of UserInfo?.ranksList; index as i" class="itemRank">
-      <div (click)="SelectRank(i)" class="rank">
-        <p>{{rank}}</p>
-        <img *ngIf="rank != 'Unranked'" [src]="GetRankImg(rank)" alt="">
-      </div>
-    </div>
-  </div>
-  <div class="chPassContainer">
-    <h1>change password</h1>
-    <input [(ngModel)]="oldPass" class="prevPassword" type="text" placeholder="PREVIOUS PASSWORD">
-    <input [(ngModel)]="newPass" class="nextPassword" type="text" placeholder="NEW PASSWORD">
-    <button (click)="PassCh()">SAVE</button>
-  </div>
-  <div class="logOut">
-    <button (click)="ex = true">Log out</button>
-    <div class="warningMessageBox" *ngIf="ex">
-      <div class="warningMessage">
-        <h1>WARNING</h1>
-        <p>do you really want to log out?</p>
-        <div class="control">
-          <button class="cancel" (click)="ex = false">CANCEL</button>
-          <button class="accept" (click)="LogOut()">EXIT</button>
+<div class="infoPage">
+  <h1>account</h1>
+  <div class="infoAndPass">
+    <div class="basicInfo">
+      <h2>basic information</h2>
+      <div class="info">
+        <div class="profBlock">
+          <h3>profile image</h3>
+          <div class="profImgTable">
+            <div *ngFor="let img of UserInfo?.imgList; index as i" class="itemImg">
+              <img (click)="SelectProfImg(i+1)" [src]="'../../../assets/userInfo/portraiticons/'+img+'.png'" alt="profpic">
+            </div>
+          </div>
+        </div>
+        <div class="profBlock">
+          <h3>profile rank</h3>
+          <div class="profRankTable">
+            <div *ngFor="let rank of UserInfo?.ranksList; index as i" class="itemRank">
+              <div (click)="SelectRank(i)" class="rank">
+                <p>{{rank}}</p>
+                <img *ngIf="rank != 'Unranked'" [src]="GetRankImg(rank)" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="chPassContainer">
+          <h3>change password</h3>
+          <input [(ngModel)]="oldPass" class="prevPassword" type="text" placeholder="PREVIOUS PASSWORD">
+          <input [(ngModel)]="newPass" class="nextPassword" type="text" placeholder="NEW PASSWORD">
+          <button (click)="PassCh()">save</button>
         </div>
       </div>
     </div>
   </div>
-  <div class="delete">
-    <button (click)="del = true">Delete</button>
-    <div class="warningMessageBox" *ngIf="del">
-      <div class="warningMessage">
-        <h1>WARNING</h1>
-        <p>do you really want to delete your account?</p>
-        <input [(ngModel)]="delPass" type="text">
-        <div class="control">
-          <button class="cancel" (click)="del = false">CANCEL</button>
-          <button class="accept" (click)="DelAcc()">DELETE</button>
+  <div class="logDel">
+    <div class="logOut">
+      <h3>log out of the account</h3>
+      <button (click)="ex = true">log out</button>
+      <div class="warningMessageBox" *ngIf="ex">
+        <div class="warningMessage">
+          <h1>WARNING</h1>
+          <p>do you really want to log out?</p>
+          <div class="control">
+            <button class="cancel" (click)="ex = false">CANCEL</button>
+            <button class="accept" (click)="LogOut()">EXIT</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="delete">
+      <h3>delete account</h3>
+      <button (click)="del = true">delete</button>
+      <div class="warningMessageBox" *ngIf="del">
+        <div class="warningMessage">
+          <h1>WARNING</h1>
+          <p>do you really want to delete your account?</p>
+          <p>input your's password to accept</p>
+          <input [(ngModel)]="delPass" type="text">
+          <div class="control">
+            <button class="cancel" (click)="del = false">CANCEL</button>
+            <button class="del" (click)="DelAcc()">DELETE</button>
+          </div>
         </div>
       </div>
     </div>

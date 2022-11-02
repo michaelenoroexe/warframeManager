@@ -4,6 +4,8 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { FormsModule, FormGroup } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { ScrollingModule } from '@angular/cdk/scrolling';
+import { MatSelectModule } from '@angular/material/select';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -50,7 +52,9 @@ import { UserInfoPageComponent } from './sections/user-info-page/user-info-page.
     AppRoutingModule,
     ReactiveFormsModule,
     FormsModule,
-    ScrollingModule
+    ScrollingModule,
+    MatSelectModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
